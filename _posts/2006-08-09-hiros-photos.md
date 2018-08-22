@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - personal
 - photography
 - flickr

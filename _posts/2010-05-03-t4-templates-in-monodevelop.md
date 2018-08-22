@@ -7,7 +7,7 @@ excerpt: "A few week ago, I travelled to GDC and MIX. While in planes, airports 
   tools, or generators. Set the file's \"custom tool\" property to \"TextTemplatingFileGenerator\"
   using the property pad, then whenever you save it, MD will run the generator on
   the file.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 - catchup2010

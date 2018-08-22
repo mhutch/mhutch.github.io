@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - out and about
 - teppanyaki
 - restaurant

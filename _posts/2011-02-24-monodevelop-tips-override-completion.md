@@ -4,7 +4,7 @@ excerpt: "When you type the \"override\" keyword in a C# class, MonoDevelop will
   been overridden, and interface members that have not been implemented. You don't
   even need to type the modifier (e.g. \"public\"), you can simply type \"override\"
   directly in the class body.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

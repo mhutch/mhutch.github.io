@@ -5,7 +5,7 @@ excerpt: "Yesterday I made a screencast demonstrating <a href=\"http://mjhutchin
   width=\"600\" height=\"450\" style=\"max-width: 98%; display: block; margin-left:
   auto; margin-right: auto;\">\r\n\t\t<param name=\"source\" value=\"http://mjhutchinson.com/files/screencasts/SL2VideoPlayerM.xap\"/>\r\n\t\t<param
   name=\"background\" value=\"white\" />\r"
-categories:
+tags:
 - photography
 - monodevelop
 - preview

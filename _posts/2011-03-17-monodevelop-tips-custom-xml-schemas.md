@@ -6,7 +6,7 @@ excerpt: "MonoDevelop's XML autocompletion is driven by XML schemas, although th
   matches the namespace. There are built-in schemas for several namespaces, but it's
   possible to add your own in <em>Preferences->Other->XML Schemas</em>. Registered
   schemas must have a unique namespace, since that's how they're identified.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

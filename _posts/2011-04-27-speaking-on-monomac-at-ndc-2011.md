@@ -5,7 +5,7 @@ excerpt: "I'm going to be at <a href=\"http://ndc2011.no\">NDC 2011</a> in Oslo,
   and the native Mac APIs that it exposes to .NET developers, explain the structure
   of MonoMac apps and how they can be deployed to the Mac App store, and discuss strategies
   for code reuse across the platforms supported by Mono and .NET.\r\n\r\n"
-categories:
+tags:
 - mono
 - monomac
 layout: journal

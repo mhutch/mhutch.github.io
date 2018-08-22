@@ -4,7 +4,7 @@ excerpt: "Workspaces can be used to organize related solutions, and provide a co
   have references and build interdependencies on other project within the solution,
   solutions in a workspace are independent, and can be opened and built independently
   of the workspace and the other solutions in it.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

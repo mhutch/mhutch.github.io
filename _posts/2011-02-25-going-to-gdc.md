@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - gaming
 - mono
 - game development

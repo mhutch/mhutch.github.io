@@ -4,7 +4,7 @@ excerpt: "One of the most useful refactoring commands is \"Rename\", which renam
   right click on it and choose <em>Refactor->Rename</em> context menu command, or
   use the keybinding: <strong>F2</strong> on Windows and Linux, and <strong>Cmd-R</strong>
   on Mac.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

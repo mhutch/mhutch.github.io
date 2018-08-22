@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - pc hardware
 - data loss
 - hard disc

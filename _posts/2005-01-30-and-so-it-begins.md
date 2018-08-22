@@ -17,6 +17,9 @@ tags:
 layout: journal
 title: And so it begins...
 created: 1107128973
+redirect_from:
+- /journal/2005/01/30/and_so_it_begins
+- /node/2
 ---
 I've been wondering for literally months how to set up this site. I almost went with a custom coded solution but [Drupal](https://drupal.org)'s logging and modular 'plug-in features' were ultimately too alluring. The critical question, as always - what would be the best layout? Which modules to use to categorise and display my projects? How do I make all these features work together?
 

@@ -7,7 +7,7 @@ excerpt: "First of all I'd like so say what a great experience GUADEC was. It wa
   for me. I'm currently away and it's not easy to write or post to my journal, but
   I've patched together some notes on the talks I attended.\r\n\r\n<strong>Tuesday:
   Core I</strong>\r\n\r"
-categories:
+tags:
 - mono
 - technology
 - gnome

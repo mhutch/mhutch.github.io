@@ -6,7 +6,7 @@ excerpt: "In their recent update of the iOS and Mac developer tools, Apple remov
   soon as Xcode 4 went final, we started working on MonoDevelop support for integrating
   MonoTouch with Xcode 4's GUI designer, but it's a complex project and will take
   some time to complete. \r\n\r\n"
-categories:
+tags:
 - mono
 - monotouch
 - xcode 4

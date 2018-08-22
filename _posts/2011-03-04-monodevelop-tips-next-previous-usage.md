@@ -6,7 +6,7 @@ excerpt: "After the caret has been in an identifier in a C# file for a few secon
   title=\"Highlight usages\"><img src=\"http://mjhutchinson.com/files/images/md-tips/highlight-usages.png\"
   alt=\"Highlight usages\" style=\"max-width:98%; display:block;margin-left:auto;margin-right:auto;\"
   /></a>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

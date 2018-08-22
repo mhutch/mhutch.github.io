@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 layout: journal
 title: MSBuild Code Generation in VS2015

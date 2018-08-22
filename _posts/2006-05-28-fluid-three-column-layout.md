@@ -10,7 +10,7 @@ excerpt: "Finally, someone found a clean way to do <a href=\"http://www.alistapa
   a good struture: when it's unstyled, it displays the heading and content before
   the navigation. This makes things easier for people with screen readers and older
   browsers.\r"
-categories:
+tags:
 - web standards
 - xhtml
 - css

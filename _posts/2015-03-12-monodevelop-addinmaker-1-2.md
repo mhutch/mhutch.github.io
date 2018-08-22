@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 layout: journal
 title: MonoDevelop.AddinMaker 1.2

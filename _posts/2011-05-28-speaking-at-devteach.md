@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 - monomac
 - devteach

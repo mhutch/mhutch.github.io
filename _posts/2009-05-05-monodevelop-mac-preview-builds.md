@@ -3,7 +3,7 @@ excerpt: "The past few weeks I've been working on improving the MonoDevelop expe
   on the Mac, making it integrate better with the Mac experience. Along with <a href=\"http://mjhutchinson.com/journal/2009/04/04/monodevelop_aspnet_mvc_mac\">ASP.NET
   MVC support</a> and other soon-to be-announced excitement, I think this makes MonoDevelop
   much more interesting for Mac users.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 - mac

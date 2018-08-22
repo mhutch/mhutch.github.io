@@ -5,7 +5,7 @@ excerpt: "The Code Generation window can be used to automatically generate code 
   the keyboard shortcut is <strong>Alt-Insert</strong> and on Mac there's currently
   no keybinding (if you'd like to suggest one please use the <a href=\"http://monodevelop.com/index.php?title=Help_%26_Contact\">MonoDevelop
   mailing list</a>).\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

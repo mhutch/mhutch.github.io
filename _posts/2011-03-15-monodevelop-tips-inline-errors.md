@@ -7,7 +7,7 @@ excerpt: "In MonoDevelop 2.4, we introduced inline error markers, similar to Xco
   src=\"http://mjhutchinson.com/files/images/md-tips/t/inline-error-marker.png\" alt=\"An
   inline error message bubble\" style=\"max-width:98%; display:block;margin-left:auto;margin-right:auto;\"
   /></a>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

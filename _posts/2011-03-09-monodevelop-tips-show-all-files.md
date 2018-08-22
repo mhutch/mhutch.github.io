@@ -6,7 +6,7 @@ excerpt: "The MonoDevelop Solution Pad shows projects and folders that correspon
   menu. The option is contextual &mdash; it applies only to the item on which it is
   toggled, and recursively applies to all its children. To have it apply to the whole
   Solution Pad, toggle it on the root solution or workspace.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

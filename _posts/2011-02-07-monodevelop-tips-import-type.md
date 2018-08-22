@@ -6,7 +6,7 @@ excerpt: "One of my favourite features that we added to MonoDevelop 2.4 is the \
   Type command\"><img src=\"http://mjhutchinson.com/files/images/md-tips/t/import-type.png\"
   alt=\"The completion list for the Import Type command\" style=\"max-width:98%; display:block;margin-left:auto;margin-right:auto;\"
   /></a>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

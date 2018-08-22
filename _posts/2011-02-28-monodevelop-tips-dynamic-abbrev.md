@@ -4,7 +4,7 @@ excerpt: "MonoDevelop's code completion for C# provides highly context-sensitive
   comments or strings. To help with cases like this, and for languages where MD does
   not have a completion engine, we've implemented a feature from Emacs called \"dynamic
   abbrev\".\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

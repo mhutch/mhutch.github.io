@@ -1,5 +1,5 @@
 ---
-categories: []
+tags: []
 layout: page
 title: Coming Out Q&A
 created: 1457494551

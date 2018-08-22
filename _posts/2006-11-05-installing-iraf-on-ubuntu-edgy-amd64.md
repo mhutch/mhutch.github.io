@@ -5,7 +5,7 @@ excerpt: "A major part of my final year project depends on using <a href=\"http:
   not particularly fast and have quite a few users, so the interactive bits like DS9
   are barely usable over SSH X11 forwarding. Anyway, I thought I'd install it on my
   own machine to make things easier.\r\n\r"
-categories:
+tags:
 - university
 - iraf
 - ubuntu

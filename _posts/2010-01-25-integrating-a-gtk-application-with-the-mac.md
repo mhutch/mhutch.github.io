@@ -6,7 +6,7 @@ excerpt: "In this follow-up to my post on <a href=\"http://mjhutchinson.com/jour
   and largely involves cherry-picking code snippets from these projects. Although
   it would be nice to isolate this code into a library, I don't have the time at the
   moment to maintain such a library myself.\r\n\r"
-categories:
+tags:
 - mono
 - mac
 - catchup2010

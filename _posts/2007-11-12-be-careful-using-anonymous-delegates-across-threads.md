@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - programming languages
 - mono
 - c#

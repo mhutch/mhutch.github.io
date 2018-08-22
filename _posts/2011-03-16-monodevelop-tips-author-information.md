@@ -4,7 +4,7 @@ excerpt: "There are many convenient things MonoDevelop can do, but for some it n
   copyright on your work. This is used for adding standard file headers, committing
   to a VCS repository, creating AssemblyInfo.cs files, and so on. You can provide
   this information in the <em>Author Information</em> panel in Preferences.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

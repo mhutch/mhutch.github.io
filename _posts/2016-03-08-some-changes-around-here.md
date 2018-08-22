@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - personal
 layout: journal
 title: Some Changes Around Here

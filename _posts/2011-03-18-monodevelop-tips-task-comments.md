@@ -2,7 +2,7 @@
 excerpt: "A common practice when writing code is to annotate incomplete or questionable
   areas with comments prefixed with warnings like TODO, HACK, FIXME, and so on. MonoDevelop
   draws attention to these by recognizing them and highlighting them:\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

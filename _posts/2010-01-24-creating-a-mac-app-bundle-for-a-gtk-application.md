@@ -5,7 +5,7 @@ excerpt: "While making the MonoDevelop and MonoDoc packages for Mac I learned a 
   Mac app bundle for their Mac users. This first part will cover building an app bundle,
   and a later post will cover building platform-specific code paths so that your app
   integrates with the main menu and dock.\r\n\r\n"
-categories:
+tags:
 - mono
 - mac
 - catchup2010

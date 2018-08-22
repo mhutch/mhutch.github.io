@@ -4,7 +4,7 @@ excerpt: "Some kinds of <a href=\"http://mjhutchinson.com/journal/2011/02/monode
   instead appear when needed to show the results of some operation, such as <em>Find
   in Files</em>, or <em>Find References</em>. Once closed, they can only be recovered
   by re-running the operation.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

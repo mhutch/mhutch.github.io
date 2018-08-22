@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 layout: journal
 title: Easy pull requests from master with git-offload

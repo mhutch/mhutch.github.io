@@ -6,7 +6,7 @@ excerpt: "While experimenting with code, it can be very useful to comment a bloc
   or if it is not commented, it will be commented. If multiple lines are selected,
   then if any are not commented, they will all be commented. If all are commented,
   they will all be uncommented.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

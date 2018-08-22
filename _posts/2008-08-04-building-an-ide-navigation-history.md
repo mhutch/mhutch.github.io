@@ -5,7 +5,7 @@ excerpt: "MonoDevelop has a code navigation history. When you switch views, or j
   is unintuitive and erratic. It seems like it should be a really useful feature,
   but in practice is frustrating to use, so I recently decided to give it an overhaul.
   \r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 - code navigation

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 layout: journal
 title: How not to break Mono installations

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 - monodevelop
 - vi

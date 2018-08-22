@@ -1,6 +1,6 @@
 ---
-categories: []
-layout: page
+tags: []
+layout: journal
 title: Mono in the GHOP
 created: 1198045548
 ---

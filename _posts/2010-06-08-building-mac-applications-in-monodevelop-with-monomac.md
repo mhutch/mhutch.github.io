@@ -6,7 +6,7 @@ excerpt: "Recently <a href=\"http://tirania.org/blog/archive/2010/Apr-19.html\">
   native Mac GUIs using C# and other .NET languages. I have put together a <a href=\"http://monodevelop.com\">MonoDevelop</a>
   addin that simplifies the process of creating, developing and debugging a MonoMac
   application. \r\n\r"
-categories:
+tags:
 - mono
 - c#
 - monodevelop

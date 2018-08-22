@@ -9,7 +9,7 @@ excerpt: "Implementing the ASP.NET GUI designer with <a href=\"http://www.mozill
   isn't bloated by wrapping the Mozilla DOM or other internals: it claims to exposes
   enough functionality for \"about 80% of uses\". Essentially this means a basic web
   browser.\r\n"
-categories:
+tags:
 - mono
 - c#
 - javascript

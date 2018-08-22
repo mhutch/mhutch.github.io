@@ -4,7 +4,7 @@ excerpt: "One of the most useful pairs of commands in MonoDevelop is <em>Show Ne
   in the most recently active navigation list. Right after building, they will cycle
   though the build errors and warnings; after searching, they cycle through the search
   results; after running unit tests, they cycle though the test failures, and so on.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

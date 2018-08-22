@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 layout: journal
 title: MonoMac video from NDC 2011

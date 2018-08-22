@@ -5,7 +5,7 @@ excerpt: "Sometimes it's useful to be able to edit multiple lines at once in a s
   key on Linux or Windows, or <strong>Command</strong> key on Mac. Alternatively,
   you can make a normal selection, then use the <em>Edit->Toggle block selection mode</em>
   to toggle the selection into a block selection with the same start and end points.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

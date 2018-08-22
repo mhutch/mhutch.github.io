@@ -4,7 +4,7 @@ excerpt: "MonoDevelop makes it really easy to search the code completion list. A
   then matches these fragments against the beginnings of the words in the completion
   list. The list is filtered to show only the items that match, and the matched parts
   are helpfully highlighted in blue:\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

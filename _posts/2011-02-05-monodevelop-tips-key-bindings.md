@@ -5,7 +5,7 @@ excerpt: "Key bindings are an important part of an IDE, as they make it possible
   the key binding system in MonoDevelop, how to find out what key bindings are available,
   and how to customize the bindings to suit your needs.\r\n\r\n<h3>The Key Bindings
   Panel</h3>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

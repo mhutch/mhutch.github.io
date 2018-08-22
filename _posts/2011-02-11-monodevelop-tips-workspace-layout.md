@@ -6,7 +6,7 @@ excerpt: "The MonoDevelop workspace consists of a central document surrounded by
   pad if necessary then bring keyboard focus to it. Pads may also be opened automatically
   by various commands, such as the \"Find in Files\" command, which opens a pad of
   search results.\r\n\r\n<h3>Arranging Pads</h3>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

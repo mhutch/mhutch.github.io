@@ -6,7 +6,7 @@ excerpt: "I went to the Silicon Group computer shop on Dalry Road in Edinburgh t
   at prices that are pretty low for a High Street shop. More recently I'd been tempted
   by the lower prices and vastly superior range offered by web retailers, but decided
   to save the postage and give Silicon a shot.\r\n\r"
-categories:
+tags:
 - pc hardware
 - silicon group
 - poor customer service

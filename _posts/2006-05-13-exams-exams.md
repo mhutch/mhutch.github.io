@@ -8,7 +8,7 @@ excerpt: "Well, it's exam time again. Five in total; first one on Monday, and th
   at the domain <a href=\"http://mjhutchinson.com\">http://mjhutchinson.com</a>, and
   this redirects to the current site for now. I'll be migrating over after exams.
   \r"
-categories:
+tags:
 - site news
 - mono
 - university

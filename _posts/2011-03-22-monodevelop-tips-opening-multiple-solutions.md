@@ -7,7 +7,7 @@ excerpt: "Normally, MonoDevelop only allows a single instance of itself to be op
   feature in the status bar while you hover over these items: \"Hold Control key to
   open in current workspace\". Do this, and the solution will be opened without closing
   the old one.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

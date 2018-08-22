@@ -5,7 +5,7 @@ excerpt: "One of my favourite pads in MonoDevelop is the document outline pad, w
   so that I can quickly bring it up. You can show it using the <em>View->Pads->Document
   Outline</em> menu item, and change its position and docking to fit your <a href=\"http://mjhutchinson.com/journal/2011/02/monodevelop_tips_workspace_layout\">workspace
   layout</a>.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

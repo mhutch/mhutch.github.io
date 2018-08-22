@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - fun
 - webcomics
 - philosophy

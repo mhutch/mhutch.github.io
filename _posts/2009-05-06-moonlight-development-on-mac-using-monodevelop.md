@@ -6,7 +6,7 @@ excerpt: "Yesterday I announced much-improved <a href=\"http://mjhutchinson.com/
   projects</strong> using a bundled copy of the Moonlight SDK.\r\n\r\nI created a
   screencast to show off how easy this makes it to develop Silverlight apps on the
   Mac:\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 - mac

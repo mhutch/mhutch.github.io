@@ -3,7 +3,7 @@ excerpt: "I've been thinking again about the compilation and deployment models u
   in MonoDevelop for ASP.NET code, and it isn't easy to come up with a good solution.
   I've written a discussion of the various possibilities and how they mesh with MonoDevelop
   and the Visual Studio way of doing things. \r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 - asp.net

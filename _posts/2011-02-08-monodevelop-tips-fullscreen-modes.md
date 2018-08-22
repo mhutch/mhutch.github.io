@@ -6,7 +6,7 @@ excerpt: "Sometimes it's useful to be able to focus only on your code without th
   and selecting <em>Switch maximize/normal view</em>. When in maximize view, all open
   pads are auto-hidden at the sides of the MonoDevelop windows, and all toolbars are
   hidden (everything in the toolbars is also accessible from the menus).\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

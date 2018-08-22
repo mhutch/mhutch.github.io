@@ -5,7 +5,7 @@ excerpt: "MonoDevelop keeps track of your navigation history, like a web browser
   navigation features that make it easy to jump around your code, such as the \"Go
   to definition\" command and the <a href=\"http://mjhutchinson.com/journal/2011/02/monodevelop_tips_navigate_files_and_types\">Navigate
   To</a> dialog. The Navigation History can get you back to wherever you were before.\r\n\r\n"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

@@ -7,7 +7,7 @@ excerpt: "The document switcher is a quick way to switch focus between open docu
   and the left and right arrows move the selection between the pads and documents
   lists. When you have selected the item you want, release Control, and it will be
   selected.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 layout: journal

@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - university
 - exams
 - finished

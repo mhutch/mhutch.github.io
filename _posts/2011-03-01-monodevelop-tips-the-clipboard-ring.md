@@ -4,7 +4,7 @@ excerpt: "The MonoDevelop text editor keeps track of the most recent 12 things t
   you cut or copied earlier. These items can be found in the Clipboard Ring in the
   toolbox. Simply double-click on one to insert it at the caret, or drag it to a specific
   location to insert it at that location.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

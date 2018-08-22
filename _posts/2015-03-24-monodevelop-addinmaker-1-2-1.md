@@ -1,5 +1,5 @@
 ---
-categories: []
+tags: []
 layout: page
 title: MonoDevelop.AddinMaker 1.2.1
 created: 1427170055

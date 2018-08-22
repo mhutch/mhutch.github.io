@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - personal
 - rpgs
 - online memes

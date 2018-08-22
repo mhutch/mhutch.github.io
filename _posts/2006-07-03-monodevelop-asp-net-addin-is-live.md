@@ -8,7 +8,7 @@ excerpt: "I've just committed a patch to MonoDevelop to enable the use of the As
   I have only been able to test C# so far.\r\n\r\n<a href=\"http://mjhutchinson.com/files/images/MonoScreenshots/AspNetAddIn1.png\"><img
   src=\"http://mjhutchinson.com/files/images/MonoScreenshots/AspNetAddIn1-small.png\"
   alt=\"Screenshot of MonoDevelop ASP.NET addin\"/></a>\r"
-categories:
+tags:
 - mono
 - aspnetedit
 - monodevelop

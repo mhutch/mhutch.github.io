@@ -3,7 +3,7 @@ excerpt: "Code focus is a useful feature that helps to show the structure of you
   code. It's activated by hovering over one of the fold markers in the text editor
   margin for a few seconds. The activated fold region and its parent regions are highlighted
   using graduated colour differences on the text editor background.\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

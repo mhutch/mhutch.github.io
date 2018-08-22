@@ -3,7 +3,7 @@ excerpt: "There are several different kinds of settings in MonoDevelop &mdash; P
   Policies and Project Options &mdash; and the distinction between them is not immediately
   clear. This post aims to provide an explanation of them and what they're used for.
   \r\n\r\n<h3>Preferences </h3>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

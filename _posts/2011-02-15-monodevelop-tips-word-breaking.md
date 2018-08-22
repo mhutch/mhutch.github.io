@@ -7,7 +7,7 @@ excerpt: "There are various places where the MonoDevelop text editor needs to un
   breaking. For these reasons, we allow users to change MonoDevelop's word breaking
   mode in <em>Preferences->Text Editor->Behavior</em>.\r\n\r\n<dl>\r\n<dt><strong>
   SharpDevelop </strong></dt>\r\n<dd>\r"
-categories:
+tags:
 - mono
 - monodevelop tips
 layout: journal

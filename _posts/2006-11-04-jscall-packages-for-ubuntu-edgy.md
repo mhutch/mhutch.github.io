@@ -7,7 +7,7 @@ excerpt: "Now that Ubuntu Edgy has gone final, and I'm no longer tracking the be
   to this post to tell me, and I'll rebuild them. There's an <a href=\"http://mjhutchinson.com/files/releases/jscall-cil_0.0.2-1_amd64.deb\">AMD64</a>
   and an <a href=\"http://mjhutchinson.com/files/releases/jscall-cil_0.0.2-1_i386.deb\">i386</a>
   version. \r"
-categories:
+tags:
 - mono
 - aspnetedit
 - jscall#

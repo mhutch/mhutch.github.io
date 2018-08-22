@@ -7,7 +7,7 @@ excerpt: "One of the most difficult things about developing ASP.NET project supp
   and straightforward ways of developing an ASP.NET site, and developers migrating
   from Windows are familiar with them, so it was clearly a good idea to use them as
   a starting point when planning how to implement the project support in MonoDevelop.\r"
-categories:
+tags:
 - mono
 - aspnetedit
 - monodevelop
