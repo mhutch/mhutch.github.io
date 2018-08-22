@@ -1,4 +1,4 @@
 ---
 layout: refresh
-refresh_to_post_id: /2007/04/25/physics-msci-thesis-supporting-code
+refresh_to_post_id: /projects/DurhamLevel4Thesis
 ---
