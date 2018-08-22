@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - rpgs
 - gaming
 - world simulation

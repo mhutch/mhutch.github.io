@@ -8,7 +8,7 @@ excerpt: "I wasn't quite as far as I thought I was.\r\n\r\nThere were still a fe
   a few other tweaks. Personally I still have my reservations about a fixed-width
   layout like this - even though it's <em>very</em> pretty - so when I have time I'll
   fix it up to use relative units.\r"
-categories:
+tags:
 - site news
 - drupal
 - css

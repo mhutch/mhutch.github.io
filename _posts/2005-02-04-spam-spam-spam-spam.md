@@ -7,7 +7,7 @@ excerpt: "The site's only been up for five days and I'm already getting referrer
   that there will be some false positives but until I find another way, it'll have
   to do.\r\n\r\nIn other news, Drupal's project module is giving me trouble; it refuses
   to track my projects' releases."
-categories:
+tags:
 - site news
 - drupal
 - spam

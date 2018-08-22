@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - site news
 - web standards
 - exams

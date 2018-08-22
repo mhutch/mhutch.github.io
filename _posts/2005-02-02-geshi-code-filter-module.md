@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - drupal
 - geshicodefilter
 - syntax highlighting

@@ -5,7 +5,7 @@ excerpt: "Last night I got MonoDevelop working (to some extent) on Windows Vista
   I've managed to build MonoDevelop fully in Visual Studio 2008, and debug at all
   the way to the Welcome Page, using 32-bit debugging on Vista 64. However, I'm going
   to have to tidy the project file fixes a lot before I commit them.</em>\r\n\r"
-categories:
+tags:
 - mono
 - monodevelop
 - vista

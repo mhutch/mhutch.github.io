@@ -3,7 +3,7 @@ excerpt: "Last week, <a href=\"http://tirania.org/blog\">Miguel</a>, <a href=\"h
   and I went to the <a href=\"http://gdconf.com/\" title=\"Game Developers Conference\">GDC</a>
   again to promote the use of Mono as a runtime for games. I may write about that
   at a later time.\r\n\r"
-categories:
+tags:
 - gaming
 - mono
 - linux

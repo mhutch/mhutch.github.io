@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 - aspnetedit
 - summer of code

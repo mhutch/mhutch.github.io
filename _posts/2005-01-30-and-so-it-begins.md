@@ -10,7 +10,7 @@ excerpt: "I've been wondering for literally months how to set up this site. I al
   several of which had to be ported to PostgreSQL, but overall the installation process
   was quite easy. The categories, blocks and links are all set up and all that remains
   is to create a theme. Then the content can be rolled in...\r"
-categories:
+tags:
 - site news
 - drupal
 - postgresql
