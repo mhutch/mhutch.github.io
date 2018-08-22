@@ -1,5 +1,5 @@
 ---
-categories:
+tags:
 - mono
 - web standards
 - css

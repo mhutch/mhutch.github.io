@@ -6,7 +6,7 @@ excerpt: "I've finally committed the ASP.NET Graphical Designer to Mono Subversi
   an actual release the beginning of September; I'll keep my blog updated with screenshots.
   Here's the next:\r\n\r\n<a href=\"http://mjhutchinson.com/files/images/MonoScreenshots/AspNetEdit2.png\"><img
   src=\"http://mjhutchinson.com/files/images/MonoScreenshots/AspNetEdit2-t.png\"></a>\r\n\r"
-categories:
+tags:
 - mono
 - aspnetedit
 layout: journal
