@@ -1,0 +1,13 @@
+theme: jekyll-theme-minimal
+title: mhutch
+description:
+
+permalink: journal/:year/:month/:day/:title/index:output_ext
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-redirect-from
+
