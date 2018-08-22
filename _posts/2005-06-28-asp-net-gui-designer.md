@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: ASP.NET GUI Designer
 created: 1120005729
+redirect_from: /node/79
 ---
 Hello everyone! <em>(waves to as-yet nonexistent audience)</em>
 

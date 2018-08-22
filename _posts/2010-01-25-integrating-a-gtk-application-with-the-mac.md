@@ -14,6 +14,7 @@ tags:
 layout: journal
 title: Integrating a GTK# Application with the Mac
 created: 1264402242
+redirect_from: /node/177
 ---
 In this follow-up to my post on <a href="http://mjhutchinson.com/journal/2010/01/24/creating_mac_app_bundle_for_gtk_app">turning a GTK# app into a Mac app bundle</a>, I describe how to integrate your application with Mac-specific features such as the main menu, the dock, and file/URL events. This is based on the work I did to integrate MonoDevelop and MonoDoc with the Mac, and largely involves cherry-picking code snippets from these projects. Although it would be nice to isolate this code into a library, I don't have the time at the moment to maintain such a library myself.
 

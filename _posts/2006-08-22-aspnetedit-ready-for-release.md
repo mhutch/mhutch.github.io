@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: AspNetEdit ready for release
 created: 1156234108
+redirect_from: /node/106
 ---
 Well, the Summer of Code is now ended. The ASP.NET MonoDevelop addin is now open to testing, and although it doesn't look any better than my <a href="/journal/2006-03-07/monodevelop_asp_net_addin_is_live">previous</a> <a href="/journal/2006-27-07/aspnetedit_in_monodevelop_teaser">screenshots</a>, it's quite a bit more stable.
 

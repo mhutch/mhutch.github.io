@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Brahma on Mono
 created: 1224828254
+redirect_from: /node/162
 ---
 I'm very excited to see that <a href="http://www.ananthonline.net/">Ananth</a>, the author of the <a href="http://brahma.ananthonline.net/">Brahma LINQ-to-GPU</a> provider, now has it <a href="http://blog.ananthonline.net/?p=25">running on Mono</a> using OpenGL.
 

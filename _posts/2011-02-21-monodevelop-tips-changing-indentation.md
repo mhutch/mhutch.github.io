@@ -9,6 +9,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Changing Indentation'
 created: 1298307600
+redirect_from: /node/193
 ---
 It's easy to increase or decrease indentation of a block of code in MonoDevelop. Hit the <strong>Tab</strong> key while there is a selection, and the selected lines' indentation will be increased. Similarly, hit <strong>Shift-Tab</strong> and the indentation will be decreased.
 

@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: GHOP Help Needed
 created: 1198121594
+redirect_from: /node/146
 ---
 The <a href="http://code.google.com/opensource/ghop/2007-8/">Google Highly Open Participation (GHOP) contest</a> has been running for a couple of weeks now, and the Mono Project has seen a fair bit of action. Sadly we've only had five completed tasks, with a couple more almost done. On a lot of the claimed tasks, many of the students and mentors have been slow to act, busy with real life work. I think that the timescale of the tasks makes things difficult. It's not easy to think up a task that an inexperienced student can complete within five days, especially considering that they often need to get up to speed with the technologies before starting, and need to fit it in around schoolwork. Hopefully now that the Christmas holidays are beginning, students will have a lot more time to spend on the GHOP!
 

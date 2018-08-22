@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: ASP.NET Completion and MonoDevelop Debugger Packages
 created: 1224229907
+redirect_from: /node/161
 ---
 All the basic ASP.NET code completion features I wanted to get into MonoDevelop are now essentially complete and working with the new code completion database subsystem that Mike Kruger has written to replace our old one. It handles controls, directives and HTML, all of their attributes, and some attribute values, including some <a href="http://mjhutchinson.com/journal/2008/07/24/colour_completion">colourful</a> and <a href="http://mjhutchinson.com/journal/2008/04/08/an_apologetic_sneak_peek">time-saving</a> examples.   I've been migrating code "downwards" into HTML and XML completion editor extension, and I'll write another day about how this works and how it'll make good XAML and XML completion easier in the future. 
 

@@ -10,6 +10,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Author Information'
 created: 1300291200
+redirect_from: /node/211
 ---
 There are many convenient things MonoDevelop can do, but for some it needs to know a bit about you, such as your name, your email address, and who owns the copyright on your work. This is used for adding standard file headers, committing to a VCS repository, creating AssemblyInfo.cs files, and so on. You can provide this information in the <em>Author Information</em> panel in Preferences.
 

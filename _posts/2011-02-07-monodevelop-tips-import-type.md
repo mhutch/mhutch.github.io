@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Import Type'
 created: 1297098009
+redirect_from: /node/183
 ---
 One of my favourite features that we added to MonoDevelop 2.4 is the "import Type" command. It is accessed using the keybinding Ctrl-Alt-Space, and shows a list of all types in all namespaces in all referenced assemblies:
 

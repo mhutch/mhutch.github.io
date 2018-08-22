@@ -9,6 +9,7 @@ tags:
 layout: journal
 title: Joined Novell, and moving to Boston
 created: 1191498793
+redirect_from: /node/137
 ---
 I apologise for not having updated my blog more often. Things have been quite hectic recently...
 

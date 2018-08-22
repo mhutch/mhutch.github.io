@@ -9,6 +9,7 @@ tags:
 layout: journal
 title: Accepted into Summer of Code 2006!
 created: 1148755389
+redirect_from: /node/95
 ---
 I have been accepted into Google's Summer of Code 2006!
 

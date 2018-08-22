@@ -15,6 +15,7 @@ tags:
 layout: journal
 title: Iterator-based Microthreading
 created: 1265004319
+redirect_from: /node/178
 ---
 Back in May, I was wrapping PhyreEngine and porting the samples to C#. To extend one of them and demonstrate some of the capabilities of C#, <a href="http://tirania.org/blog/">Miguel</a> and I decided to use simple iterator-based microthreading, which simulates multithreading but with many microthreads within a single real thread. <a href="http://unity3d.com/">Unity</a> does something like it in their game engine too. It enables you to use a very imperative style of coding, as if using a single dedicated thread for each, but without anywhere near the overhead of real threads.
 

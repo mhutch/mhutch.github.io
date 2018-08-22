@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: New release of GeSHicodefilter
 created: 1145833785
+redirect_from: /node/91
 ---
 I have recently upgraded to Drupal 4.7, and it's fantastic. However, the Project module upgrade didn't work (probably because I use Postgres) so I've only just got round to installing it again.
 

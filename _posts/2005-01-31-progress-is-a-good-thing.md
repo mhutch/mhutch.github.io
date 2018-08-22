@@ -17,6 +17,8 @@ tags:
 layout: journal
 title: Progress is a good thing
 created: 1107211772
+redirect_from: /node/5
+
 ---
 I wasn't quite as far as I thought I was.
 

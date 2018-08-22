@@ -4,6 +4,7 @@ tags:
 layout: journal
 title: MSBuild Code Generation in VS2015
 created: 1461041943
+redirect_from: /node/236
 ---
 A couple of weeks ago I was helping <a href="http://xfcomplete.net/">Jason Smith</a> debug an issue with the build-time code generation in Xamarin.Forms. The build targets were based on my <a href="https://mhut.ch/journal/2015/06/30/build_time_code_generation_msbuild">Build Time Code Generation in MSBuild</a> post, but in recent Visual Studio 2015 versions the generated classes would occasionally disappear from IntelliSense.
 

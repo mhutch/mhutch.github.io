@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Custom XML Schemas'
 created: 1300377600
+redirect_from: /node/212
 ---
 MonoDevelop's XML autocompletion is driven by XML schemas, although there is a fallback that will use existing nodes in the file to provide  a very basic form of completion. MonoDevelop keeps a list of known schemas, and when trying to provide completion for a given namespace, it looks in that list to find one that matches the namespace. There are built-in schemas for several namespaces, but it's possible to add your own in <em>Preferences->Other->XML Schemas</em>. Registered schemas must have a unique namespace, since that's how they're identified.
 

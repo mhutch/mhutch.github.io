@@ -14,6 +14,7 @@ tags:
 layout: journal
 title: Installing IRAF on Ubuntu Edgy amd64
 created: 1162729217
+redirect_from: /node/109
 ---
 A major part of my final year project depends on using <a href="http://iraf.net">IRAF</a>, the Image Reduction and Analysis Facility from <a href="http://www.noao.edu/">NOAO</a>. Although it's installed on the university's UNIX Service, the servers it's on are not particularly fast and have quite a few users, so the interactive bits like DS9 are barely usable over SSH X11 forwarding. Anyway, I thought I'd install it on my own machine to make things easier.
 

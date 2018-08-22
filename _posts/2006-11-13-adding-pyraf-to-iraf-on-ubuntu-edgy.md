@@ -11,6 +11,7 @@ tags:
 layout: journal
 title: Adding PyRAF to IRAF on Ubuntu Edgy
 created: 1163464282
+redirect_from: /node/110
 ---
 Following up on my earlier post on <a href="/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64">installing IRAF on Ubuntu Edgy</a>, here's a walkthrough for installing <a href="http://www.stsci.edu/resources/software_hardware/pyraf">PyRAF</a>, a Python shell for IRAF. As part of this we'll have to install STSDAS and TABLES, two popular IRAF packages from <a href="http://www.stsci.edu/resources/software_hardware">STSCI</a>. <!--break-->
 

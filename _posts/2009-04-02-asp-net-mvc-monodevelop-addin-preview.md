@@ -8,6 +8,7 @@ tags:
 layout: journal
 title: ASP.NET MVC MonoDevelop Addin Preview
 created: 1238711069
+redirect_from: /node/166
 ---
 The past month or two, in addition to bugfixing for our recent <a href="http://monodevelop.com">MonoDevelop 2.0</a> release, I've been quietly hacking on a MonoDevelop Addin to support writing <a href="http://asp.net/mvc">ASP.NET MVC</a> applications. Those of you following me on <a href="http://twitter.com/mjhutchinson">Twitter</a> may have picked up a few hints...
 

@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: Dyson, a great game using Mono
 created: 1238811079
+redirect_from: /node/167
 ---
 Last week, <a href="http://tirania.org/blog">Miguel</a>, <a href="http://beyondfocus.com">Joseph</a> and I went to the <a href="http://gdconf.com/" title="Game Developers Conference">GDC</a> again to promote the use of Mono as a runtime for games. I may write about that at a later time.
 

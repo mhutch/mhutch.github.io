@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Next/Previous Usage'
 created: 1299258000
+redirect_from: /node/203
 ---
 After the caret has been in an identifier in a C# file for a few seconds, then all the usages of that identifier in the current file are highlighted. This provides a nice visual cue for finding related code and following code flow.
 

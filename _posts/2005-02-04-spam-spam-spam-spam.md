@@ -15,6 +15,7 @@ tags:
 layout: journal
 title: Spam, spam, spam, spam....
 created: 1107559426
+redirect_from: /node/8
 ---
 The site's only been up for five days and I'm already getting referrer spam. No comment spam yet, but I'll probably disable comments and trackbacks until I have some interesting stuff up, and sort it out then.
 

@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Completing ASP.NET Collection Properties
 created: 1227146849
+redirect_from: /node/164
 ---
 I've recently been tweaking the ASP.NET completion, adding support for resolving valid children for a control. These can be properties, a property, or controls. More difficult was resolving the valid children for properties, but this is now done:
 

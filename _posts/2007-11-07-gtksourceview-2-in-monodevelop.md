@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: GtkSourceView 2 in MonoDevelop
 created: 1194478796
+redirect_from: /node/141
 ---
 I recently added support for GtkSourceView 2 to MonoDevelop, and it can be enabled with the "--enable-gtksourceview2" configure switch. Unfortunately the Boo Binding and the Database Addin depend on GtkSourceView#  directly, and aren't compatible with the API changes in 2.0. I may get round to fixing them later. However, I've already switched on GtkSourceView2 support in my <a href="http://mjhutchinson.com/journal/2007/11/07/monodevelop_trunk_builds">MonoDevelop build repository</a>. The main reason I did this, of course, was the wonderful dark grey colour scheme "oblivion" :-)
 

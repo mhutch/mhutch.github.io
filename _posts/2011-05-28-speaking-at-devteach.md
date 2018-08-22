@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Speaking at DevTeach
 created: 1306613854
+redirect_from: /node/224
 ---
 This week I'm going to be presenting two sessions at <a href="http://devteach.com/">DevTeach 11</a> in Montreal.
 

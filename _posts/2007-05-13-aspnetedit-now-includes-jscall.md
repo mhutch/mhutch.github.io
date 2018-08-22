@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: AspNetEdit now includes JSCall#
 created: 1179071852
+redirect_from: /node/126
 ---
 I just saw a post by Chris Howie on <a href="http://www.chrishowie.com/2007/05/08/glue-free-jscall/">glueless javascript calls into Gecko#</a>, and over a couple of my revision breaks I modified JSCall# to use this technique. The new completely managed code version is now in SVN, and I'll make a proper 0.0.3 release when I've written some docs.
 

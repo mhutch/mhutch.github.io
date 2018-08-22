@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: The State of MSBuild Support in MonoDevelop
 created: 1345352230
+redirect_from: /node/227
 ---
 I occasionally get questions about support for advanced MSBuild features, and my answers are usually fairly short. This post aims to be a more comprehensive description of the current state state of MSBuild support in MonoDevelop, so I can refer people to it. If you've never hand-edited custom targets for an MSBuild file, this doesn't affect you at all, but feel free to read it if you're curious.
 

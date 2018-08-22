@@ -11,6 +11,7 @@ tags:
 layout: journal
 title: Miscellanea
 created: 1207785204
+redirect_from: /node/150
 ---
 Here's a quick summary of interesting things from the past few months that I haven't blogged. Unfortunately I can't give each topic the time it deserves, but I think that's better than not mentioning them at all.
 

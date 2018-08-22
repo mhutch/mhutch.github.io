@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Show All Files'
 created: 1299690000
+redirect_from: /node/206
 ---
 The MonoDevelop Solution Pad shows projects and folders that correspond to real folders on disk, but by default it only shows files and folders within them that have been included in the project. This behaviour can be changed using the <em>Display Options->Show All Files</em> toggle option in the Solution Pad context menu. The option is contextual &mdash; it applies only to the item on which it is toggled, and recursively applies to all its children. To have it apply to the whole Solution Pad, toggle it on the root solution or workspace.
 

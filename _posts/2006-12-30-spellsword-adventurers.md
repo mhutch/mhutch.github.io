@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Spellsword adventurers
 created: 1167497050
+redirect_from: /node/112
 ---
 According to the <a href='http://www.okcupid.com/tests/take?testid=1532690756472625027'>RPG Class Test</a>, I'm a spellsword. Unsurprisingly, this is the character type that I always like to play. However, this isn't because I'm playing <em>me</em>, but because I consider it to the the most sensible mixture of skills for a good self-sufficient adventurer.
 

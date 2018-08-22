@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: Preview of Xcode 4 Support for MonoTouch
 created: 1304452596
+redirect_from: /node/223
 ---
 In their recent update of the iOS and Mac developer tools, Apple removed the standalone Interface Builder application and integrated the GUI designer functionality directly into Xcode 4. This was a very significant change and removed several features that were necessary for MonoTouch and MonoMac to integrate with the designer. As soon as Xcode 4 went final, we started working on MonoDevelop support for integrating MonoTouch with Xcode 4's GUI designer, but it's a complex project and will take some time to complete. 
 

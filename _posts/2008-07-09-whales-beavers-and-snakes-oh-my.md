@@ -11,6 +11,7 @@ tags:
 layout: journal
 title: Whales, Beavers and Snakes (Oh My!)
 created: 1215644865
+redirect_from: /node/154
 ---
 My family is visiting me here in Boston, and over the Independence Day weekend we toured Western Massachusetts for a few days. I captured some <a href="http://www.flickr.com/photos/mjhutchinson/sets/72157606076531267/">interesting photos</a>. Having finally convinced myself to purchase some nice lenses for my SLR, I am particularly pleased with this haul.
 

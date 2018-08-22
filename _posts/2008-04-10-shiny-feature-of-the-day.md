@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Shiny Feature of the Day
 created: 1207882195
+redirect_from: /node/151
 ---
 Today I implemented an oft-requested feature for MonoDevelop: making the code completion and info tooltips transparent when the Control key is held down. This enables you to take a look at the code that the window's obscuring, without dismissing the popup:
 

@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: MonoDevelop ASP.NET MVC on the Mac
 created: 1238817513
+redirect_from: /node/168
 ---
 After releasing a preview of the <a href="http://mjhutchinson.com/journal/2009/04/02/aspnet_mvc_monodevelop_addin_preview">ASP.NET MVC MonoDevelop addin</a>, I decided to try it on the Mac. 
 

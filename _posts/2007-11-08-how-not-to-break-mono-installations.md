@@ -4,6 +4,7 @@ tags:
 layout: journal
 title: How not to break Mono installations
 created: 1194545169
+redirect_from: /node/142
 ---
 It's a bad idea to mess with the packaged version of Mono on your Linux distro by installing another version of Mono on top of it or into another of your distro's standard prefixes such as /usr/local. Your distro's developers, testers and packagers have tested the packaged version of Mono to make sure that it works with the various applications that depend on it, such as MonoDevelop, Tomboy, F-Spot, Beagle and Banshee. In addition, you're likely to end up with unusual errors due to mismatched bits and pieces interacting in unpredictable ways.
 

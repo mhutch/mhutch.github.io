@@ -8,6 +8,7 @@ tags:
 layout: journal
 title: St John's College JCR Website goes live
 created: 1155809841
+redirect_from: /node/107
 ---
 I've just launched the new website for St John's College JCR at <a href="http://johnsjcr.org.uk/">http://johnsjcr.org.uk/</a>. It's based on Drupal 4.7.3 with a lot of extra modules added, but mainly based on the Organic Groups module. This helps to organise all of our little subcommunities and groups. I also hacked together a custom module called groupforums, which displays listings of one of the OG node types as conventional forums, in order to help people get used to the site.
 

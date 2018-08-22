@@ -15,6 +15,7 @@ tags:
 layout: journal
 title: Notes on GUADEC
 created: 1185146538
+redirect_from: /node/135
 ---
 First of all I'd like so say what a great experience GUADEC was. It was great to talk to cool people, see the amazing software people are writing, and hear talks from inspiring speakers. It really emphasised for me why having such a diverse yet coherent community has made GNOME the awesome ecosystem it is today.
 

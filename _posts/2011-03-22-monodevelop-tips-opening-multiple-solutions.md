@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Opening Multiple Solutions'
 created: 1300809600
+redirect_from: /node/215
 ---
 Normally, MonoDevelop only allows a single instance of itself to be open, since many of its data files (preferences, code completion databases and so on) are not designed to be accessed by multiple instances at once. However, it is possible to open multiple solutions at once. In the Welcome Page, hold down the Control key while clicking in an item in the Recent Projects list. There is a hint about this feature in the status bar while you hover over these items: "Hold Control key to open in current workspace". Do this, and the solution will be opened without closing the old one.
 

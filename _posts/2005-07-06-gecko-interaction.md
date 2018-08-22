@@ -18,6 +18,7 @@ tags:
 layout: journal
 title: Gecko# interaction
 created: 1120689861
+redirect_from: /node/80
 ---
 Implementing the ASP.NET GUI designer with <a href="http://www.mozilla.org">Mozilla's</a> Gecko web rendering engine is an obvious decision: it's open-source, has strong standards support and a large feature set, is highly extensible and flexible thanks to its XPCOM component system, and using Gecko# it can be embedded in a GTK# GUI. Mozilla is becoming an application platform, with XUL for declaratively writting GUIs, and JavaScript for program logic. 
 

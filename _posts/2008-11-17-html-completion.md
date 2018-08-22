@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: HTML Completion
 created: 1226956189
+redirect_from: /node/163
 ---
 The main thing I've been working on for the upcoming MonoDevelop 2.0 release is ASP.NET code completion, and I'm pretty happy with its current state. Recently I've been "downporting" this code into base classes to make it easier to write XML completion and HTML completion editor extensions. A while back I wrote a hybrid XML/ASP.NET/HTML parser, which I've been using in MonoDevelop for triggering ASP.NET code completion. The aims of this parser were to be extensible and to have good error recovery. This makes sharing code between XML-like completion extensions very easy &mdash; the completion triggering code and the path bar code are entirely shared between the editors.
 

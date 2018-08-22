@@ -4,6 +4,7 @@ tags:
 layout: journal
 title: Build Time Code Generation in MSBuild
 created: 1435720721
+redirect_from: /node/233
 ---
 Build-time code generation is a really powerful way to automate repetitive parts of your code. It can save time, reduce frustration, and eliminate a source of copy/paste bugs.
 

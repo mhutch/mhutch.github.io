@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: Razor Preprocessed Templates
 created: 1355012546
+redirect_from: /node/228
 ---
 When <a href="https://twitter.com/migueldeicaza">Miguel</a> asked me to investigate making MonoDevelop support using <a href="http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx">Razor</a> templates in <a href = "http://xamarin.com/monoforandroid">MonoTouch</a> and <a href="http://xamarin.com/monotouch">Mono for Android</a> apps, I realized that it could be done simply and with very few dependencies by taking the same approach as <a href="http://msdn.microsoft.com/en-us/library/ee844259.aspx">T4 preprocessed templates</a>, which I implemented for MonoDevelop a couple of years ago. Fortunately, this time the hard part was already done: I could use <a href="http://aspnetwebstack.codeplex.com/">Microsoft's open-source Razor parser</a> instead of writing my own parser. I also found a Visual Studio extension called <a href="http://razorgenerator.codeplex.com/">Razor Generator</a> that was very close in functionality to what I wanted, and was able to use this as a basis for my work. I was able to hook it it into the fantastic Razor editing and code completion support written by <a href="http://pdowgiallo.pl/gsoc/">Piotr Dowgiallo</a> in the Google Summer of Code this year.
 

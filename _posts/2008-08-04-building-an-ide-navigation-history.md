@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: Building an IDE Navigation History
 created: 1217884730
+redirect_from: /node/156
 ---
 MonoDevelop has a code navigation history. When you switch views, or jump around between definitions, it logs the history, and you can browse back and forth like a web browser. However, it has some major issues -- the history it generates is unintuitive and erratic. It seems like it should be a really useful feature, but in practice is frustrating to use, so I recently decided to give it an overhaul. 
 

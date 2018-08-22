@@ -10,6 +10,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Override Completion'
 created: 1298566800
+redirect_from: /node/196
 ---
 When you type the "override" keyword in a C# class, MonoDevelop will show a completion list of all abstract or virtual members on base classes that have not been overridden, and interface members that have not been implemented. You don't even need to type the modifier (e.g. "public"), you can simply type "override" directly in the class body.
 

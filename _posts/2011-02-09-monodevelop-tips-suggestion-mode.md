@@ -5,6 +5,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Suggestion Mode'
 created: 1297270825
+redirect_from: /node/185
 ---
 The default mode of the code completion list is to <em>complete</em> the symbol that's being typed. Whenever the completion engine can determine that you are typing an existing symbol (such as a type name, variable name or member name), it automatically triggers the completion list and populates it with all the values that are valid at that point. As you type while the list is open, the list's selection updates to match what best fits what you're typing, and you can manually change the selection using the up/down arrow keys. When you press space, enter, tab, or any punctuation, the completion list "commits" the selection into the document, so you don't have to type the rest of the word manually. This is incredibly useful when you get used to it.
 

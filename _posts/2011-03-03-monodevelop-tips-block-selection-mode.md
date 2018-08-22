@@ -11,6 +11,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Block Selection Mode'
 created: 1299171600
+redirect_from: /node/202
 ---
 Sometimes it's useful to be able to edit multiple lines at once in a similar way. This is possible in MonoDevelop using block selections. To make a block selection, drag the mouse between the start and end points while holding down the <strong>Alt</strong> key on Linux or Windows, or <strong>Command</strong> key on Mac. Alternatively, you can make a normal selection, then use the <em>Edit->Toggle block selection mode</em> to toggle the selection into a block selection with the same start and end points.
 

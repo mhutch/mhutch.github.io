@@ -11,6 +11,7 @@ tags:
 layout: journal
 title: A Bad Experience with DRM
 created: 1180184395
+redirect_from: /node/129
 ---
 A couple of days ago I made my first <a href="http://en.wikipedia.org/wiki/Digital_rights_management">DRM</a>-protected music purchase: the Supreme Commander soundtrack from the <a href="http://www.directsong.com">DirectSong</a> online store. I've long been a fan of Jeremy Soule's work, ever since I heard the wonderful Total Annihilation soundtrack. 
 

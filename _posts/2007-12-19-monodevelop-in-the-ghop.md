@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: MonoDevelop in the GHOP
 created: 1198045548
+redirect_from: /node/145
 ---
 So far, all five completed tasks for the <a href="http://code.google.com/p/google-highly-open-participation-mono/">Mono GHOP</a> have been MonoDevelop -related. I'm really pleased with the amount of interest we've had so far. I'd like to thank our hard-working students and mentors, and the wonderful people at <a href="http://code.google.com/opensource/">Google's Open-Source Program Office</a> who put this contest together.
 

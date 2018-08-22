@@ -10,6 +10,7 @@ tags:
 layout: journal
 title: 'Hack Week: OGRE.NET Packaging'
 created: 1220547104
+redirect_from: /node/159
 ---
 Last week was my second <a href="http://www.novell.com/prblogs/?p=495">Hack Week</a> at Novell. Massi and I had been intending to hack on a <a href="http://mjhutchinson.com/journal/2008/08/05/demoing_mono_games">demo for embedding Mono in games</a>, but realised that the overhead of bootstrapping a stable working environment would most likely frustrate our efforts to get something within the week.
 

@@ -5,6 +5,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Hidden Editor Commands'
 created: 1299517200
+redirect_from: /node/204
 ---
 The MonoDevelop text editor has many commands are not immediately obvious. Some are accessible from the <em>Edit</em> and <em>Edit->Format</em> menus, and some have default keybindings, but many can only be used if you manually <a href="http://mjhutchinson.com/journal/2011/02/06/key_bindings">add keybindings</a> for them. Some even have keybindings that are <a href="https://github.com/mono/monodevelop/blob/master/main/src/core/Mono.Texteditor/Mono.TextEditor/SimpleEditMode.cs">hardcoded into the text editor</a>, and will be available unless you override it by assigning that some keybinding to some other command.
  

@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: Creating a Mac App Bundle for a GTK# Application
 created: 1264315200
+redirect_from: /node/176
 ---
 While making the MonoDevelop and MonoDoc packages for Mac I learned a few things about adapting GTK# apps for Mac, and I'd like to share them so that anyone else who's built a GTK# app on Windows or Linux can provide a nice self-contained Mac app bundle for their Mac users. This first part will cover building an app bundle, and a later post will cover building platform-specific code paths so that your app integrates with the main menu and dock.
 

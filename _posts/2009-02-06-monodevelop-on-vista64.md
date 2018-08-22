@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: MonoDevelop on Vista64
 created: 1233966025
+redirect_from: /node/165
 ---
 Last night I got MonoDevelop working (to some extent) on Windows Vista x64 using the Linux binaries, <a href="http://twitter.com/mjhutchinson">tweeting my progress along the way</a>.
 

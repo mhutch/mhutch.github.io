@@ -19,6 +19,7 @@ tags:
 layout: journal
 title: Exams, exams
 created: 1147554730
+redirect_from: /node/92
 ---
 Well, it's exam time again. Five in total; first one on Monday, and the last is two days after I find out whether I've been accepted for the Summer of Code 2006. Not enjoying revision, and these exams &ndash; third year &ndash; are very important.
 

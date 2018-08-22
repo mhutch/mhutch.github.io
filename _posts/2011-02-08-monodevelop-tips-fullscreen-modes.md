@@ -12,6 +12,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Fullscreen Modes'
 created: 1297184455
+redirect_from: /node/184
 ---
 Sometimes it's useful to be able to focus only on your code without the distractions of the pads and the rest of your desktop. MonoDevelop has two ways to make this easier.
 

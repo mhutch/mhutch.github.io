@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Progress on ASP.NET Source Editing
 created: 1209659656
+redirect_from: /node/152
 ---
 I have been making good progress on ASP.NET source editing, as evidenced by the following screenshot:
 

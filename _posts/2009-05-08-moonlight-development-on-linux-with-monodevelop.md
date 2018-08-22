@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: Moonlight Development on Linux with MonoDevelop
 created: 1241758162
+redirect_from: /node/171
 ---
 Yesterday I made a screencast demonstrating <a href="http://mjhutchinson.com/journal/2009/05/07/moonlight_development_mac_using_monodevelop">Moonlight Development on Mac using MonoDevelop</a>. Today, I bring you the same thing on Linux:
 <div id="mdMoonVidDiv">

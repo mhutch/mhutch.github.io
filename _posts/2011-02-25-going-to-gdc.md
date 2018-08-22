@@ -9,6 +9,7 @@ tags:
 layout: journal
 title: Going to GDC
 created: 1298622885
+redirect_from: /node/198
 ---
 I'm going to be in San Francisco next week for GDC. I'll be wandering around SF on Sunday 27th Feb, going to the <a href="http://gdconf.com/conference/summits.html">summits</a> on Monday and Tuesday, then on the Mono booth in the <a href="http://gdconf.com/expo/">GDC Expo</a> Wednesday through Friday.
 

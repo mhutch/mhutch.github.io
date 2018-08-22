@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Demoing Mono in Games
 created: 1217970223
+redirect_from: /node/157
 ---
 I'm trying to plan some examples of using Mono in game development, so that we have time to get together some solid demos and samples for next year's GDC.
 

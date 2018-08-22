@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: An Apologetic Sneak Peek
 created: 1207685334
+redirect_from: /node/148
 ---
 Unfortunately, I have blogged very little in recent months. I shall follow this post with a summary of the things I've skipped blogging, but for now, I offer up the following tantalising screenshot by way of apology:
 

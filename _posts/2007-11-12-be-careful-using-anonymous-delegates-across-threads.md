@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: Be careful using anonymous delegates across threads
 created: 1194917506
+redirect_from: /node/143
 ---
 <em><strong>[UPDATE]:</strong> It has been pointed out to me that the premise of this article is wrong. The compiler specifically avoids this problem by hoisting the captured variables into an inner class of which the generated method is also an instance member, and creating a new instance of this class for each call. I'm not sure what bug I ran into that causes the behaviour I denounced, or whether it was simply sloppy handling of reference types on my part -- but I feel particularly stupid having vaguely remembered "inner classes" from reading <a href="http://blogs.msdn.com/oldnewthing/archive/2006/08/02/686456.aspx">Raymond Chen's fine explanation of this</a> over a year ago, yet not having checked it before posting this article. Nonetheless, I shall let the article remain as a reminder of the code that this wonderful feature saves you from having to write. Also, the queue/lock-based code may still be useful when one needs data passed to the GTK thread in a guaranteed order. </em>
 

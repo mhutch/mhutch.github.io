@@ -4,6 +4,7 @@ tags:
 layout: journal
 title: Easy pull requests from master with git-offload
 created: 1470254612
+redirect_from: /node/237
 ---
 When using git, I often find myself committing some work to master locally, and having to move it all to a branch from which I can make a pull request. Then I have to clean up afterwards.
 

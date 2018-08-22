@@ -10,6 +10,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Completion List Filtering'
 created: 1297044027
+redirect_from: /node/182
 ---
 MonoDevelop makes it really easy to search the code completion list. As you type, it breaks down the string you enter into word fragments on camelCase boundaries, then matches these fragments against the beginnings of the words in the completion list. The list is filtered to show only the items that match, and the matched parts are helpfully highlighted in blue:
 

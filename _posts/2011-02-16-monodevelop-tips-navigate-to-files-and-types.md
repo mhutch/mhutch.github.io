@@ -5,6 +5,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Navigate To Files and Types'
 created: 1297875620
+redirect_from: /node/190
 ---
 If you know the name of a type or file and want to go straight to it without having to dig through the solution pad and file contents, the <strong>Navigate To...</strong> command is your friend. This command can be activated with <strong>Ctrl-,</strong> on Windows or Linux, and <strong>Ctrl-.</strong>on Mac, or from the <em>Search->Navigate To..</em> menu. It opens a window that shows a list of all the files, types and members in the solution, and you can filter and search these items using the same <a href="http://mjhutchinson.com/journal/2011/02/07/completion_list_filtering">substring matching</a> that the completion list uses. When you find the one you want, hit enter and you will be taken straight to it.
 

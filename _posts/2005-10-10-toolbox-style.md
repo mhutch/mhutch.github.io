@@ -5,6 +5,7 @@ tags:
 layout: journal
 title: Toolbox Style
 created: 1128944382
+redirect_from: /node/85
 ---
 I'm cleaning up some of AspNetEdit's widgets, the Toolbox and the PropertyGrid. My original plan was to use GTK#'s TreeView for both, but while working on the toolbox I realised that it may not be the best solution for this particular item.
 

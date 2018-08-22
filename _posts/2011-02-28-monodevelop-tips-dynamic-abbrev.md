@@ -10,6 +10,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Dynamic Abbrev'
 created: 1298912400
+redirect_from: /node/199
 ---
 MonoDevelop's code completion for C# provides highly context-sensitive and accurate suggestions. However, it can't provide completion in plain text, such as comments or strings. To help with cases like this, and for languages where MD does not have a completion engine, we've implemented a feature from Emacs called "dynamic abbrev".
 

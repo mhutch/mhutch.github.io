@@ -10,6 +10,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Show Next/Previous Result'
 created: 1299085200
+redirect_from: /node/201
 ---
 One of the most useful pairs of commands in MonoDevelop is <em>Show Next Result</em> and <em>Show Previous Result</em>. These commands move through items in the most recently active navigation list. Right after building, they will cycle though the build errors and warnings; after searching, they cycle through the search results; after running unit tests, they cycle though the test failures, and so on.
 

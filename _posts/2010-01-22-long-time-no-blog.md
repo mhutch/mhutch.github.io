@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Long Time No Blog
 created: 1264215161
+redirect_from: /node/175
 ---
 It's strange to think that's it's 2010 already and I haven't blogged since June. It certainly hasn't been for lack of things to blog about &mdash; if anything, I've been too busy working on things to blog about them, so whenever I've had something to share I've usually used <a href="http://twitter.com/mjhutchinson/">Twitter</a> because much easier to fire off a quick tweet than to write a blog post. However, I'm determined to start blogging again so that I can share detailed information to which I can refer people more easily.
 

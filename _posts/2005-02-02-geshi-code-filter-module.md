@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: GeSHi Code Filter module
 created: 1107367932
+redirect_from: /node/6
 ---
 <p>I couldn't find a Drupal module to syntax highlight C# code, so I made one. I'm using the Generic Syntax Highlighter, <a href="http://qbnz.com/highlighter/">GeSHi</a>, to drive a filter loosely based on the <a href="http://drupal.org/project/codefilter">codefilter</a> module. While doing this, I discovered Nonstop Bits' <a href="http://www.nonstopbits.org/node/151">Nonstop HiLighter</a> module, which highlight many more languages, but I think GeSHi produces prettier output colours :). The next version will be supporting mixed-language files, such as PHP, CSS and JavaScript in XHTML, which <a href="http://qbnz.com/highlighter/tests/demo-new-parser-index-full.html">looks amazing</a>. It's also very configurable and can output line numbers and XHTML Strict/CSS code, and it wouldn't be hard to add options to the filter to turn these options on.</p> 
  

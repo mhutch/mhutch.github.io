@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: Going to GUADEC 2007
 created: 1184417526
+redirect_from: /node/134
 ---
 I'm going to <a href="http://guadec.org/">GUADEC</a> 2007, because
 <ul>

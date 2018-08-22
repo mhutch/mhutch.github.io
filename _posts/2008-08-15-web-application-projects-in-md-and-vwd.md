@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: Web Application Projects in MD and VWD
 created: 1218829505
+redirect_from: /node/158
 ---
 I'm very pleased that <a href="http://www.microsoft.com/express/vwd/">Visual Web Developer Express 2008</a> has now <a href="http://blogs.msdn.com/webdevtools/archive/2008/05/12/visual-studio-2008-sp1-beta.aspx">gained Web Application project support</a> in Service Pack 1. This means that MonoDevelop users will be able to share ASP.NET projects with VWD developers.
 

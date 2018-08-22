@@ -6,6 +6,7 @@ tags:
 layout: journal
 title: Vi modes in MonoDevelop
 created: 1223960115
+redirect_from: /node/160
 ---
 I've recently added simple vi modes emulation to MonoDevelop. It's been a relatively quick and easy hack, though I'm pretty sure I'm now running a deficit of free time. I'm not actually a vi user, but I've been hearing from several of our users that they miss vi navigation and commands. While most editors (for example emacs) can be simulated to some extend through a keybinding theme, it's impossible to replicate even the simplest behaviours of vi this way.
 

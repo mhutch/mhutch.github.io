@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: MonoDevelop+AspNetEdit Teaser
 created: 1154028912
+redirect_from: /node/104
 ---
 Here's a shiny screenshot of AspNetEdit embedded in MonoDevelop. The code's not really ready for use yet, but I'm making good progress. It's been complicated by the fact that I'm running AspNetEdit and its property grid in a separate process so that the ASP.NET controls are isolated from the MD process.
 

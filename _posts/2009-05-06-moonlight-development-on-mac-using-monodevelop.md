@@ -16,6 +16,7 @@ tags:
 layout: journal
 title: Moonlight Development on Mac using MonoDevelop
 created: 1241658065
+redirect_from: /node/170
 ---
 Yesterday I announced much-improved <a href="http://mjhutchinson.com/journal/2009/05/06/monodevelop_mac_preview_builds">MonoDevelop preview builds for Mac</a>, which include <a href="http://mjhutchinson.com/journal/2009/04/04/monodevelop_aspnet_mvc_mac">ASP.NET MVC support</a> out-of-the-box. However, there was a little surprise in that build that I didn't mention &mdash; <strong>full support for building and running Silverlight projects</strong> using a bundled copy of the Moonlight SDK.
 

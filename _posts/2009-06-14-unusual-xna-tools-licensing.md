@@ -7,6 +7,7 @@ tags:
 layout: journal
 title: Unusual XNA Tools Licensing
 created: 1245016755
+redirect_from: /node/172
 ---
 In the Microsoft XNA EULA, I found the following restriction:
 

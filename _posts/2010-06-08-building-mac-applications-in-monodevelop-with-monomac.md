@@ -15,6 +15,7 @@ tags:
 layout: journal
 title: Building Mac Applications in MonoDevelop with MonoMac
 created: 1276055473
+redirect_from: /node/180
 ---
 Recently <a href="http://tirania.org/blog/archive/2010/Apr-19.html">Miguel announced MonoMac</a>, a new Mono binding for Cocoa & other Objective-C libraries, based on the <a href="http://monotouch.net">MonoTouch</a> binding generator and Objective-C bridge.
 

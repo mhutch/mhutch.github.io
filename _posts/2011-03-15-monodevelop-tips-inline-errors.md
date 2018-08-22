@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Inline Errors'
 created: 1300204800
+redirect_from: /node/210
 ---
 In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode. When you build, errors and warnings are shown inline in the code as <em>message bubbles</em>, though of course they also remain available as a list in the Error List pad.
 

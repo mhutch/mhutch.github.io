@@ -5,6 +5,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Subword Navigation'
 created: 1297962035
+redirect_from: /node/191
 ---
 Most users are familiar with word navigation, for moving the caret to the next or previous word: <em>Control-Left</em>/<em>Control-Right</em> on Windows and Linux, and <em>Opt-Left</em>/<em>Opt-Right</em> on Mac. A previous post discussed the different modes for <a href="http://mjhutchinson.com/journal/2011/02/monodevelop_tips_word_breaking">word breaking</a>.
 

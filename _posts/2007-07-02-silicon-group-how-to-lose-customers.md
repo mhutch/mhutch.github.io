@@ -13,6 +13,7 @@ tags:
 layout: journal
 title: 'Silicon Group: How to Lose Customers'
 created: 1183416846
+redirect_from: /node/133
 ---
 I went to the Silicon Group computer shop on Dalry Road in Edinburgh today to buy a couple of 2GB high-speed CompactFlash cards. Their website, updated three days ago, advertised that it cost £15, which by current standards is an internet-level price. I've used them in the past, and they've always provided reasonable components at prices that are pretty low for a High Street shop. More recently I'd been tempted by the lower prices and vastly superior range offered by web retailers, but decided to save the postage and give Silicon a shot.
 

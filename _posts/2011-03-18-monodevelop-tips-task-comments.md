@@ -8,6 +8,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Task Comments'
 created: 1300464000
+redirect_from: /node/213
 ---
 A common practice when writing code is to annotate incomplete or questionable areas with comments prefixed with warnings like TODO, HACK, FIXME, and so on. MonoDevelop draws attention to these by recognizing them and highlighting them:
 

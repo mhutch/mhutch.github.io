@@ -16,6 +16,7 @@ tags:
 layout: journal
 title: T4 Templates in MonoDevelop
 created: 1272900437
+redirect_from: /node/179
 ---
 A few week ago, I travelled to GDC and MIX. While in planes, airports and in spare moments in the conference, I implemented a feature I've wanted for some time - integrated T4 templating. This takes the T4 engine that I wrote for ASP.NET MVC templates, and exposed it within the IDE as a "custom tool", like Visual Studio does.
 

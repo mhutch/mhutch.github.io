@@ -5,6 +5,7 @@ tags:
 layout: journal
 title: 'MonoDevelop Tips: Build Actions'
 created: 1299862800
+redirect_from: /node/208
 ---
 Files in a MonoDevelop (or Visual Studio) project have a <em>build action</em> which controls what happens to the file during a build. Here are some of the common build actions for C# projects:
 <!--break-->
