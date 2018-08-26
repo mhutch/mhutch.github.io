@@ -1,3 +1,5 @@
+The following license applies to the theme files only.
+
 # Released under MIT License
 
 Copyright (c) 2013 Mark Otto.
