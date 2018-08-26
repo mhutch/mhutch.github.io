@@ -11,22 +11,44 @@ author:
 
 permalink: journal/:year/:month/:day/:title
 
-paginate:         10
-paginate_path:    '/journal:num'
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  sort_field: 'date'
+  sort_reverse: true
 
 sidebar_home_link:  true
 sidebar_blog_link:  '/journal'
+
+# Archives
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - tags
+  permalinks:
+    year: '/journal/:year/'
+    month: '/journal/:year/:month/'
+    tag: '/journal/tags/:name/'
+  layouts:
+    year: archive-year
+    month: archive-month
+    tag: archive-tags
 
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
 
 plugins:
+  - jekyll-paginate-v2
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
-
-whitelist:
-  - jekyll-redirect-from
+  - jekyll-archives

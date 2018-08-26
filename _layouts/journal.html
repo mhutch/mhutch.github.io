@@ -15,4 +15,9 @@ layout: default
 
   {% include comments.html %}
   {% include related_posts.html %}
+
+  <ul class="breadcrumb">
+      <li><a href="/journal/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a></li>
+      <li><a href="/journal/{{ page.date | date: '%Y/%m' }}/">{{ page.date | date: "%m" }}</a></li>
+    </ul>
 </div>
