@@ -1,9 +1,5 @@
 ---
-tags:
-- photography
-- monodevelop
-- preview
-- moonlight
+tags: [ photography, monodevelop, preview, moonlight ]
 layout: journal
 title: Moonlight Development on Linux with MonoDevelop
 created: 1241758162
