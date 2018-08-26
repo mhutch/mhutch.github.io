@@ -6,7 +6,7 @@ title: MonoDevelop.AddinMaker 1.2
 created: 1426140484
 redirect_from: /node/231
 ---
-I've finally released <a href="https://mhut.ch/addinmaker/1.2">MonoDevelop.AddinMaker 1.2</a>, making it easier than ever before to customize and add features to Xamarin Studio and MonoDevelop. This release has been stalled for a while due to factors beyond my control, and I'm very happy to be able to make it available at last. Thanks to <a href="https://twitter.com/slluis">Lluis</a> for getting rid of the roadblocks!
+I've finally released [MonoDevelop.AddinMaker](https://mhut.ch/addinmaker/1.2), making it easier than ever before to customize and add features to Xamarin Studio and MonoDevelop. This release has been stalled for a while due to factors beyond my control, and I'm very happy to be able to make it available at last. Thanks to [Lluis](https://twitter.com/slluis) for getting rid of the roadblocks!
 
 This release improves the basic user experience by introducing the concept of "Addin References". Instead of referencing an addin's assemblies and explicitly adding a dependency on that addin, you can add an addin reference, which will automatically take care of both of these things for you.
 

@@ -4,6 +4,7 @@ layout: page
 title: Coming Out Q&A
 created: 1457494551
 permalink: /coming-out
+redirect-from: /node/234
 ---
 I realize this is a complex topic, and people may have questions or be unsure how to treat me, so I’ve tried to explain things in an interview-like format that may answer some of the questions people have. I’m generally a pretty private person, so there are many things I’m not comfortable sharing in a public context like this, but please contact me directly if you have additional questions about the way I’ve explained things.
 

@@ -1,12 +1,14 @@
 ---
 excerpt: "A selection of the Python and C++ code can be browsed in the <a href=\"http://code.mjhutchinson.com/L4ProjectPython/file/tip\">source
-  repository</a>.\r\n\r\nI have also written detailed walkthroughs for <a href=\"http://mjhutchinson.com/journal/2006-11-05/install_iraf_on_ubuntu_edgy_amd64\">installing
+  repository</a>. I have also written detailed walkthroughs for <a href=\"http://mjhutchinson.com/journal/2006-11-05/install_iraf_on_ubuntu_edgy_amd64\">installing
   IRAF on Ubuntu</a> and <a href=\"http://mjhutchinson.com/journal/2006-11-14/adding_pyraf_to_iraf_on_ubuntu_edgy\">installing
-  PyRAF and STSDAS/TABLES on Ubuntu</a>.\r\n\r\n<h3>An Overview of the Code</h3>\r"
+  PyRAF and STSDAS/TABLES on Ubuntu</a>. <h3>An Overview of the Code</h3>\r"
 tags: []
 layout: page
 title: Physics MSci Thesis Supporting Code
 created: 1177489399
+permalink: /projects/DurhamLevel4Thesis
+redirect-from: /node/124
 ---
 A selection of the Python and C++ code can be browsed in the <a href="http://code.mjhutchinson.com/L4ProjectPython/file/tip">source repository</a>.
 
