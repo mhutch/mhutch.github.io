@@ -3,7 +3,9 @@ tags: [ mono, c#, javascript, aspnetedit, gecko ]
 layout: journal
 title: Gecko# interaction
 created: 1120689861
-redirect_from: /node/80
+redirect_from:
+- /node/80
+- /journal/2005/07/06/gecko_interaction
 ---
 Implementing the ASP.NET GUI designer with [Mozilla's](http://www.mozilla.org)
 Gecko web rendering engine is an obvious decision: it's open-source, has strong

@@ -3,7 +3,9 @@ tags: [ mono, aspnetedit, gecko ]
 layout: journal
 title: Mozilla editor comes out of hiding
 created: 1125092474
-redirect_from: /node/84
+redirect_from:
+- /node/84
+- /journal/2005/08/26/mozilla_editor_comes_out_of_hiding
 ---
 Okay, I admit it, so far I've been "cheating", rendering the page to a temp file
 every time something changes. No longer! I present to you the all-singing,
@@ -12,8 +14,7 @@ text straight into the page, resize controls, and drag-n-drop! This is the first
 you'll have seen of my co-conspirator [Blago](http://www.dachev.com/blog)'s
 work, but trust me, it's been worth the wait.<!--break-->
 
-<a href="/files/images/MonoScreenshots/AspNetEdit3.png"><img
-src="/files/images/MonoScreenshots/AspNetEdit3-t.png"/></a>
+![Screenshot of the AspNetEdit designer](/files/images/MonoScreenshots/AspNetEdit3.png)
 
 In other news, saving and loading are temporarily broken. We also haven't
 exposed many of the Mozilla editor's features, the main ones being

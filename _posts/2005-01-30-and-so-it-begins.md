@@ -4,8 +4,8 @@ layout: journal
 title: And so it begins...
 created: 1107128973
 redirect_from:
-- /journal/2005/01/30/and_so_it_begins
 - /node/2
+- /journal/2005/01/30/and_so_it_begins
 ---
 I've been wondering for literally months how to set up this site. I almost went
 with a custom coded solution but [Drupal](https://drupal.org)'s logging and

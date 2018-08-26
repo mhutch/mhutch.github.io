@@ -3,25 +3,44 @@ tags: [ university, iraf, ubuntu, edgy, amd64 ]
 layout: journal
 title: Installing IRAF on Ubuntu Edgy amd64
 created: 1162729217
-redirect_from: /node/109
+redirect_from:
+- /node/109
+- /journal/2006/11/05/install_iraf_on_ubuntu_edgy_amd64
 ---
-A major part of my final year project depends on using [IRAF](http://iraf.net), the Image Reduction and Analysis Facility from [NOAO](http://www.noao.edu). Although it's installed on the university's UNIX Service, the servers it's on are not particularly fast and have quite a few users, so the interactive bits like DS9 are barely usable over SSH X11 forwarding. Anyway, I thought I'd install it on my own machine to make things easier.<!--break-->
+A major part of my final year project depends on using [IRAF](http://iraf.net),
+the Image Reduction and Analysis Facility from [NOAO](http://www.noao.edu).
+Although it's installed on the university's UNIX Service, the servers it's on
+are not particularly fast and have quite a few users, so the interactive bits
+like DS9 are barely usable over SSH X11 forwarding. Anyway, I thought I'd
+install it on my own machine to make things easier.<!--break-->
 
-I'm using Ubuntu Edgy (6.10) AMD64, but IRAF is not 64-bit safe, so I can't compile it. Also it has no recent Debian/Ubuntu packages, partially due to licence issues as far as I can tell, and the most recent ones I tried didn't work when I installed them. I've therefore decided to document the process of installing the latest IRAF.NET Red Hat binaries on Edgy. It should work fine on i386 and AMD64.
+I'm using Ubuntu Edgy (6.10) AMD64, but IRAF is not 64-bit safe, so I can't
+compile it. Also it has no recent Debian/Ubuntu packages, partially due to
+licence issues as far as I can tell, and the most recent ones I tried didn't
+work when I installed them. I've therefore decided to document the process of
+installing the latest IRAF.NET Red Hat binaries on Edgy. It should work fine on
+i386 and AMD64.
 <!-- break -->
 
 ## History of this Document
 
-The basic procedure is mainly based on [https://docs.astro.columbia.edu/wiki/IRAF](https://docs.astro.columbia.edu/wiki/IRAF), with some help from [http://iraf.net/phpBB2/viewtopic.php?p=135221](http://iraf.net/phpBB2/viewtopic.php?p=135221), and lots of experimentation.
+The basic procedure is mainly based on
+[https://docs.astro.columbia.edu/wiki/IRAF](https://docs.astro.columbia.edu/wiki/IRAF),
+with some help from
+[http://iraf.net/phpBB2/viewtopic.php?p=135221](http://iraf.net/phpBB2/viewtopic.php?p=135221),
+and lots of experimentation.
 
 14 Nov 06
 : Added X11IRAF installation instructions and updated launch script.
 
 19 Nov 06
-: Changed installation directory from /usr/local/iraf to /iraf, removed need for a chroot on amd64, changed architecture to name "linux" though still using "redhat" binaries, tidied up commands.
+: Changed installation directory from /usr/local/iraf to /iraf, removed need
+  for a chroot on amd64, changed architecture to name "linux" though still using
+  "redhat" binaries, tidied up commands.
 
 20 Nov 06
-: Added additional 32-bit dependencies, fixed typo in an untar command, and corrected launch script. Thanks to Mihály Váradi for this.
+: Added additional 32-bit dependencies, fixed typo in an untar command, and
+  corrected launch script. Thanks to Mihály Váradi for this.
 
 26 Dec 06
 : Fixed typo in launch script.
@@ -43,7 +62,10 @@ First you'll need the tcsh or csh shell:
 sudo apt-get install tcsh
 ```
 
-Next you'll need to install the 32-bit termcap-compat, because the enhanced CL needs it. It's not in the Edgy repositories, so you'll need to download it and its dependencies from the Breezy repos.
+Next you'll need to install the 32-bit termcap-compat, because the enhanced CL
+needs it. It's not in the Edgy repositories, so you'll need to download it and
+its dependencies from the Breezy repos.
+
 Install them with
 
 ```bash
@@ -53,40 +75,65 @@ sudo dpkg -i libc5_5.4.46-15_i386.deb
 sudo dpkg -i termcap-compat_1.2.3_i386.deb
 ```
 
-If you're on amd64, you'll need to add the "--force-architecture" switch after each "dpkg". You'll also need to install the 32-bit compatibility libraries:
+If you're on amd64, you'll need to add the "--force-architecture" switch after
+each "dpkg". You'll also need to install the 32-bit compatibility libraries:
 
 ```bash
 sudo apt-get install ia32-libs ia32-libs-gtk linux32
 ```
 
-_NOTE: a reader has informed me that the xlibs-dev package is no longer available on Hardy, and so users will needed to install xlibs-static-dev instead. Presumably 64-bit users not using a chroot will have to force-install the i386 version._
+_NOTE: a reader has informed me that the xlibs-dev package is no longer
+available on Hardy, and so users will needed to install xlibs-static-dev
+instead. Presumably 64-bit users not using a chroot will have to force-install
+the i386 version._
 
 ## Notes for a 32-bit chroot on amd64
 
-If you are using the amd64 version of Edgy, this guide will work fine as-is if you heed the occasional amd64-specific notes. However, if you ever want to _build_ code that links against 32-bit libraries, or is not 64-bit safe, you will need to install a 32-bit chroot and install IRAF inside that. To set up a chroot, start with [this](http://ubuntuforums.org/showthread.php?t=24575) but add the extra fstab entries from [here](http://process-of-elimination.net/wiki/Ubuntu_32bit_CHROOT_for_AMD64). You will need to install a lot of other libraries into the chroot, including xlibs, but I don't recall the exact list right now. You can switch into the chroot with "dchroot -d".
+If you are using the amd64 version of Edgy, this guide will work fine as-is if
+you heed the occasional amd64-specific notes. However, if you ever want to
+_build_ code that links against 32-bit libraries, or is not 64-bit safe, you
+will need to install a 32-bit chroot and install IRAF inside that. To set up a
+chroot, start with [this](http://ubuntuforums.org/showthread.php?t=24575) but
+add the extra fstab entries from
+[here](http://process-of-elimination.net/wiki/Ubuntu_32bit_CHROOT_for_AMD64).
+You will need to install a lot of other libraries into the chroot, including
+xlibs, but I don't recall the exact list right now. You can switch into the
+chroot with "dchroot -d".
 
-It's possible to install the same binaries both in the chroot and outside it, by mounting "/iraf" into the same point in the chroot, with a /etc/fstab entry similar to
+It's possible to install the same binaries both in the chroot and outside it, by
+mounting "/iraf" into the same point in the chroot, with a /etc/fstab entry
+similar to
 
 ```bash
 /iraf    /chroot/iraf    none bind 0 0
 ```
 
-You will need to run all the install tasks in the chroot as well. To compile C code, you'll need to use GCC-3.4 as your C compiler, not the default GCC-4.1. Once the binaries are built in the chroot, they should hopefully work directly from amd64.
+You will need to run all the install tasks in the chroot as well. To compile C
+code, you'll need to use GCC-3.4 as your C compiler, not the default GCC-4.1.
+Once the binaries are built in the chroot, they should hopefully work directly
+from amd64.
 
-As using a chroot is not necessary in most cases, I will not document it further.
+As using a chroot is not necessary in most cases, I will not document it
+further.
 
 ## Create the IRAF user
 
-Use _System>Administration>Users and Groups_ to create an account with username "iraf", real name "IRAF Maintenance", home directory "/iraf/iraf/local", shell "/bin/tcsh", and a secure password. Give it administration privileges for the duration of the installation, so that you can use "sudo" from the IRAF account, but don't forget to remove them later.
+Use _System>Administration>Users and Groups_ to create an account with username
+"iraf", real name "IRAF Maintenance", home directory "/iraf/iraf/local", shell
+"/bin/tcsh", and a secure password. Give it administration privileges for the
+duration of the installation, so that you can use "sudo" from the IRAF account,
+but don't forget to remove them later.
 
-Open a new terminal, create the base IRAF directory and assign ownership to the IRAF maintenance user:
+Open a new terminal, create the base IRAF directory and assign ownership to the
+IRAF maintenance user:
 
 ```bash
 sudo mkdir /iraf
 sudo chown -R iraf:iraf /iraf
 ```
 
-Everything else should now be done from the IRAF maintenance user account, unless specified otherwise. You can do this by switching user from a terminal
+Everything else should now be done from the IRAF maintenance user account,
+unless specified otherwise. You can do this by switching user from a terminal
 
 ```bash
 su iraf
@@ -110,7 +157,9 @@ mkdir /iraf/extern
 
 ## Download and extract the packages
 
-We'll be using the latest 2.13b2 packages, because they come with the enhanced command line, ecl. I've combined downloading and extracting them into a single script.
+We'll be using the latest 2.13b2 packages, because they come with the enhanced
+command line, ecl. I've combined downloading and extracting them into a single
+script.
 
 ```bash
 #download and extract the source
@@ -152,7 +201,10 @@ Test the install script
 ./install -n
 ```
 
-Walk through the installer and check that everything works. The defaults should be fine except that you'll probably want to disable the tape drive and networking.
+Walk through the installer and check that everything works. The defaults should
+be fine except that you'll probably want to disable the tape drive and
+networking.
+
 Now run it as root for the real install
 
 ```bash
@@ -161,9 +213,13 @@ sudo ./install
 
 ## Install X11IRAF
 
-XGTerm is essential for using IRAF's graphical plotting features. It comes as part of the X11IRAF package, whih also includes other useful things like images servers and ximtool (though ximtool won't work on Edgy due to a binary incompatibility).
+XGTerm is essential for using IRAF's graphical plotting features. It comes as
+part of the X11IRAF package, whih also includes other useful things like images
+servers and ximtool (though ximtool won't work on Edgy due to a binary
+incompatibility).
 
-First you'll need to install the right version of the ncurses library. This varies depending whether you're on i386 or amd64:
+First you'll need to install the right version of the ncurses library. This
+varies depending whether you're on i386 or amd64:
 
 ```bash
 #on 32-bit it's easy
@@ -195,7 +251,11 @@ Follow through the install script, accepting all the default options except for 
 
 ## Install DS9
 
-DS9 is important for viewing and manipulating images, but the version that comes with Ubuntu Edgy segfaults when communicating with IRAF. Install the latest Linux version from [http://hea-www.harvard.edu/RD/ds9](http://hea-www.harvard.edu/RD/ds9/) by copying it to `/usr/local/bin`.
+DS9 is important for viewing and manipulating images, but the version that comes
+with Ubuntu Edgy segfaults when communicating with IRAF. Install the latest
+Linux version from
+[http://hea-www.harvard.edu/RD/ds9](http://hea-www.harvard.edu/RD/ds9/) by
+copying it to `/usr/local/bin`.
 
 ```bash
 #EITHER for amd64
@@ -214,7 +274,8 @@ sudo mv ds9 /usr/local/bin/
 
 ## Log into IRAF
 
-Any user on the machine can now use IRAF. Before using IRAF for the first time, you must run mkiraf in your personal iraf directory:
+Any user on the machine can now use IRAF. Before using IRAF for the first time,
+you must run mkiraf in your personal iraf directory:
 
 ```bash
 mkdir ~/iraf
@@ -247,4 +308,5 @@ xgterm -iconic -geometry 80x24 -sb -title "IRAF" -bg "lemon chiffon" -fg "black"
 popd > /dev/null
 ```
 
-The command `irafshell` will then launch a complete IRAF session containing DS9, xgterm and ecl, based in `~/iraf`.
+The command `irafshell` will then launch a complete IRAF session containing DS9,
+xgterm and ecl, based in `~/iraf`.

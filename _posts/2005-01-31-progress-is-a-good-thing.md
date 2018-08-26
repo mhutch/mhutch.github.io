@@ -3,7 +3,9 @@ tags: [ site news, drupal, css, spam, postgresql ]
 layout: journal
 title: Progress is a good thing
 created: 1107211772
-redirect_from: /node/5
+redirect_from:
+- /node/5
+- /journal/2005/01/31/progress_good_thing
 ---
 I wasn't quite as far as I thought I was.
 

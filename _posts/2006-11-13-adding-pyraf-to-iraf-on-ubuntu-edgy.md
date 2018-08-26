@@ -3,16 +3,32 @@ tags: [ university, iraf, edgy, pyraf, python, stsdas, tables, stsci_python ]
 layout: journal
 title: Adding PyRAF to IRAF on Ubuntu Edgy
 created: 1163464282
-redirect_from: /node/110
+redirect_from:
+- /node/110
+- /journal/2006/11/14/adding_pyraf_to_iraf_on_ubuntu_edgy
 ---
-Following up on my earlier post on [installing IRAF on Ubuntu Edgy](/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64), here's a walkthrough for installing [PyRAF](http://www.stsci.edu/resources/software_hardware/pyraf), a Python shell for IRAF. As part of this we'll have to install STSDAS and TABLES, two popular IRAF packages from [STSCI](http://www.stsci.edu/resources/software_hardware). <!--break-->
+Following up on my earlier post on [installing IRAF on Ubuntu
+Edgy](/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64), here's a
+walkthrough for installing
+[PyRAF](http://www.stsci.edu/resources/software_hardware/pyraf), a Python shell
+for IRAF. As part of this we'll have to install STSDAS and TABLES, two popular
+IRAF packages from [STSCI](http://www.stsci.edu/resources/software_hardware).
+<!--break-->
 
 ## History of this Document
 
-This is largely based on the [STSDAS installation instructions](http://www.stsci.edu/resources/software_hardware/stsdas/install) and the [stsci_python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python/Installation) installation instructions, adapted and shortened for a simple binary installation on Ubuntu Edgy.
+This is largely based on the [STSDAS installation
+instructions](http://www.stsci.edu/resources/software_hardware/stsdas/install)
+and the
+[stsci_python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python/Installation)
+installation instructions, adapted and shortened for a simple binary
+installation on Ubuntu Edgy.
 
 19 Nov 06
-: Changed installation directory from `/usr/local/iraf` to `/iraf`, removed need for a chroot on amd64, changed architecture to name `linux` though still using `redhat` binaries, tidied up commands, updated to STSDAS/TABLES 3.6 and stsci_python 2.4.
+: Changed installation directory from `/usr/local/iraf` to `/iraf`, removed
+  need for a chroot on amd64, changed architecture to name `linux` though
+  still using `redhat` binaries, tidied up commands, updated to STSDAS/TABLES
+  3.6 and stsci_python 2.4.
 
 20 Nov 06
 : Added warning about following previous guide, fixed launch script.
@@ -31,11 +47,20 @@ This is largely based on the [STSDAS installation instructions](http://www.stsci
 
 ## Preliminary steps
 
-Throughout this guide I will be working on the assumption that you have followed my previous walkthrough for installing [IRAF on Ubuntu Edgy](/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64). If this is not the case you may have to correct some of the install locations.
+Throughout this guide I will be working on the assumption that you have followed
+my previous walkthrough for installing [IRAF on Ubuntu
+Edgy](/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64). If this is not the
+case you may have to correct some of the install locations.
 
-The installations should be done logged in as the IRAF maintenance user, "iraf". This can be done using the command "su iraf" from another user's terminal. If you're working in a chroot, this all must take place within the chroot using "dchroot -d" or similar. Also, the iraf user must have admin privileges for the duration of the installation so that the "sudo" command can be used.
+The installations should be done logged in as the IRAF maintenance user, "iraf".
+This can be done using the command "su iraf" from another user's terminal. If
+you're working in a chroot, this all must take place within the chroot using
+"dchroot -d" or similar. Also, the iraf user must have admin privileges for the
+duration of the installation so that the "sudo" command can be used.
 
-First create the folders in the IRAF extern directory. These folders should already be defined as the location of TABLES and STSDAS in the file "$hlib/extern.pkg.NOAO"; if not, add them.
+First create the folders in the IRAF extern directory. These folders should
+already be defined as the location of TABLES and STSDAS in the file
+"$hlib/extern.pkg.NOAO"; if not, add them.
 
 ```bash
 cd /iraf/extern/
@@ -86,7 +111,8 @@ python python/compileall.py ./python/*
 
 ## Installing stsci_python and PyRAF
 
-[PyRAF](http://www.stsci.edu/resources/software_hardware/pyraf) comes as part of [stsci_python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python/current/download).
+[PyRAF](http://www.stsci.edu/resources/software_hardware/pyraf) comes as part of
+[stsci_python](http://www.stsci.edu/resources/software_hardware/pyraf/stsci_python/current/download).
 
 First make sure that you have all of the prerequisites.
 
@@ -125,7 +151,8 @@ cd libf2c_stsci/
 make -f makefile.linux64
 ```
 
-Though numarray is available from the Edgy repositories, we need to install a newer version. Be aware that this will overwrite the existing version.
+Though numarray is available from the Edgy repositories, we need to install a
+newer version. Be aware that this will overwrite the existing version.
 
 ```bash
 #install numarray
@@ -133,7 +160,8 @@ cd /iraf/stsci_python-2.4/numarray-1.5.2
 sudo python setup.py config install --gencode
 ```
 
-The setup script must then be run, pointed at the correct libf2c. This varies depending whether we built in (on amd64) or downloaded it (on i386).
+The setup script must then be run, pointed at the correct libf2c. This varies
+depending whether we built in (on amd64) or downloaded it (on i386).
 
 ```bash
 cd /iraf/stsci_python-2.4
@@ -143,9 +171,13 @@ sudo python setup.py install --with-f2c=/iraf/stsci_python-2.4/libf2c_stsci/
 sudo python setup.py install --with-f2c=/usr
 ```
 
-I couldn't find an uninstaller, so I'm not happy that everything is being installed to /usr instead of /usr/local, but I still haven't worked out the options needed to do it correctly.
+I couldn't find an uninstaller, so I'm not happy that everything is being
+installed to /usr instead of /usr/local, but I still haven't worked out the
+options needed to do it correctly.
 
-We'll now create a convenience script to launch pyraf in an xgterm with ds9, in the ~/iraf folder. Create a new file "/usr/local/bin/pyrafshell" containing the following code, and make it world-executable.
+We'll now create a convenience script to launch pyraf in an xgterm with ds9, in
+the ~/iraf folder. Create a new file "/usr/local/bin/pyrafshell" containing the
+following code, and make it world-executable.
 
 ```bash
 #!/bin/bash
@@ -158,9 +190,13 @@ xgterm -iconic -geometry 80x24 -sb -title "IRAF" -bg "lemon chiffon" -fg "black"
 popd > /dev/null;
 ```
 
-If you're in a chroot, you can run this from the host system with the command 'dchroot -d "pyrafshell"'.
+If you're in a chroot, you can run this from the host system with the command
+'dchroot -d "pyrafshell"'.
 
-Optionally you may create a variant of this script that uses the more advanced interactive python shell, ipython. This gives you tab completion on python objects and lots of other useful features, and is due to become the default for pyraf at some point.
+Optionally you may create a variant of this script that uses the more advanced
+interactive python shell, ipython. This gives you tab completion on python
+objects and lots of other useful features, and is due to become the default for
+pyraf at some point.
 
 ```bash
 #install ipython
@@ -170,8 +206,16 @@ sudo cp /usr/local/bin/pyrafshell /usr/local/bin/ipyrafshell
 sudo chmod +x /usr/local/bin/ipyrafshell
 ```
 
-Edit the new file, "/usr/local/bin/ipyrafshell", and change "-e pyraf" to "-e pyraf --ipython". If you have not yet run ipython, run it before running ipyrafshell so that it can create you a profile.
+Edit the new file, "/usr/local/bin/ipyrafshell", and change "-e pyraf" to "-e
+pyraf --ipython". If you have not yet run ipython, run it before running
+ipyrafshell so that it can create you a profile.
 
-That's it! Log out of the "iraf" account and don't forget to remove its admin privileges.
+That's it! Log out of the "iraf" account and don't forget to remove its admin
+privileges.
 
-You can now run PyRAF with the command "pyraf", STSDAS and TABLES will be usable from within IRAF and PyRAF, and the command "pyrafshell" will launch a complete PyRAF session. You may find the [PyRAF Programmer's Guide](http://stsdas.stsci.edu/pyraf/doc/pyraf_guide) useful, and there's a [SciPy tutorial](http://www.scipy.org/wikis/topical_software/Tutorial) that also makes use of PyRAF and PyFITS.
+You can now run PyRAF with the command "pyraf", STSDAS and TABLES will be usable
+from within IRAF and PyRAF, and the command "pyrafshell" will launch a complete
+PyRAF session. You may find the [PyRAF Programmer's
+Guide](http://stsdas.stsci.edu/pyraf/doc/pyraf_guide) useful, and there's a
+[SciPy tutorial](http://www.scipy.org/wikis/topical_software/Tutorial) that also
+makes use of PyRAF and PyFITS.

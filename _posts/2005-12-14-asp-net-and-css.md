@@ -3,7 +3,9 @@ tags: [ mono, web standards, css, aspnetedit ]
 layout: journal
 title: ASP.NET and CSS
 created: 1134572138
-redirect_from: /node/86
+redirect_from:
+- /node/86
+- /journal/2005/12/14/asp_net_and_css
 ---
 I've been thinking about how the ASP.NET Visual Designer should work with CSS
 and good semantic markup, and I've been thinking a lot about the role of both of
