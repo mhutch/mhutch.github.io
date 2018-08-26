@@ -1,9 +1,5 @@
 ---
-tags:
-- mono
-- aspnetedit
-- monodevelop
-- asp.net
+tags: [ mono, aspnetedit, monodevelop, asp.net ]
 layout: journal
 title: MonoDevelop+AspNetEdit Teaser
 created: 1154028912

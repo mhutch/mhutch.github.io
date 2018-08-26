@@ -1,14 +1,11 @@
 ---
-tags:
-- personal
-- rpgs
-- online memes
+tags: [ personal, rpgs, online memes ]
 layout: journal
 title: Spellsword adventurers
 created: 1167497050
 redirect_from: /node/112
 ---
-According to the <a href='http://www.okcupid.com/tests/take?testid=1532690756472625027'>RPG Class Test</a>, I'm a spellsword. Unsurprisingly, this is the character type that I always like to play. However, this isn't because I'm playing _me_, but because I consider it to the the most sensible mixture of skills for a good self-sufficient adventurer.<!--break-->
+According to the [RPG Class Test](http://www.okcupid.com/tests/take?testid=1532690756472625027), I'm a spellsword. Unsurprisingly, this is the character type that I always like to play. However, this isn't because I'm playing _me_, but because I consider it to the the most sensible mixture of skills for a good self-sufficient adventurer.<!--break-->
 
 RPGs usually involve killing lots of things, and you'd have to be an idiot not to have close combat skills in case an enemy gets too close, so a warrior class is a good basis. Going for a character with some intelligence, they'd probably pick a sword or dagger as the most refined of the melee weapons. Given the opportunity, it would be a good idea to pick up a few utility spells to give light, open boxes, teleport back to towns and so on. Given these basic parameters, you're going to end up with a spellsword. That said, a rogue or ranger would also make a good stealth adventurer.
 

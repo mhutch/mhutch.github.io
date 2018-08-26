@@ -9,7 +9,7 @@ redirect_from: /node/181
 ---
 Key bindings are an important part of an IDE, as they make it possible to work efficiently using the keyboard. A key binding is a combination of keys that, when pressed simultaneously, activates an IDE command directly. This post explains the key binding system in MonoDevelop, how to find out what key bindings are available, and how to customize the bindings to suit your needs.<!--break-->
 
-### The Key Bindings Panel
+## The Key Bindings Panel
 
 To find what the key binding for a particular command is, you can look at the menu item for that command, or hover over the toolbar button. However, not all commands are exposed via menus and buttons. For a complete list, go to the <strong>Preferences</strong> dialog (_MonoDevelop->Preferences_ on Mac, _Tools->Options_ on Windows, _Edit->Preferences_ on Linux), then the _General->Key Bindings_ panel. This allows you to find existing key bindings, or modify the keybindings to your liking.
 
@@ -36,13 +36,13 @@ The binding editor shows the currently selecting binding in the list. To edit th
 </dd>
 </dl>
 
-### Key Combinations and Chords
+## Key Combinations and Chords
 
 A key combination is a unique combination of a key and the keyboard modifiers that are active when the key is pressed - any combination of control, shift, alt/opt, super/windows/command. A key combination can be "bound" to a command, and this means that when the combination is pressed, then the command will be run. Keys without modifiers are valid "combinations" for binding too, which is useful for the function keys (F12 etc), arrow keys, the Page Up key, and so on. However it's a bad idea to bind keys that produce text/character input, since key bindings have top priority and therefore will prevent you from entering those characters.
 
 It's not currently possible to bind more than one combination to each command, or more than one command to each unique combination. However, if you start to run out of key combinations, you can use chords. A keybinding chord is composed of two key combinations in succession. The first one, called a "mode" in emacs, can be shared by several chords, but this means it cannot be bound by itself, because that would conflict with the chords. For example, if I bound the command that shows the debugger locals pad to the "Ctrl-D Ctrl-L" chord, then I could not bind "Ctrl-D" by itself, but I could bind "Ctrl-L".  I could create other keybindings using the same mode, such as "Ctrl-D Ctrl-S" for the debugger stack pad.
 
-### The Default Key Bindings
+## The Default Key Bindings
 
 When we design the default key bindings for MonoDevelop, there are several important things we take into consideration.
 

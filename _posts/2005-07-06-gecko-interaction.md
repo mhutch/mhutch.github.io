@@ -1,10 +1,5 @@
 ---
-tags:
-- mono
-- c#
-- javascript
-- aspnetedit
-- gecko
+tags: [ mono, c#, javascript, aspnetedit, gecko ]
 layout: journal
 title: Gecko# interaction
 created: 1120689861
@@ -30,23 +25,17 @@ and vice versa. There are two obvious ways to approach this:
 
 So, assuming I choose the second for speed and ease of development, how do I go about implementing it? This time, I have four choices:
 
-<ol>
-<li>_Abusing Gecko#_
-Relatively harmlessly, we can raise C# events by changing the JavaScript status message. 
-A more serious abuse is to stream the document into Gecko#, then stream in additional elements containing our messages. JavaScript can catch these with the DOMNodeInserted event and act accordingly. Or so I thought. While Gecko will render an open HTML stream, it's not so forgiving in the case of XUL. Oh dear.
-</li>
-<li>
-_Mono-XPCOM bridge_
-Yes, there is one, and it would be the most elegant solution... unfortunately it's not nearly complete enough to begin using for a project like this just now, and I'm not familiar enough with XPCOM to fix it up myself. I can see switching to this when it becomes stable enough.
-</li>
-<li>
-_Web server_
-This would cause the editor to effectively become an "AJAX" application. Ouch. A horrible hack, and a horribly-named technology. On the upside, this would be relatively quick and easy. 
-</li>
-<li>_C++ wrapper and P/Invoke_
-Similar to the Gecko# abuse, but strangely, more elegant, despite the additional dependecies and build steps this method entails. The handle from Gecko# can be passed to a C/C++ wrapper via Platform Invoke. The wrapper function then uses GtkMozEmbed's "gtk_moz_embed_get_nsIWebBrowser" function to access Gecko's internals, does interesting thisgs to it with XPCOM, and optionally even returns values.
-</li>
-</ol>
+Abusing Gecko#
+: Relatively harmlessly, we can raise C# events by changing the JavaScript status message. A more serious abuse is to stream the document into Gecko#, then stream in additional elements containing our messages. JavaScript can catch these with the DOMNodeInserted event and act accordingly. Or so I thought. While Gecko will render an open HTML stream, it's not so forgiving in the case of XUL. Oh dear.
+
+Mono-XPCOM bridge
+: Yes, there is one, and it would be the most elegant solution... unfortunately it's not nearly complete enough to begin using for a project like this just now, and I'm not familiar enough with XPCOM to fix it up myself. I can see switching to this when it becomes stable enough.
+
+Web server
+: This would cause the editor to effectively become an "AJAX" application. Ouch. A horrible hack, and a horribly-named technology. On the upside, this would be relatively quick and easy.
+
+C++ wrapper and P/Invoke
+: Similar to the Gecko# abuse, but strangely, more elegant, despite the additional dependecies and build steps this method entails. The handle from Gecko# can be passed to a C/C++ wrapper via Platform Invoke. The wrapper function then uses GtkMozEmbed's "gtk_moz_embed_get_nsIWebBrowser" function to access Gecko's internals, does interesting thisgs to it with XPCOM, and optionally even returns values.
 
 Well, I initially tried the fourth method, until I realised how much easier the first would be, and cursed XPCOM and the days it had taken from my life.
 

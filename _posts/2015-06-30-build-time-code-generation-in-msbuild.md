@@ -1,6 +1,5 @@
 ---
-tags:
-- mono
+tags: [ mono ]
 layout: journal
 title: Build Time Code Generation in MSBuild
 created: 1435720721
@@ -12,7 +11,7 @@ This is something I'm familiar with due to my past work on MonoDevelop's tooling
 
 This isn't just something for custom project types, it's also something that you can include in NuGets, since they can include MSBuild logic.
 
-### Background
+## Background
 
 The basic idea is to generate C# code from other files in the project, and include it in the build. This can be to generate helpers, for example CodeBehind for views (ASPX, XAML), or to process simple DSLs (T4), or any other purpose you can imagine.
 
@@ -24,7 +23,7 @@ An IDE plugin can do this fairly easily - see for example the _Generator_ mechan
 
 This article describes how to implement the same model used by WPF/Silverlight/Xamarin.Forms XAML.
 
-### Generating the Code
+## Generating the Code
 
 First, you need a build target that updates the generated files, emits them into the intermediate output directory, and injects them to the `Compile` `ItemGroup`. For the purposes of this article I'll call it `UpdateGeneratedFiles` and assume that it's processing `ResourceFile` items and emitting a file called `GeneratedCode.g.cs`. In a real implementation, you should use unique names won't conflict with other targets, items and files.
 
@@ -65,7 +64,7 @@ The `_UpdateGeneratedFiles` target simply runs a tasks that generates the output
 
 Note that the generated file has the suffix `.g.cs`. This is the convention for built-time generated files. The `.designer.cs` suffix is used for user-visible files generated at design-time by the designer.
 
-### Hooking into the Build
+## Hooking into the Build
 
 The `UpdateGeneratedFiles` target is added to the dependencies of the `CoreCompile` target by prepending it to the `CoreCompileDependsOn` property.
 
@@ -77,7 +76,7 @@ The `UpdateGeneratedFiles` target is added to the dependencies of the `CoreCompi
 
 This means that whenever the the project is compiled, the generated file is generated or updated if necessary, and the injected `Compile` item is injected before the compiler is called, so is passed to the compiler - though it never exists in the project file itself.
 
-### Live Update on Project Change
+## Live Update on Project Change
 
 So how do the types from the generated file show up in code completion before the project has been compiled? This takes advantage of the way that Visual Studio initializes its in-process compiler that's used for code completion.
 
@@ -87,7 +86,7 @@ Because `UpdateGeneratedFiles` is a dependency of `CoreCompile`, this means that
 
 Note that the `UpdateGeneratedFiles` target has to be fast, or it will add latency to code completion availability when first loading the project or after cleaning it.
 
-### Live Update on File Change
+## Live Update on File Change
 
 So, the generated code is updated whenever the project changes. But what happens when the contents of the `ResourceFile` files that it depends on change?
 
@@ -105,7 +104,7 @@ This takes advantage of another Visual Studio feature. Whenever the file is save
 
 This metadata has to be applied to the items by the IDE (or the user). It may be possible for the build targets to apply it automatically using an `ItemDefinitionGroup` but I haven't tested whether VS respects this for `Generator` metadata.
 
-### Xamarin Studio/MonoDevelop
+## Xamarin Studio/MonoDevelop
 
 But we have another problem. What about Xamarin Studio/MonoDevelop?
 
@@ -113,7 +112,7 @@ Although Xamarin Studio respects `Generator` metadata, it doesn't have an in-pro
 
 The solution - for now - is to add explicit support in a [Xamarin Studio addin](https://mhut.ch/addinmaker) to run the `UpdateGeneratedFiles` target on project load and when the resource files change, parse the generated file and inject it into the type system directly.
 
-### Migration
+## Migration
 
 Migrating automatically from a designer-generation system to a build-generation system has a few implications.
 

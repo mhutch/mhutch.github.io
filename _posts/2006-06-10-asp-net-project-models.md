@@ -1,15 +1,11 @@
 ---
-tags:
-- mono
-- aspnetedit
-- monodevelop
-- asp.net
+tags: [ mono, aspnetedit, monodevelop, asp.net ]
 layout: journal
 title: ASP.NET Project Models
 created: 1149976866
 redirect_from: /node/98
 ---
-One of the most difficult things about developing ASP.NET project support for MonoDevelop is deciding upon a project model to use. Microsoft appears to have this problem too; while having used a "Web Application" (WA) model for VS.NET 2003, and then switched to a "Web Site" (WS) model for Visual Studio 2005, they have just recently brought back the Web Application model for VS2005. Both are sensible and straightforward ways of developing an ASP.NET site, and developers migrating from Windows are familiar with them, so it was clearly a good idea to use them as a starting point when planning how to implement the project support in MonoDevelop.<!--break--> 
+One of the most difficult things about developing ASP.NET project support for MonoDevelop is deciding upon a project model to use. Microsoft appears to have this problem too; while having used a "Web Application" (WA) model for VS.NET 2003, and then switched to a "Web Site" (WS) model for Visual Studio 2005, they have just recently brought back the Web Application model for VS2005. Both are sensible and straightforward ways of developing an ASP.NET site, and developers migrating from Windows are familiar with them, so it was clearly a good idea to use them as a starting point when planning how to implement the project support in MonoDevelop.<!--break-->
 
 Initially I aimed to combine the two models, so I first looked at the most obvious difference between them, the implicit/explicit file listing: WA has an explicit list of files, but WS considers all files within its directory to be part of the project. Both behaviours could easily be available in one model as a project option, so no problems so far. The difficulties occur when one considers why WS's implicit listing is useful.
 

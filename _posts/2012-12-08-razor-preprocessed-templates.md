@@ -60,7 +60,7 @@ I wrote a simple Razor page to demonstrate the power of Razor. It uses a simple 
 </html>
 ```
 
-When writing this, the Razor code completion was very helpful. It has full C# completion, including locals, helpers and members from the generated class and base class, including the generated <csharp>Model``` property:
+When writing this, the Razor code completion was very helpful. It has full C# completion, including locals, helpers and members from the generated class and base class, including the generated `Model` property:
 
 <a href="/files/images/MonoScreenshots/PreprocessedRazor-3-CSharpBaseCompletion.png" rel="lightbox[md_preprocessedrazor]" title="Code completion for C# in Razor Templates"><img src="/files/images/MonoScreenshots/t/PreprocessedRazor-3-CSharpBaseCompletion.png" alt="Code completion for C# in Razor Templates" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

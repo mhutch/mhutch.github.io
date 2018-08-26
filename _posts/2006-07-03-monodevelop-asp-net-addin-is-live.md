@@ -1,15 +1,11 @@
 ---
-tags:
-- mono
-- aspnetedit
-- monodevelop
-- asp.net
+tags: [ mono, aspnetedit, monodevelop, asp.net ]
 layout: journal
 title: MonoDevelop ASP.NET addin is live
 created: 1151925884
 redirect_from: /node/103
 ---
-I've just committed a patch to MonoDevelop to enable the use of the AspNetAddIn that I committed a couple of days ago. It's not close to fully-featured yet, but I'm pleased because it now enables a basic ASP.NET workflow. One can create an ASP.NET project and various ASP.NET files, then build and run it. The XSP server will be launched, followed by a web browser, and the compiled page can be seen in all its glory. In theory all .NET languages supported by MonoDevelop can be used, though I have only been able to test C# so far.<!--break--> 
+I've just committed a patch to MonoDevelop to enable the use of the AspNetAddIn that I committed a couple of days ago. It's not close to fully-featured yet, but I'm pleased because it now enables a basic ASP.NET workflow. One can create an ASP.NET project and various ASP.NET files, then build and run it. The XSP server will be launched, followed by a web browser, and the compiled page can be seen in all its glory. In theory all .NET languages supported by MonoDevelop can be used, though I have only been able to test C# so far.<!--break-->
 
 <a href="/files/images/MonoScreenshots/AspNetAddIn1.png"><img src="/files/images/MonoScreenshots/AspNetAddIn1-small.png" alt="Screenshot of MonoDevelop ASP.NET addin"/></a>
 

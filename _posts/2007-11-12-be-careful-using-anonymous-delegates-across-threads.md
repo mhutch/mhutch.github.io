@@ -1,9 +1,5 @@
 ---
-tags:
-- programming languages
-- mono
-- c#
-- anonymous methods
+tags: [ programming languages, mono, c#, anonymous methods ]
 layout: journal
 title: Be careful using anonymous delegates across threads
 created: 1194917506
@@ -12,7 +8,7 @@ redirect_from: /node/143
 
 Anonymous delegates are incredibly useful, especially in that they can "capture" variables from a parent scope. Used within a single thread, they are very easy to understand. However, if you're using them to pass data across threads, you need to understand how the variable capture works.<!--break-->
 
-_UPDATE: It has been pointed out to me that the premise of this article is wrong. The compiler specifically avoids this problem by hoisting the captured variables into an inner class of which the generated method is also an instance member, and creating a new instance of this class for each call. I'm not sure what bug I ran into that causes the behaviour I denounced, or whether it was simply sloppy handling of reference types on my part -- but I feel particularly stupid having vaguely remembered "inner classes" from reading <a href="http://blogs.msdn.com/oldnewthing/archive/2006/08/02/686456.aspx">Raymond Chen's fine explanation of this</a> over a year ago, yet not having checked it before posting this article. Nonetheless, I shall let the article remain as a reminder of the code that this wonderful feature saves you from having to write. Also, the queue/lock-based code may still be useful when one needs data passed to the GTK thread in a guaranteed order._
+_UPDATE: It has been pointed out to me that the premise of this article is wrong. The compiler specifically avoids this problem by hoisting the captured variables into an inner class of which the generated method is also an instance member, and creating a new instance of this class for each call. I'm not sure what bug I ran into that causes the behaviour I denounced, or whether it was simply sloppy handling of reference types on my part -- but I feel particularly stupid having vaguely remembered "inner classes" from reading [Raymond Chen's fine explanation of this](http://blogs.msdn.com/oldnewthing/archive/2006/08/02/686456.aspx) over a year ago, yet not having checked it before posting this article. Nonetheless, I shall let the article remain as a reminder of the code that this wonderful feature saves you from having to write. Also, the queue/lock-based code may still be useful when one needs data passed to the GTK thread in a guaranteed order._
 
 Consider the following code snippet, in which the "data" variable is captured from the delegate's parent scope.
 
@@ -46,7 +42,7 @@ void compilerGeneratedMethod (object sender, EventArgs e)
 
 Notice that the variable has been "hoisted" into the class scope, so that the generated method used for the anonymous delegate can access it. (The actual compiler-generated code is a bit different, encapsulating the hoisted variables in an inner class, but the principle is the same).
 
-Now consider what happens if ProcessIncomingData gets called by the data-processing thread several times before the GTK+ loop gets run and can handle the invocations. Only the most recent value remains in the compiler-hoisted variable, and the <strong>earlier data strings are lost</strong>.
+Now consider what happens if ProcessIncomingData gets called by the data-processing thread several times before the GTK+ loop gets run and can handle the invocations. Only the most recent value remains in the compiler-hoisted variable, and the *earlier data strings are lost*.
 
 This isn't a problem if you're passing transient state, for example the visibility state of a button. But if you're passing data, think carefully about the internal mechanics. You may have to implement locking on the shared data structure.
 

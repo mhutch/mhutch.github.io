@@ -1,7 +1,5 @@
 ---
-tags:
-- mono
-- aspnetedit
+tags: [ mono,  aspnetedit ]
 layout: journal
 title: AspNetEdit hits SVN
 created: 1123624745

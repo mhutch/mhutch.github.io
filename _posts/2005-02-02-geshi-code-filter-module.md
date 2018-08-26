@@ -1,8 +1,5 @@
 ---
-tags:
-- drupal
-- geshicodefilter
-- syntax highlighting
+tags: [ drupal, geshicodefilter, syntax highlighting ]
 layout: journal
 title: GeSHi Code Filter module
 created: 1107367932
@@ -53,6 +50,6 @@ public void ResizeWorld(int w, int h)
 }
 ```
 
-Pretty, isn't it? You can get the module from its <a href="/project/GeSHicodefilter">project page</a>.
+Pretty, isn't it? You can get the module from its [project page](/project/GeSHicodefilter).
 
-I also found a modified <a href="http://www.petersblog.org/node/484">wiki module</a> that uses GeShi to highlight a couple of languages, but it's not completely general. I think I'll just modify the Wiki module to ignore anything inside a &lt;code&gt; block (it insists on escaping it all at the moment!) and the GeSHi filter can sort out whatever comes out.
+I also found a modified [wiki module](http://www.petersblog.org/node/484) that uses GeShi to highlight a couple of languages, but it's not completely general. I think I'll just modify the Wiki module to ignore anything inside a `<code>` block (it insists on escaping it all at the moment!) and the GeSHi filter can sort out whatever comes out.

@@ -1,14 +1,11 @@
 ---
-tags:
-- pc hardware
-- silicon group
-- poor customer service
+tags: [ pc hardware, silicon group, poor customer service ]
 layout: journal
 title: 'Silicon Group: How to Lose Customers'
 created: 1183416846
 redirect_from: /node/133
 ---
-I went to the Silicon Group computer shop on Dalry Road in Edinburgh today to buy a couple of 2GB high-speed CompactFlash cards. Their website, updated three days ago, advertised that it cost £15, which by current standards is an internet-level price. I've used them in the past, and they've always provided reasonable components at prices that are pretty low for a High Street shop. More recently I'd been tempted by the lower prices and vastly superior range offered by web retailers, but decided to save the postage and give Silicon a shot.<!--break--> 
+I went to the Silicon Group computer shop on Dalry Road in Edinburgh today to buy a couple of 2GB high-speed CompactFlash cards. Their website, updated three days ago, advertised that it cost £15, which by current standards is an internet-level price. I've used them in the past, and they've always provided reasonable components at prices that are pretty low for a High Street shop. More recently I'd been tempted by the lower prices and vastly superior range offered by web retailers, but decided to save the postage and give Silicon a shot.<!--break-->
 
 However, when I got to the shop they wanted to charge me double the price for inferior memory. Apparently the website and the PDF pricelist on it only apply to their Alloa store, despite not stating this and advertising both addresses with equal prominence. The Dalry Road store staff pointed at their own one-and-a-half months older pricelist, and quoted me an even higher "updated" price of £30. They were unapologetic: I should have phoned in, I could go to Alloa. I got the impression that they considered it to be my fault.
 

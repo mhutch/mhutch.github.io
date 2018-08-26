@@ -9,13 +9,13 @@ redirect_from: /node/216
 ---
 There are several different kinds of settings in MonoDevelop &mdash; Preferences, Policies and Project Options &mdash; and the distinction between them is not immediately clear. This post aims to provide an explanation of them and what they're used for.<!--break-->
 
-### Preferences 
+## Preferences 
 
 Preferences control MonoDevelop's behaviour and appearance, but do not directly affect projects' code or output. This means that they are user-specific, and are stored in the user profile. Examples of preferences are the text editor's colour scheme, whether the text editor shows line numbers, the font used for output pads, whether MonoDevelop jumps to errors after a build, and so on.
 
 The Preferences dialog can be accessed from the _MonoDevelop->Preferences_ menu item on Mac, the _Tools->Options_ menu item on Windows, and the _Edit->Preferences_ menu item on Linux. This is consistent with other applications on these platforms.
 
-### Project and Solution Options
+## Project and Solution Options
 
 Project Options are specific to projects, and affect how they're built and run. This includes things like compiler options, the name of the output file, the arguments used when running the project, and so on. These options are stored in the project file, so other users will be able to build and run the project correctly. Where possible, they are mapped to the options used by Visual Studio and the MSBuild/xbuild command-line build tools.
 
@@ -25,7 +25,7 @@ Some options are part of a project _configuration_. Projects can have multiple c
 
 Solution Options are similar to Project Options, but for solutions. The Solution Options dialog can be accessed from the _Project-> Solution Options_ menu item, or from the _Options_ context menu item on the solution in the solution pad, or by double-clicking on the solution in the solution pad.
 
-### Policies
+## Policies
 
 Policies are settings that affect how projects and code are formatted and organized, such as code formatting settings, naming conventions, and so on. In many other IDEs these settings are user-specific preferences, which means that different users working on the same project do things inconsistently, or have to change their preferences depending on which project they're working. Policies ensure that these settings are consistent for different users working on a project, and make it easy to manage sets of policies across projects.
 

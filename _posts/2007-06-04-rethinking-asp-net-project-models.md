@@ -1,14 +1,11 @@
 ---
-tags:
-- mono
-- monodevelop
-- asp.net
+tags: [ mono, monodevelop, asp.net ]
 layout: journal
 title: Rethinking ASP.NET Project Models
 created: 1180976692
 redirect_from: /node/130
 ---
-I've been thinking again about the compilation and deployment models used in MonoDevelop for ASP.NET code, and it isn't easy to come up with a good solution. I've written a discussion of the various possibilities and how they mesh with MonoDevelop and the Visual Studio way of doing things.<!--break--> 
+I've been thinking again about the compilation and deployment models used in MonoDevelop for ASP.NET code, and it isn't easy to come up with a good solution. I've written a discussion of the various possibilities and how they mesh with MonoDevelop and the Visual Studio way of doing things.<!--break-->
 
 In VS.NET 2003, the _Web Application_ model necessarily used the 1.1 CodeBehind model. This enforces no constraints on project layout at all; all the compiler has to do is compile all C#/VB.NET files into a library in the bin folder, and deployment is similarly simple. In order for controls in the inheriting pages to be accessible from the CodeBehind class, they must be added as fields to the CodeBehind classes, which the IDE does when the visual designer is used. This is the model that MonoDevelop uses at the moment.
 
@@ -24,4 +21,4 @@ In summary, the big choice is between having separate Web Application and Web Si
 
 I'm not sure how much VS.NET 2003 is used now, and developers can of course port their apps via Visual Studio 2005. I'm leaning towards having separate Web Application and Web Site project types, and only supporting ASP.NET 2.0.
 
-I would welcome any insights and ideas that people can offer. 
+I would welcome any insights and ideas that people can offer.
