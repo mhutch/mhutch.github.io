@@ -20,7 +20,7 @@ pagination:
   sort_reverse: true
 
 sidebar_home_link:  true
-sidebar_blog_link:  '/journal'
+sidebar_blog_link:  '/journal/'
 
 # Archives
 jekyll-archives:
