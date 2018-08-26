@@ -1,7 +1,18 @@
-<!DOCTYPE html>
-<html>
-<head>{{ title }}</head>
-<body>
+---
+layout: default
+---
+
+<header>
+  <h1 class="post-title">{{ page.title }}</h1>
+</header>
+<div class="content">
+  {% include post-meta.html post=page %}
+
+  <div class="post-body">
     {{ content }}
-</body>
-</html>
+    {% include post-tags.html post=page %}
+  </div>
+
+  {% include comments.html %}
+  {% include related_posts.html %}
+</div>

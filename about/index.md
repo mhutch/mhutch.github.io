@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+sidebar_link: true
 created: 1107125907
 redirect_from:
 - /node/1
