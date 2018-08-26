@@ -9,9 +9,7 @@ created: 1107132560
 ---
 <h3>Introduction</h3>
 
-Computer role playing games (RPGs) are a very popular form of entertainment. They allow the player to assume a new character in a different world, and either may be as far from reality as desired. The game is much like a book, except that the player is the main character, and often can influence what happens.
-<!--break-->
-
+Computer role playing games (RPGs) are a very popular form of entertainment. They allow the player to assume a new character in a different world, and either may be as far from reality as desired. The game is much like a book, except that the player is the main character, and often can influence what happens.<!--break-->
 
 <h3>Current limitations</h3>
 

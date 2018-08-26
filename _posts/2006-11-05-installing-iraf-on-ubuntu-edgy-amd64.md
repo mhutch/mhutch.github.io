@@ -1,10 +1,4 @@
 ---
-excerpt: "A major part of my final year project depends on using <a href=\"http://iraf.net\">IRAF</a>,
-  the Image Reduction and Analysis Facility from <a href=\"http://www.noao.edu/\">NOAO</a>.
-  Although it's installed on the university's UNIX Service, the servers it's on are
-  not particularly fast and have quite a few users, so the interactive bits like DS9
-  are barely usable over SSH X11 forwarding. Anyway, I thought I'd install it on my
-  own machine to make things easier.\r\n\r"
 tags:
 - university
 - iraf
@@ -16,7 +10,7 @@ title: Installing IRAF on Ubuntu Edgy amd64
 created: 1162729217
 redirect_from: /node/109
 ---
-A major part of my final year project depends on using <a href="http://iraf.net">IRAF</a>, the Image Reduction and Analysis Facility from <a href="http://www.noao.edu/">NOAO</a>. Although it's installed on the university's UNIX Service, the servers it's on are not particularly fast and have quite a few users, so the interactive bits like DS9 are barely usable over SSH X11 forwarding. Anyway, I thought I'd install it on my own machine to make things easier.
+A major part of my final year project depends on using <a href="http://iraf.net">IRAF</a>, the Image Reduction and Analysis Facility from <a href="http://www.noao.edu/">NOAO</a>. Although it's installed on the university's UNIX Service, the servers it's on are not particularly fast and have quite a few users, so the interactive bits like DS9 are barely usable over SSH X11 forwarding. Anyway, I thought I'd install it on my own machine to make things easier.<!--break--> 
 
 I'm using Ubuntu Edgy (6.10) AMD64, but IRAF is not 64-bit safe, so I can't compile it. Also it has no recent Debian/Ubuntu packages, partially due to licence issues as far as I can tell, and the most recent ones I tried didn't work when I installed them. I've therefore decided to document the process of installing the latest IRAF.NET Red Hat binaries on Edgy. It should work fine on i386 and AMD64.
 <!-- break -->

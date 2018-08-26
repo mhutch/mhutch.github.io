@@ -1,8 +1,4 @@
 ---
-excerpt: "There are several different kinds of settings in MonoDevelop &mdash; Preferences,
-  Policies and Project Options &mdash; and the distinction between them is not immediately
-  clear. This post aims to provide an explanation of them and what they're used for.
-  \r\n\r\n<h3>Preferences </h3>\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -11,7 +7,7 @@ title: 'MonoDevelop Tips: Preferences, Policies and Project Options'
 created: 1300896000
 redirect_from: /node/216
 ---
-There are several different kinds of settings in MonoDevelop &mdash; Preferences, Policies and Project Options &mdash; and the distinction between them is not immediately clear. This post aims to provide an explanation of them and what they're used for. 
+There are several different kinds of settings in MonoDevelop &mdash; Preferences, Policies and Project Options &mdash; and the distinction between them is not immediately clear. This post aims to provide an explanation of them and what they're used for.<!--break-->
 
 <h3>Preferences </h3>
 

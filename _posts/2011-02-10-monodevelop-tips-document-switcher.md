@@ -1,12 +1,4 @@
 ---
-excerpt: "The document switcher is a quick way to switch focus between open documents
-  and pads using the keyboard. It's activated by the <strong>Ctrl-tab</strong> or
-  <strong>Ctrl-shift-tab</strong>  combinations, and remains open as long as Control
-  remains held down. While it's open, you can change the selection &mdash; up arrow
-  or shift-tab moves the selection up, down arrow or tab moves the selection down,
-  and the left and right arrows move the selection between the pads and documents
-  lists. When you have selected the item you want, release Control, and it will be
-  selected.\r\n\r"
 tags:
 - mono
 - monodevelop
@@ -15,7 +7,7 @@ title: 'MonoDevelop Tips: Document Switcher'
 created: 1297357200
 redirect_from: /node/186
 ---
-The document switcher is a quick way to switch focus between open documents and pads using the keyboard. It's activated by the <strong>Ctrl-tab</strong> or <strong>Ctrl-shift-tab</strong>  combinations, and remains open as long as Control remains held down. While it's open, you can change the selection &mdash; up arrow or shift-tab moves the selection up, down arrow or tab moves the selection down, and the left and right arrows move the selection between the pads and documents lists. When you have selected the item you want, release Control, and it will be selected.
+The document switcher is a quick way to switch focus between open documents and pads using the keyboard. It's activated by the <strong>Ctrl-tab</strong> or <strong>Ctrl-shift-tab</strong>  combinations, and remains open as long as Control remains held down. While it's open, you can change the selection &mdash; up arrow or shift-tab moves the selection up, down arrow or tab moves the selection down, and the left and right arrows move the selection between the pads and documents lists. When you have selected the item you want, release Control, and it will be selected.<!--break-->
 
 <a href="http://mjhutchinson.com/files/images/md-tips/document-switcher.png" rel="lightbox[md_tips_document_switcher]" title="The document switcher"><img src="http://mjhutchinson.com/files/images/md-tips/t/document-switcher.png" alt="The document switcher" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

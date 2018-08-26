@@ -1,10 +1,4 @@
 ---
-excerpt: "Key bindings are an important part of an IDE, as they make it possible to
-  work efficiently using the keyboard. A key binding is a combination of keys that,
-  when pressed simultaneously, activates an IDE command directly. This post explains
-  the key binding system in MonoDevelop, how to find out what key bindings are available,
-  and how to customize the bindings to suit your needs.\r\n\r\n<h3>The Key Bindings
-  Panel</h3>\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -13,7 +7,7 @@ title: 'MonoDevelop Tips: Key Bindings'
 created: 1296953230
 redirect_from: /node/181
 ---
-Key bindings are an important part of an IDE, as they make it possible to work efficiently using the keyboard. A key binding is a combination of keys that, when pressed simultaneously, activates an IDE command directly. This post explains the key binding system in MonoDevelop, how to find out what key bindings are available, and how to customize the bindings to suit your needs.
+Key bindings are an important part of an IDE, as they make it possible to work efficiently using the keyboard. A key binding is a combination of keys that, when pressed simultaneously, activates an IDE command directly. This post explains the key binding system in MonoDevelop, how to find out what key bindings are available, and how to customize the bindings to suit your needs.<!--break-->
 
 <h3>The Key Bindings Panel</h3>
 

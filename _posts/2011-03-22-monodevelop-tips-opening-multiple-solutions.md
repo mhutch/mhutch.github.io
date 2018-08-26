@@ -1,12 +1,4 @@
 ---
-excerpt: "Normally, MonoDevelop only allows a single instance of itself to be open,
-  since many of its data files (preferences, code completion databases and so on)
-  are not designed to be accessed by multiple instances at once. However, it is possible
-  to open multiple solutions at once. In the Welcome Page, hold down the Control key
-  while clicking in an item in the Recent Projects list. There is a hint about this
-  feature in the status bar while you hover over these items: \"Hold Control key to
-  open in current workspace\". Do this, and the solution will be opened without closing
-  the old one.\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -15,7 +7,7 @@ title: 'MonoDevelop Tips: Opening Multiple Solutions'
 created: 1300809600
 redirect_from: /node/215
 ---
-Normally, MonoDevelop only allows a single instance of itself to be open, since many of its data files (preferences, code completion databases and so on) are not designed to be accessed by multiple instances at once. However, it is possible to open multiple solutions at once. In the Welcome Page, hold down the Control key while clicking in an item in the Recent Projects list. There is a hint about this feature in the status bar while you hover over these items: "Hold Control key to open in current workspace". Do this, and the solution will be opened without closing the old one.
+Normally, MonoDevelop only allows a single instance of itself to be open, since many of its data files (preferences, code completion databases and so on) are not designed to be accessed by multiple instances at once. However, it is possible to open multiple solutions at once. In the Welcome Page, hold down the Control key while clicking in an item in the Recent Projects list. There is a hint about this feature in the status bar while you hover over these items: "Hold Control key to open in current workspace". Do this, and the solution will be opened without closing the old one.<!--break-->
 
 <a href="http://mjhutchinson.com/files/images/md-tips/multiple-solutions-open.png" rel="lightbox[md_tips_multiple_solutions]" title="Multiple solutions open at the same time"><img src="http://mjhutchinson.com/files/images/md-tips/t/multiple-solutions-open.png" alt="Multiple solutions open at the same time" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

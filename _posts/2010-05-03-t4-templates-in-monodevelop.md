@@ -1,12 +1,4 @@
 ---
-excerpt: "A few week ago, I travelled to GDC and MIX. While in planes, airports and
-  in spare moments in the conference, I implemented a feature I've wanted for some
-  time - integrated T4 templating. This takes the T4 engine that I wrote for ASP.NET
-  MVC templates, and exposed it within the IDE as a \"custom tool\", like Visual Studio
-  does.\r\n\r\nThis also meant I had to implement a simple version of VS-style custom
-  tools, or generators. Set the file's \"custom tool\" property to \"TextTemplatingFileGenerator\"
-  using the property pad, then whenever you save it, MD will run the generator on
-  the file.\r\n\r"
 tags:
 - mono
 - monodevelop
@@ -18,7 +10,7 @@ title: T4 Templates in MonoDevelop
 created: 1272900437
 redirect_from: /node/179
 ---
-A few week ago, I travelled to GDC and MIX. While in planes, airports and in spare moments in the conference, I implemented a feature I've wanted for some time - integrated T4 templating. This takes the T4 engine that I wrote for ASP.NET MVC templates, and exposed it within the IDE as a "custom tool", like Visual Studio does.
+A few weeks ago, I travelled to GDC and MIX. While in planes, airports and in spare moments in the conference, I implemented a feature I've wanted for some time - integrated T4 templating. This takes the T4 engine that I wrote for ASP.NET MVC templates, and exposed it within the IDE as a "custom tool", like Visual Studio does.<!--break-->
 
 This also meant I had to implement a simple version of VS-style custom tools, or generators. Set the file's "custom tool" property to "TextTemplatingFileGenerator" using the property pad, then whenever you save it, MD will run the generator on the file.
 

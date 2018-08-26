@@ -5,11 +5,8 @@ layout: journal
 title: Easy pull requests from master with git-offload
 created: 1470254612
 redirect_from: /node/237
-excerpt: "When using git, I often find myself committing some work to master locally, and having to move it all to a branch from which I can make a pull request. Then I have to clean up afterwards.\n\nI do this often, yet it's tedious and I still sometimes have to look up the exact format of the git commands. So, I wrote a script to automate it, <code>git-offload</code>."
 ---
-When using git, I often find myself committing some work to master locally, and having to move it all to a branch from which I can make a pull request. Then I have to clean up afterwards.
-
-I do this often, yet it's tedious and I still sometimes have to look up the exact format of the git commands. So, I wrote a script to automate it, <code>git-offload</code>.
+When using git, I often find myself committing some work to master locally, and having to move it all to a branch from which I can make a pull request. Then I have to clean up afterwards. I do this often, yet it's tedious and I still sometimes have to look up the exact format of the git commands. So, I wrote a script to automate it, `git-offload`.<!--break-->
 
 Simply pass in the new branch name and the remote to you want to push the new branch, and git-offload automatically does the following things:
 

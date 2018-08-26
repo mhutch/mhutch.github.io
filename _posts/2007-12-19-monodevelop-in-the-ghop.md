@@ -9,7 +9,7 @@ title: MonoDevelop in the GHOP
 created: 1198045548
 redirect_from: /node/145
 ---
-So far, all five completed tasks for the <a href="http://code.google.com/p/google-highly-open-participation-mono/">Mono GHOP</a> have been MonoDevelop -related. I'm really pleased with the amount of interest we've had so far. I'd like to thank our hard-working students and mentors, and the wonderful people at <a href="http://code.google.com/opensource/">Google's Open-Source Program Office</a> who put this contest together.
+So far, all five completed tasks for the <a href="http://code.google.com/p/google-highly-open-participation-mono/">Mono GHOP</a> have been MonoDevelop -related. I'm really pleased with the amount of interest we've had so far. I'd like to thank our hard-working students and mentors, and the wonderful people at <a href="http://code.google.com/opensource/">Google's Open-Source Program Office</a> who put this contest together.<!--break-->
 
 <ul>
 <li>Dan Abramov submitted <a href="http://code.google.com/p/google-highly-open-participation-mono/issues/detail?id=3">a very cleanly-written addin</a> to integrate the Smokey code analysis tool . I'll be using this to tidy up minor bugs in the MonoDevelop codebase, and hopefully we can ship it in the addin repository after the 1.0 release.</li>
@@ -20,4 +20,3 @@ So far, all five completed tasks for the <a href="http://code.google.com/p/googl
 </ul>
 
 Please continue to suggest, claim and review tasks. We still have plenty left on the <a href="http://code.google.com/p/google-highly-open-participation-mono/issues/list">issue tracker</a> over at Google Code.Pop over to #mono-ghop on GIMPNet IRC to discuss things or to hang out with us.
-<!--break-->

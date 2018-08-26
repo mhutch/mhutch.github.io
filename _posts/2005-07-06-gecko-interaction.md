@@ -1,14 +1,4 @@
 ---
-excerpt: "Implementing the ASP.NET GUI designer with <a href=\"http://www.mozilla.org\">Mozilla's</a>
-  Gecko web rendering engine is an obvious decision: it's open-source, has strong
-  standards support and a large feature set, is highly extensible and flexible thanks
-  to its XPCOM component system, and using Gecko# it can be embedded in a GTK# GUI.
-  Mozilla is becoming an application platform, with XUL for declaratively writting
-  GUIs, and JavaScript for program logic. \r\n\r\nGecko# wraps <a href=\"http://www.mozilla.org/unix/gtk-embedding.html\">GtkMozEmbed</a>,
-  which is a C GTK widget, hiding Mozilla's native C++. Understandably this widget
-  isn't bloated by wrapping the Mozilla DOM or other internals: it claims to exposes
-  enough functionality for \"about 80% of uses\". Essentially this means a basic web
-  browser.\r\n"
 tags:
 - mono
 - c#
@@ -20,7 +10,7 @@ title: Gecko# interaction
 created: 1120689861
 redirect_from: /node/80
 ---
-Implementing the ASP.NET GUI designer with <a href="http://www.mozilla.org">Mozilla's</a> Gecko web rendering engine is an obvious decision: it's open-source, has strong standards support and a large feature set, is highly extensible and flexible thanks to its XPCOM component system, and using Gecko# it can be embedded in a GTK# GUI. Mozilla is becoming an application platform, with XUL for declaratively writting GUIs, and JavaScript for program logic. 
+Implementing the ASP.NET GUI designer with <a href="http://www.mozilla.org">Mozilla's</a> Gecko web rendering engine is an obvious decision: it's open-source, has strong standards support and a large feature set, is highly extensible and flexible thanks to its XPCOM component system, and using Gecko# it can be embedded in a GTK# GUI. Mozilla is becoming an application platform, with XUL for declaratively writting GUIs, and JavaScript for program logic.<!--break-->
 
 Gecko# wraps <a href="http://www.mozilla.org/unix/gtk-embedding.html">GtkMozEmbed</a>, which is a C GTK widget, hiding Mozilla's native C++. Understandably this widget isn't bloated by wrapping the Mozilla DOM or other internals: it claims to exposes enough functionality for "about 80% of uses". Essentially this means a basic web browser.
 

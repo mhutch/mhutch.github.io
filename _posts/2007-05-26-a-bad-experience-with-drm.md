@@ -1,8 +1,4 @@
 ---
-excerpt: "A couple of days ago I made my first <a href=\"http://en.wikipedia.org/wiki/Digital_rights_management\">DRM</a>-protected
-  music purchase: the Supreme Commander soundtrack from the <a href=\"http://www.directsong.com\">DirectSong</a>
-  online store. I've long been a fan of Jeremy Soule's work, ever since I heard the
-  wonderful Total Annihilation soundtrack. \r\n\r"
 tags:
 - technology
 - drm
@@ -13,7 +9,7 @@ title: A Bad Experience with DRM
 created: 1180184395
 redirect_from: /node/129
 ---
-A couple of days ago I made my first <a href="http://en.wikipedia.org/wiki/Digital_rights_management">DRM</a>-protected music purchase: the Supreme Commander soundtrack from the <a href="http://www.directsong.com">DirectSong</a> online store. I've long been a fan of Jeremy Soule's work, ever since I heard the wonderful Total Annihilation soundtrack. 
+A couple of days ago I made my first <a href="http://en.wikipedia.org/wiki/Digital_rights_management">DRM</a>-protected music purchase: the Supreme Commander soundtrack from the <a href="http://www.directsong.com">DirectSong</a> online store. I've long been a fan of Jeremy Soule's work, ever since I heard the wonderful Total Annihilation soundtrack.<!--break-->
 
 I'm idealogically opposed to most forms of DRM, as I believe that they are capable of removing fundamental consumer rights, and can easily be abused by the content providers. Indeed, the whole issue of buy/license/copy rights is completely broken in this age of instant, flawless, free digital copies, but no-one's though of a universally acceptable solution yet. I made an exception in this case, as although DirectSong's albums are encoded in Windows Media Audio with <a href="http://en.wikipedia.org/wiki/Janus_%28DRM%29">Janus DRM</a> protection, they are at 320kb/s, and have the right to burn to CD. Their FAQ says that to the recommended way to use the music with  a non-Janus device, such as a Mac or an iPod or Microsoft's own Zune, is simply to burn and re-rip a CD. They even provide cover art; one wonders why they bother with DRM at all!
 

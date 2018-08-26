@@ -1,11 +1,4 @@
 ---
-excerpt: "Recently <a href=\"http://tirania.org/blog/archive/2010/Apr-19.html\">Miguel
-  announced MonoMac</a>, a new Mono binding for Cocoa & other Objective-C libraries,
-  based on the <a href=\"http://monotouch.net\">MonoTouch</a> binding generator and
-  Objective-C bridge.\r\n\r\nThis is exciting for many people because it allows writing
-  native Mac GUIs using C# and other .NET languages. I have put together a <a href=\"http://monodevelop.com\">MonoDevelop</a>
-  addin that simplifies the process of creating, developing and debugging a MonoMac
-  application. \r\n\r"
 tags:
 - mono
 - c#
@@ -19,7 +12,7 @@ redirect_from: /node/180
 ---
 Recently <a href="http://tirania.org/blog/archive/2010/Apr-19.html">Miguel announced MonoMac</a>, a new Mono binding for Cocoa & other Objective-C libraries, based on the <a href="http://monotouch.net">MonoTouch</a> binding generator and Objective-C bridge.
 
-This is exciting for many people because it allows writing native Mac GUIs using C# and other .NET languages. I have put together a <a href="http://monodevelop.com">MonoDevelop</a> addin that simplifies the process of creating, developing and debugging a MonoMac application. 
+This is exciting for many people because it allows writing native Mac GUIs using C# and other .NET languages. I have put together a [MonoDevelop](https://monodevelop.com) addin that simplifies the process of creating, developing and debugging a MonoMac application.<!--break-->
 
 I have created a brief walkthrough to show how easy it is to create a simple Mac application with MonoMac, MonoDevelop and Interface Builder.
 

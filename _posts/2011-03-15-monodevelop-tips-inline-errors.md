@@ -1,12 +1,4 @@
 ---
-excerpt: "In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode.
-  When you build, errors and warnings are shown inline in the code as <em>message
-  bubbles</em>, though of course they also remain available as a list in the Error
-  List pad.\r\n\r\n<a href=\"http://mjhutchinson.com/files/images/md-tips/inline-error-marker.png\"
-  rel=\"lightbox[md_inline_error]\" title=\"An inline error message bubble\"><img
-  src=\"http://mjhutchinson.com/files/images/md-tips/t/inline-error-marker.png\" alt=\"An
-  inline error message bubble\" style=\"max-width:98%; display:block;margin-left:auto;margin-right:auto;\"
-  /></a>\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -15,7 +7,7 @@ title: 'MonoDevelop Tips: Inline Errors'
 created: 1300204800
 redirect_from: /node/210
 ---
-In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode. When you build, errors and warnings are shown inline in the code as <em>message bubbles</em>, though of course they also remain available as a list in the Error List pad.
+In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode. When you build, errors and warnings are shown inline in the code as <em>message bubbles</em>, though of course they also remain available as a list in the Error List pad.<!--break-->
 
 <a href="http://mjhutchinson.com/files/images/md-tips/inline-error-marker.png" rel="lightbox[md_inline_error]" title="An inline error message bubble"><img src="http://mjhutchinson.com/files/images/md-tips/t/inline-error-marker.png" alt="An inline error message bubble" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

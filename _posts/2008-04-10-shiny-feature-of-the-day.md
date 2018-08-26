@@ -8,7 +8,7 @@ title: Shiny Feature of the Day
 created: 1207882195
 redirect_from: /node/151
 ---
-Today I implemented an oft-requested feature for MonoDevelop: making the code completion and info tooltips transparent when the Control key is held down. This enables you to take a look at the code that the window's obscuring, without dismissing the popup:
+Today I implemented an oft-requested feature for MonoDevelop: making the code completion and info tooltips transparent when the Control key is held down. This enables you to take a look at the code that the window's obscuring, without dismissing the popup.<!--break-->
 
 <img src="http://mjhutchinson.com/files/images/MonoScreenshots/SemiTransparentCompletionWindow.png" alt="Screenshot of a semi-transparent code completion window." style="max-width:98%" />
 

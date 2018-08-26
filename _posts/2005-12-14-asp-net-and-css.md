@@ -9,7 +9,7 @@ title: ASP.NET and CSS
 created: 1134572138
 redirect_from: /node/86
 ---
-I've been thinking about how the ASP.NET Visual Designer should work with CSS and good semantic markup, and I've been thinking a lot about the role of both of these in the Web. In particular, what part do they play with ASP.NET?
+I've been thinking about how the ASP.NET Visual Designer should work with CSS and good semantic markup, and I've been thinking a lot about the role of both of these in the Web. In particular, what part do they play with ASP.NET?<!--break-->
 
 I believe that the content of a document should be kept separate from its presentation. Semantic markup is good; structured content is easier for a machine to interpret and convert, as well as being cleaner and more elegant. CSS allows us to style a document without affecting its markup, and the same stylesheets can be applied to multiple documents for consistency and efficiency.  Good semantic design also improves maintainability and accessibility. 
 
@@ -32,4 +32,3 @@ As an aside, I've often wondered why there isn't a "semantic word processor" tha
 Anyway, if anyone has any ideas about this, comments are welcome as always. I've already begun to implement some of the changes to the toolbox discussed last time; I decided to go with a simple treeview with a filtering box at the time. Unfortunately I'm very busy with academic work right now, but look for developments sometime next term!
 
 <em>Update:</em>I recently came across <a href="http://www.microformats.org/wiki/microformats">microformats</a>, which look cool. Nice semantically, meaningfully, defined structures. I'd love to have an HTML graphical editor driven by some sort of schema to restrict editing in certain regions of a page to particular formats like these.
-<!--break-->

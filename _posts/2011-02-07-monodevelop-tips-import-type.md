@@ -1,11 +1,4 @@
 ---
-excerpt: "One of my favourite features that we added to MonoDevelop 2.4 is the \"import
-  Type\" command. It is accessed using the keybinding Ctrl-Alt-Space, and shows a
-  list of all types in all namespaces in all referenced assemblies:\r\n\r\n<a href=\"http://mjhutchinson.com/files/images/md-tips/import-type.png\"
-  rel=\"lightbox[md_tips_import_type]\" title=\"The completion list for the Import
-  Type command\"><img src=\"http://mjhutchinson.com/files/images/md-tips/t/import-type.png\"
-  alt=\"The completion list for the Import Type command\" style=\"max-width:98%; display:block;margin-left:auto;margin-right:auto;\"
-  /></a>\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -14,7 +7,7 @@ title: 'MonoDevelop Tips: Import Type'
 created: 1297098009
 redirect_from: /node/183
 ---
-One of my favourite features that we added to MonoDevelop 2.4 is the "import Type" command. It is accessed using the keybinding Ctrl-Alt-Space, and shows a list of all types in all namespaces in all referenced assemblies:
+One of my favourite features that we added to MonoDevelop 2.4 is the "import Type" command. It is accessed using the keybinding Ctrl-Alt-Space, and shows a list of all types in all namespaces in all referenced assemblies.<!--break-->
 
 <a href="http://mjhutchinson.com/files/images/md-tips/import-type.png" rel="lightbox[md_tips_import_type]" title="The completion list for the Import Type command"><img src="http://mjhutchinson.com/files/images/md-tips/t/import-type.png" alt="The completion list for the Import Type command" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

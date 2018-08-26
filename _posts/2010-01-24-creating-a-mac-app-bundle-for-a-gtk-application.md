@@ -1,10 +1,4 @@
 ---
-excerpt: "While making the MonoDevelop and MonoDoc packages for Mac I learned a few
-  things about adapting GTK# apps for Mac, and I'd like to share them so that anyone
-  else who's built a GTK# app on Windows or Linux can provide a nice self-contained
-  Mac app bundle for their Mac users. This first part will cover building an app bundle,
-  and a later post will cover building platform-specific code paths so that your app
-  integrates with the main menu and dock."
 tags:
 - mono
 - mac
@@ -15,7 +9,7 @@ title: Creating a Mac App Bundle for a GTK# Application
 created: 1264315200
 redirect_from: /node/176
 ---
-While making the MonoDevelop and MonoDoc packages for Mac I learned a few things about adapting GTK# apps for Mac, and I'd like to share them so that anyone else who's built a GTK# app on Windows or Linux can provide a nice self-contained Mac app bundle for their Mac users. This first part will cover building an app bundle, and a later post will cover building platform-specific code paths so that your app integrates with the main menu and dock.
+While making the MonoDevelop and MonoDoc packages for Mac I learned a few things about adapting GTK# apps for Mac, and I'd like to share them so that anyone else who's built a GTK# app on Windows or Linux can provide a nice self-contained Mac app bundle for their Mac users. This first part will cover building an app bundle, and a later post will cover building platform-specific code paths so that your app integrates with the main menu and dock.<!--break-->
 
 If you're not a Mac developer, you might be wondering exactly what an app bundle is. Well, it's simply a directory with a `.app` extension that contains an application and everything it needs. The Mac GUI shell treats this folder as a self-contained application that can be run directly. It never has to be "installed" as such, but can simply kept wherever the user wants, typically in the system's `Applications` folder, and to "uninstall", it's simply deleted. To look inside an app bundle, use the context menu on the bundle in Finder.
 

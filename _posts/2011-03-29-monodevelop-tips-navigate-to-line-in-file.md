@@ -1,7 +1,4 @@
 ---
-excerpt: "In an earlier post, I introduced the <a href=\"http://mjhutchinson.com/journal/2011/02/monodevelop_tips_navigate_files_and_types\">Navigate
-  To</a> dialog, which allows quickly navigating to any file or type in the solution.
-  It has a couple more useful capabilities which are not immediately obvious.\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -10,7 +7,7 @@ title: 'MonoDevelop Tips: Navigate to Line in File'
 created: 1301414400
 redirect_from: /node/219
 ---
-In an earlier post, I introduced the <a href="http://mjhutchinson.com/journal/2011/02/monodevelop_tips_navigate_files_and_types">Navigate To</a> dialog, which allows quickly navigating to any file or type in the solution. It has a couple more useful capabilities which are not immediately obvious.
+In an earlier post, I introduced the <a href="http://mjhutchinson.com/journal/2011/02/monodevelop_tips_navigate_files_and_types">Navigate To</a> dialog, which allows quickly navigating to any file or type in the solution. It has a couple more useful capabilities which are not immediately obvious.<!--break-->
 
 Firstly, it's possible to go directly to a specific line in the selected file by typing a colon followed by the line number. As soon as the colon is typed, the list will narrow down to only contain files, not types or members. When you hit Enter to navigate to the file, you will be taken directly to the specified line, if it's valid. 
 

@@ -1,11 +1,4 @@
 ---
-excerpt: "Code snippets (or code templates) are an incredibly useful feature. They
-  allow inserting and editing template blocks of code, which is useful for quickly
-  replicating common patterns, or learning new patterns. This post explains how to
-  use snippets, and a future post will explain how to create snippets.\r\n\r\n<h3>Inserting
-  Snippets</h3>\r\n\r\nThere are three ways to use snippets: the <em>Insert Template</em>
-  command, <em>Tab expansion</em>, and the <em>Toolbox</em>.\r\n\r\n<h4>Insert Template
-  Command</h4>\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -14,7 +7,7 @@ title: 'MonoDevelop Tips: Code Snippets'
 created: 1298480400
 redirect_from: /node/195
 ---
-Code snippets (or code templates) are an incredibly useful feature. They allow inserting and editing template blocks of code, which is useful for quickly replicating common patterns, or learning new patterns. This post explains how to use snippets, and a future post will explain how to create snippets.
+Code snippets (or code templates) are an incredibly useful feature. They allow inserting and editing template blocks of code, which is useful for quickly replicating common patterns, or learning new patterns. This post explains how to use snippets, and a future post will explain how to create snippets.<!--break-->
 
 <h3>Inserting Snippets</h3>
 

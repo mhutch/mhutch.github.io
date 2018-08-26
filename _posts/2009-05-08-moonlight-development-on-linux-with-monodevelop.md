@@ -1,10 +1,4 @@
 ---
-excerpt: "Yesterday I made a screencast demonstrating <a href=\"http://mjhutchinson.com/journal/2009/05/07/moonlight_development_mac_using_monodevelop\">Moonlight
-  Development on Mac using MonoDevelop</a>. Today, I bring you the same thing on Linux:\r\n<div
-  id=\"mdMoonVidDiv\">\r\n\t<object data=\"data:application/x-silverlight-2,\" type=\"application/x-silverlight-2\"
-  width=\"600\" height=\"450\" style=\"max-width: 98%; display: block; margin-left:
-  auto; margin-right: auto;\">\r\n\t\t<param name=\"source\" value=\"http://mjhutchinson.com/files/screencasts/SL2VideoPlayerM.xap\"/>\r\n\t\t<param
-  name=\"background\" value=\"white\" />\r"
 tags:
 - photography
 - monodevelop
@@ -15,7 +9,7 @@ title: Moonlight Development on Linux with MonoDevelop
 created: 1241758162
 redirect_from: /node/171
 ---
-Yesterday I made a screencast demonstrating <a href="http://mjhutchinson.com/journal/2009/05/07/moonlight_development_mac_using_monodevelop">Moonlight Development on Mac using MonoDevelop</a>. Today, I bring you the same thing on Linux:
+Yesterday I made a screencast demonstrating <a href="http://mjhutchinson.com/journal/2009/05/07/moonlight_development_mac_using_monodevelop">Moonlight Development on Mac using MonoDevelop</a>. Today, I bring you the same thing on Linux:<!--break-->
 <div id="mdMoonVidDiv">
 	<object data="data:application/x-silverlight-2," type="application/x-silverlight-2" width="600" height="450" style="max-width: 98%; display: block; margin-left: auto; margin-right: auto;">
 		<param name="source" value="http://mjhutchinson.com/files/screencasts/SL2VideoPlayerM.xap"/>

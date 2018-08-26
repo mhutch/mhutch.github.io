@@ -1,11 +1,4 @@
 ---
-excerpt: "In their recent update of the iOS and Mac developer tools, Apple removed
-  the standalone Interface Builder application and integrated the GUI designer functionality
-  directly into Xcode 4. This was a very significant change and removed several features
-  that were necessary for MonoTouch and MonoMac to integrate with the designer. As
-  soon as Xcode 4 went final, we started working on MonoDevelop support for integrating
-  MonoTouch with Xcode 4's GUI designer, but it's a complex project and will take
-  some time to complete. \r\n\r\n"
 tags:
 - mono
 - monotouch
@@ -15,7 +8,7 @@ title: Preview of Xcode 4 Support for MonoTouch
 created: 1304452596
 redirect_from: /node/223
 ---
-In their recent update of the iOS and Mac developer tools, Apple removed the standalone Interface Builder application and integrated the GUI designer functionality directly into Xcode 4. This was a very significant change and removed several features that were necessary for MonoTouch and MonoMac to integrate with the designer. As soon as Xcode 4 went final, we started working on MonoDevelop support for integrating MonoTouch with Xcode 4's GUI designer, but it's a complex project and will take some time to complete. 
+In their recent update of the iOS and Mac developer tools, Apple removed the standalone Interface Builder application and integrated the GUI designer functionality directly into Xcode 4. This was a very significant change and removed several features that were necessary for MonoTouch and MonoMac to integrate with the designer. As soon as Xcode 4 went final, we started working on MonoDevelop support for integrating MonoTouch with Xcode 4's GUI designer, but it's a complex project and will take some time to complete. <!--break-->
 
 For now <a href="http://monotouch.net/News/post.aspx?id=0ba9d233-c65e-4713-b90d-84f233655430">we recommend</a> using Xcode 3's Interface Builder, which can easily be done even <a href="http://blog.sublimeintervention.com/archive/2011/Apr-25.html">while having Xcode 4 installed</a>. However, I understand that many people are concerned how Xcode 4 will be better supported going forward for MonoTouch and MonoMac, so I've made a screencast to introduce MonoDevelop's upcoming Xcode 4 integration and demonstrate how it works.
 

@@ -10,10 +10,10 @@ title: ASP.NET MVC MonoDevelop Addin Preview
 created: 1238711069
 redirect_from: /node/166
 ---
-The past month or two, in addition to bugfixing for our recent <a href="http://monodevelop.com">MonoDevelop 2.0</a> release, I've been quietly hacking on a MonoDevelop Addin to support writing <a href="http://asp.net/mvc">ASP.NET MVC</a> applications. Those of you following me on <a href="http://twitter.com/mjhutchinson">Twitter</a> may have picked up a few hints...
+The past month or two, in addition to bugfixing for our recent <a href="http://monodevelop.com">MonoDevelop 2.0</a> release, I've been quietly hacking on a MonoDevelop Addin to support writing <a href="http://asp.net/mvc">ASP.NET MVC</a> applications. Those of you following me on <a href="http://twitter.com/mjhutchinson">Twitter</a> may have picked up a few hints...<!--break-->
 
 Now that Microsoft has released <a href="http://weblogs.asp.net/scottgu/archive/2009/04/01/asp-net-mvc-1-0.aspx">ASP.NET MVC under the MS-Pl licence</a>, I'm making a preview release of the ASP.NET MVC addin for people who'd like to start playing with this exciting new tech on Mono. It's relatively immature, so don't expect everything to work perfectly, but it handles creating and running a VS-compatible ASP.NET MVC project just fine.
-<!--break-->
+
 You'll need MonoDevelop 2.0 and Mono 2.4 or later. Make sure you have the package that contains System.Web.Abstractions/Extensions/Routing; on SUSE this is currently mono-extras. The addin includes a copy of the System.Web.Mvc.dll, so you don;t need to do anything special for that.
 
 The addin is in the default MonoDevelop addin repositories (though I may be releasing updated versions from my own repo at http://mjhutchinson.com/mdrepo), so open MonoDevelop, click on the <em>Tools->Add-in Manager</em> menu, and click the <em>Install add-ins...</em> button. Select the ASP.NET MVC addin, and complete the installation.

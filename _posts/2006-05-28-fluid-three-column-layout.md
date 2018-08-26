@@ -1,15 +1,4 @@
 ---
-excerpt: "Finally, someone found a clean way to do <a href=\"http://www.alistapart.com/articles/holygrail\">three-column
-  fluid layout</a> with XHTML and CSS. This solves just about every three-column layout
-  problem I've ever had. It fixes the visual elements, keeping the footer at the bottom
-  of the page no matter which column is the tallest, and resizing without the elements
-  running into each other.\r\n\r\nThe visual side of this has been done before &ndash;
-  especially with tables! &ndash; but what is most important about this version is
-  that is using clean XHTML, with <em>no extra non-semantic markup</em> needed, though
-  one div tag can be added for increased browser compatibility. What's more, it allows
-  a good struture: when it's unstyled, it displays the heading and content before
-  the navigation. This makes things easier for people with screen readers and older
-  browsers.\r"
 tags:
 - web standards
 - xhtml
@@ -19,7 +8,7 @@ title: Fluid three-column layout
 created: 1148833842
 redirect_from: /node/96
 ---
-Finally, someone found a clean way to do <a href="http://www.alistapart.com/articles/holygrail">three-column fluid layout</a> with XHTML and CSS. This solves just about every three-column layout problem I've ever had. It fixes the visual elements, keeping the footer at the bottom of the page no matter which column is the tallest, and resizing without the elements running into each other.
+Finally, someone found a clean way to do <a href="http://www.alistapart.com/articles/holygrail">three-column fluid layout</a> with XHTML and CSS. This solves just about every three-column layout problem I've ever had. It fixes the visual elements, keeping the footer at the bottom of the page no matter which column is the tallest, and resizing without the elements running into each other.<!--break--> 
 
 The visual side of this has been done before &ndash; especially with tables! &ndash; but what is most important about this version is that is using clean XHTML, with <em>no extra non-semantic markup</em> needed, though one div tag can be added for increased browser compatibility. What's more, it allows a good struture: when it's unstyled, it displays the heading and content before the navigation. This makes things easier for people with screen readers and older browsers.
 

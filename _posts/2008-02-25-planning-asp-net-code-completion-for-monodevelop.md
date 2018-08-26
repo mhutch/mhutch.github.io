@@ -9,8 +9,8 @@ title: Planning ASP.NET Code Completion for MonoDevelop
 created: 1203993627
 redirect_from: /node/147
 ---
-Now that <a href="http://monodevelop.com/Release_notes_for_MonoDevelop_1.0_Release_Candidate_1">MonoDevelop 1.0 is on the verge of shipping</a>, I have begun to plan the parser that will underpin the ASP.NET code completion and visual designer in upcoming versions of MonoDevelop. During a discussion with our ASP.NET expert <a href="http://grendello.blogspot.com/">Marek</a>, I found out about an obscure ASP.NET feature that currently causes problems for Mono's ASP.NET parser, and is entirely counterintuitive to anyone with any XML knowledge.
-<!--break-->
+Now that <a href="http://monodevelop.com/Release_notes_for_MonoDevelop_1.0_Release_Candidate_1">MonoDevelop 1.0 is on the verge of shipping</a>, I have begun to plan the parser that will underpin the ASP.NET code completion and visual designer in upcoming versions of MonoDevelop. During a discussion with our ASP.NET expert <a href="http://grendello.blogspot.com/">Marek</a>, I found out about an obscure ASP.NET feature that currently causes problems for Mono's ASP.NET parser, and is entirely counterintuitive to anyone with any XML knowledge.<!--break-->
+
 Apparently, ASP.NET server tags are able to generate any part of the page that they desire, except for other ASP.NET constructs, and the following vilely ugly code is completely valid on .NET:
 
 <code type="asp">

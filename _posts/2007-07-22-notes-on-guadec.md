@@ -1,12 +1,4 @@
 ---
-excerpt: "First of all I'd like so say what a great experience GUADEC was. It was
-  great to talk to cool people, see the amazing software people are writing, and hear
-  talks from inspiring speakers. It really emphasised for me why having such a diverse
-  yet coherent community has made GNOME the awesome ecosystem it is today.\r\n\r\nI'm
-  a little disappointed I could only attend the Core days, but I think they were enough
-  for me. I'm currently away and it's not easy to write or post to my journal, but
-  I've patched together some notes on the talks I attended.\r\n\r\n<strong>Tuesday:
-  Core I</strong>\r\n\r"
 tags:
 - mono
 - technology
@@ -19,7 +11,7 @@ redirect_from: /node/135
 ---
 First of all I'd like so say what a great experience GUADEC was. It was great to talk to cool people, see the amazing software people are writing, and hear talks from inspiring speakers. It really emphasised for me why having such a diverse yet coherent community has made GNOME the awesome ecosystem it is today.
 
-I'm a little disappointed I could only attend the Core days, but I think they were enough for me. I'm currently away and it's not easy to write or post to my journal, but I've patched together some notes on the talks I attended.
+I'm a little disappointed I could only attend the Core days, but I think they were enough for me. I'm currently away and it's not easy to write or post to my journal, but I've patched together some notes on the talks I attended.<!--break-->
 
 <strong>Tuesday: Core I</strong>
 

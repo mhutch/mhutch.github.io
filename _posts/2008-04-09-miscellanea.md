@@ -13,7 +13,7 @@ title: Miscellanea
 created: 1207785204
 redirect_from: /node/150
 ---
-Here's a quick summary of interesting things from the past few months that I haven't blogged. Unfortunately I can't give each topic the time it deserves, but I think that's better than not mentioning them at all.
+Here's a quick summary of interesting things from the past few months that I haven't blogged. Unfortunately I can't give each topic the time it deserves, but I think that's better than not mentioning them at all.<!--break-->
 
 <h3>GHOP Results</h3>
 The <a href="http://code.google.com/opensource/ghop/2007-8/">Google Highly Open Participation</a> contest finished, and was a great success, with <a href="http://code.google.com/p/google-highly-open-participation-mono/issues/list?can=1&q=status:Closed&sort=claimedby&colspec=ID%20Status%20Owner%20ClaimedBy%20DueDate%20Summary">40 completed tasks</a>, a great improvement over my <a href="http://mjhutchinson.com/journal/2007/12/19/monodevelop_ghop">earlier post</a>. Of particular note was the huge number of rules implemented for Gendarme. I'd like to thank all of our successful students and their mentors, and congratulations to Dan Abramov, our Grand Prize winner. I'd also like to single out Andreas Noever, another absolutely stellar student who very narrowly missed out on the top spot.
@@ -36,4 +36,3 @@ MonoDevelop is once again taking part in the <a href="http://code.google.com/soc
 
 <h3>Visit to the UK</h3>
 These past couple of weeks I was in the UK visiting family and friends. it was nice to see people again after 5 months in another continent!
-<!--break-->

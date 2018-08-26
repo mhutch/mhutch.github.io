@@ -1,7 +1,4 @@
 ---
-excerpt: "A common practice when writing code is to annotate incomplete or questionable
-  areas with comments prefixed with warnings like TODO, HACK, FIXME, and so on. MonoDevelop
-  draws attention to these by recognizing them and highlighting them:\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -10,7 +7,7 @@ title: 'MonoDevelop Tips: Task Comments'
 created: 1300464000
 redirect_from: /node/213
 ---
-A common practice when writing code is to annotate incomplete or questionable areas with comments prefixed with warnings like TODO, HACK, FIXME, and so on. MonoDevelop draws attention to these by recognizing them and highlighting them:
+A common practice when writing code is to annotate incomplete or questionable areas with comments prefixed with warnings like TODO, HACK, FIXME, and so on. MonoDevelop draws attention to these by recognizing them and highlighting them.<!--break-->
 
 <a href="http://mjhutchinson.com/files/images/md-tips/task-comments-comment.png" rel="lightbox[md_tips_task_comments]" title="A task comment highlighted in the source editor"><img src="http://mjhutchinson.com/files/images/md-tips/t/task-comments-comment.png" alt="A task comment highlighted in the source editor" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

@@ -1,11 +1,4 @@
 ---
-excerpt: "The MonoDevelop workspace consists of a central document surrounded by <em>pads</em>
-  containing complementary information, tools and navigation aids. Pads can be accessed
-  from the <em>View->Pads</em> and <em>View->Debug Windows</em> menus, and closed
-  when they are not needed. They may be assigned keybindings, which will open the
-  pad if necessary then bring keyboard focus to it. Pads may also be opened automatically
-  by various commands, such as the \"Find in Files\" command, which opens a pad of
-  search results.\r\n\r\n<h3>Arranging Pads</h3>\r\n\r"
 tags:
 - mono
 - monodevelop tips
@@ -14,7 +7,7 @@ title: 'MonoDevelop Tips: Workspace Layout'
 created: 1297443657
 redirect_from: /node/187
 ---
-The MonoDevelop workspace consists of a central document surrounded by <em>pads</em> containing complementary information, tools and navigation aids. Pads can be accessed from the <em>View->Pads</em> and <em>View->Debug Windows</em> menus, and closed when they are not needed. They may be assigned keybindings, which will open the pad if necessary then bring keyboard focus to it. Pads may also be opened automatically by various commands, such as the "Find in Files" command, which opens a pad of search results.
+The MonoDevelop workspace consists of a central document surrounded by <em>pads</em> containing complementary information, tools and navigation aids. Pads can be accessed from the <em>View->Pads</em> and <em>View->Debug Windows</em> menus, and closed when they are not needed. They may be assigned keybindings, which will open the pad if necessary then bring keyboard focus to it. Pads may also be opened automatically by various commands, such as the "Find in Files" command, which opens a pad of search results.<!--break-->
 
 <h3>Arranging Pads</h3>
 

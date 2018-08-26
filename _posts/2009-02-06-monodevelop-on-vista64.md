@@ -1,10 +1,4 @@
 ---
-excerpt: "Last night I got MonoDevelop working (to some extent) on Windows Vista x64
-  using the Linux binaries, <a href=\"http://twitter.com/mjhutchinson\">tweeting my
-  progress along the way</a>.\r\n\r\n<em>UPDATE: In another 5am hacking run this evening,
-  I've managed to build MonoDevelop fully in Visual Studio 2008, and debug at all
-  the way to the Welcome Page, using 32-bit debugging on Vista 64. However, I'm going
-  to have to tidy the project file fixes a lot before I commit them.</em>\r\n\r"
 tags:
 - mono
 - monodevelop
@@ -17,7 +11,7 @@ redirect_from: /node/165
 ---
 Last night I got MonoDevelop working (to some extent) on Windows Vista x64 using the Linux binaries, <a href="http://twitter.com/mjhutchinson">tweeting my progress along the way</a>.
 
-<em>UPDATE: In another 5am hacking run this evening, I've managed to build MonoDevelop fully in Visual Studio 2008, and debug at all the way to the Welcome Page, using 32-bit debugging on Vista 64. However, I'm going to have to tidy the project file fixes a lot before I commit them.</em>
+<em>UPDATE: In another 5am hacking run this evening, I've managed to build MonoDevelop fully in Visual Studio 2008, and debug at all the way to the Welcome Page, using 32-bit debugging on Vista 64. However, I'm going to have to tidy the project file fixes a lot before I commit them.</em><!--break-->
 
 My starting point was <a href="http://jpobst.blogspot.com/">Jonathan Pobst</a>'s zip file for MonoDevelop on Windows as a starting point for the dependencies, except GTK# which I installed using the Novell <a href="http://www.go-mono.com/mono-downloads/download.html">GTK# 2.12.8 installer for .NET</a>.
 

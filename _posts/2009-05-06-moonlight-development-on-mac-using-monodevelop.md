@@ -1,11 +1,4 @@
 ---
-excerpt: "Yesterday I announced much-improved <a href=\"http://mjhutchinson.com/journal/2009/05/06/monodevelop_mac_preview_builds\">MonoDevelop
-  preview builds for Mac</a>, which include <a href=\"http://mjhutchinson.com/journal/2009/04/04/monodevelop_aspnet_mvc_mac\">ASP.NET
-  MVC support</a> out-of-the-box. However, there was a little surprise in that build
-  that I didn't mention &mdash; <strong>full support for building and running Silverlight
-  projects</strong> using a bundled copy of the Moonlight SDK.\r\n\r\nI created a
-  screencast to show off how easy this makes it to develop Silverlight apps on the
-  Mac:\r\n\r"
 tags:
 - mono
 - monodevelop
@@ -20,7 +13,7 @@ redirect_from: /node/170
 ---
 Yesterday I announced much-improved <a href="http://mjhutchinson.com/journal/2009/05/06/monodevelop_mac_preview_builds">MonoDevelop preview builds for Mac</a>, which include <a href="http://mjhutchinson.com/journal/2009/04/04/monodevelop_aspnet_mvc_mac">ASP.NET MVC support</a> out-of-the-box. However, there was a little surprise in that build that I didn't mention &mdash; <strong>full support for building and running Silverlight projects</strong> using a bundled copy of the Moonlight SDK.
 
-I created a screencast to show off how easy this makes it to develop Silverlight apps on the Mac:
+I created a screencast to show off how easy this makes it to develop Silverlight apps on the Mac:<!--break-->
 
 <a href="http://www.go-mono.com/media/MonoDevelopMacMoonlightPreview.swf"><img src="http://mjhutchinson.com/files/screencasts/MonoDevelopMacMoonlightPreview.png" alt="Screencast" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
