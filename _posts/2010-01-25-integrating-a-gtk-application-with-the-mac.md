@@ -9,9 +9,9 @@ title: Integrating a GTK# Application with the Mac
 created: 1264402242
 redirect_from: /node/177
 ---
-In this follow-up to my post on <a href="http://mjhutchinson.com/journal/2010/01/24/creating_mac_app_bundle_for_gtk_app">turning a GTK# app into a Mac app bundle</a>, I describe how to integrate your application with Mac-specific features such as the main menu, the dock, and file/URL events. This is based on the work I did to integrate MonoDevelop and MonoDoc with the Mac, and largely involves cherry-picking code snippets from these projects. Although it would be nice to isolate this code into a library, I don't have the time at the moment to maintain such a library myself.<!--break-->
+In this follow-up to my post on <a href="/journal/2010/01/24/creating_mac_app_bundle_for_gtk_app">turning a GTK# app into a Mac app bundle</a>, I describe how to integrate your application with Mac-specific features such as the main menu, the dock, and file/URL events. This is based on the work I did to integrate MonoDevelop and MonoDoc with the Mac, and largely involves cherry-picking code snippets from these projects. Although it would be nice to isolate this code into a library, I don't have the time at the moment to maintain such a library myself.<!--break-->
 
-<a href="http://mjhutchinson.com/files/images/MonoScreenshots/MonoDocOnMac.png"><img src="http://mjhutchinson.com/files/images/MonoScreenshots/MonoDocOnMac.png" alt="MonoDevelop with Mac main menu support" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
+<a href="/files/images/MonoScreenshots/MonoDocOnMac.png"><img src="/files/images/MonoScreenshots/MonoDocOnMac.png" alt="MonoDevelop with Mac main menu support" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
 GTK# is a nice toolkit, and in my opinion the best cross-platform toolkit for Mono/.NET, but there are some things that just don't have direct cross-platform analogues, such as the Mac main menu. To integrate with such features, you need to implement platform-specific code paths. MonoDevelop does this in some cases using runtime checks:
 <code language="csharp">
@@ -177,4 +177,4 @@ With these examples, you should now be able to make your application fit in much
 
 I'm still investigating other Mac integration points for MonoDevelop, such as native file dialogs, but that's likely to take some time, as binding the native toolkits and getting them to play nicely with the GTK mainloop is likely to be difficult, and there are other important things keeping me busy. When they're done I'll be sure to share that code too.
 
-<em>This is part of the <a href="http://mjhutchinson.com/tags/catchup2010">Catchup 2010</a> series of posts</a></em>.
+<em>This is part of the <a href="/tags/catchup2010">Catchup 2010</a> series of posts</a></em>.

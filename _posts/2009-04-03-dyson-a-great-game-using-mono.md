@@ -18,10 +18,10 @@ The next day, someone talking to us at our GDC booth mentioned that Dyson runs o
 
 Anyhow, I got it working. Here you can see an almost-conquered asteroid belt:
 
- <a href="http://mjhutchinson.com/files/images/MonoScreenshots/DysonGame.png "><img src="http://mjhutchinson.com/files/images/MonoScreenshots/DysonGame-thumb.png" alt="The Dyson game running on Linux using Mono" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
+ <a href="/files/images/MonoScreenshots/DysonGame.png "><img src="/files/images/MonoScreenshots/DysonGame-thumb.png" alt="The Dyson game running on Linux using Mono" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
 And a close-up of fending off an invasion:
 
-<a href="http://mjhutchinson.com/files/images/MonoScreenshots/DysonGame2.png "><img src="http://mjhutchinson.com/files/images/MonoScreenshots/DysonGame2-thumb.png" alt="The Dyson game running on Linux using Mono" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
+<a href="/files/images/MonoScreenshots/DysonGame2.png "><img src="/files/images/MonoScreenshots/DysonGame2-thumb.png" alt="The Dyson game running on Linux using Mono" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
 It's a lot of fun, and I'm looking forward to the full game's release! It's already <a href="http://store.steampowered.com/app/900804/">listed on Steam</a> with a July 31st release date, and says there that Linux is a supported platform &mdash; does that mean we'll see Steam on Linux soon?

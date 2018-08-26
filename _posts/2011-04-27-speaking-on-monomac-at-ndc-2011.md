@@ -11,4 +11,4 @@ I'm going to be at <a href="http://ndc2011.no">NDC 2011</a> in Oslo, and I'll be
 
 If you catch me outside my talk, I'll also be more than happy to discuss other Mono technologies that I've worked on such as <a href="http://monodevelop.com">MonoDevelop</a>, <a href="http://monotouch.net">MonoTouch</a>, <a href="http://mono-android.net">Mono for Android</a>, ASP.NET MVC, and the use of Mono in games.
 
-<a href="http://ndc2011.no"><img src="https://mhut.ch/files/images/ndc2011_logo.jpg" style="display:block;margin-left:auto;margin-right:auto;" /></a>
+<a href="http://ndc2011.no"><img src="/files/images/ndc2011_logo.jpg" style="display:block;margin-left:auto;margin-right:auto;" /></a>

@@ -13,7 +13,7 @@ Key bindings are an important part of an IDE, as they make it possible to work e
 
 To find what the key binding for a particular command is, you can look at the menu item for that command, or hover over the toolbar button. However, not all commands are exposed via menus and buttons. For a complete list, go to the <strong>Preferences</strong> dialog (<em>MonoDevelop->Preferences</em> on Mac, <em>Tools->Options</em> on Windows, <em>Edit->Preferences</em> on Linux), then the <em>General->Key Bindings</em> panel. This allows you to find existing key bindings, or modify the keybindings to your liking.
 
-<a href="http://mjhutchinson.com/files/images/md-tips/keybindings-panel.png" rel="lightbox[md_tips_keybindings]" title="The key bindings panel in MonoDevelop"><img src="http://mjhutchinson.com/files/images/md-tips/t/keybindings-panel.png" alt="The key bindings panel in MonoDevelop" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
+<a href="/files/images/md-tips/keybindings-panel.png" rel="lightbox[md_tips_keybindings]" title="The key bindings panel in MonoDevelop"><img src="/files/images/md-tips/t/keybindings-panel.png" alt="The key bindings panel in MonoDevelop" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
 The panel has various parts:
 

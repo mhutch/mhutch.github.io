@@ -10,7 +10,7 @@ redirect_from: /node/152
 ---
 I have been making good progress on ASP.NET source editing, as evidenced by the following screenshot. Yes, that is code folding, error underlining, and a path bar.<!--break--> <strike>However, the document outline pad isn't hooked up yet for ASP.NET</strike>[Update 2008/5/2: outlining implemented].
 
-<img src="http://mjhutchinson.com/files/images/MonoScreenshots/AspNetCodeFolding.png" alt="Screenshot of an ASP.NET file in MonoDevelop with error underlining, code folding and a path bar." style="max-width:98%" />
+<img src="/files/images/MonoScreenshots/AspNetCodeFolding.png" alt="Screenshot of an ASP.NET file in MonoDevelop with error underlining, code folding and a path bar." style="max-width:98%" />
 
 I've been getting a lot of practical experience with handwritten parsers recently. The ASP.NET addin has two parsers; the first builds a full DOM, and the second provides document path information very efficiently.
 

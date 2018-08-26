@@ -27,7 +27,7 @@ This is largely based on the <a href="http://www.stsci.edu/resources/software_ha
 </dl>
 
 <h3>Preliminary steps</h3>
-Throughout this guide I will be working on the assumption that you have followed my previous walkthrough for installing <a href="http://mjhutchinson.com/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64">IRAF on Ubuntu Edgy</a>. If this is not the case you may have to correct some of the install locations.
+Throughout this guide I will be working on the assumption that you have followed my previous walkthrough for installing <a href="/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64">IRAF on Ubuntu Edgy</a>. If this is not the case you may have to correct some of the install locations.
 
 The installations should be done logged in as the IRAF maintenance user, "iraf". This can be done using the command "su iraf" from another user's terminal. If you're working in a chroot, this all must take place within the chroot using "dchroot -d" or similar. Also, the iraf user must have admin privileges for the duration of the installation so that the "sudo" command can be used.
 

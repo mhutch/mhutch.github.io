@@ -12,7 +12,7 @@ When I initially wrote the ASP.NET code completion, I added support for completi
 
 This morning, on a suggestion from <a href="http://abock.org">Aaron</a>, I tweaked it to generate custom icons for each colour:
 
-<img src="http://mjhutchinson.com/files/images/MonoScreenshots/AspNetColourCompletion.png" alt="Screenshot of a code completion window showing appropriately coloured icons for each named colour." style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" />
+<img src="/files/images/MonoScreenshots/AspNetColourCompletion.png" alt="Screenshot of a code completion window showing appropriately coloured icons for each named colour." style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" />
 
 In other news, I landed the new ASP.NET completion parser, which is much more robust, and is also able to generate a tree, so it will soon replace the DOM parser too. The new design also means I'll be able to unify it with the XML and Moonlight (XAML) addins.
 

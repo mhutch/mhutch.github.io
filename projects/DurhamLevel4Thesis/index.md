@@ -8,7 +8,7 @@ redirect-from: /node/124
 ---
 A selection of the Python and C++ code can be browsed in the <a href="http://code.mjhutchinson.com/L4ProjectPython/file/tip">source repository</a>.
 
-I have also written detailed walkthroughs for <a href="http://mjhutchinson.com/journal/2006-11-05/install_iraf_on_ubuntu_edgy_amd64">installing IRAF on Ubuntu</a> and <a href="http://mjhutchinson.com/journal/2006-11-14/adding_pyraf_to_iraf_on_ubuntu_edgy">installing PyRAF and STSDAS/TABLES on Ubuntu</a>.
+I have also written detailed walkthroughs for <a href="/journal/2006-11-05/install_iraf_on_ubuntu_edgy_amd64">installing IRAF on Ubuntu</a> and <a href="/journal/2006-11-14/adding_pyraf_to_iraf_on_ubuntu_edgy">installing PyRAF and STSDAS/TABLES on Ubuntu</a>.
 
 <h3>An Overview of the Code</h3>
 The majority of the scripts require Python 2.4, NumPy, NumArray, SciPy, and PyFITS. Several of them variously require  MatPlotLib, PyVTK, GCC and PyRAF. They are all intended to be used on Linux/Unix from the command line (and some work in Cygwin on Windows). The lists of arguments are either documented inside the Python scripts, or are self-explanatory. The DatacubeUtils directory contains re-usable functionality common to the scripts, including the self-compiling C++ extension.
