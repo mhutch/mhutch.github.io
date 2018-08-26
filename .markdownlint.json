@@ -1,6 +1,7 @@
 {
     "default": true,
-    "line-length": 1000,
-    "level": 2,
-    "ignore-front-matter": true
+    "header-style": { "style": "atx" },
+    "line_length": { "line_length": 180, "code_blocks": false, "tables": false },
+    "first-header-h1": { "level": 2 },
+    "first-line-h1": { "level": 2 }
 }
