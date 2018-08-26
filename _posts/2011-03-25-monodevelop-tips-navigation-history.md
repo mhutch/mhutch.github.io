@@ -11,11 +11,11 @@ MonoDevelop keeps track of your navigation history, like a web browser. If you j
 
 To navigate back, use <strong>Ctrl-Alt-Left</strong> on Window or Linux, or <strong>Cmd-Opt-Left</strong> on a Mac. To navigate forward, use <strong>Ctrl-Alt-Right</strong> on Window or Linux, or <strong>Cmd-Opt-Right</strong> on a Mac.
 
-These commands are also found in the <em>Search</em> menu, along with the Navigation History list, which shows a list of the last fifteen locations, and allows you to jump directly to any of them. Internally it keeps more history than this, but menu space is limited.
+These commands are also found in the _Search_ menu, along with the Navigation History list, which shows a list of the last fifteen locations, and allows you to jump directly to any of them. Internally it keeps more history than this, but menu space is limited.
 
 <a href="/files/images/md-tips/nav-history-menu.png" rel="lightbox[md_tips_nav_history]" title="The Navigation History menu"><img src="/files/images/md-tips/t/nav-history-menu.png" alt="The Navigation History menu" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
-The commands are also found in the <em>Navigation</em> toolbar.
+The commands are also found in the _Navigation_ toolbar.
 
 <a href="/files/images/md-tips/nav-history-toolbar.png" rel="lightbox[md_tips_nav_history]" title="The Navigation History toolbar"><img src="/files/images/md-tips/t/nav-history-toolbar.png" alt="The Navigation History toolbar" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

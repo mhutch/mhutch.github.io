@@ -16,7 +16,7 @@ Now that Microsoft has released <a href="http://weblogs.asp.net/scottgu/archive/
 
 You'll need MonoDevelop 2.0 and Mono 2.4 or later. Make sure you have the package that contains System.Web.Abstractions/Extensions/Routing; on SUSE this is currently mono-extras. The addin includes a copy of the System.Web.Mvc.dll, so you don;t need to do anything special for that.
 
-The addin is in the default MonoDevelop addin repositories (though I may be releasing updated versions from my own repo at http://mjhutchinson.com/mdrepo), so open MonoDevelop, click on the <em>Tools->Add-in Manager</em> menu, and click the <em>Install add-ins...</em> button. Select the ASP.NET MVC addin, and complete the installation.
+The addin is in the default MonoDevelop addin repositories (though I may be releasing updated versions from my own repo at http://mjhutchinson.com/mdrepo), so open MonoDevelop, click on the _Tools->Add-in Manager_ menu, and click the _Install add-ins..._ button. Select the ASP.NET MVC addin, and complete the installation.
 
 <a href="/files/images/MonoScreenshots/AspMvcAddin-1-Installation.png "><img src="/files/images/MonoScreenshots/AspMvcAddin-1-Installation-thumb.png" alt="Installing the ASP.NET MVC Addin" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

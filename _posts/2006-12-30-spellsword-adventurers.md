@@ -8,7 +8,7 @@ title: Spellsword adventurers
 created: 1167497050
 redirect_from: /node/112
 ---
-According to the <a href='http://www.okcupid.com/tests/take?testid=1532690756472625027'>RPG Class Test</a>, I'm a spellsword. Unsurprisingly, this is the character type that I always like to play. However, this isn't because I'm playing <em>me</em>, but because I consider it to the the most sensible mixture of skills for a good self-sufficient adventurer.<!--break-->
+According to the <a href='http://www.okcupid.com/tests/take?testid=1532690756472625027'>RPG Class Test</a>, I'm a spellsword. Unsurprisingly, this is the character type that I always like to play. However, this isn't because I'm playing _me_, but because I consider it to the the most sensible mixture of skills for a good self-sufficient adventurer.<!--break-->
 
 RPGs usually involve killing lots of things, and you'd have to be an idiot not to have close combat skills in case an enemy gets too close, so a warrior class is a good basis. Going for a character with some intelligence, they'd probably pick a sword or dagger as the most refined of the melee weapons. Given the opportunity, it would be a good idea to pick up a few utility spells to give light, open boxes, teleport back to towns and so on. Given these basic parameters, you're going to end up with a spellsword. That said, a rogue or ranger would also make a good stealth adventurer.
 
@@ -17,7 +17,7 @@ Oddly enough, it's often not easy to play a spellsword character, as RPGs tend t
 I think that it would make much more sense that everyone could easily pick up the basics of sword-fighting and casting simple magical cantrips, and get reaching higher skill levels would become exponentially harder. I don't see why attributes are so often quantised either; surely this is a relic of old pen-and-paper RPGs. Sometimes I'll post my more detailed thoughts on the direction that I believe RPG skill systems should be taking (hint: it's closer to Oblivion than Neverwinter Nights).
 
 <div style="width:80%;border:2px solid #ffee88; background-color:#fff; margin: 1em; margin-left: 10%; padding: 1.5em;">
-      <h3 style="text-align:center">Spellsword</h3>
+      <h3 style="text-align:center">Spellsword
       <div style="text-align:center; margin: 1em;">70% Combativeness, 40% Sneakiness, 76% Intellect, 11% Spirituality</div>
 <p>Aggressive, but with the brains to back it up:  You are a Spellsword!</p>
 <p>Score!  You have a prestige class.  A prestige class can only be taken after you’ve fulfilled certain requirements.  This may mean that you're an exceptionally talented person, but it probably doesn't.</p>

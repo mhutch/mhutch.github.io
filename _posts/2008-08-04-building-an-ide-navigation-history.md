@@ -14,7 +14,7 @@ Unfortunately, navigation isn't an easy thing to get right in an IDE. It's easy 
 
 The most important thing is how it fits into the users' code navigation, so I decided to blog in order to get some feedback on my current thoughts.
 
-In my opinion the following actions <em>should not</em> trigger logging of navigation points:
+In my opinion the following actions _should not_ trigger logging of navigation points:
 <ul>
 <li>Switching through files by control-tabbing or clicking on the tabs.</li>
 <li>Jumping using the search pad or the error pad</li>
@@ -22,7 +22,7 @@ In my opinion the following actions <em>should not</em> trigger logging of navig
 <li>Moving the cursor around with the keys and/or mouse (but this should alter/update the existing nav point)</li>
 </ul>
 
-Whereas the following points <em>should</em> be logged:
+Whereas the following points _should_ be logged:
 <ul>
 <li>The destination of a "Go to definition" command</li>
 <li>The point that's left behind when executing a "Go to definition" command, if it's not too close to the current point</li>
@@ -32,5 +32,5 @@ Whereas the following points <em>should</em> be logged:
 
 In summary, only direct interaction with the document -- and in particular, large jumps -- should be logged.
 
-How will this fit into <em>your</em> coding flow?
+How will this fit into _your_ coding flow?
 

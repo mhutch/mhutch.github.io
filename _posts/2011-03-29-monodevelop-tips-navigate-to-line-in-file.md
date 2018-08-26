@@ -13,7 +13,7 @@ Firstly, it's possible to go directly to a specific line in the selected file by
 
 <a href="/files/images/md-tips/navigate-to-line.png" rel="lightbox[md_tips_navigate_to_adv]" title="Navigating to a specific line"><img src="/files/images/md-tips/t/navigate-to-line.png" alt="Navigating to a specific line" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
-This also works in the more specialized <em>Go to File</em> dialog.
+This also works in the more specialized _Go to File_ dialog.
 
 Another hidden feature is that it's possible to access several options by clicking on the search icon in the search box.
 

@@ -13,13 +13,13 @@ Now that <a href="http://monodevelop.com/Release_notes_for_MonoDevelop_1.0_Relea
 
 Apparently, ASP.NET server tags are able to generate any part of the page that they desire, except for other ASP.NET constructs, and the following vilely ugly code is completely valid on .NET:
 
-<code type="asp">
+```aspx
 <div>
     <asp:Literal id="this_is_stupid" runat="server" Text="<p style='color:red'>" />Hello</ p>
 </div>
-</code>
+```
 
-When a developer does this, the document's XHTML DOM cannot be parsed at design time unless the parser knows the exact HTML fragment that will be output by each ASP.NET control, and hence this can make HTML completion incredibly difficult. Although the Mono ASP.NET stack needs to support this "feature" for compatibility with .NET, I am firmly of the opinion that anyone doing this should be poked with a sharp stick until they stop. 
+When a developer does this, the document's XHTML DOM cannot be parsed at design time unless the parser knows the exact HTML fragment that will be output by each ASP.NET control, and hence this can make HTML completion incredibly difficult. Although the Mono ASP.NET stack needs to support this "feature" for compatibility with .NET, I am firmly of the opinion that anyone doing this should be poked with a sharp stick until they stop.
 
 It makes no sense to support this kind of unbalanced syntax in MonoDevelop, as it will hugely increase the complexity and development time. Indeed, when I investigated this on Windows, I found that VS2008 considers it to be a warnable offence.
 

@@ -28,4 +28,4 @@ It's also integrated with MonoDevelop 2.4's new error bubbles, so any errors in 
 
 This is very much a side project for me, so contributions in this area would be very helpful. It would be great to have support for viewing generators' message output and cancelling long-running generators, support for T4 custom directives, debugging T4, code completion in T4 files, and generating template class files that can be compiled into apps. 
 
-<em>This is part of the <a href="/tags/catchup2010">Catchup 2010</a> series of posts</a></em>.
+_This is part of the <a href="/tags/catchup2010">Catchup 2010</a> series of posts</a>_.

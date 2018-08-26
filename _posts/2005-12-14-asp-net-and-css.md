@@ -31,4 +31,4 @@ As an aside, I've often wondered why there isn't a "semantic word processor" tha
 
 Anyway, if anyone has any ideas about this, comments are welcome as always. I've already begun to implement some of the changes to the toolbox discussed last time; I decided to go with a simple treeview with a filtering box at the time. Unfortunately I'm very busy with academic work right now, but look for developments sometime next term!
 
-<em>Update:</em>I recently came across <a href="http://www.microformats.org/wiki/microformats">microformats</a>, which look cool. Nice semantically, meaningfully, defined structures. I'd love to have an HTML graphical editor driven by some sort of schema to restrict editing in certain regions of a page to particular formats like these.
+_Update:_I recently came across <a href="http://www.microformats.org/wiki/microformats">microformats</a>, which look cool. Nice semantically, meaningfully, defined structures. I'd love to have an HTML graphical editor driven by some sort of schema to restrict editing in certain regions of a page to particular formats like these.

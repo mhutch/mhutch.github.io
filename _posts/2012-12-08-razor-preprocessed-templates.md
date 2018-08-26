@@ -33,30 +33,30 @@ I wrote a simple Razor page to demonstrate the power of Razor. It uses a simple 
 }
 
 <html>
-	<head>
-		<title>Multiplication Table</title>
-	</head>
-	<body>
-		<h1>Multiplication Table</h1>
-		<table>
-			@* Header row *@
-			<tr>
-				<td/>
-			@for (int i = 1; i <= Model; i++) {
-				@boldtd(i)
-			}
-			</tr>
-			@* Main table *@
-			@for (int i = 1; i <= Model; i++) {
-			<tr>
-				@boldtd(i)
-				@for (int j = 1; j <= Model; j++) {
-				<td>@(j * i)</td>
-				}
-			</tr>
-			}
-		</table>
-	</body>
+    <head>
+        <title>Multiplication Table</title>
+    </head>
+    <body>
+        <h1>Multiplication Table</h1>
+        <table>
+            @* Header row *@
+            <tr>
+                <td/>
+            @for (int i = 1; i <= Model; i++) {
+                @boldtd(i)
+            }
+            </tr>
+            @* Main table *@
+            @for (int i = 1; i <= Model; i++) {
+            <tr>
+                @boldtd(i)
+                @for (int j = 1; j <= Model; j++) {
+                <td>@(j * i)</td>
+                }
+            </tr>
+            }
+        </table>
+    </body>
 </html>
 ```
 

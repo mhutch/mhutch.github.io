@@ -13,4 +13,4 @@ Hot on the heels of Lluis's <a href="http://foodformonkeys.blogspot.com/2007/11/
 
 Warning: these packages are not guaranteed to be stable, though I'll try to push only usable revisions. I may also enable and disable features at a whim, e.g. disabling the Boo binding and MonoDevelop.Database addin in order to enable GtkSourceView 2 support.
 
-<em> Update: the sandbox link currently requires that you're logged into the openSUSE Build Service, so here's a <a href="http://download.opensuse.org/repositories/home:/MJHutchinson/openSUSE_10.3/">direct link to the repository</a></em>.<!--break-->
+_ Update: the sandbox link currently requires that you're logged into the openSUSE Build Service, so here's a <a href="http://download.opensuse.org/repositories/home:/MJHutchinson/openSUSE_10.3/">direct link to the repository</a>_.<!--break-->

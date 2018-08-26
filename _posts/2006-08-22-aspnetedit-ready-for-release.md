@@ -18,11 +18,11 @@ The Summer of Code has been fantastic. I've gained a lot of experience of workin
 
 And of course thanks to Google for running such a brilliant programme. Not only am I getting paid to do something I enjoy, but most of my favourite open-source projects (<a href="http://mono-project.com">Mono</a>, <a href="http://www.gnome.org/">Gnome</a>, <a href="http://www.gimp.org/">GIMP</a>, <a href="http://inkscape.org/">Inkscape</a>, <a href="http://www.ogre3d.org/">OGRE</a> and <a href="http://drupal.org/">Drupal</a>, to name a few) have gained lots of exciting new features!
 
-<em>Update:</em>
+_Update:_
 Here are some known issues with AspNetEdit:
 <ol>
 <li>To get some items in the toolbox, you'll need to add $PREFIX/lib/mono/2.0/System.Web.dll using the button on the toolbox toolbar.</li>
 <li>On Firefox 1.5+ the control selection handles disappear after a few seconds. Mozilla 1.7 works fine.</li>
-<li>The code from the design view <em>can't be saved</em> with older releases of Mono. This is caused by a bug in Mono's 2.0 classlib (or runtime) that has been fixed in SVN HEAD as of 11 Sept 2006.</li>
+<li>The code from the design view _can't be saved_ with older releases of Mono. This is caused by a bug in Mono's 2.0 classlib (or runtime) that has been fixed in SVN HEAD as of 11 Sept 2006.</li>
 <li>The XUL/JS addin needs to be registered with your global Mozilla/Firefox profile. This happens when you install MonoDevelop, but if don't want to install the rest of Monodevelop (e.g. if you use 'make run') then you can just 'sudo make install' in the Extras/AspNetEdit/chrome directory.</li>
 </ol>

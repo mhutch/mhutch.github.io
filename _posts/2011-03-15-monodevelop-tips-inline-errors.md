@@ -7,7 +7,7 @@ title: 'MonoDevelop Tips: Inline Errors'
 created: 1300204800
 redirect_from: /node/210
 ---
-In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode. When you build, errors and warnings are shown inline in the code as <em>message bubbles</em>, though of course they also remain available as a list in the Error List pad.<!--break-->
+In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode. When you build, errors and warnings are shown inline in the code as _message bubbles_, though of course they also remain available as a list in the Error List pad.<!--break-->
 
 <a href="/files/images/md-tips/inline-error-marker.png" rel="lightbox[md_inline_error]" title="An inline error message bubble"><img src="/files/images/md-tips/t/inline-error-marker.png" alt="An inline error message bubble" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
@@ -17,9 +17,9 @@ We do our best to make sure the message bubbles don't become too intrusive, but 
 
 Editing a line with a message bubble causes the bubble to dim slightly, to indicate that it's probably no longer valid.
 
-By default, message bubbles are shown for both warnings and errors, and MonoDevelop takes you to the first error immediately after the build. These behaviours are configurable in <em>Preferences->Build</em>, where you can configure what happens after the build: whether to jump to errors and warnings, or just errors, or not at all; whether to show the error pad automatically; and whether to show message bubbles for errors, for errors and warnings, or not at all.
+By default, message bubbles are shown for both warnings and errors, and MonoDevelop takes you to the first error immediately after the build. These behaviours are configurable in _Preferences->Build_, where you can configure what happens after the build: whether to jump to errors and warnings, or just errors, or not at all; whether to show the error pad automatically; and whether to show message bubbles for errors, for errors and warnings, or not at all.
 
 <a href="/files/images/md-tips/inline-error-options.png" rel="lightbox[md_inline_error]" title="The inline error options"><img src="/files/images/md-tips/t/inline-error-options.png" alt="The inline error options" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
-There are several commands for working with message bubbles, accessible from the <em>View->Message Bubbles</em> menu. The <em>Hide/Show Message Bubble</em> command hides or shows all the message bubbles, and the <em>Toggle Message Bubble</em> command hides or shows just the message bubbles on the current line. The latter command is also accessible via the context menu in the text editor margin. When bubbles are hidden, the error marker in the margin will remain there until the next build.
+There are several commands for working with message bubbles, accessible from the _View->Message Bubbles_ menu. The _Hide/Show Message Bubble_ command hides or shows all the message bubbles, and the _Toggle Message Bubble_ command hides or shows just the message bubbles on the current line. The latter command is also accessible via the context menu in the text editor margin. When bubbles are hidden, the error marker in the margin will remain there until the next build.
 

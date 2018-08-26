@@ -11,4 +11,4 @@ The document switcher is a quick way to switch focus between open documents and 
 
 <a href="/files/images/md-tips/document-switcher.png" rel="lightbox[md_tips_document_switcher]" title="The document switcher"><img src="/files/images/md-tips/t/document-switcher.png" alt="The document switcher" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 
-The documents list is sorted by which have been most recently used, and when the dialog is opened, the first document it selects is the item <em>after</em> the current active document, i.e. the document that was focussed before it, since it's assumed that you don't want to switch to the current document. However, this also make it very easy to switch between a few documents with minimal keystrokes.
+The documents list is sorted by which have been most recently used, and when the dialog is opened, the first document it selects is the item _after_ the current active document, i.e. the document that was focussed before it, since it's assumed that you don't want to switch to the current document. However, this also make it very easy to switch between a few documents with minimal keystrokes.

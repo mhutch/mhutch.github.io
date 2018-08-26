@@ -7,7 +7,7 @@ title: 'MonoDevelop Tips: Code Generation Window'
 created: 1299603600
 redirect_from: /node/205
 ---
-The Code Generation window can be used to automatically generate code for various patterns, based on existing code. It can be triggered from the context menu, or from the <em>Edit->Show Code Generation Window</em> menu. On Windows and Linux the keyboard shortcut is <strong>Alt-Insert</strong> and on Mac there's currently no keybinding (if you'd like to suggest one please use the <a href="http://monodevelop.com/index.php?title=Help_%26_Contact">MonoDevelop mailing list</a>).<!--break-->
+The Code Generation window can be used to automatically generate code for various patterns, based on existing code. It can be triggered from the context menu, or from the _Edit->Show Code Generation Window_ menu. On Windows and Linux the keyboard shortcut is <strong>Alt-Insert</strong> and on Mac there's currently no keybinding (if you'd like to suggest one please use the <a href="http://monodevelop.com/index.php?title=Help_%26_Contact">MonoDevelop mailing list</a>).<!--break-->
 
 The code generation window is shown at the caret location, and its contents are context-dependent. For example, within a method it can generate things like null checks for the method's arguments, and in a class body it can generate things like a constructor with parameters that are assigned to properties and fields in the class.
 

@@ -27,7 +27,7 @@ This has been made difficult by the native GTK+ Mac. Although the basics work ve
 
 To do much of this, I had to build a large set of Carbon P/Invoke signatures and wrappers, and getting these right took some time. It seems to me that this could be the basis of a "Mac Bridge" in the style of the <a href="http://code.msdn.microsoft.com/VistaBridge">Vista Bridge</a>. Having such managed wrappers would make it easier for developers to make their apps integrate more closely with the unique aspects of various platforms.
 
-This work will be released in MonoDevelop 2.2. Right now it's not finished, and is very much an alpha. However, since it's already a substantial improvement for Mac users, I am making available a Mac preview build. This is a <em>trunk build</em> that has undergone no QA testing. I simply update it whenever I feel that trunk is usable and bugfixes or improvements have been made since the previous build. <strong>Use at your own risk</strong>. I have already listed a number of <a href="http://monodevelop.com/Developers/Mac_Support#Known_Issues">known issues</a>.
+This work will be released in MonoDevelop 2.2. Right now it's not finished, and is very much an alpha. However, since it's already a substantial improvement for Mac users, I am making available a Mac preview build. This is a _trunk build_ that has undergone no QA testing. I simply update it whenever I feel that trunk is usable and bugfixes or improvements have been made since the previous build. <strong>Use at your own risk</strong>. I have already listed a number of <a href="http://monodevelop.com/Developers/Mac_Support#Known_Issues">known issues</a>.
 
 Download it from the <a href="http://monodevelop.com/Download/Mac_Preview">Mac Preview</a> page on the MonoDevelop website.
 

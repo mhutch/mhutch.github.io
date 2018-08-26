@@ -7,7 +7,7 @@ title: 'MonoDevelop Tips: Build Actions'
 created: 1299862800
 redirect_from: /node/208
 ---
-Files in a MonoDevelop (or Visual Studio) project have a <em>build action</em> which controls what happens to the file during a build. Here are some of the common build actions for C# projects.<!--break-->
+Files in a MonoDevelop (or Visual Studio) project have a _build action_ which controls what happens to the file during a build. Here are some of the common build actions for C# projects.<!--break-->
 
 <dl>
 <dt><strong>Compile</strong></dt>
@@ -29,7 +29,7 @@ Files in a MonoDevelop (or Visual Studio) project have a <em>build action</em> w
 
 You can also define arbitrary build actions, and if your project uses the MSBuild build engine, you can write custom tasks to process files with particular build actions.
 
-There are various ways to set files' build actions. When files are first added to the project from templates, they will have an appropriate build action set by the template. When files are added from the <em>Add Files</em> dialog, they will have the default build action for that file type, unless you explicitly override it using the combobox in the dialog.
+There are various ways to set files' build actions. When files are first added to the project from templates, they will have an appropriate build action set by the template. When files are added from the _Add Files_ dialog, they will have the default build action for that file type, unless you explicitly override it using the combobox in the dialog.
 
 <a href="/files/images/md-tips/build-action-override-default.png" rel="lightbox[md_tips_build_actions]" title="Overriding the default build action when adding files"><img src="/files/images/md-tips/t/build-action-override-default.png" alt="Overriding the default build action when adding files" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

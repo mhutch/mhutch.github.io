@@ -7,7 +7,7 @@ title: 'MonoDevelop Tips: Pinned Search Results'
 created: 1299776400
 redirect_from: /node/207
 ---
-Some kinds of <a href="/journal/2011/02/monodevelop_tips_workspace_layout">pads</a> in MonoDevelop are transient. They cannot be accessed directly from a menu, but instead appear when needed to show the results of some operation, such as <em>Find in Files</em>, or <em>Find References</em>. Once closed, they can only be recovered by re-running the operation.<!--break-->
+Some kinds of <a href="/journal/2011/02/monodevelop_tips_workspace_layout">pads</a> in MonoDevelop are transient. They cannot be accessed directly from a menu, but instead appear when needed to show the results of some operation, such as _Find in Files_, or _Find References_. Once closed, they can only be recovered by re-running the operation.<!--break-->
 
 When another operation of the same kind runs again, it re-uses any existing pad of that kind, so they don't proliferate wildly. However, you can "pin" the pad by using the pin button in the pad, which means that it will not be re-used this way. Instead, the next operation will create a new pad. You can pin several pads, to save several sets of results, and further new pads will be created as necessary. When you are done, close or unpin the pad.
 

@@ -7,7 +7,7 @@ title: 'MonoDevelop Tips: Renaming Symbols'
 created: 1298653200
 redirect_from: /node/197
 ---
-One of the most useful refactoring commands is "Rename", which renames a symbol by accurately finding all occurrences and changing them. To rename a symbol, right click on it and choose <em>Refactor->Rename</em> context menu command, or use the keybinding: <strong>F2</strong> on Windows and Linux, and <strong>Cmd-R</strong> on Mac.<!--break-->
+One of the most useful refactoring commands is "Rename", which renames a symbol by accurately finding all occurrences and changing them. To rename a symbol, right click on it and choose _Refactor->Rename_ context menu command, or use the keybinding: <strong>F2</strong> on Windows and Linux, and <strong>Cmd-R</strong> on Mac.<!--break-->
 
 <a href="/files/images/md-tips/rename-dialog.png" rel="lightbox[md_tips_rename]" title="The Rename dialog"><img src="/files/images/md-tips/t/rename-dialog.png" alt="The Rename dialog" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
 

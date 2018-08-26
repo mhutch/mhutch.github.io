@@ -23,5 +23,4 @@ Notable missing/removed features are:<ul>
 <li>Bookmarks (also used for debugger breakpoints, when the debugger worked)</li>
 </ul>
 
-There isn't a UI for changing colour schemes yet, but it can be done manually in the <em>~/.config/MonoDevelop/MonoDevelopProperties.xml</em> file by setting/adding the property <em>&lt;Property key="GtkSourceViewStyleScheme" value="oblivion" /&gt;</em> within the property <em>&lt;Property key="MonoDevelop.TextEditor.Document.Document.DefaultDocumentAggregatorProperties"&gt;</em>.
-<!--break-->
+There isn't a UI for changing colour schemes yet, but it can be done manually in the _~/.config/MonoDevelop/MonoDevelopProperties.xml_ file by setting/adding the property _&lt;Property key="GtkSourceViewStyleScheme" value="oblivion" /&gt;_ within the property _&lt;Property key="MonoDevelop.TextEditor.Document.Document.DefaultDocumentAggregatorProperties"&gt;_.
