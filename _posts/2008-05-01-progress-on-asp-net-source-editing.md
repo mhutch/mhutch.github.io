@@ -1,14 +1,11 @@
 ---
-tags:
-- mono
-- monodevelop
-- asp.net
+tags: [ mono, monodevelop, asp.net ]
 layout: journal
 title: Progress on ASP.NET Source Editing
 created: 1209659656
 redirect_from: /node/152
 ---
-I have been making good progress on ASP.NET source editing, as evidenced by the following screenshot. Yes, that is code folding, error underlining, and a path bar.<!--break--> <strike>However, the document outline pad isn't hooked up yet for ASP.NET</strike>[Update 2008/5/2: outlining implemented].
+I have been making good progress on ASP.NET source editing, as evidenced by the following screenshot. Yes, that is code folding, error underlining, and a path bar.<!--break--> ~~However, the document outline pad isn't hooked up yet for ASP.NET~~ _[Update 2008/5/2: outlining implemented]._
 
 <img src="/files/images/MonoScreenshots/AspNetCodeFolding.png" alt="Screenshot of an ASP.NET file in MonoDevelop with error underlining, code folding and a path bar." style="max-width:98%" />
 

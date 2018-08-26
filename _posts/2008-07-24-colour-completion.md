@@ -1,8 +1,5 @@
 ---
-tags:
-- mono
-- monodevelop
-- asp.net
+tags: [ mono, monodevelop, asp.net ]
 layout: journal
 title: Colour Completion
 created: 1216925978
@@ -10,7 +7,7 @@ redirect_from: /node/155
 ---
 When I initially wrote the ASP.NET code completion, I added support for completing attribute values for enums and bools. More generalised completion using TypeConverter.GetStandardValues isn't so easy, since I don't want to load arbitrary types into the MD process, so I skipped this for now. However, I did special-case System.Drawing.Color, since it's used a lot.<!--break-->
 
-This morning, on a suggestion from <a href="http://abock.org">Aaron</a>, I tweaked it to generate custom icons for each colour:
+This morning, on a suggestion from [Aaron](http://abock.org), I tweaked it to generate custom icons for each colour:
 
 <img src="/files/images/MonoScreenshots/AspNetColourCompletion.png" alt="Screenshot of a code completion window showing appropriately coloured icons for each named colour." style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" />
 
