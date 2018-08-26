@@ -1,5 +1,6 @@
 {
     "default": true,
-    "line-length": false,
-    "level": 2
+    "line-length": 1000,
+    "level": 2,
+    "ignore-front-matter": true
 }
