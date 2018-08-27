@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Grouping Related Solutions with Workspaces'
 created: 1300723200
-redirect_from: /node/214
+redirect_from:
+- /node/214
+- /journal/2011/03/monodevelop_tips_grouping_related_solutions_workspaces
 ---
 Workspaces can be used to organize related solutions, and provide a convenient
 way to open several solutions at once. Unlike projects in a solution, which can

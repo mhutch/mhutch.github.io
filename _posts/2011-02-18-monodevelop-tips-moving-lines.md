@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Moving Lines'
 created: 1298048400
-redirect_from: /node/192
+redirect_from:
+- /node/192
+- /journal/2011/02/monodevelop_tips_moving_lines
 ---
 To move lines around in the next editor, use the *Alt-Up* command to move the
 current line or current selected lines up, and use the *Alt-Down* command to

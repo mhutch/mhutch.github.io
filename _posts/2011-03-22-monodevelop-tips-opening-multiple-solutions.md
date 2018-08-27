@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Opening Multiple Solutions'
 created: 1300809600
-redirect_from: /node/215
+redirect_from:
+- /node/215
+- /journal/2011/03/monodevelop_tips_opening_multiple_solutions
 ---
 Normally, MonoDevelop only allows a single instance of itself to be open, since
 many of its data files (preferences, code completion databases and so on) are
@@ -33,4 +35,3 @@ waste space. When you open a solution, MonoDevelop normally closes the existing
 workspace, and creates a new one for the newly opened solution. These options
 allow you to override that behaviour, and instead add the newly opened solution
 to the existing workspace.
-

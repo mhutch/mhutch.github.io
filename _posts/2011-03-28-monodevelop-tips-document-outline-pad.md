@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Document Outline Pad'
 created: 1301328000
-redirect_from: /node/220
+redirect_from:
+- /node/220
+- /journal/2011/03/monodevelop_tips_document_outline_pad
 ---
 One of my favourite pads in MonoDevelop is the document outline pad, which
 provides an overview of the current document and a way to jump quickly to any

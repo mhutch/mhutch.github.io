@@ -3,7 +3,9 @@ tags: [ mono ]
 layout: journal
 title: MonoMac video from NDC 2011
 created: 1309131371
-redirect_from: /node/225
+redirect_from:
+- /node/225
+- /journal/2011/06/monomac_video_ndc_2011
 ---
 The videos from NDC 2011 are [now
 online](http://www.ndc2011.no/agenda.aspx?cat=1071&id=-1&day=3728), including my

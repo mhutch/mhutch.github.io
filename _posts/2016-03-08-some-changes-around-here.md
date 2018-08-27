@@ -3,7 +3,9 @@ tags: [ personal ]
 layout: journal
 title: Some Changes Around Here
 created: 1457497940
-redirect_from: /node/235
+redirect_from:
+- /node/235
+- /journal/2016/03/08/some_changes_around_here
 ---
 I’d like to make a brief announcement. I’m coming out as transgender - I
 identify as a woman, I am changing my name to Mikayla, and I am switching to

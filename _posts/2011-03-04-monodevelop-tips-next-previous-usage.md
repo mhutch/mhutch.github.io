@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Next/Previous Usage'
 created: 1299258000
-redirect_from: /node/203
+redirect_from:
+- /node/203
+- /journal/2011/03/monodevelop_tips_nextprevious_usage
 ---
 After the caret has been in an identifier in a C# file for a few seconds, then
 all the usages of that identifier in the current file are highlighted. This

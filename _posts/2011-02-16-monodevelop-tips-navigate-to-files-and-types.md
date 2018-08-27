@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Navigate To Files and Types'
 created: 1297875620
-redirect_from: /node/190
+redirect_from:
+- /node/190
+- /journal/2011/02/monodevelop_tips_navigate_files_and_types
 ---
 If you know the name of a type or file and want to go straight to it without
 having to dig through the solution pad and file contents, the *Navigate To...*

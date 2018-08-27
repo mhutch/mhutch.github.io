@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Code Focus'
 created: 1300982400
-redirect_from: /node/217
+redirect_from:
+- /node/217
+- /journal/2011/03/monodevelop_tips_code_focus
 ---
 Code focus is a useful feature that helps to show the structure of your code.
 It's activated by hovering over one of the fold markers in the text editor

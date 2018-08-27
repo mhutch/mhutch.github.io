@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Navigation History'
 created: 1301068800
-redirect_from: /node/218
+redirect_from:
+- /node/218
+- /journal/2011/03/monodevelop_tips_navigation_history
 ---
 MonoDevelop keeps track of your navigation history, like a web browser. If you
 jump to another file or another position inside the same file, you can easily

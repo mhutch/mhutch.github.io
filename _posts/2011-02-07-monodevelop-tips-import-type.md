@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Import Type'
 created: 1297098009
-redirect_from: /node/183
+redirect_from:
+- /node/183
+- /journal/2011/02/08/monodevelop_tips_import_type
 ---
 One of my favourite features that we added to MonoDevelop 2.4 is the "import
 Type" command. It is accessed using the keybinding _Ctrl-Alt-Space_, and shows a

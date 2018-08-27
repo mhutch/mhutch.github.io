@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Author Information'
 created: 1300291200
-redirect_from: /node/211
+redirect_from:
+- /node/211
+- /journal/2011/03/monodevelop_tips_author_information
 ---
 There are many convenient things MonoDevelop can do automatically, but for some
 it needs to know a bit about you, such as your name, your email address, and who

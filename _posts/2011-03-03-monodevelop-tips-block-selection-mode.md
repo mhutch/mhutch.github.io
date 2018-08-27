@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Block Selection Mode'
 created: 1299171600
-redirect_from: /node/202
+redirect_from:
+- /node/202
+- /journal/2011/03/monodevelop_tips_block_selection_mode
 ---
 Sometimes it's useful to be able to edit multiple lines at once in a similar
 way. This is possible in MonoDevelop using block selections. To make a block

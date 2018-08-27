@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Build Actions'
 created: 1299862800
-redirect_from: /node/208
+redirect_from:
+- /node/208
+- /journal/2011/03/monodevelop_tips_build_actions
 ---
 Files in a MonoDevelop (or Visual Studio) project have a _build action_ which
 controls what happens to the file during a build. Here are some of the common

@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Pinned Search Results'
 created: 1299776400
-redirect_from: /node/207
+redirect_from:
+- /node/207
+- /journal/2011/03/monodevelop_tips_pinned_search_results
 ---
 Some kinds of [pads](/journal/2011/02/monodevelop_tips_workspace_layout) in
 MonoDevelop are transient. They cannot be accessed directly from a menu, but

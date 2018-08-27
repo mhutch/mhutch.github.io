@@ -3,7 +3,9 @@ tags: [ mono, monotouch, xcode 4 ]
 layout: journal
 title: Preview of Xcode 4 Support for MonoTouch
 created: 1304452596
-redirect_from: /node/223
+redirect_from:
+- /node/223
+- /journal/2011/05/preview_xcode_4_support_monotouch
 ---
 In their recent update of the iOS and Mac developer tools, Apple removed the
 standalone Interface Builder application and integrated the GUI designer

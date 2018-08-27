@@ -3,9 +3,12 @@ tags: [ mono, monomac, devteach ]
 layout: journal
 title: Speaking at DevTeach
 created: 1306613854
-redirect_from: /node/224
+redirect_from:
+- /node/224
+- /journal/2011/05/speaking_devteach
 ---
-This week I'm going to be presenting two sessions at <a href="http://devteach.com/">DevTeach 11</a> in Montreal.<!--break-->
+This week I'm going to be presenting two sessions at [DevTeach
+11](http://devteach.com) in Montreal.<!--break-->
 
 My first topic will be _Native .NET Apps for the Mac with MonoMac_. I'll be
 taking about MonoMac and the native Mac APIs that it exposes to .NET developers,

@@ -3,7 +3,9 @@ tags: [ mono ]
 layout: journal
 title: MonoDevelop.AddinMaker 1.2
 created: 1426140484
-redirect_from: /node/231
+redirect_from:
+- /node/231
+- /journal/2015/03/12/monodevelopaddinmaker_12
 ---
 I've finally released [MonoDevelop.AddinMaker](https://mhut.ch/addinmaker/1.2),
 making it easier than ever before to customize and add features to Xamarin

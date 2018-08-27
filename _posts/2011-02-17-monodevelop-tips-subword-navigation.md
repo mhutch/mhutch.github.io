@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Subword Navigation'
 created: 1297962035
-redirect_from: /node/191
+redirect_from:
+- /node/191
+- /journal/2011/02/subword_navigation
 ---
 Most users are familiar with word navigation, for moving the caret to the next
 or previous word: _Control-Left_/_Control-Right_ on Windows and Linux, and

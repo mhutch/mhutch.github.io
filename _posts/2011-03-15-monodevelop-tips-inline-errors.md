@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Inline Errors'
 created: 1300204800
-redirect_from: /node/210
+redirect_from:
+- /node/210
+- /journal/2011/03/monodevelop_tips_inline_errors
 ---
 In MonoDevelop 2.4, we introduced inline error markers, similar to Xcode. When
 you build, errors and warnings are shown inline in the code as _message

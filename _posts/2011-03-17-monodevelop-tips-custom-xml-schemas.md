@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Custom XML Schemas'
 created: 1300377600
-redirect_from: /node/212
+redirect_from:
+- /node/212
+- /journal/2011/03/monodevelop_tips_custom_xml_schemas
 ---
 MonoDevelop's XML autocompletion is driven by XML schemas, although there is a
 fallback that will use existing nodes in the file to provide  a very basic form

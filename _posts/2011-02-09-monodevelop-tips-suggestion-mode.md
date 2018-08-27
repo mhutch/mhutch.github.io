@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Suggestion Mode'
 created: 1297270825
-redirect_from: /node/185
+redirect_from:
+- /node/185
+- /journal/2011/02/monodevelop_tips_suggestion_mode
 ---
 The default mode of the code completion list is to _complete_ the symbol that's
 being typed. Whenever the completion engine can determine that you are typing an

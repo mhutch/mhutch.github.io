@@ -3,7 +3,9 @@ tags: [ mono, monodevelop, msbuild ]
 layout: journal
 title: The State of MSBuild Support in MonoDevelop
 created: 1345352230
-redirect_from: /node/227
+redirect_from:
+- /node/227
+- /journal/2012/08/19/state_msbuild_support_monodevelop
 ---
 I occasionally get questions about support for advanced MSBuild features, and my
 answers are usually fairly short. This post aims to be a more comprehensive

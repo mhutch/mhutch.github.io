@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: MonoDevelop Tips will Resume in May
 created: 1302821350
-redirect_from: /node/221
+redirect_from:
+- /node/221
+- /journal/2011/04/monodevelop_tips_will_resume_may
 ---
 In early February I started writing a series of [MonoDevelop
 Tips](/tags/monodevelop_tips), and after a solid run of a couple of months, I

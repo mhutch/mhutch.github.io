@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Word Breaking'
 created: 1297789200
-redirect_from: /node/189
+redirect_from:
+- /node/189
+- /journal/2011/02/monodevelop_tips_word_breaking
 ---
 There are various places where the MonoDevelop text editor needs to understand
 where words begin and end, for example, when you use control-left/right to move

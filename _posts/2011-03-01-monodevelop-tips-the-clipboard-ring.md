@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: The Clipboard Ring'
 created: 1298998800
-redirect_from: /node/200
+redirect_from:
+- /node/200
+- /journal/2011/03/monodevelop_tips_clipboard_ring
 ---
 The MonoDevelop text editor keeps track of the most recent 12 things that have
 been cut or copied. This can be useful when you realize you want something you

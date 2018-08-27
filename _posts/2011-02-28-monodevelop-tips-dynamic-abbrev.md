@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Dynamic Abbrev'
 created: 1298912400
-redirect_from: /node/199
+redirect_from:
+- /node/199
+- /journal/2011/02/monodevelop_tips_dynamic_abbrev
 ---
 MonoDevelop's code completion for C# provides highly context-sensitive and
 accurate suggestions. However, it can't provide completion in plain text, such

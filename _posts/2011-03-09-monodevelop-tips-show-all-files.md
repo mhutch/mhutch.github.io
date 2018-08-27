@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Show All Files'
 created: 1299690000
-redirect_from: /node/206
+redirect_from:
+- /node/206
+- /journal/2011/03/monodevelop_tips_show_all_files
 ---
 The MonoDevelop Solution Pad shows projects and folders that correspond to real
 folders on disk, but by default it only shows files and folders within them that

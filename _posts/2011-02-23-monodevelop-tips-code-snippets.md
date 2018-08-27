@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Code Snippets'
 created: 1298480400
-redirect_from: /node/195
+redirect_from:
+- /node/195
+- /journal/2011/02/monodevelop_tips_code_snippets
 ---
 Code snippets (or code templates) are an incredibly useful feature. They allow
 inserting and editing template blocks of code, which is useful for quickly

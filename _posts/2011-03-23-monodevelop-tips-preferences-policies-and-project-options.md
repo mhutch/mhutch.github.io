@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Preferences, Policies and Project Options'
 created: 1300896000
-redirect_from: /node/216
+redirect_from:
+- /node/216
+- /journal/2011/03/monodevelop_tips_preferences_policies_and_project_options
 ---
 There are several different kinds of settings in MonoDevelop &mdash;
 Preferences, Policies and Project Options &mdash; and the distinction between

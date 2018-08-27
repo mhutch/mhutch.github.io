@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Completion List Categories'
 created: 1297702811
-redirect_from: /node/188
+redirect_from:
+- /node/188
+- /journal/2011/02/monodevelop_tips_completion_list_categories
 ---
 When using code completion to explore a new API, it's often useful to know where
 in the type hierarchy members are defined. For example, when looking for things

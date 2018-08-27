@@ -3,7 +3,9 @@ tags: [ mono ]
 layout: journal
 title: Easy pull requests from master with git-offload
 created: 1470254612
-redirect_from: /node/237
+redirect_from:
+- /node/237
+- /journal/2016/08/03/easy_pull_requests_from_master
 ---
 When using git, I often find myself committing some work to master locally, and
 having to move it all to a branch from which I can make a pull request. Then I

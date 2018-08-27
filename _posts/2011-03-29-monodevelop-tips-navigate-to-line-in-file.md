@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Navigate to Line in File'
 created: 1301414400
-redirect_from: /node/219
+redirect_from:
+- /node/219
+- /journal/2011/03/monodevelop_tips_navigate_line_file
 ---
 In an earlier post, I introduced the [Navigate
 To](/journal/2011/02/monodevelop_tips_navigate_files_and_types) dialog, which

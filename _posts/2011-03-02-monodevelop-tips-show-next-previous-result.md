@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Show Next/Previous Result'
 created: 1299085200
-redirect_from: /node/201
+redirect_from:
+- /node/201
+- /journal/2011/03/monodevelop_tips_show_nextprevious_result
 ---
 One of the most useful pairs of commands in MonoDevelop is _Show Next Result_
 and _Show Previous Result_. These commands move through items in the most

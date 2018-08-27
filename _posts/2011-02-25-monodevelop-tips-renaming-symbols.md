@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Renaming Symbols'
 created: 1298653200
-redirect_from: /node/197
+redirect_from:
+- /node/197
+- /journal/2011/02/monodevelop_tips_renaming_symbols
 ---
 One of the most useful refactoring commands is "Rename", which renames a symbol
 by accurately finding all occurrences and changing them. To rename a symbol,

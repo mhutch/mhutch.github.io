@@ -3,7 +3,9 @@ tags: [ mono ]
 layout: journal
 title: MSBuild Code Generation in VS2015
 created: 1461041943
-redirect_from: /node/236
+redirect_from:
+- /node/236
+- /journal/2016/04/19/msbuild_code_generation_vs2015
 ---
 A couple of weeks ago I was helping [Jason Smith](http://xfcomplete.net) debug
 an issue with the build-time code generation in Xamarin.Forms. The build targets

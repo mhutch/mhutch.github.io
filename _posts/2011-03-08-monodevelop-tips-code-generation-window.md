@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Code Generation Window'
 created: 1299603600
-redirect_from: /node/205
+redirect_from:
+- /node/205
+- /journal/2011/03/monodevelop_tips_code_generation
 ---
 The Code Generation window can be used to automatically generate code for
 various patterns, based on existing code. It can be triggered from the context

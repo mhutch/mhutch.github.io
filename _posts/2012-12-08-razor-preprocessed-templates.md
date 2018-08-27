@@ -3,7 +3,9 @@ tags: [ mono, templates, razor, monodevelop ]
 layout: journal
 title: Razor Preprocessed Templates
 created: 1355012546
-redirect_from: /node/228
+redirect_from:
+- /node/228
+- /journal/2012/12/08/razor_preprocessed_templates
 ---
 When [Miguel](https://twitter.com/migueldeicaza) asked me to investigate making
 MonoDevelop support using

@@ -3,7 +3,9 @@ tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Document Switcher'
 created: 1297357200
-redirect_from: /node/186
+redirect_from:
+- /node/186
+- /journal/2011/02/monodevelop_tips_document_switcher
 ---
 The document switcher is a quick way to switch focus between open documents and
 pads using the keyboard. It's activated by the *Ctrl-tab* or *Ctrl-shift-tab*
