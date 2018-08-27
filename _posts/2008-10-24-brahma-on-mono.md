@@ -3,7 +3,9 @@ tags: [ mono, gpus, linq ]
 layout: journal
 title: Brahma on Mono
 created: 1224828254
-redirect_from: /node/162
+redirect_from:
+- /node/162
+- /journal/2008/10/24/brahma_mono
 ---
 I'm very excited to see that [Ananth](http://www.ananthonline.net), the author
 of the [Brahma LINQ-to-GPU](http://brahma.ananthonline.net) provider, now has it

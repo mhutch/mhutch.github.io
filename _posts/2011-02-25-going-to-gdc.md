@@ -1,11 +1,5 @@
 ---
-tags:
-- gaming
-- mono
-- game development
-- gdc
-- monotouch
-- monodroid
+tags: [ gaming, mono, game development, gdc, monotouch, monodroid ]
 layout: journal
 title: Going to GDC
 created: 1298622885

@@ -1,14 +1,17 @@
 ---
-tags:
-- mono
-- monodevelop tips
+tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Next/Previous Usage'
 created: 1299258000
 redirect_from: /node/203
 ---
-After the caret has been in an identifier in a C# file for a few seconds, then all the usages of that identifier in the current file are highlighted. This provides a nice visual cue for finding related code and following code flow.<!--break-->
+After the caret has been in an identifier in a C# file for a few seconds, then
+all the usages of that identifier in the current file are highlighted. This
+provides a nice visual cue for finding related code and following code
+flow.<!--break-->
 
-<a href="/files/images/md-tips/highlight-usages.png" rel="lightbox[md_tips_highlight_usages]" title="Highlight usages"><img src="/files/images/md-tips/highlight-usages.png" alt="Highlight usages" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
+![Highlight usages](/files/images/md-tips/highlight-usages.png)
 
-There are also commands for quickly moving between these usages. On Windows and Linux they're bound to <strong>Control-Shift-Up</strong> and <strong>Control-Shift-Down</strong>, and on Mac they're <strong>Command-Shift-Up</strong> and <strong>Command-Shift-Down</strong>.
+There are also commands for quickly moving between these usages. On Windows and
+Linux they're bound to *Control-Shift-Up* and *Control-Shift-Down*, and on Mac
+they're *Command-Shift-Up* and *Command-Shift-Down*.

@@ -1,18 +1,23 @@
 ---
-tags:
-- programming languages
-- gaming
-- mono
-- catchup2010
-- microthreading
+tags: [ programming languages, gaming, mono, catchup2010, microthreading ]
 layout: journal
 title: Iterator-based Microthreading
 created: 1265004319
-redirect_from: /node/178
+redirect_from:
+- /node/178
+- /journal/2010/02/01/iteratorbased_microthreading
 ---
-Back in May, I was wrapping PhyreEngine and porting the samples to C#. To extend one of them and demonstrate some of the capabilities of C#, [Miguel](http://tirania.org/blog) and I decided to use simple iterator-based microthreading, which simulates multithreading but with many microthreads within a single real thread. [Unity](http://unity3d.com)> does something like it in their game engine too. It enables you to use a very imperative style of coding, as if using a single dedicated thread for each, but without anywhere near the overhead of real threads.<!--break-->
+Back in May, I was wrapping PhyreEngine and porting the samples to C#. To extend
+one of them and demonstrate some of the capabilities of C#,
+[Miguel](http://tirania.org/blog) and I decided to use simple iterator-based
+microthreading, which simulates multithreading but with many microthreads within
+a single real thread. [Unity](http://unity3d.com)> does something like it in
+their game engine too. It enables you to use a very imperative style of coding,
+as if using a single dedicated thread for each, but without anywhere near the
+overhead of real threads.<!--break-->
 
-Here's the usage example we came up initially with that drove my design of the microthread scheduler:
+Here's the usage example we came up initially with that drove my design of the
+microthread scheduler:
 
 ```csharp
 public class Enemy1
@@ -49,7 +54,14 @@ public class Enemy1
 }
 ```
 
-The concept is fairly simple. The C# compiler magically transforms this code into an `IEnumerator` state machine (returned by `IEnumerable.GetEnumerator()`). Each time `IEnumerator.MoveNext()` is called, your method "iterates": it runs to the next yield statement, sets the Current property to the value yielded, and keeps enough state that next time it iterates, it can effectively resume where it left off. We can yield nulls to give other microthreads a chance to run, or yield objects to tell the scheduler other things. For example, yielding a `TimeSpan` could cause the microthread to sleep for that long.
+The concept is fairly simple. The C# compiler magically transforms this code
+into an `IEnumerator` state machine (returned by `IEnumerable.GetEnumerator()`).
+Each time `IEnumerator.MoveNext()` is called, your method "iterates": it runs to
+the next yield statement, sets the Current property to the value yielded, and
+keeps enough state that next time it iterates, it can effectively resume where
+it left off. We can yield nulls to give other microthreads a chance to run, or
+yield objects to tell the scheduler other things. For example, yielding a
+`TimeSpan` could cause the microthread to sleep for that long.
 
 ```csharp
 interface IEnumerator
@@ -59,9 +71,16 @@ interface IEnumerator
 }
 ```
 
-As you can see, although C# iterators are primarily intended for iterating through collections, the `yield` keyword can also become effectively something like a microthread cooperatively yielding. Your method runs until it yields, then it later resumes from this point, runs to the next yield, and so on.
+As you can see, although C# iterators are primarily intended for iterating
+through collections, the `yield` keyword can also become effectively something
+like a microthread cooperatively yielding. Your method runs until it yields,
+then it later resumes from this point, runs to the next yield, and so on.
 
-The class that enumerates your iterator is the scheduler. Before we get to that, we'll cover the boring bits to set some groundwork. First, we need a class to encapsulate the task. This holds hold the `IEnumerator` and which `Scheduler` it belongs to, is a singly linked list node, and has a field for arbitrary data we'll use later.
+The class that enumerates your iterator is the scheduler. Before we get to that,
+we'll cover the boring bits to set some groundwork. First, we need a class to
+encapsulate the task. This holds hold the `IEnumerator` and which `Scheduler` it
+belongs to, is a singly linked list node, and has a field for arbitrary data
+we'll use later.
 
 ```csharp
 //tasks may move between lists but they may only be in one list at a time
@@ -80,7 +99,9 @@ internal class TaskItem
 }
 ```
 
-Next we need a simple linked list for keeping lists of `TaskItem`. We're not using `LinkedList<T>`; this is much simpler, does only what we need, and makes it easy to move tasks between lists and remove them via the enumerator.
+Next we need a simple linked list for keeping lists of `TaskItem`. We're not
+using `LinkedList<T>`; this is much simpler, does only what we need, and makes
+it easy to move tasks between lists and remove them via the enumerator.
 
 ```csharp
 internal sealed class TaskList
@@ -181,7 +202,10 @@ internal sealed class TaskList
 }
 ```
 
-Now we can implement the scheduler. Using the scheduler is very simple. You register tasks with `RegisterTask(IEnumerable)`, then call `Run()` to run all the active tasks for one yield iteration each. It handles sleeping and waking up tasks and removing tasks once they're finished.
+Now we can implement the scheduler. Using the scheduler is very simple. You
+register tasks with `RegisterTask(IEnumerable)`, then call `Run()` to run all
+the active tasks for one yield iteration each. It handles sleeping and waking up
+tasks and removing tasks once they're finished.
 
 ```csharp
 public sealed class Scheduler
@@ -245,11 +269,26 @@ public sealed class Scheduler
 }
 ```
 
-At this point, it looks fairly useful, but let's add a simple synchronization primitive too. Microthreads should never make long blocking calls because they can't be pre-empted. Instead, we're going to let the microthread obtain and yield a signal object,  which means it will not be scheduled until the signal has been set. Instead of using blocking APIs, you can use async APIs, create a signal object, wait on that, and have the callback set the signal. Or, thinking back to the initial game example, some game object's controlling microthread might want to sleep until another game object reaches a certain state; the target object can keep a signal accessible via a property that microthreads can read and wait on.
+At this point, it looks fairly useful, but let's add a simple synchronization
+primitive too. Microthreads should never make long blocking calls because they
+can't be pre-empted. Instead, we're going to let the microthread obtain and
+yield a signal object,  which means it will not be scheduled until the signal
+has been set. Instead of using blocking APIs, you can use async APIs, create a
+signal object, wait on that, and have the callback set the signal. Or, thinking
+back to the initial game example, some game object's controlling microthread
+might want to sleep until another game object reaches a certain state; the
+target object can keep a signal accessible via a property that microthreads can
+read and wait on.
 
-A thread can wait for more that one signal, and more than one thread can wait for a signal. Essentially we're going to have an equivalent of .NET's `AutoResetEvent` and `WaitHandle.WaitAll(WaiHandle[])`.
+A thread can wait for more that one signal, and more than one thread can wait
+for a signal. Essentially we're going to have an equivalent of .NET's
+`AutoResetEvent` and `WaitHandle.WaitAll(WaiHandle[])`.
 
-The signal's job is to keep a list of all the tasks that are waiting for it. When tasks start waiting, they move out of the scheduler's lists and are tracked by all the signals instead. Each signal increments/decrements the task's `Data` property to keep track of how many signals the task is waiting for. When the count reaches zero, the task can be moved back to the scheduler.
+The signal's job is to keep a list of all the tasks that are waiting for it.
+When tasks start waiting, they move out of the scheduler's lists and are tracked
+by all the signals instead. Each signal increments/decrements the task's `Data`
+property to keep track of how many signals the task is waiting for. When the
+count reaches zero, the task can be moved back to the scheduler.
 
 ```csharp
 public class Signal
@@ -286,7 +325,9 @@ public class Signal
 }
 ```
 
-And we need to add a couple more checks to the `Scheduler.Run()` state handling, so that when the task returns a signal or collection/array of signals, it's moved from the scheduler's lists to the tasks' lists.
+And we need to add a couple more checks to the `Scheduler.Run()` state handling,
+so that when the task returns a signal or collection/array of signals, it's
+moved from the scheduler's lists to the tasks' lists.
 
 ```csharp
 } else if (state is Signal) {
@@ -306,12 +347,28 @@ And, there it is.
 I have a few more ideas to improve this and turn it into a real library:
 
 * Implement a `Signal` that's a `ManualResetEvent` analogue
-* Use a `IEnumerable<ThreadState>` instead of plain `IEnumerable`, where `ThreadState` is a union struct with an enum specifying its type. This could be used to avoid the boxing of `TimeSpan` and the type checks and casts in the scheduler &mdash; just switch on the enum value. It would also prevent consumers returning a zero `TimeSpan` instead of null.
+* Use a `IEnumerable<ThreadState>` instead of plain `IEnumerable`, where
+  `ThreadState` is a union struct with an enum specifying its type. This could
+  be used to avoid the boxing of `TimeSpan` and the type checks and casts in the
+  scheduler &mdash; just switch on the enum value. It would also prevent
+  consumers returning a zero `TimeSpan` instead of null.
 * Dispose any disposable task IEnumerators
 * Implement task priorities, probably using different lists
 * Tidy up the accessibility and API a bit
-* Add a Scheduler.Run overload that only runs some number of iterations, not the whole list.
+* Add a Scheduler.Run overload that only runs some number of iterations, not the
+  whole list.
 
-Some people may wonder why I haven't mentioned interactions with real threads. If the scheduler were thread-aware, then you could have multiple real threads on different cores consuming the microthread queue, and it would be faster with multiple cores and avoid blocking on slow tasks. The problem is not just that this increases the complexity, but that the microthreads all would have to be aware of threading too, and would need to lock all the objects they touched, and so on. This scheduler is meant to run in the equivalent of the GUI thread, purely to enable driving high-level game logic (and similar things) with an intuitive thread-like imperative programming model, and minimal overhead. If it doesn't fit easily on one core you're probably using it for the wrong thing. There might be cases where it's useful to create multiple Schedulers, and run them in different thread, but be careful about what the microthreads touch.
+Some people may wonder why I haven't mentioned interactions with real threads.
+If the scheduler were thread-aware, then you could have multiple real threads on
+different cores consuming the microthread queue, and it would be faster with
+multiple cores and avoid blocking on slow tasks. The problem is not just that
+this increases the complexity, but that the microthreads all would have to be
+aware of threading too, and would need to lock all the objects they touched, and
+so on. This scheduler is meant to run in the equivalent of the GUI thread,
+purely to enable driving high-level game logic (and similar things) with an
+intuitive thread-like imperative programming model, and minimal overhead. If it
+doesn't fit easily on one core you're probably using it for the wrong thing.
+There might be cases where it's useful to create multiple Schedulers, and run
+them in different thread, but be careful about what the microthreads touch.
 
 _This is part of the [Catchup 2010](http://mjhutchinson.com/tags/catchup2010) series of posts_

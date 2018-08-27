@@ -1,13 +1,18 @@
 ---
-tags:
-- mono
-- monodevelop tips
+tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Word Breaking'
 created: 1297789200
 redirect_from: /node/189
 ---
-There are various places where the MonoDevelop text editor needs to understand where words begin and end, for example, when you use control-left/right to move the caret (alt-left/right on Mac). We refer to this as "word breaking". Unfortunately, word breaking behaviour differs between OSes, and word breaking is often intended for text, not code. In addition, people become used to particular kinds of word breaking. For these reasons, we allow users to change MonoDevelop's word breaking mode in _Preferences->Text Editor->Behavior_.<!--break-->
+There are various places where the MonoDevelop text editor needs to understand
+where words begin and end, for example, when you use control-left/right to move
+the caret (alt-left/right on Mac). We refer to this as "word breaking".
+Unfortunately, word breaking behaviour differs between OSes, and word breaking
+is often intended for text, not code. In addition, people become used to
+particular kinds of word breaking. For these reasons, we allow users to change
+MonoDevelop's word breaking mode in _Preferences->Text
+Editor->Behavior_.<!--break-->
 
 SharpDevelop
 : This mode is like the native behaviour on Windows, breaking on transitions

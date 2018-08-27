@@ -1,31 +1,46 @@
 ---
-tags:
-- mono
-- monodevelop tips
+tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Hidden Editor Commands'
 created: 1299517200
 redirect_from: /node/204
 ---
-The MonoDevelop text editor has many commands are not immediately obvious. Some are accessible from the _Edit_ and _Edit->Format_ menus, and some have default keybindings, but many can only be used if you manually <a href="/journal/2011/02/06/key_bindings">add keybindings</a> for them. Some even have keybindings that are <a href="https://github.com/mono/monodevelop/blob/master/main/src/core/Mono.Texteditor/Mono.TextEditor/SimpleEditMode.cs">hardcoded into the text editor</a>, and will be available unless you override it by assigning that some keybinding to some other command.
- 
+The MonoDevelop text editor has many commands are not immediately obvious. Some
+are accessible from the _Edit_ and _Edit->Format_ menus, and some have default
+keybindings, but many can only be used if you manually [add
+keybindings](/journal/2011/02/06/key_bindings) for them. Some even have
+keybindings that are [hardcoded into the text
+editor](https://github.com/mono/monodevelop/blob/master/main/src/core/Mono.Texteditor/Mono.TextEditor/SimpleEditMode.cs),
+and will be available unless you override it by assigning that some keybinding
+to some other command.
+
 Here is a selection of some that may be useful:
 
-<dl>
-<dt><strong>Join Lines</strong></dt>
-<dd>Joins the current line with the next line, i.e. removes the next line and appends it to the current line, separated by a space. If multiple lines are selected, it will join them all into one line.</dd>
-<dt><strong>Transpose characters</strong></dt>
-<dd>Swaps the characters on either side of the caret (<strong>Control-T</strong> on Mac)</dd>
-<dt><strong>Delete to end of line</strong></dt>
-<dd>Deletes from the caret to the end of the current line (<strong>Control-K</strong> on Mac)</dd>
-<dt><strong>Find caret</strong></dt>
-<dd>Triggers an animation showing where the caret is (<strong>Command-|</strong> on Mac)</dd>
-<dt><strong>Go to matching brace</strong></dt>
-<dd>Moves the caret to the counterpart of the adjacent brace or bracket</dd>
-<dt><strong>Insert line break after caret</strong></dt>
-<dd>Moves the text after the caret onto a new line without moving the caret (<strong>Control-Enter</strong> on all platforms, and also <strong>Control-O</strong> on Mac)</dd>
-<dt><strong>Move caret to EOL and insert new line</strong></dt>
-<dd>Inserts a new line below the current line and moves the caret to it (<strong>Shift-Enter</strong> on all platforms</dd>
-<dt><strong>Recenter editor</strong></dt>
-<dd>Moves the scrollbars so that the caret is centered in the editor (<strong>Control-L</strong> on Mac)</dd>
-</dl>
+Join Lines
+: Joins the current line with the next line, i.e. removes the next line and
+  appends it to the current line, separated by a space. If multiple lines are
+  selected, it will join them all into one line.
+
+Transpose characters
+: Swaps the characters on either side of the caret (*Control-T* on Mac)
+
+Delete to end of line
+: Deletes from the caret to the end of the current line (*Control-K* on Mac)
+
+Find caret
+: Triggers an animation showing where the caret is (*Command-|* on Mac)
+
+Go to matching brace
+: Moves the caret to the counterpart of the adjacent brace or bracket
+
+Insert line break after caret
+: Moves the text after the caret onto a new line without moving the caret
+  (*Control-Enter* on all platforms, and also *Control-O* on Mac)
+
+Move caret to EOL and insert new line
+: Inserts a new line below the current line and moves the caret to it
+  (*Shift-Enter* on all platforms
+
+Recenter editor
+: Moves the scrollbars so that the caret is centered in the editor
+  (*Control-L* on Mac)

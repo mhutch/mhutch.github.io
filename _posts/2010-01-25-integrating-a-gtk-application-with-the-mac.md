@@ -1,19 +1,28 @@
 ---
-tags:
-- mono
-- mac
-- catchup2010
-- gtk#
+tags: [ mono, mac, catchup2010, gtk# ]
 layout: journal
 title: Integrating a GTK# Application with the Mac
 created: 1264402242
-redirect_from: /node/177
+redirect_from:
+- /node/177
+- /journal/2010/01/25/integrating_gtk_application_mac
 ---
-In this follow-up to my post on <a href="/journal/2010/01/24/creating_mac_app_bundle_for_gtk_app">turning a GTK# app into a Mac app bundle</a>, I describe how to integrate your application with Mac-specific features such as the main menu, the dock, and file/URL events. This is based on the work I did to integrate MonoDevelop and MonoDoc with the Mac, and largely involves cherry-picking code snippets from these projects. Although it would be nice to isolate this code into a library, I don't have the time at the moment to maintain such a library myself.<!--break-->
+In this follow-up to my post on [turning a GTK# app into a Mac app
+bundle](/journal/2010/01/24/creating_mac_app_bundle_for_gtk_app), I describe how
+to integrate your application with Mac-specific features such as the main menu,
+the dock, and file/URL events. This is based on the work I did to integrate
+MonoDevelop and MonoDoc with the Mac, and largely involves cherry-picking code
+snippets from these projects. Although it would be nice to isolate this code
+into a library, I don't have the time at the moment to maintain such a library
+myself.<!--break-->
 
-<a href="/files/images/MonoScreenshots/MonoDocOnMac.png"><img src="/files/images/MonoScreenshots/MonoDocOnMac.png" alt="MonoDevelop with Mac main menu support" style="max-width:98%; display:block;margin-left:auto;margin-right:auto;" /></a>
+![MonoDevelop with Mac main menu support](/files/images/MonoScreenshots/MonoDocOnMac.png)
 
-GTK# is a nice toolkit, and in my opinion the best cross-platform toolkit for Mono/.NET, but there are some things that just don't have direct cross-platform analogues, such as the Mac main menu. To integrate with such features, you need to implement platform-specific code paths. MonoDevelop does this in some cases using runtime checks:
+GTK# is a nice toolkit, and in my opinion the best cross-platform toolkit for
+Mono/.NET, but there are some things that just don't have direct cross-platform
+analogues, such as the Mac main menu. To integrate with such features, you need
+to implement platform-specific code paths. MonoDevelop does this in some cases
+using runtime checks:
 
 ```csharp
 if (PropertyService.IsMac) {
@@ -25,7 +34,16 @@ if (PropertyService.IsMac) {
 }
 ```
 
-This is great when the platform-specific code doesn't introduce any dependencies, because you have one binary that works across all platforms. However, you can't rely on <a href="https://bugzilla.novell.com/show_bug.cgi?id=433108#c4">checking `System.PlatformID.MacOSX`</a> so we have to use some other techniques for platform detection. In <a href="https://raw.github.com/mono/monodevelop/master/main/src/core/MonoDevelop.Core/MonoDevelop.Core/PropertyService.cs">MonoDevelop's PropertyService</a> we can find code based on Mono's `Managed.Windows.Forms/XplatUI` that detects whether the program is running on Mac or Windows. Here are the pertinent parts, copied into a new class:
+This is great when the platform-specific code doesn't introduce any
+dependencies, because you have one binary that works across all platforms.
+However, you can't rely on [checking
+`System.PlatformID.MacOSX`](https://bugzilla.novell.com/show_bug.cgi?id=433108#c4)
+so we have to use some other techniques for platform detection. In
+[MonoDevelop's
+PropertyService](https://raw.github.com/mono/monodevelop/master/main/src/core/MonoDevelop.Core/MonoDevelop.Core/PropertyService.cs)
+we can find code based on Mono's `Managed.Windows.Forms/XplatUI` that detects
+whether the program is running on Mac or Windows. Here are the pertinent parts,
+copied into a new class:
 
 ```csharp
 public static class PlatformDetection
@@ -64,9 +82,20 @@ public static class PlatformDetection
 }
 ```
 
-For certain other cases in MonoDevelop, particularly ones that introduce dependencies that only exist on some platforms, we have a "platform service" extension point using Mono.Addins, where a platform-specific addins can provide a platform-specific implementation of our `PlatformService` abstract class, and if none is found we fall back to a default implementation. This means that just one of our binaries is platform-specific. It's also nice because a lot of the platform-specific code is in one place. But there are still many places where certain platforms just need a small behavioural tweak and the overhead of pulling something out into this abstraction layer isn't worthwhile. In such cases we use a quick runtime check instead.
+For certain other cases in MonoDevelop, particularly ones that introduce
+dependencies that only exist on some platforms, we have a "platform service"
+extension point using Mono.Addins, where a platform-specific addins can provide
+a platform-specific implementation of our `PlatformService` abstract class, and
+if none is found we fall back to a default implementation. This means that just
+one of our binaries is platform-specific. It's also nice because a lot of the
+platform-specific code is in one place. But there are still many places where
+certain platforms just need a small behavioural tweak and the overhead of
+pulling something out into this abstraction layer isn't worthwhile. In such
+cases we use a quick runtime check instead.
 
-A third option is do build a different version of your binary for Mac, using ifdefs. This is what I did for MonoDoc, because it was easier for a quick hack, but I'll probably go back later and change it to use runtime checks.
+A third option is do build a different version of your binary for Mac, using
+ifdefs. This is what I did for MonoDoc, because it was easier for a quick hack,
+but I'll probably go back later and change it to use runtime checks.
 
 ```csharp
 #if MACOS
@@ -74,7 +103,19 @@ A third option is do build a different version of your binary for Mac, using ifd
 #endif
 ```
 
-The first platform-specific codepath we'll add is the main menu, because that's the one your users are going to notice. There is a GTK library called ige-mac-integration that provides some platform integration features for the main menu and dock, and is included in the Mono framework for Mac. If you exported the DYLD_FALLBACK_LIBRARY_PATH like I described in my post about building the app bundle, you should be able to P/Invoke it. Unfortunately it's quite limited in what it can do, so we don't use it at all in MonoDevelop, but its menu integration is effective for simpler apps like MonoDoc. In the MonoDoc source you can find a <a href="https://raw.github.com/mono/mono-tools/master/docbrowser/macbuild/IgeMacMenuGlobal.cs">small IGE wrapper</a> in a single file that you can copy into your app. Since P/Invokes are only resolved at runtime if they're used, you can include the code on all platforms provided you only call it on Mac .
+The first platform-specific codepath we'll add is the main menu, because that's
+the one your users are going to notice. There is a GTK library called
+ige-mac-integration that provides some platform integration features for the
+main menu and dock, and is included in the Mono framework for Mac. If you
+exported the `DYLD_FALLBACK_LIBRARY_PATH` like I described in my post about
+building the app bundle, you should be able to P/Invoke it. Unfortunately it's
+quite limited in what it can do, so we don't use it at all in MonoDevelop, but
+its menu integration is effective for simpler apps like MonoDoc. In the MonoDoc
+source you can find a [small IGE
+wrapper](https://raw.github.com/mono/mono-tools/master/docbrowser/macbuild/IgeMacMenuGlobal.cs)
+a single file that you can copy into your app. Since P/Invokes are only resolved
+at runtime if they're used, you can include the code on all platforms provided
+you only call it on Mac .
 
 ```csharp
 if (PlatformDetection.IsMac) {
@@ -97,15 +138,38 @@ if (PlatformDetection.IsMac) {
 }
 ```
 
-The IGE library automatically converts your menu's shortcuts to use Command instead of Control, but if you explicitly check modifiers elsewhere in your code, for example in custom widgets, you may wish to make Mac-specific tweaks to behaviour. If you do need to access modifiers from key events directly, beware that the Mac GTK modifier mappings are very strange; see the MapRawKeys method on MonoDevelop's <a href="https://raw.github.com/mono/monodevelop/master/main/src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/KeyBindingManager.cs">KeyBindingManager</a> for details.
+The IGE library automatically converts your menu's shortcuts to use Command
+instead of Control, but if you explicitly check modifiers elsewhere in your
+code, for example in custom widgets, you may wish to make Mac-specific tweaks to
+behaviour. If you do need to access modifiers from key events directly, beware
+that the Mac GTK modifier mappings are very strange; see the MapRawKeys method
+on MonoDevelop's
+[KeyBindingManager](https://raw.github.com/mono/monodevelop/master/main/src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/KeyBindingManager.cs)
+for details.
 
 Next we'll handle the Apple Events that Mac applications in App Bundle form are expected to handle.
 
-The Quit event is sent when the Quit command on your app's the Dock icon is used (among other things), and obviously should cause your app to quit. The Reopen event is sent when the dock is clicked, and should cause your app to show its windows if they're hidden, or if you follow the Mac document-per-window model and no document is open, optionally create a new empty document.
+The Quit event is sent when the Quit command on your app's the Dock icon is used
+(among other things), and obviously should cause your app to quit. The Reopen
+event is sent when the dock is clicked, and should cause your app to show its
+windows if they're hidden, or if you follow the Mac document-per-window model
+and no document is open, optionally create a new empty document.
 
-The strange events for developers from other OSes are the file open and URL open events that your app gets set if it's registered to handle file types or URL types. Because the Mac only expects to have a single instance of a bundle app running at once, each app handling multiple documents, Launch Services sends the files or URLs as events to the running instance of the app, or if the app is not running, starts it then sends the events. They are not ever passed to your app as command-line arguments.
+The strange events for developers from other OSes are the file open and URL open
+events that your app gets set if it's registered to handle file types or URL
+types. Because the Mac only expects to have a single instance of a bundle app
+running at once, each app handling multiple documents, Launch Services sends the
+files or URLs as events to the running instance of the app, or if the app is not
+running, starts it then sends the events. They are not ever passed to your app
+as command-line arguments.
 
-MonoDevelop's MacPlatform addin has a wrapper for these events that exposes them as simple static .NET events on a static class called `OSXIntegration.Framework.ApplicationEvents`. Simply copy the entire contents of the <a href="https://github.com/mono/monodevelop/tree/master/main/src/addins/MacPlatform/MacInterop">`MacPlatform/MacInterop`</a> directory and include it in your app, then connect handlers to the `ApplicationEvents` class's static events sometime before starting the GTK mainloop:
+MonoDevelop's MacPlatform addin has a wrapper for these events that exposes them
+as simple static .NET events on a static class called
+`OSXIntegration.Framework.ApplicationEvents`. Simply copy the entire contents of
+the [`MacPlatform/MacInterop`](https://github.com/mono/monodevelop/tree/master/main/src/addins/MacPlatform/MacInterop)
+directory and include it in your app, then connect handlers to the
+`ApplicationEvents` class's static events sometime before starting the GTK
+mainloop:
 
 ```csharp
 if (PlatformDetection.IsMac) {
@@ -138,9 +202,18 @@ if (PlatformDetection.IsMac) {
 }
 ```
 
-You might wonder how to register to handle files and URLs in your `Info.plist`. The <a href="http://developer.apple.com/mac/library/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html">Apple docs</a> have the full details, but we can look at the <a href="https://raw.github.com/mono/mono-tools/master/docbrowser/macbuild/Info.plist">MonoDoc Info.plist</a> and the <a href="https://raw.github.com/mono/monodevelop/master/main/build/MacOSX/Info.plist.in">MonoDevelop Info.plist</a> for some basics.
+You might wonder how to register to handle files and URLs in your `Info.plist`.
+The [Apple
+docs](http://developer.apple.com/mac/library/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html)
+have the full details, but we can look at the [MonoDoc
+Info.plist](https://raw.github.com/mono/mono-tools/master/docbrowser/macbuild/Info.plist)
+and the [MonoDevelop
+Info.plist](https://raw.github.com/mono/monodevelop/master/main/build/MacOSX/Info.plist.in)
+for some basics.
 
-To register URLs, add the `CFBundleURLTypes` key to the Info.plist's main dictionary. Its value should be an array of URL types, where each one is a dictionary defining the name and the schemes (prefixes):
+To register URLs, add the `CFBundleURLTypes` key to the Info.plist's main
+dictionary. Its value should be an array of URL types, where each one is a
+dictionary defining the name and the schemes (prefixes):
 
 ```xml
 <key>CFBundleURLTypes</key>
@@ -156,7 +229,13 @@ To register URLs, add the `CFBundleURLTypes` key to the Info.plist's main dictio
 </array>
 ```
 
-Notice that you're not just registering to handle the URL types, you're also defining them. Launch Services automatically scans app bundles on the system and in the user's directory to build system-wide and per-user databases of URL types and their handlers. So, as soon as your app is present, it could be used to handle the things it claims. You can even define the icon, as an `icns` file to be loaded from your app's `Resources` directory, just like the bundle's icon, and this will show up in Finder.
+Notice that you're not just registering to handle the URL types, you're also
+defining them. Launch Services automatically scans app bundles on the system and
+in the user's directory to build system-wide and per-user databases of URL types
+and their handlers. So, as soon as your app is present, it could be used to
+handle the things it claims. You can even define the icon, as an `icns` file to
+be loaded from your app's `Resources` directory, just like the bundle's icon,
+and this will show up in Finder.
 
 Registering file types is similar, but there are more keys. You can also register whether your bundle is the default editor, and whether it's an editor or viewer.
 
@@ -182,6 +261,10 @@ Registering file types is similar, but there are more keys. You can also registe
 
 With these examples, you should now be able to make your application fit in much better on Mac.
 
-I'm still investigating other Mac integration points for MonoDevelop, such as native file dialogs, but that's likely to take some time, as binding the native toolkits and getting them to play nicely with the GTK mainloop is likely to be difficult, and there are other important things keeping me busy. When they're done I'll be sure to share that code too.
+I'm still investigating other Mac integration points for MonoDevelop, such as
+native file dialogs, but that's likely to take some time, as binding the native
+toolkits and getting them to play nicely with the GTK mainloop is likely to be
+difficult, and there are other important things keeping me busy. When they're
+done I'll be sure to share that code too.
 
-_This is part of the <a href="/tags/catchup2010">Catchup 2010</a> series of posts</a>_.
+_This is part of the [Catchup 2010](/tags/catchup2010) series of posts_.

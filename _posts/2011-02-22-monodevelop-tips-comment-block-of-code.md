@@ -1,16 +1,25 @@
 ---
-tags:
-- mono
-- monodevelop tips
+tags: [ mono, monodevelop tips ]
 layout: journal
 title: 'MonoDevelop Tips: Comment Block of Code'
 created: 1298394000
 redirect_from: /node/194
 ---
-While experimenting with code, it can be very useful to comment a block of code temporarily.
+While experimenting with code, it can be very useful to comment a block of code
+temporarily.
 
-To comment a block of code, use select _Toggle Line Comment(s)_ from the context menu, or use the <strong>Control-Alt-C</strong> keybinding on Windows and Linux. If the current line is commented, it will be uncommented, or if it is not commented, it will be commented. If multiple lines are selected, then if any are not commented, they will all be commented. If all are commented, they will all be uncommented.<!--break-->
+To comment a block of code, use select _Toggle Line Comment(s)_ from the context
+menu, or use the *Control-Alt-C* keybinding on Windows and Linux. If the current
+line is commented, it will be uncommented, or if it is not commented, it will be
+commented. If multiple lines are selected, then if any are not commented, they
+will all be commented. If all are commented, they will all be
+uncommented.<!--break-->
 
-For C# files, this feature uses line comments, and if lines that are already commented are commented as part of a larger block, it adds another "level" of line comments onto those lines. This is useful, because it means that a region of code can be commented then uncommented, and actual comments within it will be preserved.
+For C# files, this feature uses line comments, and if lines that are already
+commented are commented as part of a larger block, it adds another "level" of
+line comments onto those lines. This is useful, because it means that a region
+of code can be commented then uncommented, and actual comments within it will be
+preserved.
 
-If you prefer to use multiline comments or `#if false` directives, you can use "surround with" templates, which will be covered tomorrow.
+If you prefer to use multiline comments or `#if false` directives, you can use
+"surround with" templates, which will be covered tomorrow.
