@@ -1,15 +1,15 @@
+{% if site.related_posts.size >= 1 -%}
 <section class="related">
   <h2>Related Posts</h2>
   <ul class="posts-list">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
+    {% for related_post in site.related_posts limit: 5 -%}
+    <h3>
+      <a href="{{ related_post.url }}">
+        {{ related_post.title }}
+        <small>{{ related_post.date | date_to_string }}</small>
+      </a>
+    </h3>
+    {% endfor -%}
   </ul>
 </section>
+{%- endif -%}

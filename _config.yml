@@ -25,6 +25,8 @@ sidebar_home_link:  true
 sidebar_blog_link:  '/journal/'
 
 collections_dir: content
+collections:
+- talks
 
 defaults:
   -
@@ -34,6 +36,7 @@ defaults:
     values:
       comments: false
       layout: 'journal'
+
 # Archives
 jekyll-archives:
   enabled:
@@ -64,3 +67,5 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-archives
+  - jekyll/tagging
+  - jekyll-tagging-related_posts
