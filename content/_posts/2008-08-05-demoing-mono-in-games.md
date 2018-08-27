@@ -1,6 +1,5 @@
 ---
 tags: [ mono, game development, gdc ]
-layout: journal
 title: Demoing Mono in Games
 created: 1217970223
 redirect_from:

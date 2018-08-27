@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Moving Lines'
 created: 1298048400
 redirect_from:

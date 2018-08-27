@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, mac, preview, silverlight, moonlight ]
-layout: journal
 title: Moonlight Development on Mac using MonoDevelop
 created: 1241658065
 redirect_from:

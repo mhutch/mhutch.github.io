@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Dynamic Abbrev'
 created: 1298912400
 redirect_from:

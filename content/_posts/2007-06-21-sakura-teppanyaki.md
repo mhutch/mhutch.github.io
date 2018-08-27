@@ -1,6 +1,5 @@
 ---
 tags: [ out and about, teppanyaki, restaurant ]
-layout: journal
 title: Sakura Teppanyaki
 created: 1182439308
 redirect_from:

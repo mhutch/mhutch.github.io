@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Completion List Filtering'
 created: 1297044027
 redirect_from:

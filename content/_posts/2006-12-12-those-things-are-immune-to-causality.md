@@ -1,6 +1,5 @@
 ---
 tags: [ fun, webcomics, philosophy, quantum mechanics ]
-layout: journal
 title: Those things are immune to causality!
 created: 1165918842
 redirect_from:

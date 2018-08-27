@@ -1,6 +1,5 @@
 ---
 tags: [ university, iraf, python, msci thesis, active galactic nuclei, finished ]
-layout: journal
 title: MSci Thesis Finished
 created: 1177499628
 redirect_from:

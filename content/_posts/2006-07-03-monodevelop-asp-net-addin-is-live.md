@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, monodevelop, asp.net ]
-layout: journal
 title: MonoDevelop ASP.NET addin is live
 created: 1151925884
 redirect_from:

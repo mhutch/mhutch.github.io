@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Duplicate a Line'
 created: 1300118400
 redirect_from:

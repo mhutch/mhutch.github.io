@@ -1,6 +1,5 @@
 ---
 tags: [ technology, interesting ]
-layout: journal
 title: The Hole in the Wall Project
 created: 1176665173
 redirect_from:

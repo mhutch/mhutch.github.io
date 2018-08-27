@@ -1,6 +1,5 @@
 ---
 tags: [ mono, novell, opensuse build service, hack week, ogre, ogre.net, packaging ]
-layout: journal
 title: 'Hack Week: OGRE.NET Packaging'
 created: 1220547104
 redirect_from:

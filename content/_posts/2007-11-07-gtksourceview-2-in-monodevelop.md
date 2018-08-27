@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, gtksourceview ]
-layout: journal
 title: GtkSourceView 2 in MonoDevelop
 created: 1194478796
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Next/Previous Usage'
 created: 1299258000
 redirect_from:

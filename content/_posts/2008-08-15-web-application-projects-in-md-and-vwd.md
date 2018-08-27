@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net, visual web developer express ]
-layout: journal
 title: Web Application Projects in MD and VWD
 created: 1218829505
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ mono, xhtml, monodevelop, asp.net ]
-layout: journal
 title: Planning ASP.NET Code Completion for MonoDevelop
 created: 1203993627
 redirect_from:

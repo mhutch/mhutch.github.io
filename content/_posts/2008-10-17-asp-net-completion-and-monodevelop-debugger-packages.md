@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net, opensuse build service ]
-layout: journal
 title: ASP.NET Completion and MonoDevelop Debugger Packages
 created: 1224229907
 redirect_from:

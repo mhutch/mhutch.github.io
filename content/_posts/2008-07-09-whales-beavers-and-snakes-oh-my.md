@@ -1,6 +1,5 @@
 ---
 tags: [ personal, photography, out and about, boston, whales, beavers, snakes, massachusetts ]
-layout: journal
 title: Whales, Beavers and Snakes (Oh My!)
 created: 1215644865
 redirect_from:

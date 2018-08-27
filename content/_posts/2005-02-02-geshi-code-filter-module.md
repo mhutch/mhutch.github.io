@@ -1,6 +1,5 @@
 ---
 tags: [ drupal, geshicodefilter, syntax highlighting ]
-layout: journal
 title: GeSHi Code Filter module
 created: 1107367932
 redirect_from:

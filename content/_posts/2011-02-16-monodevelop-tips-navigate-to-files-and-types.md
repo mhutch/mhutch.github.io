@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Navigate To Files and Types'
 created: 1297875620
 redirect_from:

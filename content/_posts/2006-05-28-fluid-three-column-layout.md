@@ -1,6 +1,5 @@
 ---
 tags: [ web standards, xhtml, css ]
-layout: journal
 title: Fluid three-column layout
 created: 1148833842
 redirect_from:

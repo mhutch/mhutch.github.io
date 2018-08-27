@@ -1,6 +1,5 @@
 ---
 tags: [ mono, mac, catchup2010, gtk# ]
-layout: journal
 title: Integrating a GTK# Application with the Mac
 created: 1264402242
 redirect_from:

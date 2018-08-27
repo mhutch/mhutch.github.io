@@ -1,6 +1,5 @@
 ---
 tags: [ personal, photography ]
-layout: journal
 title: Theo's Website
 created: 1140365665
 redirect_from:

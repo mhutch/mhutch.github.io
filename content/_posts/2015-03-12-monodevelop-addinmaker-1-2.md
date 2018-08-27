@@ -1,6 +1,5 @@
 ---
 tags: [ mono ]
-layout: journal
 title: MonoDevelop.AddinMaker 1.2
 created: 1426140484
 redirect_from:

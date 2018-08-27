@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Opening Multiple Solutions'
 created: 1300809600
 redirect_from:

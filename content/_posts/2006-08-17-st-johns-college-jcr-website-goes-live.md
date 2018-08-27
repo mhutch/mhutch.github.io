@@ -1,6 +1,5 @@
 ---
 tags: [ university, css, drupal, st john's, internet explorer ]
-layout: journal
 title: St John's College JCR Website goes live
 created: 1155809841
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ site news, drupal, mysql, postgresql, drupal ]
-layout: journal
 title: New site is live
 created: 1149183749
 redirect_from:

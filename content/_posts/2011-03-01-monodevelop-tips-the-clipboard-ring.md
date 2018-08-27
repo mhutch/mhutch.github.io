@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: The Clipboard Ring'
 created: 1298998800
 redirect_from:

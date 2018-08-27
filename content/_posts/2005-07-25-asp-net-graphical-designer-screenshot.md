@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, component model ]
-layout: journal
 title: ASP.NET Graphical Designer screenshot
 created: 1122303104
 redirect_from:

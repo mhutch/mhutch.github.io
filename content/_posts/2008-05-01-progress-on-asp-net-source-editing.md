@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net ]
-layout: journal
 title: Progress on ASP.NET Source Editing
 created: 1209659656
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ mono, mac, catchup2010, gtk# ]
-layout: journal
 title: Creating a Mac App Bundle for a GTK# Application
 created: 1264315200
 redirect_from:
@@ -277,4 +276,3 @@ which will enable your app to handle files and URLs.
 
 _This is part of the [Catchup 2010](http://mjhutchinson.com/tags/catchup2010)
 series of posts_.
-

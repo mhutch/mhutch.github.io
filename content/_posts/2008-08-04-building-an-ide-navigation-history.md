@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, code navigation ]
-layout: journal
 title: Building an IDE Navigation History
 created: 1217884730
 redirect_from:

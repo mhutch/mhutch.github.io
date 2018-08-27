@@ -1,6 +1,5 @@
 ---
 tags: [ mono, xna, licensing, visual studio ]
-layout: journal
 title: Unusual XNA Tools Licensing
 created: 1245016755
 redirect_from:

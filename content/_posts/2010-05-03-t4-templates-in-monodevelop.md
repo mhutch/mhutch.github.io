@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, catchup2010, t4, templates ]
-layout: journal
 title: T4 Templates in MonoDevelop
 created: 1272900437
 redirect_from:

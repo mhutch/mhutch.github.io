@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Grouping Related Solutions with Workspaces'
 created: 1300723200
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, monodevelop, jscall# ]
-layout: journal
 title: AspNetEdit now includes JSCall#
 created: 1179071852
 redirect_from:

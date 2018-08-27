@@ -1,6 +1,5 @@
 ---
 tags: [ mono, technology, gnome, guadec ]
-layout: journal
 title: Notes on GUADEC
 created: 1185146538
 redirect_from:

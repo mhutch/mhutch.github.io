@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Preferences, Policies and Project Options'
 created: 1300896000
 redirect_from:

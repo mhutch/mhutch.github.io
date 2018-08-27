@@ -1,6 +1,5 @@
 ---
 tags: [ university, aspnetedit, exams ]
-layout: journal
 title: Dr Dobbs Journal Article
 created: 1148123777
 redirect_from:

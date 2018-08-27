@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, google, ghop ]
-layout: journal
 title: GHOP Help Needed
 created: 1198121594
 redirect_from:

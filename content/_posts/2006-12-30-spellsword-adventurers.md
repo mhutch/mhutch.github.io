@@ -1,6 +1,5 @@
 ---
 tags: [ personal, rpgs, online memes ]
-layout: journal
 title: Spellsword adventurers
 created: 1167497050
 redirect_from:

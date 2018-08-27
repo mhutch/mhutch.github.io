@@ -1,9 +1,5 @@
 ---
-tags:
-- mono
-- monodevelop
-- vi
-layout: journal
+tags: [ mono, monodevelop, vi ]
 title: Vi modes in MonoDevelop
 created: 1223960115
 redirect_from:

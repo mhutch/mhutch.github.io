@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net ]
-layout: journal
 title: Completing ASP.NET Collection Properties
 created: 1227146849
 redirect_from:

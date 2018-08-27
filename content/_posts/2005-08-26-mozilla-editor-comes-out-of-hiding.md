@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, gecko ]
-layout: journal
 title: Mozilla editor comes out of hiding
 created: 1125092474
 redirect_from:

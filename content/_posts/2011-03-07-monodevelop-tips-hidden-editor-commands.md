@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: 'MonoDevelop Tips: Hidden Editor Commands'
 created: 1299517200
 redirect_from:

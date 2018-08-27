@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, compositing ]
-layout: journal
 title: Shiny Feature of the Day
 created: 1207882195
 redirect_from:

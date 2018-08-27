@@ -1,6 +1,5 @@
 ---
 tags: [ technology, drm, bad experience, directsong ]
-layout: journal
 title: A Bad Experience with DRM
 created: 1180184395
 redirect_from:

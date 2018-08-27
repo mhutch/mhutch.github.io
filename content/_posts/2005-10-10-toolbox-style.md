@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit ]
-layout: journal
 title: Toolbox Style
 created: 1128944382
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop tips ]
-layout: journal
 title: MonoDevelop Tips will Resume in May
 created: 1302821350
 redirect_from:

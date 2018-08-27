@@ -1,6 +1,5 @@
 ---
 tags: [ pc hardware, silicon group, poor customer service ]
-layout: journal
 title: 'Silicon Group: How to Lose Customers'
 created: 1183416846
 redirect_from:

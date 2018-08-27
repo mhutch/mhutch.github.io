@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, vista, 64-bit ]
-layout: journal
 title: MonoDevelop on Vista64
 created: 1233966025
 redirect_from:

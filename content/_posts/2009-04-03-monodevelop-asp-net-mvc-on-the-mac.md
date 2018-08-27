@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net mvc, mac]
-layout: journal
 title: MonoDevelop ASP.NET MVC on the Mac
 created: 1238817513
 redirect_from:

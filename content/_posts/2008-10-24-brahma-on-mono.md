@@ -1,6 +1,5 @@
 ---
 tags: [ mono, gpus, linq ]
-layout: journal
 title: Brahma on Mono
 created: 1224828254
 redirect_from:

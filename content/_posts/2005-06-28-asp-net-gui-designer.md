@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, summer of code ]
-layout: journal
 title: ASP.NET GUI Designer
 created: 1120005729
 redirect_from:

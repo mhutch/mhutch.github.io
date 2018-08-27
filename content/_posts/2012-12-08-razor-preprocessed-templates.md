@@ -1,6 +1,5 @@
 ---
 tags: [ mono, templates, razor, monodevelop ]
-layout: journal
 title: Razor Preprocessed Templates
 created: 1355012546
 redirect_from:

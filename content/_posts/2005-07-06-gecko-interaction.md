@@ -1,6 +1,5 @@
 ---
 tags: [ mono, c#, javascript, aspnetedit, gecko ]
-layout: journal
 title: Gecko# interaction
 created: 1120689861
 redirect_from:

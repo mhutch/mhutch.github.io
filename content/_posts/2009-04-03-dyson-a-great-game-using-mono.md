@@ -1,6 +1,5 @@
 ---
 tags: [ gaming, mono, linux, 64-bit, igf ]
-layout: journal
 title: Dyson, a great game using Mono
 created: 1238811079
 redirect_from:

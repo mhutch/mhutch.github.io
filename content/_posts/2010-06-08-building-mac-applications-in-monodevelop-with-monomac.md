@@ -1,6 +1,5 @@
 ---
 tags: [ mono, c#, monodevelop, mac, monomac ]
-layout: journal
 title: Building Mac Applications in MonoDevelop with MonoMac
 created: 1276055473
 redirect_from:

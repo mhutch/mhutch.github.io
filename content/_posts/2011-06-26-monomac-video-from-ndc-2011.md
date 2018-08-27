@@ -1,6 +1,5 @@
 ---
 tags: [ mono ]
-layout: journal
 title: MonoMac video from NDC 2011
 created: 1309131371
 redirect_from:

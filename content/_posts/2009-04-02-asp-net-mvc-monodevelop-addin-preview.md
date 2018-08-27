@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net, asp.net mvc, ms-pl ]
-layout: journal
 title: ASP.NET MVC MonoDevelop Addin Preview
 created: 1238711069
 redirect_from:

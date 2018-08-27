@@ -1,6 +1,5 @@
 ---
 tags: [ drupal, pirates ]
-layout: journal
 title: International Talk Like Pirate Day
 created: 1190202740
 redirect_from:

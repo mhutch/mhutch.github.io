@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, monodevelop, asp.net ]
-layout: journal
 title: ASP.NET Project Models
 created: 1149976866
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ university, iraf, edgy, pyraf, python, stsdas, tables, stsci_python ]
-layout: journal
 title: Adding PyRAF to IRAF on Ubuntu Edgy
 created: 1163464282
 redirect_from:

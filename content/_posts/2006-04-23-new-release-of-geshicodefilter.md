@@ -1,6 +1,5 @@
 ---
 tags: [ site news, drupal, geshicodefilter, syntax highlighting ]
-layout: journal
 title: New release of GeSHicodefilter
 created: 1145833785
 redirect_from:

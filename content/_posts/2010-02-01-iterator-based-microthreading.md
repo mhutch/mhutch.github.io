@@ -1,6 +1,5 @@
 ---
 tags: [ programming languages, gaming, mono, catchup2010, microthreading ]
-layout: journal
 title: Iterator-based Microthreading
 created: 1265004319
 redirect_from:

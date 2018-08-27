@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, msbuild ]
-layout: journal
 title: The State of MSBuild Support in MonoDevelop
 created: 1345352230
 redirect_from:

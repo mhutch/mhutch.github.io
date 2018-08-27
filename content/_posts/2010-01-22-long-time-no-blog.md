@@ -1,6 +1,5 @@
 ---
 tags: [ site news, mono, catchup2010 ]
-layout: journal
 title: Long Time No Blog
 created: 1264215161
 redirect_from:

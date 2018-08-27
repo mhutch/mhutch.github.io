@@ -1,6 +1,5 @@
 ---
 tags: [ site news, web standards, exams ]
-layout: journal
 title: How embarrassing
 created: 1117060643
 redirect_from:

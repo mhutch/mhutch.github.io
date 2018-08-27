@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net ]
-layout: journal
 title: An Apologetic Sneak Peek
 created: 1207685334
 redirect_from:

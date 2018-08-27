@@ -1,6 +1,5 @@
 ---
 tags: [ gaming, fun, guild wars, ascension ]
-layout: journal
 title: Because I could...
 created: 1179409625
 redirect_from:

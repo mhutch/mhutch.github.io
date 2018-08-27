@@ -1,6 +1,5 @@
 ---
 tags: [ mono, gnome, guadec, birmingham ]
-layout: journal
 title: Going to GUADEC 2007
 created: 1184417526
 redirect_from:

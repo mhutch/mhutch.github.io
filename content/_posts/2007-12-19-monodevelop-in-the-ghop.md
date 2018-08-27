@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, google, ghop ]
-layout: journal
 title: MonoDevelop in the GHOP
 created: 1198045548
 redirect_from:

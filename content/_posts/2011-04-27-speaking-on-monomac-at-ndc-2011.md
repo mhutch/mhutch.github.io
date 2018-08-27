@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monomac ]
-layout: journal
 title: Speaking on MonoMac at NDC 2011
 created: 1303930079
 redirect_from:

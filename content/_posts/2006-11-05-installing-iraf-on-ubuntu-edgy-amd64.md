@@ -1,6 +1,5 @@
 ---
 tags: [ university, iraf, ubuntu, edgy, amd64 ]
-layout: journal
 title: Installing IRAF on Ubuntu Edgy amd64
 created: 1162729217
 redirect_from:

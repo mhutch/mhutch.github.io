@@ -1,6 +1,5 @@
 ---
 tags: [ gaming, personal, mono, summer of code, monodevelop, ghop, axiom, hack week ]
-layout: journal
 title: Miscellanea
 created: 1207785204
 redirect_from:

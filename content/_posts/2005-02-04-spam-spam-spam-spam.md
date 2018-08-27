@@ -1,6 +1,5 @@
 ---
 tags: [ site news, drupal, spam, postgresql]
-layout: journal
 title: Spam, spam, spam, spam....
 created: 1107559426
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ personal, mono, monodevelop, boston, cambridge, novell ]
-layout: journal
 title: Joined Novell, and moving to Boston
 created: 1191498793
 redirect_from:

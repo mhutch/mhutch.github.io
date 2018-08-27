@@ -1,6 +1,5 @@
 ---
 tags: [ university, exams, finished ]
-layout: journal
 title: Final Final Finalised
 created: 1179949405
 redirect_from:

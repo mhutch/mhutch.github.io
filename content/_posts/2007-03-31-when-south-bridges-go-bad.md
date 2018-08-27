@@ -1,6 +1,5 @@
 ---
 tags: [ pc hardware, data loss, hard disc, failure, motherboard ]
-layout: journal
 title: When South Bridges Go Bad
 created: 1175367760
 redirect_from:

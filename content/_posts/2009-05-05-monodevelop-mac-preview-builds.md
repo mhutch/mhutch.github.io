@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, mac, preview ]
-layout: journal
 title: MonoDevelop Mac Preview Builds
 created: 1241574651
 redirect_from:

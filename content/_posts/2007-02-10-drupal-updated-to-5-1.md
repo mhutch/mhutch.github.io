@@ -1,6 +1,5 @@
 ---
 tags: [ site news, drupal, procrastination, progress ]
-layout: journal
 title: Drupal updated to 5.1
 created: 1171125534
 redirect_from:

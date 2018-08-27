@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, summer of code, monodevelop, asp.net, exams ]
-layout: journal
 title: Accepted into Summer of Code 2006!
 created: 1148755389
 redirect_from:

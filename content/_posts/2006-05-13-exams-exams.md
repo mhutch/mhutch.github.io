@@ -1,6 +1,5 @@
 ---
 tags: [ site news, mono, university, aspnetedit, summer of code, asp.net, exams ]
-layout: journal
 title: Exams, exams
 created: 1147554730
 redirect_from:

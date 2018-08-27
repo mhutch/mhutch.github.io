@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monotouch, xcode 4 ]
-layout: journal
 title: Preview of Xcode 4 Support for MonoTouch
 created: 1304452596
 redirect_from:

@@ -1,6 +1,5 @@
 ---
 tags: [ personal, photography, flickr ]
-layout: journal
 title: Hiro's photos
 created: 1155132752
 redirect_from:

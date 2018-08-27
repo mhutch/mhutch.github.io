@@ -1,6 +1,5 @@
 ---
 tags: [ mono ]
-layout: journal
 title: How not to break Mono installations
 created: 1194545169
 redirect_from:

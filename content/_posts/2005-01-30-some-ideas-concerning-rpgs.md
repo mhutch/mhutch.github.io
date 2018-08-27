@@ -1,6 +1,5 @@
 ---
 tags: [ rpgs, gaming, world simulation ]
-layout: journal
 title: Some ideas concerning RPGs
 created: 1107132560
 redirect_from:

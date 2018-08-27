@@ -1,6 +1,5 @@
 ---
 tags: [ mono, xhtml, monodevelop, code completion ]
-layout: journal
 title: HTML Completion
 created: 1226956189
 redirect_from:

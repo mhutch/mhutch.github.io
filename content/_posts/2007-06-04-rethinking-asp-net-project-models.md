@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net ]
-layout: journal
 title: Rethinking ASP.NET Project Models
 created: 1180976692
 redirect_from:

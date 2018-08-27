@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, asp.net ]
-layout: journal
 title: Colour Completion
 created: 1216925978
 redirect_from:

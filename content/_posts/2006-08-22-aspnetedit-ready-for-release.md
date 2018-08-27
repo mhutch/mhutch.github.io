@@ -1,6 +1,5 @@
 ---
 tags: [ mono, aspnetedit, summer of code ]
-layout: journal
 title: AspNetEdit ready for release
 created: 1156234108
 redirect_from:

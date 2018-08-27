@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monodevelop, opensuse 10.3, opensuse build service ]
-layout: journal
 title: MonoDevelop trunk builds
 created: 1194471395
 redirect_from:

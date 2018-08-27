@@ -1,6 +1,5 @@
 ---
 tags: [ mono, web standards, css, aspnetedit ]
-layout: journal
 title: ASP.NET and CSS
 created: 1134572138
 redirect_from:

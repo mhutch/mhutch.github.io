@@ -1,6 +1,5 @@
 ---
 tags: [ mono, monomac, devteach ]
-layout: journal
 title: Speaking at DevTeach
 created: 1306613854
 redirect_from:
