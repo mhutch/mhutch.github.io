@@ -1,6 +1,5 @@
 ---
 tags: [ mono ]
-layout: journal
 title: Build Time Code Generation in MSBuild
 created: 1435720721
 redirect_from:

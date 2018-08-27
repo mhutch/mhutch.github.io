@@ -1,6 +1,5 @@
 ---
 tags: [ mono ]
-layout: journal
 title: MSBuild Code Generation in VS2015
 created: 1461041943
 redirect_from:

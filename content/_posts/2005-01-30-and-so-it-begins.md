@@ -1,6 +1,5 @@
 ---
 tags: [ site news, drupal, postgresql ]
-layout: journal
 title: And so it begins...
 created: 1107128973
 redirect_from:

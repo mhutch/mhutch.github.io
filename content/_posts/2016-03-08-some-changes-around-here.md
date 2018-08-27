@@ -1,6 +1,5 @@
 ---
 tags: [ personal ]
-layout: journal
 title: Some Changes Around Here
 created: 1457497940
 redirect_from:

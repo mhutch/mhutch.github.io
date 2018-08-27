@@ -1,6 +1,5 @@
 ---
 tags: [ mono ]
-layout: journal
 title: Easy pull requests from master with git-offload
 created: 1470254612
 redirect_from:
