@@ -11,7 +11,7 @@ answers are usually fairly short. This post aims to be a more comprehensive
 description of the current state state of MSBuild support in MonoDevelop, so I
 can refer people to it. If you've never hand-edited custom targets for an
 MSBuild file, this doesn't affect you at all, but feel free to read it if you're
-curious.
+curious.<!--break-->
 
 [MSBuild](http://msdn.microsoft.com/en-us/library/dd393574") is the
 Microsoft build engine that was introduced with .NET 2.0 and Visual Studio 2005.

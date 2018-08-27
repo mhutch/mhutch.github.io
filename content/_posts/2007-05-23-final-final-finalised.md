@@ -9,7 +9,7 @@ redirect_from:
 About 3 hours ago, I finished my very last exam of my MSci degree: my final
 final (the final-year exams are often called "finals"). I have no further
 coursework, so apart from some administrative trivialities, my degree is
-finished. Hurray!
+finished. Hurray!<!--break-->
 
 I shall now be trying to catch up with all the things I've left incomplete over
 the past few years: my website photo gallery, some books and games, various

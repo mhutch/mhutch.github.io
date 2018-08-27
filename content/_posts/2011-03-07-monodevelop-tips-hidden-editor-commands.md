@@ -13,7 +13,7 @@ keybindings](/journal/2011/02/06/key_bindings) for them. Some even have
 keybindings that are [hardcoded into the text
 editor](https://github.com/mono/monodevelop/blob/master/main/src/core/Mono.Texteditor/Mono.TextEditor/SimpleEditMode.cs),
 and will be available unless you override it by assigning that some keybinding
-to some other command.
+to some other command.<!--break-->
 
 Here is a selection of some that may be useful:
 

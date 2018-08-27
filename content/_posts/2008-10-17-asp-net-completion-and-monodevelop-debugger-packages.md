@@ -8,12 +8,13 @@ redirect_from:
 ---
 All the basic ASP.NET code completion features I wanted to get into MonoDevelop
 are now essentially complete and working with the new code completion database
-subsystem that Mike Kruger has written to replace our old one. It handles
-controls, directives and HTML, all of their attributes, and some attribute
-values, including some [colourful](/journal/2008/07/24/colour_completion) and
-[time-saving](/journal/2008/04/08/an_apologetic_sneak_peek) examples.   I've
-been migrating code "downwards" into HTML and XML completion editor extension,
-and I'll write another day about how this works and how it'll make good XAML and
+subsystem that Mike Kruger has written to replace our old one. <!--break--> It
+handles controls, directives and HTML, all of their attributes, and some
+attribute values, including some
+[colourful](/journal/2008/07/24/colour_completion) and
+[time-saving](/journal/2008/04/08/an_apologetic_sneak_peek) examples.  I've been
+migrating code "downwards" into HTML and XML completion editor extension, and
+I'll write another day about how this works and how it'll make good XAML and
 XML completion easier in the future.
 
 I couldn't wait to get these features out to users (so you can start giving me

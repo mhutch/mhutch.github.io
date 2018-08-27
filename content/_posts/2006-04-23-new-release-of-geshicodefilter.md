@@ -8,7 +8,7 @@ redirect_from:
 ---
 I have recently upgraded to Drupal 4.7, and it's fantastic. However, the Project
 module upgrade didn't work (probably because I use Postgres) so I've only just
-got round to installing it again.
+got round to installing it again.<!--break-->
 
 To celebrate this, I have made a new release of my
 [GeSHicodefilter](/project/GeSHicodefilter) Drupal module. It is now Drupal 4.7

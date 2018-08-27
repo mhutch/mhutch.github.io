@@ -10,7 +10,7 @@ I've just handed in the final version of my MSci thesis! It's the culmination of
 my fourth-year Physics project on _Interpretation of 3D Astronomical Data_, in
 which I was studying a spectral datacube of the NGC 1068 Active Galactic
 Nucleus, trying to discover the structure and properties of this astronomical
-object from the redshift and distribution of the spectral emission lines.
+object from the redshift and distribution of the spectral emission lines.<!--break-->
 Sometime soon I will be posting some of the PyRAF and Python datacube analysis
 code that I developed.
 

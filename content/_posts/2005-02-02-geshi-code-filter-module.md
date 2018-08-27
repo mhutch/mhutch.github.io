@@ -18,7 +18,7 @@ in XHTML, which [looks
 amazing](http://qbnz.com/highlighter/tests/demo-new-parser-index-full.html).
 It's also very configurable and can output line numbers and XHTML Strict/CSS
 code, and it wouldn't be hard to add options to the filter to turn these options
-on.
+on.<!--break-->
 
 Using the filter's fairly simple. Once it's installed and registered to an input
 format, just surround your code with &lt;code _language_&gt;...&lt;/code&gt;

@@ -14,7 +14,7 @@ the start of the skill bar, followed by
 [Frenzy](http://gw.gamewikis.org/wiki/Frenzy) and [Healing
 Signet](http://gw.gamewikis.org/wiki/Healing_Signet). The doppelganger AI used
 these first, making itself very vulnerable to my high-damage warrior skills at
-the other end of the bar. Naturally, I did all this using
+the other end of the bar.<!--break--> Naturally, I did all this using
 [Wine](http://winehq.org), which is surprisingly effective; the only bugs I've
 noticed have been corrupted
 [impostor](http://en.wikipedia.org/wiki/Impostor_%28computer_graphics%29)

@@ -12,8 +12,8 @@ existing symbol (such as a type name, variable name or member name), it
 automatically triggers the completion list and populates it with all the values
 that are valid at that point. As you type while the list is open, the list's
 selection updates to match what best fits what you're typing, and you can
-manually change the selection using the up/down arrow keys. When you press
-space, enter, tab, or any punctuation, the completion list "commits" the
+manually change the selection using the up/down arrow keys.<!--break--> When you
+press space, enter, tab, or any punctuation, the completion list "commits" the
 selection into the document, so you don't have to type the rest of the word
 manually. This is incredibly useful when you get used to it.
 

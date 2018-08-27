@@ -9,11 +9,11 @@ redirect_from:
 A couple of years ago I upgraded my computer, and passed the old one on to
 someone else. I'd had it for over 5 years &mdash; a reliable old Pentium III
 733EB plugged into a Soyo 6VCA Slot1 motherboard via a slocket (Slot->Socket
-converter), with 64MB of PC133 SDRAM and a 20GB Maxtor HDD. Over its lifetime it
-had gained another 512Mb of RAM, Sapphire Radeon 9000 64MB graphics card with
-VIVO, a slot loading Pioneer DVD drive, a network card, and a couple of other
-extras &mdash; and that's only the internals. I'd even licensed an OEM copy of
-Windows XP Pro (this was well before I converted to Ubuntu).
+converter), with 64MB of PC133 SDRAM and a 20GB Maxtor HDD. <!--break--> Over
+its lifetime it had gained another 512Mb of RAM, Sapphire Radeon 9000 64MB
+graphics card with VIVO, a slot loading Pioneer DVD drive, a network card, and a
+couple of other extras &mdash; and that's only the internals. I'd even licensed
+an OEM copy of Windows XP Pro (this was well before I converted to Ubuntu).
 
 So why the reminiscing? Well, my trusty old PIII has died. Horribly. The first
 sign was a burning smell, which was eventually traced to the south bridge on the

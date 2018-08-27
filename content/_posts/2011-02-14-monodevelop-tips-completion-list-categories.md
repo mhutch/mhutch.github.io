@@ -10,7 +10,7 @@ When using code completion to explore a new API, it's often useful to know where
 in the type hierarchy members are defined. For example, when looking for things
 you can do with a button, the members on the button are more interesting than
 the members on its superclasses. MonoDevelop makes it easier to do this with a
-featured called _categorized mode_. The completion list can be toggled into
+featured called _categorized mode_.<!--break--> The completion list can be toggled into
 categorized mode using *Ctrl-Space*, and will stay in this mode until it is
 toggled off. While in this mode, items may be be grouped by the completion
 engine into categories, depending on context. For example, when listing members
