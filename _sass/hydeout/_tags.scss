@@ -4,35 +4,16 @@
     white-space: nowrap;
     opacity: 0.75;
 
-    .tag-count {
-      background: $link-color;
-      color: rgba(255, 255, 255, 0.8);
-      margin-left: 0.25em;
-      border-radius: 1000px;
-      font-size: 0.75em;
-      padding-left: 0.6em;
-      padding-right: 0.6em;
-    }
-
-    // No underline because it looks weird with badge
+    // No underline because it looks weird
     &:hover {
       text-decoration: none;
       opacity: 1;
     }
   }
-}
-
-@keyframes posts-for-tag-fade-in {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-// Display only if targeted
-.posts-for-tag {
-  display: none;
-
-  &:target {
-    display: block;
-    animation: posts-for-tag-fade-in 0.6s ease-in-out;
+  // Generate tag1 to tag25 classes
+  @for $i from 1 through 18 {
+    & span.tag-cloud-#{$i} {
+      font-size: 0.1 * ($i - 1) + 1em;
+    }
   }
 }
