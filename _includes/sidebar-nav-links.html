@@ -3,6 +3,7 @@
     <a class="home-link{% if page.url == '/' %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
   {%- endif -%}
   {%- if site.sidebar_blog_link %}
-    <a class="page-link{% if page.url == site.sidebar_blog_link %} active{% endif %}" href="{{ site.baseurl }}{{ site.sidebar_blog_link }}">Journal</a>
+  {{page.url}}
+    <a class="page-link{% if page.url == '/journal/index.html' %} active{% endif %}" href="{{ site.baseurl }}/journal">Journal</a>
   {%- endif -%}
 </nav>
