@@ -91,11 +91,11 @@ When writing this, the Razor code completion was very helpful. It has full C#
 completion, including locals, helpers and members from the generated class and
 base class, including the generated `Model` property:
 
-![/files/images/MonoScreenshots/PreprocessedRazor-3-CSharpBaseCompletion.png](Code completion for C# in Razor Templates)
+![Code completion for C# in Razor Templates](/files/images/MonoScreenshots/PreprocessedRazor-3-CSharpBaseCompletion.png)
 
 There's also HTML completion and on-the-fly underlining of HTML and Razor errors:
 
-![/files/images/MonoScreenshots/PreprocessedRazor-4-HtmlCompletion.png](Code completion and error underlining for HTML in Razor Templates)
+![Code completion and error underlining for HTML in Razor Templates](/files/images/MonoScreenshots/PreprocessedRazor-4-HtmlCompletion.png)
 
 After saving the `cshtml` file, you can look at the generated `cs` file. It's
 pretty messy, so I won't show it here, but note that it includes a

@@ -269,10 +269,10 @@ see the result of any errors in it. Assuming the script worked, your app bundle
 is complete, and you can double-click on it to run it.
 
 In my [follow-up
-post](https://mhut.ch/journal/2010/01/25/integrating_gtk_application_mac) I
+post](/journal/2010/01/25/integrating_gtk_application_mac) I
 cover writing platform-specific code paths to integrate your new bundle better
 with the platform, including using the Mac main menu, and handling Apple events,
 which will enable your app to handle files and URLs.
 
-_This is part of the [Catchup 2010](http://mjhutchinson.com/tags/catchup2010)
+_This is part of the [Catchup 2010](/tags/catchup2010)
 series of posts_.

@@ -12,7 +12,7 @@ Today, I bring you the same thing on Linux.
 <!--break-->
 
 [![Screencast of Moonlight development of
-Mac](http://mjhutchinson.com/files/screencasts/MDMoonDemo.png)](http://www.go-mono.com/media/MDMoonDemo.ogv)
+Mac](/files/screencasts/MDMoonDemo.png)](http://www.go-mono.com/media/MDMoonDemo.mp4)
 
 Unfortunately, getting this running isn't quite as simple as the Mac installer.
 However, if you're on openSUSE/SLED, it's _almost_ as easy, using [my trunk

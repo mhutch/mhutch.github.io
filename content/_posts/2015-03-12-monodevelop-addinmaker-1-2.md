@@ -6,7 +6,7 @@ redirect_from:
 - /node/231
 - /journal/2015/03/12/monodevelopaddinmaker_12
 ---
-I've finally released [MonoDevelop.AddinMaker](https://mhut.ch/addinmaker/1.2),
+I've finally released [MonoDevelop.AddinMaker](/addinmaker/1.2),
 making it easier than ever before to customize and add features to Xamarin
 Studio and MonoDevelop. This release has been stalled for a while due to factors
 beyond my control, and I'm very happy to be able to make it available at

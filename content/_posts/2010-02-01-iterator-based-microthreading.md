@@ -370,4 +370,4 @@ doesn't fit easily on one core you're probably using it for the wrong thing.
 There might be cases where it's useful to create multiple Schedulers, and run
 them in different thread, but be careful about what the microthreads touch.
 
-_This is part of the [Catchup 2010](http://mjhutchinson.com/tags/catchup2010) series of posts_
+_This is part of the [Catchup 2010](/tags/catchup2010) series of posts_

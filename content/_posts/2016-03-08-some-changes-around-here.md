@@ -14,4 +14,4 @@ pronouns unless unavoidable.
 
 I realize this may see like an abrupt change, but I’m still the same person, and
 it shouldn’t really matter to other people. For those of you who want to know
-more, I’ve posted [a list of questions and answers](/coming-out).
+more, I’ve posted [a list of questions and answers](/coming-out){:rel="nofollow"}.

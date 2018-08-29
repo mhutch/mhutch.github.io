@@ -15,7 +15,7 @@ copy of the Moonlight SDK.
 
 I created a screencast to show off how easy this makes it to develop Silverlight apps on the Mac:<!--break-->
 
-[![Screencast of Moonlight on Mac](/files/screencasts/MonoDevelopMacMoonlightPreview.png)](http://www.go-mono.com/media/MonoDevelopMacMoonlightPreview.swf)
+[![Screencast of Moonlight on Mac](/files/screencasts/MonoDevelopMacMoonlightPreview.png)](/files/screencasts/MonoDevelopMacMoonlightPreview.swf)
 
 Note that, as I said before, this is an alpha preview release of MonoDevelop,
 but I feel that it's already very usable. After seeing the screencast, I'm sure

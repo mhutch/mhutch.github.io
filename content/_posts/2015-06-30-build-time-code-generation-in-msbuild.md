@@ -169,7 +169,7 @@ in-process compiler. It doesn't run `CoreCompile`, nor does it intercept the
 all.
 
 The solution - for now - is to add explicit support in a [Xamarin Studio
-addin](https://mhut.ch/addinmaker) to run the `UpdateGeneratedFiles` target on
+addin](/addinmaker) to run the `UpdateGeneratedFiles` target on
 project load and when the resource files change, parse the generated file and
 inject it into the type system directly.
 

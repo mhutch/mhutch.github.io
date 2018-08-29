@@ -25,7 +25,7 @@ is currently mono-extras. The addin includes a copy of the System.Web.Mvc.dll,
 so you don;t need to do anything special for that.
 
 The addin is in the default MonoDevelop addin repositories (though I may be
-releasing updated versions from [my own repo](http://mjhutchinson.com/mdrepo),
+releasing updated versions from [my own repo](/mdrepo),
 so open MonoDevelop, click on the _Tools->Add-in Manager_ menu, and click the
 _Install add-ins..._ button. Select the ASP.NET MVC addin, and complete the
 installation.
