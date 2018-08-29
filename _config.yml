@@ -3,11 +3,11 @@ title: 'mhut.ch'
 tagline: 'cloud residence'
 description: "Mikayla Hutchinson's home on the web"
 
-url:              https://mhut.ch
+url: https://mhut.ch
 
 author:
-  name:           'Mikayla Hutchinson'
-  url:            https://twitter.com/mjhutchinson
+  name: 'Mikayla Hutchinson'
+  url:  https://twitter.com/mjhutchinson
 
 permalink: journal/:year/:month/:day/:title
 
