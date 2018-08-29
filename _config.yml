@@ -13,6 +13,7 @@ permalink: journal/:year/:month/:day/:title
 
 excerpt_separator: "<!--break-->"
 
+include: ["_pages", "_redirects"]
 keep_files: [files]
 
 pagination:
