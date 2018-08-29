@@ -5,6 +5,7 @@ sidebar_link: true
 created: 1107125907
 redirect_from:
 - /node/1
+personal: /about/
 ---
 I work on [Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/) and the [Xamarin](http://xamarin.com) Platform at Microsoft. Prior to that I worked on <a href="http://monodevelop.com">MonoDevelop IDE</a> and <a href="http://www.mono-project.com">Mono</a> for mobile platforms.
 
