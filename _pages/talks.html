@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /talks/
+permalink: /talks
 ---
 
 <header>
@@ -9,7 +9,6 @@ permalink: /talks/
 
 <div class="content">
   <ul class="talks">
-   {% assign talks = site.data.talks  -%}
    {% for talk in site.data.talks -%}
       <li>
         <a href="{{ talk.video }}" alt="{{ talk.title }}">{{ talk.title }}</a>
