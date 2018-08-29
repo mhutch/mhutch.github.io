@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /talks/
+---
+
+<header>
+  <h1>Talks</h1>
+</header>
+
+<div class="content">
+  <ul class="talks">
+   {% assign talks = site.data.talks  -%}
+   {% for talk in site.data.talks -%}
+      <li>
+        <a href="{{ talk.video }}" alt="{{ talk.title }}">{{ talk.title }}</a>
+        <small class="detail">
+          <span class="event">{{ talk.conf }}</span>
+          &ndash;
+          <span class="date">{{ talk.date | date: "%b %-d, %Y" }}</span>
+        </small>
+      </li>
+   {% endfor -%}
+  </ul>
+</div>
