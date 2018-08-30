@@ -11,13 +11,9 @@ layout: default
   <div class="post-body">
     {{ content }}
     {% include post-tags.html post=page %}
+    {% include post-breadcrumb.html post=page %}
   </div>
 
   {% include comments.html %}
   {% include related_posts.html %}
-
-  <ul class="breadcrumb">
-      <li><a href="/journal/{{ page.date | date: '%Y' }}/">{{ page.date | date: "%Y" }}</a></li>
-      <li><a href="/journal/{{ page.date | date: '%Y/%m' }}/">{{ page.date | date: "%m" }}</a></li>
-    </ul>
 </div>

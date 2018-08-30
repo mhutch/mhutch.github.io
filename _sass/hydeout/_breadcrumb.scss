@@ -1,0 +1,22 @@
+ul.breadcrumb {
+    li {
+        display: inline;
+        font-size: 0.8em;
+        text-decoration: none;
+        a {
+            opacity: 0.75;
+            :hover {
+                opacity: 1;
+                text-decoration: underline;
+            }
+        }
+    }
+    li:after {
+        content:'\3E';
+        margin-left: 0.3em;
+    }
+    li:last-child:after {
+        content: none;
+    }
+    padding-left: 0;
+}
