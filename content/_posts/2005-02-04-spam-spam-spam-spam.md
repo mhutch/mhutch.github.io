@@ -5,6 +5,8 @@ created: 1107559426
 redirect_from:
 - /node/8
 - /journal/2005/02/04/spam_spam_spam_spam
+- /journal/2005-02-04/spam_spam_spam_spam
+- /journal/2005-04-02/spam_spam_spam_spam
 ---
 The site's only been up for five days and I'm already getting referrer spam. No
 comment spam yet, but I'll probably disable comments and trackbacks until I have

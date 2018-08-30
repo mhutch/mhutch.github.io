@@ -5,6 +5,8 @@ created: 1145833785
 redirect_from:
 - /node/91
 - /journal/2006/04/23/new_release_of_geshicodefilter
+- /journal/2006-04-24/new_release_of_geshicodefilter
+- /journal/2006-24-04/new_release_of_geshicodefilter
 ---
 I have recently upgraded to Drupal 4.7, and it's fantastic. However, the Project
 module upgrade didn't work (probably because I use Postgres) so I've only just

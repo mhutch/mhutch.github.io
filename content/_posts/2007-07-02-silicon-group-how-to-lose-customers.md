@@ -5,6 +5,7 @@ created: 1183416846
 redirect_from:
 - /node/133
 - /journal/2007/07/02/silicon_group_how_lose_customers
+- /journal/2007-07-02/silicon_group_how_lose_customers
 ---
 I went to the Silicon Group computer shop on Dalry Road in Edinburgh today to
 buy a couple of 2GB high-speed CompactFlash cards. Their website, updated three

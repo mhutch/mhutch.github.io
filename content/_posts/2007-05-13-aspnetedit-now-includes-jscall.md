@@ -5,6 +5,8 @@ created: 1179071852
 redirect_from:
 - /node/126
 - /journal/2007/05/13/aspnetedit_now_bundled_with_jscall
+- /journal/2007-05-13/aspnetedit_now_bundled_with_jscall
+- /journal/2007-13-05/aspnetedit_now_bundled_with_jscall
 ---
 I just saw a post by Chris Howie on [glueless javascript calls into
 Gecko#](http://www.chrishowie.com/2007/05/08/glue-free-jscall), and over a

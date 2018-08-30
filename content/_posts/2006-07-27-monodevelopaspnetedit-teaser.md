@@ -4,7 +4,9 @@ title: MonoDevelop+AspNetEdit Teaser
 created: 1154028912
 redirect_from:
 - /node/104
-- /2006/07/27/aspnetedit_in_monodevelop_teaser
+- /journal/2006/07/27/aspnetedit_in_monodevelop_teaser
+- /journal/2006-07-27/aspnetedit_in_monodevelop_teaser
+- /journal/2006-27-07/aspnetedit_in_monodevelop_teaser
 ---
 Here's a shiny screenshot of AspNetEdit embedded in MonoDevelop. The code's not
 really ready for use yet, but I'm making good progress. It's been complicated by

@@ -5,6 +5,7 @@ created: 1220547104
 redirect_from:
 - /node/159
 - /journal/2008/09/04/hack_week_ogrenet_packaging
+- /journal/2008-09-04/hack_week_ogrenet_packaging
 ---
 Last week was my second [Hack Week](http://www.novell.com/prblogs/?p=495) at
 Novell. Massi and I had been intending to hack on a [demo for embedding Mono in

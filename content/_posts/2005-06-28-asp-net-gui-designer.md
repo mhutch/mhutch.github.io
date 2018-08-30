@@ -5,6 +5,8 @@ created: 1120005729
 redirect_from:
 - /node/79
 - /journal/2005/06/29/asp_net_gui_designer
+- /journal/2005-06-29/asp_net_gui_designer
+- /journal/2005-29-06/asp_net_gui_designer
 ---
 Hello everyone! _(waves to as-yet nonexistent audience)_
 

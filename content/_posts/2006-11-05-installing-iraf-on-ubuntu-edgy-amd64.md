@@ -5,6 +5,8 @@ created: 1162729217
 redirect_from:
 - /node/109
 - /journal/2006/11/05/install_iraf_on_ubuntu_edgy_amd64
+- /journal/2006-11-05/install_iraf_on_ubuntu_edgy_amd64
+- /journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64
 ---
 A major part of my final year project depends on using [IRAF](http://iraf.net),
 the Image Reduction and Analysis Facility from [NOAO](http://www.noao.edu).

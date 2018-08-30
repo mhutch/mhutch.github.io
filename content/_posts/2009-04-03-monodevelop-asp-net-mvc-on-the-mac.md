@@ -5,6 +5,7 @@ created: 1238817513
 redirect_from:
 - /node/168
 - /journal/2009/04/04/monodevelop_aspnet_mvc_mac
+- /journal/2009-04-04/monodevelop_aspnet_mvc_mac
 ---
 After releasing a preview of the [ASP.NET MVC MonoDevelop
 addin](/journal/2009/04/02/aspnet_mvc_monodevelop_addin_preview), I decided to

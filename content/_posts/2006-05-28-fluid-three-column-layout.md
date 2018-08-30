@@ -5,6 +5,8 @@ created: 1148833842
 redirect_from:
 - /node/96
 - /journal/2006/05/28/fluid_three_column_layout
+- /journal/2006-05-28/fluid_three_column_layout
+- /journal/2006-28-05/fluid_three_column_layout
 ---
 Finally, someone found a clean way to do [three-column fluid
 layout](http://www.alistapart.com/articles/holygrail) with XHTML and CSS. This

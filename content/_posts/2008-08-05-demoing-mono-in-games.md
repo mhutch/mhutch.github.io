@@ -5,6 +5,7 @@ created: 1217970223
 redirect_from:
 - /node/157
 - /journal/2008/08/05/demoing_mono_games
+- /journal/2008-08-05/demoing_mono_games
 ---
 I'm trying to plan some examples of using Mono in game development, so that we
 have time to get together some solid demos and samples for next year's GDC. I'm

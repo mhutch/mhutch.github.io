@@ -5,6 +5,7 @@ created: 1191498793
 redirect_from:
 - /node/137
 - /journal/2007/10/04/joined_novell_and_moving_to_boston
+- /journal/2007-10-04/joined_novell_and_moving_to_boston
 ---
 I apologise for not having updated my blog more often. Things have been quite
 hectic recently...

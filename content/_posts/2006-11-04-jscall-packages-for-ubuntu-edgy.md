@@ -5,6 +5,8 @@ created: 1162685180
 redirect_from:
 - /node/108
 - /journal/2006/11/05/jscall_packages_for_ubuntu_edgy
+- /journal/2006-11-05/jscall_packages_for_ubuntu_edgy
+- /journal/2006-05-11/jscall_packages_for_ubuntu_edgy
 ---
 Now that Ubuntu Edgy has gone final, and I'm no longer tracking the beta, I've
 made some checkinstall packages for JSCall#. Although

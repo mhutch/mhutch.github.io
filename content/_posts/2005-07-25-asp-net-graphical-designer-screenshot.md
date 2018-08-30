@@ -5,6 +5,8 @@ created: 1122303104
 redirect_from:
 - /node/82
 - /journal/2005/07/25/asp_net_graphical_designer_screenshot
+- /journal/2005-07-25/asp_net_graphical_designer_screenshot
+- /journal/2005-25-07/asp_net_graphical_designer_screenshot
 ---
 Okay, it's not quite as exciting as the title suggests. I've been hacking away
 on the Services and Component Model, and have reached the stage where I can

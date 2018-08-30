@@ -5,6 +5,7 @@ created: 1226956189
 redirect_from:
 - /node/163
 - /journal/2008/11/17/html_completion
+- /journal/2008-11-17/html_completion
 ---
 The main thing I've been working on for the upcoming MonoDevelop 2.0 release is
 ASP.NET code completion, and I'm pretty happy with its current state. Recently

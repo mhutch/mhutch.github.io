@@ -5,6 +5,7 @@ created: 1215644865
 redirect_from:
 - /node/154
 - /journal/2008/07/09/whales_beavers_and_snakes_oh_my
+- /journal/2008-07-09/whales_beavers_and_snakes_oh_my
 ---
 My family is visiting me here in Boston, and over the Independence Day weekend
 we toured Western Massachusetts for a few days. I captured some [interesting

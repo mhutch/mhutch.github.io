@@ -5,6 +5,7 @@ created: 1184417526
 redirect_from:
 - /node/134
 - /journal/2007/07/14/going_guadec_2007
+- /journal/2007-07-14/going_guadec_2007
 ---
 I'm going to [GUADEC](http://guadec.org) 2007<!--break-->, because
 

@@ -4,7 +4,8 @@ title: ASP.NET Completion and MonoDevelop Debugger Packages
 created: 1224229907
 redirect_from:
 - /node/161
-- /journal/2008/10/17/aspnet_completion_monodevelop_debugger_packages
+- /journal/2008/10/17/aspnet_completion_monodevvelop_debugger_packages
+- /journal/2008-10-17/aspnet_completion_monodevvelop_debugger_packages
 ---
 All the basic ASP.NET code completion features I wanted to get into MonoDevelop
 are now essentially complete and working with the new code completion database

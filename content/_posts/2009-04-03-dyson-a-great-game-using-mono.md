@@ -5,6 +5,7 @@ created: 1238811079
 redirect_from:
 - /node/167
 - /journal/2009/04/04/dyson_game
+- /journal/2009-04-04/dyson_game
 ---
 Last week, [Miguel](http://tirania.org/blog), [Joseph](http://beyondfocus.com)
 and I went to [GDC](http://gdconf.com) again to promote the use of Mono as a

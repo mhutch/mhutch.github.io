@@ -5,6 +5,8 @@ created: 1163464282
 redirect_from:
 - /node/110
 - /journal/2006/11/14/adding_pyraf_to_iraf_on_ubuntu_edgy
+- /journal/2006-11-14/adding_pyraf_to_iraf_on_ubuntu_edgy
+- /journal/2006-14-11/adding_pyraf_to_iraf_on_ubuntu_edgy
 ---
 Following up on my earlier post on [installing IRAF on Ubuntu
 Edgy](/journal/2006-05-11/install_iraf_on_ubuntu_edgy_amd64), here's a

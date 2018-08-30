@@ -5,6 +5,7 @@ created: 1241658065
 redirect_from:
 - /node/170
 - /journal/2009/05/07/moonlight_development_mac_using_monodevelop
+- /journal/2009-05-07/moonlight_development_mac_using_monodevelop
 ---
 Yesterday I announced much-improved [MonoDevelop preview builds for
 Mac](/journal/2009/05/06/monodevelop_mac_preview_builds), which include [ASP.NET

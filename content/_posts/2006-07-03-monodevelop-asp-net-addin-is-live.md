@@ -4,7 +4,9 @@ title: MonoDevelop ASP.NET addin is live
 created: 1151925884
 redirect_from:
 - /node/103
-- /2006/07/03/monodevelop_asp_net_addin_is_live
+- /journal/2006/07/03/monodevelop_asp_net_addin_is_live
+- /journal/2006-07-03/monodevelop_asp_net_addin_is_live
+- /journal/2006-03-07/monodevelop_asp_net_addin_is_live
 ---
 I've just committed a patch to MonoDevelop to enable the use of the AspNetAddIn
 that I committed a couple of days ago. It's not close to fully-featured yet, but

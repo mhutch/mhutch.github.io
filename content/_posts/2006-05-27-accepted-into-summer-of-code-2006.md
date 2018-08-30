@@ -5,6 +5,8 @@ created: 1148755389
 redirect_from:
 - /node/95
 - /journal/2006/05/27/accepted_into_summer_of_code_2006
+- /journal/2006-05-27/accepted_into_summer_of_code_2006
+- /journal/2006-27-05/accepted_into_summer_of_code_2006
 ---
 I have been accepted into Google's Summer of Code 2006!
 

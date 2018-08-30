@@ -5,6 +5,7 @@ created: 1107367932
 redirect_from:
 - /node/6
 - /journal/2005/02/02/geshi_code_filter_module
+- /journal/2005-02-02/geshi_code_filter_module
 ---
 I couldn't find a Drupal module to syntax highlight C# code, so I made one. I'm
 using the Generic Syntax Highlighter, [GeSHi](http://qbnz.com/highlighter), to

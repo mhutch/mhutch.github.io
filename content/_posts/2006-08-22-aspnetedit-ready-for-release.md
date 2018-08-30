@@ -5,6 +5,8 @@ created: 1156234108
 redirect_from:
 - /node/106
 - /journal/2006/08/22/aspnetedit_ready_for_release
+- /journal/2006-08-22/aspnetedit_ready_for_release
+- /journal/2006-22-08/aspnetedit_ready_for_release
 ---
 Well, the Summer of Code is now ended. The ASP.NET MonoDevelop addin is now open
 to testing, and although it doesn't look any better than my

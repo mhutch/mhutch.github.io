@@ -5,6 +5,8 @@ created: 1176665173
 redirect_from:
 - /node/123
 - /journal/2007/04/15/the_hole_in_the_wall_project
+- /journal/2007-04-15/the_hole_in_the_wall_project
+- /journal/2007-15-04/the_hole_in_the_wall_project
 ---
 A fascinating video by [Sugata Mitra at
 LIFT07](http://www.ballpark.ch/blog/index.php?id=833), in which he presents his

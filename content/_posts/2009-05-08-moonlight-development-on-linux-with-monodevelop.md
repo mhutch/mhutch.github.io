@@ -5,6 +5,7 @@ created: 1241758162
 redirect_from:
 - /node/171
 - /journal/2009/05/08/moonlight_development_linux_monodevelop
+- /journal/2009-05-08/moonlight_development_linux_monodevelop
 ---
 Yesterday I made a screencast demonstrating [Moonlight Development on Mac using
 MonoDevelop](/journal/2009/05/07/moonlight_development_mac_using_monodevelop).

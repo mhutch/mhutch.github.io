@@ -5,6 +5,8 @@ created: 1125092474
 redirect_from:
 - /node/84
 - /journal/2005/08/26/mozilla_editor_comes_out_of_hiding
+- /journal/2005-08-26/mozilla_editor_comes_out_of_hiding
+- /journal/2005-26-08/mozilla_editor_comes_out_of_hiding
 ---
 Okay, I admit it, so far I've been "cheating", rendering the page to a temp file
 every time something changes. No longer! I present to you the all-singing,

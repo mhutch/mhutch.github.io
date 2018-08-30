@@ -5,6 +5,7 @@ created: 1182439308
 redirect_from:
 - /node/132
 - /journal/2007/06/21/sakura_teppanyaki
+- /journal/2007-06-21/sakura_teppanyaki
 ---
 Yesterday I went to the Sakura Teppanyaki (鉄板焼き) Restaurant in Durham with a
 group of friends, and it was by far the most interesting meal I have ever

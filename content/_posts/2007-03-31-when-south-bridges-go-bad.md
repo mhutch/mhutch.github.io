@@ -5,6 +5,8 @@ created: 1175367760
 redirect_from:
 - /node/118
 - /journal/2007/03/31/when_south_bridges_go_bad
+- /journal/2007-03-31/when_south_bridges_go_bad
+- /journal/2007-31-03/when_south_bridges_go_bad
 ---
 A couple of years ago I upgraded my computer, and passed the old one on to
 someone else. I'd had it for over 5 years &mdash; a reliable old Pentium III

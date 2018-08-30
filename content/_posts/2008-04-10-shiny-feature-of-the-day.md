@@ -5,6 +5,7 @@ created: 1207882195
 redirect_from:
 - /node/151
 - /journal/2008/04/11/shiny_feature_day
+- /journal/2008-04-11/shiny_feature_day
 ---
 Today I implemented an oft-requested feature for MonoDevelop: making the code
 completion and info tooltips transparent when the Control key is held down. This

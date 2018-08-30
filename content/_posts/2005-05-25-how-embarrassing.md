@@ -5,6 +5,8 @@ created: 1117060643
 redirect_from:
 - /node/77
 - /journal/2005/05/25/how_embarrassing
+- /journal/2005-05-25/how_embarrassing
+- /journal/2005-25-05/how_embarrassing
 ---
 Three months since I last posted on this site, and all of those early posts were
 just about setting the site up. Seems lie the site's a bit pointless, really.

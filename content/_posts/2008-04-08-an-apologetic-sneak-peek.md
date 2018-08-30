@@ -5,6 +5,7 @@ created: 1207685334
 redirect_from:
 - /node/148
 - /journal/2008/04/08/an_apologetic_sneak_peek
+- /journal/2008-04-08/an_apologetic_sneak_peek
 ---
 Unfortunately, I have blogged very little in recent months. I shall follow this
 post with a summary of the things I've skipped blogging, but for now, I offer up

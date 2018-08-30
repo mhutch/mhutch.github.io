@@ -5,6 +5,8 @@ created: 1167497050
 redirect_from:
 - /node/112
 - /journal/2006/12/30/spellsword_adventurers
+- /journal/2006-12-30/spellsword_adventurers
+- /journal/2006-30-12/spellsword_adventurers
 ---
 According to the [RPG Class
 Test](http://www.okcupid.com/tests/take?testid=1532690756472625027), I'm a

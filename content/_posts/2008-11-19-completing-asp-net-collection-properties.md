@@ -5,6 +5,7 @@ created: 1227146849
 redirect_from:
 - /node/164
 - /journal/2008/11/20/aspnet_collection_properties
+- /journal/2008-11-20/aspnet_collection_properties
 ---
 I've recently been tweaking the ASP.NET completion, adding support for resolving
 valid children for a control. These can be properties, a property, or controls.

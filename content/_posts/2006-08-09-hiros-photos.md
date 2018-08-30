@@ -5,6 +5,8 @@ created: 1155132752
 redirect_from:
 - /node/105
 - /journal/2006/08/09/hiros_photos
+- /journal/2006-08-09/hiros_photos
+- /journal/2006-09-08/hiros_photos
 ---
 My friend Hiro Mori has just put up a load of [photos on
 Flickr](https://www.flickr.com/photos/hiroyukimori). He's studying photography at

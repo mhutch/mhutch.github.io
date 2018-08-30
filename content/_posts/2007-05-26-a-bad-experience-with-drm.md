@@ -5,6 +5,8 @@ created: 1180184395
 redirect_from:
 - /node/129
 - /journal/2007/05/26/a_bad_experience_with_drm
+- /journal/2007-05-26/a_bad_experience_with_drm
+- /journal/2007-26-05/a_bad_experience_with_drm
 ---
 A couple of days ago I made my first
 [DRM](http://en.wikipedia.org/wiki/Digital_rights_management)-protected music

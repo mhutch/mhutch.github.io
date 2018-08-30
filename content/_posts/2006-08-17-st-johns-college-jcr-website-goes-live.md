@@ -5,6 +5,8 @@ created: 1155809841
 redirect_from:
 - /node/107
 - /journal/2006/08/17/st_johns_college_jcr_website_live
+- /journal/2006-08-17/st_johns_college_jcr_website_goes_live
+- /journal/2006-17-08/st_johns_college_jcr_website_goes_live
 ---
 I've just launched the new website for St John's College JCR at
 [http://johnsjcr.org.uk](http://johnsjcr.org.uk). It's based on Drupal 4.7.3

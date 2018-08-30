@@ -5,6 +5,7 @@ created: 1180976692
 redirect_from:
 - /node/130
 - journal/2007/06/04/rethinking_asp_net_project_models
+- journal/2007-06-04/rethinking_asp_net_project_models
 ---
 I've been thinking again about the compilation and deployment models used in
 MonoDevelop for ASP.NET code, and it isn't easy to come up with a good solution.

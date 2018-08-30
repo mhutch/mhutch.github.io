@@ -5,6 +5,7 @@ created: 1217884730
 redirect_from:
 - /node/156
 - /journal/2008/08/04/building_ide_navigation_history
+- /journal/2008-08-04/building_ide_navigation_history
 ---
 MonoDevelop has a code navigation history. When you switch views, or jump around
 between definitions, it logs the history, and you can browse back and forth like

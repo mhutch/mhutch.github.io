@@ -5,6 +5,7 @@ created: 1194917506
 redirect_from:
 - /node/143
 - /journal/2007/11/13/be_careful_using_anonymous_delegates_across_threads
+- /journal/2007-11-13/be_careful_using_anonymous_delegates_across_threads
 ---
 
 Anonymous delegates are incredibly useful, especially in that they can "capture"

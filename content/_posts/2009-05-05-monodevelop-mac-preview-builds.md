@@ -4,7 +4,8 @@ title: MonoDevelop Mac Preview Builds
 created: 1241574651
 redirect_from:
 - /node/169
-- /2009/05/06/monodevelop_mac_preview_builds
+- /journal/2009/05/06/monodevelop_mac_preview_builds
+- /journal/2009-05-06/monodevelop_mac_preview_builds
 ---
 The past few weeks I've been working on improving the MonoDevelop experience on
 the Mac, making it integrate better with the Mac experience. Along with [ASP.NET

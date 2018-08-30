@@ -5,6 +5,8 @@ created: 1179949405
 redirect_from:
 - /node/128
 - /journal/2007/05/23/final_final_finalised
+- /journal/2007-05-23/final_final_finalised
+- /journal/2007-23-05/final_final_finalised
 ---
 About 3 hours ago, I finished my very last exam of my MSci degree: my final
 final (the final-year exams are often called "finals"). I have no further

@@ -5,6 +5,8 @@ created: 1147554730
 redirect_from:
 - /node/92
 - /journal/2006/05/13/exams_exams
+- /journal/2006-05-13/exams_exams
+- /journal/2006-05-13/exams_exams
 ---
 Well, it's exam time again. Five in total; first one on Monday, and the last is
 two days after I find out whether I've been accepted for the Summer of Code 2006.

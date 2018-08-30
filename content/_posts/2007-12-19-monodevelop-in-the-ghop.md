@@ -4,7 +4,8 @@ title: MonoDevelop in the GHOP
 created: 1198045548
 redirect_from:
 - /node/145
-- /journal/2007/12/20/ghop_help_needed
+- /journal/2007/12/19/monodevelop_ghop
+- /journal/2007-12-19/monodevelop_ghop
 ---
 So far, all five completed tasks for the [Mono
 GHOP](http://code.google.com/p/google-highly-open-participation-mono) have been

@@ -5,6 +5,8 @@ created: 1179409625
 redirect_from:
 - /node/127
 - /journal/2007/05/17/because_i_could
+- /journal/2007-05-17/because_i_could
+- /journal/2007-17-05/because_i_could
 ---
 I waited till [today](http://en.wikipedia.org/wiki/Ascension) to
 [ascend](http://gw.gamewikis.org/wiki/Ascension) in [Guild

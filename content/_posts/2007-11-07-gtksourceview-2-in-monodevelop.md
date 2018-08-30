@@ -5,6 +5,7 @@ created: 1194478796
 redirect_from:
 - /node/141
 - /journal/2007/11/07/gtksourceview_2_monodevelop
+- /journal/2007-11-07/gtksourceview_2_monodevelop
 ---
 I recently added support for GtkSourceView 2 to MonoDevelop, and it can be
 enabled with the "--enable-gtksourceview2" configure switch. Unfortunately the

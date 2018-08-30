@@ -5,6 +5,8 @@ created: 1123624745
 redirect_from:
 - /node/83
 - /journal/2005/08/09/aspnetedit_hits_svn
+- /journal/2005-08-09/aspnetedit_hits_svn
+- /journal/2005-09-08/aspnetedit_hits_svn
 ---
 I've finally committed the ASP.NET Graphical Designer to Mono Subversion, module
 'aspeditor'. It's unimaginatively codenamed AspNetEdit. If anyone *really* wants

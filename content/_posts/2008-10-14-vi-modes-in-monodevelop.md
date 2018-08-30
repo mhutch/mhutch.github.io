@@ -5,6 +5,7 @@ created: 1223960115
 redirect_from:
 - /node/160
 - /journal/2008/10/14/vi_modes_monodevelop
+- /journal/2008-10-14/vi_modes_monodevelop
 ---
 I've recently added simple vi modes emulation to MonoDevelop. It's been a
 relatively quick and easy hack, though I'm pretty sure I'm now running a deficit

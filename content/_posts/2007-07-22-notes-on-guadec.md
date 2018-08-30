@@ -5,6 +5,7 @@ created: 1185146538
 redirect_from:
 - /node/135
 - /journal/2007/07/22/notes_guadec
+- /journal/2007-07-22/notes_guadec
 ---
 First of all I'd like so say what a great experience GUADEC was. It was great to
 talk to cool people, see the amazing software people are writing, and hear talks

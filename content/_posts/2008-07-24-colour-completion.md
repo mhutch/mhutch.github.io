@@ -5,6 +5,7 @@ created: 1216925978
 redirect_from:
 - /node/155
 - /journal/2008/07/24/colour_completion
+- /journal/2008-07-24/colour_completion
 ---
 When I initially wrote the ASP.NET code completion, I added support for
 completing attribute values for enums and bools. More generalised completion

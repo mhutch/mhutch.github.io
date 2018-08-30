@@ -5,6 +5,8 @@ created: 1149976866
 redirect_from:
 - /node/98
 - /journal/2006/06/10/asp_net_project_models
+- /journal/2006-06-10/asp_net_project_models
+- /journal/2006-10-06/asp_net_project_models
 ---
 One of the most difficult things about developing ASP.NET project support for
 MonoDevelop is deciding upon a project model to use. Microsoft appears to have

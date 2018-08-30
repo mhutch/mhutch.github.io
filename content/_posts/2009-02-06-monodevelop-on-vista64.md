@@ -5,6 +5,7 @@ created: 1233966025
 redirect_from:
 - /node/165
 - /journal/2009/02/07/monodevelop_vista64
+- /journal/2009-02-07/monodevelop_vista64
 ---
 Last night I got MonoDevelop working (to some extent) on Windows Vista x64 using the Linux binaries, [tweeting my progress along the way](https://twitter.com/mjhutchinson).
 

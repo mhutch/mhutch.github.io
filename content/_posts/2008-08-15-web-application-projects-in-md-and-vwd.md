@@ -5,6 +5,7 @@ created: 1218829505
 redirect_from:
 - /node/158
 - /journal/2008/08/15/web_application_projects_md_and_vwd
+- /journal/2008-08-15/web_application_projects_md_and_vwd
 ---
 I'm very pleased that [Visual Web Developer Express
 2008](http://www.microsoft.com/express/vwd) has now [gained Web Application

@@ -5,6 +5,7 @@ created: 1165918842
 redirect_from:
 - /node/111
 - /journal/2006/12/12/those_things_are_immune_to_causality
+- /journal/2006-12-12/those_things_are_immune_to_causality
 ---
 I've recently added [Dresden Codak](http://dresdencodak.com) to the list of
 webcomics that I read regularly. It's a wonderfully bizarre and twisted mixture

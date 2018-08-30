@@ -5,6 +5,8 @@ created: 1177499628
 redirect_from:
 - /node/125
 - /journal/2007/04/25/msci_thesis_finished
+- /journal/2007-04-25/msci_thesis_finished
+- /journal/2007-25-04/msci_thesis_finished
 ---
 I've just handed in the final version of my MSci thesis! It's the culmination of
 my fourth-year Physics project on _Interpretation of 3D Astronomical Data_, in

@@ -5,6 +5,7 @@ created: 1238711069
 redirect_from:
 - /node/166
 - /journal/2009/04/02/aspnet_mvc_monodevelop_addin_preview
+- /journal/2009-04-02/aspnet_mvc_monodevelop_addin_preview
 ---
 The past month or two, in addition to bugfixing for our recent [MonoDevelop
 2.0](http://monodevelop.com) release, I've been quietly hacking on a MonoDevelop

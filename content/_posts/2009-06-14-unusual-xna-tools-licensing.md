@@ -5,6 +5,7 @@ created: 1245016755
 redirect_from:
 - /node/172
 - /journal/2009/06/14/unusual_xna_tools_licensing
+- /journal/2009-06-14/unusual_xna_tools_licensing
 ---
 In the Microsoft XNA EULA, I found the following restriction: _You may not use
 the software to develop programs that run on any platform other than the

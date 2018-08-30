@@ -4,7 +4,8 @@ title: GHOP Help Needed
 created: 1198121594
 redirect_from:
 - /node/146
-- /journal/2007/12/19/monodevelop_ghop
+- /journal/2007/12/20/ghop_help_needed
+- /journal/2007-12-20/ghop_help_needed
 ---
 The [Google Highly Open Participation (GHOP)
 contest](http://code.google.com/opensource/ghop/2007-8) has been running for a

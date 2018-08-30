@@ -5,6 +5,7 @@ created: 1264315200
 redirect_from:
 - /node/176
 - /journal/2010/01/24/creating_mac_app_bundle_for_gtk_app
+- /journal/2010-01-24/creating_mac_app_bundle_for_gtk_app
 ---
 While making the MonoDevelop and MonoDoc packages for Mac I learned a few things
 about adapting GTK# apps for Mac, and I'd like to share them so that anyone else

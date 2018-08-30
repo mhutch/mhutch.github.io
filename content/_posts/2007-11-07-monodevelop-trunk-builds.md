@@ -5,6 +5,7 @@ created: 1194471395
 redirect_from:
 - /node/140
 - /journal/2007/11/07/monodevelop_trunk_builds
+- /journal/2007-11-07/monodevelop_trunk_builds
 ---
 Hot on the heels of Lluis's [MonoDevelop 1.0 Beta
 2](http://foodformonkeys.blogspot.com/2007/11/monodevelop-beta-2.html)

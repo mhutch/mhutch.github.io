@@ -5,6 +5,7 @@ created: 1194545169
 redirect_from:
 - /node/142
 - /journal/2007/11/08/how_not_break_mono
+- /journal/2007-11-08/how_not_break_mono
 ---
 It's a bad idea to mess with the packaged version of Mono on your Linux distro
 by installing another version of Mono on top of it or into another of your

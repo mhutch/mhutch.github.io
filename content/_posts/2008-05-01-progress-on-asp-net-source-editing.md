@@ -5,6 +5,7 @@ created: 1209659656
 redirect_from:
 - /node/152
 - /journal/2008/05/01/progress_aspnet_source_editing
+- /journal/2008-05-01/progress_aspnet_source_editing
 ---
 I have been making good progress on ASP.NET source editing, as evidenced by the
 following screenshot. Yes, that is code folding, error underlining, and a path

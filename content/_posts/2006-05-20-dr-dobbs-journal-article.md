@@ -5,6 +5,8 @@ created: 1148123777
 redirect_from:
 - /node/93
 - /journal/2006/05/20/dr_dobbs_journal_article
+- /journal/2006-05-20/dr_dobbs_journal_article
+- /journal/2006-20-05/dr_dobbs_journal_article
 ---
 Three exams down, two to go.
 

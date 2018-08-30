@@ -5,6 +5,7 @@ created: 1203993627
 redirect_from:
 - /node/147
 - /journal/2008/02/26/planning_aspnet_code_completion_monodevelop
+- /journal/2008-02-26/planning_aspnet_code_completion_monodevelop
 ---
 Now that [MonoDevelop 1.0 is on the verge of
 shipping](http://monodevelop.com/Release_notes_for_MonoDevelop_1.0_Release_Candidate_1),

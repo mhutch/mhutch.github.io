@@ -5,6 +5,7 @@ created: 1264215161
 redirect_from:
 - /node/175
 - /journal/2010/01/23/long_time_no_blog
+- /journal/2010-01-23/long_time_no_blog
 ---
 It's strange to think that's it's 2010 already and I haven't blogged since June.
 It certainly hasn't been for lack of things to blog about &mdash; if anything,
