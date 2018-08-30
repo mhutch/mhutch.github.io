@@ -1,5 +1,5 @@
 ---
-tags: [ mono, mac, catchup2010, gtk# ]
+tags: [ mono, mac, catchup2010, gtksharp ]
 title: Creating a Mac App Bundle for a GTK# Application
 created: 1264315200
 redirect_from:

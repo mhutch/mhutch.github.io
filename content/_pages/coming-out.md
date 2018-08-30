@@ -3,7 +3,7 @@ tags: []
 layout: page
 title: Coming Out Q&A
 created: 1457494551
-permalink: /coming-out/
+permalink: /coming-out
 redirect-from: /node/234
 ---
 I realize this is a complex topic, and people may have questions or be unsure

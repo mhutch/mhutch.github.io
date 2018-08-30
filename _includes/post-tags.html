@@ -3,7 +3,7 @@
     <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}">
       <span class="icon">
         {% include svg/tags.svg %}
-      </span>&nbsp;<span class="tag-name">{{ tag }}</span>
+      </span>&nbsp;<span class="tag-name">{{ tag | tag_name_fixup }}</span>
     </a>
   {% endfor %}
 </div>

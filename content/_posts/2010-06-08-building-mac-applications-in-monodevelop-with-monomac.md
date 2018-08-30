@@ -1,5 +1,5 @@
 ---
-tags: [ mono, c#, monodevelop, mac, monomac ]
+tags: [ mono, csharp, monodevelop, mac, monomac ]
 title: Building Mac Applications in MonoDevelop with MonoMac
 created: 1276055473
 redirect_from:

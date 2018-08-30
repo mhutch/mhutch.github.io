@@ -1,5 +1,5 @@
 ---
-tags: [ programming languages, mono, c#, anonymous methods ]
+tags: [ programming languages, mono, csharp, anonymous methods ]
 title: Be careful using anonymous delegates across threads
 created: 1194917506
 redirect_from:

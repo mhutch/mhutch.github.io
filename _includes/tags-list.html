@@ -7,7 +7,7 @@
     {% assign tag = tag_pair | split:'|' | last -%}
     {% assign tag_size = site.tags[tag] | size | times: 100.0 | divided_by: tag_max | plus: 1 | log: 10 | times: 10.0 | floor | minus: 1 | at_least: 1 -%}
     <a href="/tags/{{ tag | slugify }}" class="tag-link">
-      <span class="tag-name tag-cloud-{{ tag_size }}">{{ tag }}</span>
+      <span class="tag-name tag-cloud-{{ tag_size }}">{{ tag | tag_name_fixup }}</span>
     </a>
     {% endfor -%}
   </div>

@@ -1,5 +1,5 @@
 ---
-tags: [ mono, aspnetedit, jscall# ]
+tags: [ mono, aspnetedit, jscallsharp ]
 title: JSCall# Packages for Ubuntu Edgy
 created: 1162685180
 redirect_from:

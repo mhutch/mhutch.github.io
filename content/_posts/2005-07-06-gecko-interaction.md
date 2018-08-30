@@ -1,5 +1,5 @@
 ---
-tags: [ mono, c#, javascript, aspnetedit, gecko ]
+tags: [ mono, csharp, javascript, aspnetedit, gecko ]
 title: Gecko# interaction
 created: 1120689861
 redirect_from:
