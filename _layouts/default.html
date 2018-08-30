@@ -4,7 +4,7 @@
   {% include head.html %}
 
   <body class="{{ page.layout }}{% if page.url == '/' %} home{% endif %}">
-
+    {% include google-tag-manager-noscript.html %}
     {% include sidebar.html %}
 
     <main class="container">
