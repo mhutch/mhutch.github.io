@@ -74,3 +74,11 @@ plugins:
   - jekyll-archives
   - jekyll/tagging
   - jekyll-tagging-related_posts
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - Rakefile

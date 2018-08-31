@@ -40,10 +40,10 @@ validation-report.json
 # Folders to ignore
 node_modules
 .sass-cache
+.jekyll-metadata
 
 # Dev stuff
 Makefile
-Gemfile.lock
 _config.dev.yml
 .vscode
 *.gem
