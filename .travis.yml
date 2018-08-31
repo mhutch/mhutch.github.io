@@ -1,8 +1,15 @@
 language: ruby
-rvm:
-- 2.5.1
+rvm: 2.5.1
+
 install:
 - bundle install
+
+script:
+- bundle exec rake
+
+env:
+- JEKYLL_ENV=production
+
 deploy:
   provider: pages
   skip_cleanup: true
