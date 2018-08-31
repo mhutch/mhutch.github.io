@@ -11,6 +11,9 @@ author:
   name: 'Mikayla Hutchinson'
   url:  https://twitter.com/mjhutchinson
 
+disqus:
+  shortname: mhutch
+
 permalink: journal/:year/:month/:day/:title
 
 excerpt_separator: "<!--break-->"
@@ -39,7 +42,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: false
+      comments: true
       layout: 'journal'
 
 # Archives
