@@ -2,41 +2,43 @@
 layout: default
 ---
 
+<header>
+    <h1>{{ page.title }}</h1>
+</header>
+
 <div class="content">
-  {% include pagination-newer.html %}
+{% include pagination-newer.html %}
 
-  {{ content }}
-
-  {% for post in paginator.posts %}
-  <article class="post-body">
+{% for post in paginator.posts %}
+<article class="post-body">
     <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
+    <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
-      </a>
+    </a>
     </h2>
     {% include post-meta.html post=post %}
 
     {% if post.excerpt %}
-      {{ post.excerpt }}
+    {{ post.excerpt }}
     {% else %}
-      {{ post.content }}
+    {{ post.content }}
     {% endif %}
 
     {% if post.excerpt %}
-      {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
-      {% capture content_words %}
+    {% comment %}Excerpt may be equal to content. Check.{% endcomment %}
+    {% capture content_words %}
         {{ post.content | number_of_words }}
-      {% endcapture %}
-      {% capture excerpt_words %}
+    {% endcapture %}
+    {% capture excerpt_words %}
         {{ post.excerpt | number_of_words }}
-      {% endcapture %}
+    {% endcapture %}
 
-      {% if content_words != excerpt_words %}
+    {% if content_words != excerpt_words %}
         <a href="{{ site.baseurl }}{{ post.url }}">More &hellip;</a>
-      {% endif %}
     {% endif %}
-  </article>
-  {% endfor %}
+    {% endif %}
+</article>
+{% endfor %}
 
-  {% include pagination-older.html %}
+{% include pagination-older.html %}
 </div>
