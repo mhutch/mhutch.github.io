@@ -24,13 +24,13 @@ my best to clear out the infestation, but I didn't trust the machine any more.
 Faced with rebuilding a full LAMP installation, I decided instead to smuggle out
 my data and set up again elsewhere. I chose Jekyll because I'd used it a few
 times, and it's popular and relatively well supported. As it ran on [GitHub
-Pages](https://pages.github.com/), I could also stop administrating my own Linux
+Pages](https://pages.github.com/), I could stop administering my own Linux
 server.
 
 Migrating the content with the [Jekyll Drupal
 importer](https://import.jekyllrb.com/docs/drupal7) was pretty straightforward,
 though I ended up having to do a lot of manual fixup to preserve permalinks and
-redirects. I also manually migrated years of content from a mismash of HTML and
+redirects. I manually migrated years of content from a mismash of HTML and
 custom Drupal filters to Markdown and Jekyll Liquid tags, and got a *lot* more
 familiar with [VS Code](https://code.visualstudio.com/).
 
