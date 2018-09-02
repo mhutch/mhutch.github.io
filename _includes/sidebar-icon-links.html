@@ -1,4 +1,12 @@
 <nav id="sidebar-icon-links">
+  {%- for icon in site.data.sidebar_icons %}
+  <a id="{{ icon.id }}-link"
+    class="icon" title="{{ icon.title }}" aria-label="{{ icon.title }}"
+    href="{{ icon.link }}">
+    {% include svg/{{ icon.id }}.svg %}
+  </a>
+  {%- endfor -%}
+
   <a id="subscribe-link"
      class="icon" title="Subscribe" aria-label="Subscribe"
      href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">
