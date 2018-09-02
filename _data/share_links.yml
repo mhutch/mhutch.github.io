@@ -1,0 +1,35 @@
+- id: twitter
+  url: https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | absolute_url }}&via={{ site.twitter.username }}&related={{ site.twitter.username }}
+  title: Tweet this
+  iconid: fontawesome/twitter-brands
+  enabled: true
+
+- id: facebook
+  url: https://facebook.com/sharer.php?u={{ page.url | absolute_url }}
+  title: Share on Facebook
+  iconid: fontawesome/facebook-brands
+  enabled: true
+
+- id: googleplus
+  url: https://plus.google.com/share?url={{ page.url | absolute_url }}
+  title: Share on Google+
+  iconid: fontawesome/google-plus-brands
+  enabled: true
+
+- id: linkedin
+  url: https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url }}&title={{page.title}}&summary={{page.description}}&source={{ site.linkedin.username }}
+  title: Share on LinkedIn
+  iconid: fontawesome/linkedin-brands
+  enabled: true
+
+- id: reddit
+  url: http://www.reddit.com/submit?url={{ page.url | absolute_url }}
+  title: Submit to Reddit
+  iconid: fontawesome/reddit-brands
+  enabled: true
+
+- id: email
+  url: mailto:?subject={{ page.title }}&body=Check out this article {{ page.url | absolute_url }}
+  title: Email link
+  iconid: fontawesome/envelope-regular
+  enabled: true

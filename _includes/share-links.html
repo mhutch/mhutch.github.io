@@ -1,0 +1,13 @@
+<div class="share-links">
+  <span class="share-text">Share this:</span>
+  <ul>
+    {%- assign enabled_share_links = site.data.share_links | where_exp: 'link','link.enabled' %}
+    {%- for link in enabled_share_links %}
+    <li id="{{ link.id }}-share-link">
+      <a href="{{ link.url | liquify | absolute_url }}" rel="nofollow" target="_blank" title="{{ link.title }}">
+        {% include svg/{{ link.iconid | default: link.id}}.svg %}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>

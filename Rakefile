@@ -21,7 +21,8 @@ task :test => [ :default, :doctor ] do
     :assume_extension => true,
     :disable_external => true,
     :url_ignore => [
-      "#"
+      "#",
+      /mailto:\?subject.*/
     ]
   }
   HTMLProofer.check_directory("./_site", options).run
