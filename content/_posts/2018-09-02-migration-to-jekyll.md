@@ -16,14 +16,14 @@ editing proved too tempting. Now I have them via mechanisms that simply didn't
 exist in 2005.
 
 I'd been kicking my Drupal instance and Debian Linode VPS down the road for
-years, but a few months ago a Bitcoin mining worm settled in my machine, carried
-in by [Drupalgeddon 2](https://www.drupal.org/sa-core-2018-002), and ended a
-fifteen year streak. I fixed the vulnerability and did my best to clear out the
-infestation, but I didn't trust the machine any more.
+years without any issue, but a few months ago a Bitcoin mining worm settled in
+my machine, carried in by [Drupalgeddon
+2](https://www.drupal.org/sa-core-2018-002). I fixed the vulnerability and did
+my best to clear out the infestation, but I didn't trust the machine any more.
 
 Faced with rebuilding a full LAMP installation, I decided instead to smuggle out
 my data and set up again elsewhere. I chose Jekyll because I'd used it a few
-times, it's popular and relatively well supported. As it ran on [GitHub
+times, and it's popular and relatively well supported. As it ran on [GitHub
 Pages](https://pages.github.com/), I could also stop administrating my own Linux
 server.
 
