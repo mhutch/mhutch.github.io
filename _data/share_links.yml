@@ -22,6 +22,18 @@
   iconid: fontawesome/linkedin-brands
   enabled: true
 
+- id: pinterest
+  url: http://pinterest.com/pin/create/button/?url={{ page.url | absolute_url }}
+  title: Pin this
+  iconid: fontawesome/pinterest-brands
+  enabled: true
+
+- id: tumblr
+  url: http://www.tumblr.com/share/link?url={{ page.url | absolute_url }}
+  title: Share on tumblr
+  iconid: fontawesome/tumblr-brands
+  enabled: true
+
 - id: reddit
   url: http://www.reddit.com/submit?url={{ page.url | absolute_url }}
   title: Submit to Reddit
