@@ -1,0 +1,13 @@
+<ul class="talks">
+{% for talk in site.data.talks -%}
+    <li>
+        <a href="{{ talk.link }}" alt="{{ talk.title }}">{{ talk.title }}</a>
+        <small class="detail">
+        &middot;
+        <span class="event">{{ talk.conf }}</span>
+        &middot;
+        <span class="date">{{ talk.date | date: "%b %-d, %Y" }}</span>
+        </small>
+    </li>
+{% endfor -%}
+</ul>

@@ -1,24 +1,14 @@
-- title: DotNetRocks
-  conf:  
-  date:  
-  link:  
+- title: Visual Studio for Mac Update
+  show:  DotNetRocks
+  date:  2017-05-29
+  link:  https://dotnetrocks.com/?show=1549
 
 - title: Visual Studio for Mac
-  conf:  Visual Studio Toolbox
+  show:  Visual Studio Toolbox
   date:  2017-05-17
   link:  https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Visual-Studio-for-Mac
 
-- title: 'Visual Studio for Mac and Xamarin Live Player'
-  conf:  Channel 9 Live
+- title: Visual Studio for Mac and Xamarin Live Player
+  show:  Channel 9 Live
   date:  2017-05-12
   link:  https://channel9.msdn.com/Events/Build/2017/C9L24
-
-- title: DotNetRocks
-  conf:  
-  date:  
-  link:  
-
-- title: DotNetRocks
-  conf:  
-  date:  
-  link:  

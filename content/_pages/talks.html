@@ -1,23 +1,16 @@
 ---
-layout: default
+layout: page
+title: Talks
 permalink: /talks
 ---
 
-<header>
-  <h1>Talks</h1>
-</header>
+<p>I'm an experienced public speaker, and always happy to talk on my areas of
+expertise &ndash; please <a href="/contact">contact me</a> with any
+opportunities. Below is a selection of talks I've given and
+other appearances.</p>
 
-<div class="content">
-  <ul class="talks">
-   {% for talk in site.data.talks -%}
-      <li>
-        <a href="{{ talk.video }}" alt="{{ talk.title }}">{{ talk.title }}</a>
-        <small class="detail">
-          <span class="event">{{ talk.conf }}</span>
-          &ndash;
-          <span class="date">{{ talk.date | date: "%b %-d, %Y" }}</span>
-        </small>
-      </li>
-   {% endfor -%}
-  </ul>
-</div>
+<h2>Conferences</h2>
+{% include talks-list.html %}
+
+<h2>Shows and Podcasts</h2>
+{% include appearances-list.html %}
