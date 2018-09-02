@@ -7,7 +7,13 @@
 - id: twitter
   title: Find me on Twitter
   iconid: fontawesome/twitter-brands
-  url: https://twitter.com/mjhutchinson
+  url: https://twitter.com/{{ site.twitter.username }}
+  enabled: true
+
+- id: twitter
+  title: Find me on Mastodon
+  iconid: fontawesome/mastodon-brands
+  url: https://mastodon.social/@mhutch
   enabled: true
 
 - id: facebook
@@ -19,7 +25,7 @@
 - id: linkedin
   title: Find me on LinkedIn
   iconid: fontawesome/linkedin-brands
-  url: https://linkedin.com/in/mjhutchinson
+  url: https://linkedin.com/in/{{ site.linkedin.username }}
   enabled: true
 
 - id: subscribe
