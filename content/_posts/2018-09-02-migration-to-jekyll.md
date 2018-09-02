@@ -3,12 +3,12 @@ title: Migration to Jekyll
 tags: [ site news, jekyll, drupal ]
 ---
 
-I just finished migrating this site to [Jekyll](https://jekyllrb.com/).<!--break-->
+I just finished migrating this site to [Jekyll](https://jekyllrb.com/).
 
 I'm a little sad. I ran Drupal for [over 15 years]({% post_url
 2005-01-30-and-so-it-begins %}), and there are few things in my life that have
 been constant that long. But all things come to an end, and it served its
-purpose well.
+purpose well.<!--break-->
 
 It's interesting to come back round to static pages. Before I settled on Drupal,
 I briefly wrote my own static site generator, but comments, analytics and online
