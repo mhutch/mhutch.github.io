@@ -2,6 +2,7 @@
 tags: [ personal ]
 title: Some Changes Around Here
 created: 1457497940
+comments: false
 redirect_from:
 - /node/235
 - /journal/2016/03/08/some_changes_around_here
