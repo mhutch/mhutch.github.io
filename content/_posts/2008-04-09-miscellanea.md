@@ -4,7 +4,6 @@ title: Miscellanea
 created: 1207785204
 redirect_from:
 - /node/150
-- /journal/2008/04/09/miscellanea
 - /journal/2008-04-09/miscellanea
 ---
 Here's a quick summary of interesting things from the past few months that I

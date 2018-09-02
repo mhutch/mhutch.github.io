@@ -23,7 +23,7 @@ Windows, _Edit->Preferences_ on Linux), then the _General->Key Bindings_ panel.
 This allows you to find existing key bindings, or modify the keybindings to your
 liking.
 
-![/files/images/md-tips/keybindings-panel.png](The key bindings panel in MonoDevelop)
+![The key bindings panel in MonoDevelop](/files/images/md-tips/keybindings-panel.png)
 
 The panel has various parts:
 

@@ -30,7 +30,7 @@ MSBuild makes this pretty easy. You can simply hook a custom target before the
 `Compile` target, and have it emit a `Compile` item based on whatever input
 items you want. For the purposes of this guide I'm going to assume you're
 comfortable with enough MSBuild to understand that - if you're not, the [MSDN
-docs]("https://msdn.microsoft.com/en-us/library/dd637714.aspx) are pretty good
+docs](https://msdn.microsoft.com/en-us/library/dd637714.aspx) are pretty good
 for the basics.
 
 The challenge is to include the generated C# in code completion, and update it

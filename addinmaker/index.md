@@ -3,7 +3,7 @@ tags: []
 layout: page
 title: MonoDevelop.AddinMaker
 created: 1426136741
-permalink: /addinmaker
+permalink: /addinmaker/
 redirect-from: /node/230
 ---
 MonoDevelop.AddinMaker is makes it easier to develop addins to add features to MonoDevelop and Xamarin Studio.
