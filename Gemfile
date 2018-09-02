@@ -17,4 +17,5 @@ group :jekyll_plugins do
     gem 'jekyll-archives'
     gem 'jekyll-tagging'
     gem 'jekyll-tagging-related_posts'
+    gem 'jekyll-seo-tag'
 end

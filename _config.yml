@@ -1,6 +1,5 @@
 # Setup
 title: 'mhut.ch'
-tagline: 'cloud residence'
 description: "Mikayla Hutchinson's home on the web"
 
 url: https://mhut.ch
@@ -8,8 +7,22 @@ url: https://mhut.ch
 google_tag_container: GTM-M9VCVCX
 
 author:
-  name: 'Mikayla Hutchinson'
-  url:  https://twitter.com/mjhutchinson
+  name: Mikayla Hutchinson
+  twitter: mjhutchinson
+
+twitter:
+  username: mjhutchinson
+  card: summary
+
+social:
+  name: Mikayla Hutchinson
+  links:
+    - https://twitter.com/mjhutchinson
+    - https://www.facebook.com/mhutch
+    - https://www.linkedin.com/in/mjhutchinson
+    - https://plus.google.com/+mjhutchinson
+    - https://github.com/mhutch
+    - https://keybase.io/mhutch
 
 disqus:
   shortname: mhutch
@@ -77,6 +90,7 @@ plugins:
   - jekyll-archives
   - jekyll/tagging
   - jekyll-tagging-related_posts
+  - jekyll-seo-tag
 
 exclude:
   - vendor
