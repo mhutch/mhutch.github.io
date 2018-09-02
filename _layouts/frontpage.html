@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<div class="content">
+  <section class="about">
+    <p>{{ site.data.frontpage.about | markdownify | strip_tag: 'p' }}</p>
+    More <a href="/about">about me...</a>
+  </section>
+  <section class="recent">
+    <h2>Recent Posts</h2>
+    <ul class="posts-list">
+      {% for post_list_post in site.posts limit: 5 -%}
+      <li>
+        <h3>
+          <a href="{{ post_list_post.url }}">{{ post_list_post.title }}</a>
+          <small>{{ post_list_post.date | date: "%Y %b %-d" }}</small>
+        </h3>
+      </li>
+      {% endfor -%}
+      <a href="/journal">Older...</a>
+    </ul>
+  </section>
+</div>
