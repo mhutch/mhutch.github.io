@@ -22,9 +22,10 @@ packages](http://download.opensuse.org/repositories/home:/MJHutchinson) from the
 openSUSE build service ([1-click install for openSUSE
 11.1](http://software.opensuse.org/ymp/home:MJHutchinson/openSUSE_11.1/monodevelop.ymp)).
 
-You just have to download and extract my [Moonlight
-SDK](/files/temp/MoonSDK-Preview-2009-05-05.zip), extract it somewhere, then
-tell MonoDevelop where it using the `MOONLIGHT_2_SDK_PATH` environment variable:
+You just have to download and extract my
+{% file_link_removed /files/temp/MoonSDK-Preview-2009-05-05.zip Moonlight SDK %},
+extract it somewhere, then tell MonoDevelop where it using the
+`MOONLIGHT_2_SDK_PATH` environment variable:
 
 ```bash
 export MOONLIGHT_2_SDK_PATH=/full/path/to/MoonSDK

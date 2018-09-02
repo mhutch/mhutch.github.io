@@ -15,8 +15,8 @@ native part of AspNetEdit, it has other uses as a limited Gecko-C#
 bridge.<!--break--> You'll obviously need Firefox, though I don't think there
 are any other hard dependencies. If a Firefox update breaks the packages, please
 add a comment to this post to tell me, and I'll rebuild them. There's an
-[AMD64](/files/releases/jscall-cil_0.0.2-1_amd64.deb) and an
-[i386](/files/releases/jscall-cil_0.0.2-1_i386.deb) version.
+{% file_link_removed /files/releases/jscall-cil_0.0.2-1_amd64.deb AMD64 %} and an
+{% file_link_removed /files/releases/jscall-cil_0.0.2-1_i386.deb i386 %} version.
 
 Anyone who's interested in trying AspNetEdit will still have to build
 MonoDevelop, but will no longer need the C++/GTK+/FireFox dev stuff (on Ubuntu

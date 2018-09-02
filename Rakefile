@@ -17,6 +17,12 @@ task :doctor do
 end
 
 task :test => [ :default, :doctor ] do
-  options = { :assume_extension => true, :disable_external => true }
+  options = {
+    :assume_extension => true,
+    :disable_external => true,
+    :url_ignore => [
+      "#"
+    ]
+  }
   HTMLProofer.check_directory("./_site", options).run
 end

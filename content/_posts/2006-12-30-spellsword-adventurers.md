@@ -48,7 +48,7 @@ to Oblivion than Neverwinter Nights).
 <p>Spellswords combine arcane might with combat know-how.  They're much tougher than mages, like to wear armor, and can cast spells through their weapons.  They're very, very, good at doing lots of damage to a single target very quickly, and while not quite as tough as most fighters, are still pretty hard to kill.</p>
 <p>You're both smart and aggressive, which means that you're probably pretty dangerous when pissed off.  You also tend to be somewhat straightforward, which is nice, and don’t have much use for spirituality or mysticism.</p>
 
-<img style="align:center" src="http://is2.okcupid.com/users/152/386/15238646033989136694/mt1128069993.jpg">
+<img style="align:center" src="http://is2.okcupid.com/users/152/386/15238646033989136694/mt1128069993.jpg" alt="Picture of a spellsword">
 
 <p>My test tracked 4 variables How you compared to other people <i>your age and gender</i>:</p>
 
