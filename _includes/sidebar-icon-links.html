@@ -1,10 +1,11 @@
 <nav id="sidebar-icon-links">
   {%- assign pageurl_no_index = page.url | strip_suffix: "/index.html" | strip_suffix: "/" -%}
-  {%- for icon in site.data.sidebar_icons %}
+  {%- assign enabled_sidebar_icons = site.data.sidebar_icons | where_exp: 'icon','icon.enabled' %}
+  {%- for icon in enabled_sidebar_icons %}
   <a id="{{ icon.id }}-link"
     class="icon {% if pageurl_no_index == icon.url or page.url == icon.url %} active{% endif %}"
     title="{{ icon.title }}" aria-label="{{ icon.title }}"
-    href="{{ icon.url | absolute_url }}">
+    href="{{ icon.url | liquify | absolute_url }}">
     {% include svg/{{ icon.iconid | default: icon.id }}.svg %}
   </a>
   {%- endfor -%}
