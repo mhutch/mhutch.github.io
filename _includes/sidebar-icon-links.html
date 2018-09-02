@@ -1,31 +1,11 @@
 <nav id="sidebar-icon-links">
+  {%- assign pageurl_no_index = page.url | strip_suffix: "/index.html" | strip_suffix: "/" -%}
   {%- for icon in site.data.sidebar_icons %}
   <a id="{{ icon.id }}-link"
-    class="icon" title="{{ icon.title }}" aria-label="{{ icon.title }}"
-    href="{{ icon.link }}">
-    {% include svg/{{ icon.id }}.svg %}
+    class="icon {% if pageurl_no_index == icon.url or page.url == icon.url %} active{% endif %}"
+    title="{{ icon.title }}" aria-label="{{ icon.title }}"
+    href="{{ icon.url | absolute_url }}">
+    {% include svg/{{ icon.iconid | default: icon.id }}.svg %}
   </a>
   {%- endfor -%}
-
-  <a id="subscribe-link"
-     class="icon" title="Subscribe" aria-label="Subscribe"
-     href="{{ site.baseurl }}/{{ site.feed.path | default: 'feed.xml' }}">
-    {% include svg/feed.svg %}
-  </a>
-
-  <a id="tags-link"
-      class="icon{% if page.url == '/tags' %} active{% endif %}"
-      title="Tags" aria-label="Tags"
-      href="{{ site.baseurl }}/tags">
-    {% include svg/tags.svg %}
-  </a>
-
-  <a id="search-link"
-      class="icon{% if page.url == '/search' %} active{% endif %}"
-      title="Search" aria-label="Search"
-      href="{{ site.baseurl }}/search">
-    {% include svg/search.svg %}
-  </a>
-
-  {% include custom-icon-links.html %}
 </nav>

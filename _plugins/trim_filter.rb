@@ -1,11 +1,8 @@
 module TrimFilter
-    def trim(input)
-      input.strip
-    end
-    def trim_prefix(input,prefix)
+    def strip_prefix(input,prefix)
       input.delete_prefix(prefix)
     end
-    def trim_suffix(input,suffix)
+    def strip_suffix(input,suffix)
       input.delete_suffix(suffix)
     end
     def strip_tag(input,tag)

@@ -223,11 +223,16 @@ body {
   color: #fff;
 
   svg {
+    color: rgba(255, 255, 255, 0.85);
     fill: rgba(255, 255, 255, 0.85);
+    height: 1em;
   }
 
   &:hover, &:focus, &.active {
-    svg { fill: #fff; }
+    svg {
+      color: #fff;
+      fill: #fff;
+    }
   }
 
   &:hover, &:focus {

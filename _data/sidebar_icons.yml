@@ -1,7 +1,29 @@
 - id: github
   title: Find me on GitHub
-  link: https://github.com/mhutch
+  iconid: fontawesome/github-alt-brands
+  url: https://github.com/mhutch
 
 - id: twitter
   title: Find me on Twitter
-  link: https://twitter.com/mjhutchinson
+  iconid: fontawesome/twitter-brands
+  url: https://twitter.com/mjhutchinson
+
+- id: linkedin
+  title: Find me on LinkedIn
+  iconid: fontawesome/linkedin-brands
+  url: https://linkedin.com/in/mjhutchinson
+
+- id: subscribe
+  title: Subscribe
+  iconid: fontawesome/rss-solid
+  url: /feed.xml
+
+- id: tags
+  title: Tags
+  iconid: fontawesome/tags-solid
+  url: /tags
+
+- id: search
+  title: Search
+  iconid: fontawesome/search-solid
+  url: /search
