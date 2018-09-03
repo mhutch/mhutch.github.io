@@ -1,0 +1,48 @@
+- id: github
+  title: GitHub
+  subtitle: '@mhutch'
+  iconid: fontawesome/github-alt-brands
+  url: https://github.com/mhutch
+  enabled: true
+
+- id: mastodon
+  title: mastodon.social
+  subtitle: mhutch@mastodon.social
+  iconid: fontawesome/mastodon-brands
+  url: https://mastodon.social/@mhutch
+  enabled: true
+
+- id: twitter
+  title: Twitter
+  subtitle: '@mjhutchinson'
+  iconid: fontawesome/twitter-brands
+  url: https://twitter.com/mjhutchinson
+  enabled: true
+
+- id: linkedin
+  title: LinkedIn
+  subtitle: linkedin.com/in/mjhutchinson
+  iconid: fontawesome/linkedin-brands
+  url: https://linkedin.com/in/mjhutchinson
+  enabled: true
+
+- id: facebook
+  title: Facebook
+  subtitle: facebook.com/mhutch
+  iconid: fontawesome/facebook-brands
+  url: https://facebook.com/mhutch
+  enabled: true
+
+- id: googleplus
+  title: Google+
+  subtitle: +mjhutchinson
+  iconid: fontawesome/google-plus-brands
+  url: https://google.com/+mjhutchinson
+  enabled: true
+
+- id: email
+  title: Email
+  subtitle: m.j.hutchinson@gmail.com
+  iconid: fontawesome/envelope-regular
+  url: mailto:m.j.hutchinson@gmail.com
+  enabled: true

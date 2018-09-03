@@ -1,0 +1,16 @@
+<ul id="contact-links" class="card-list">
+  {%- assign enabled_contact_methods = site.data.contact_methods | where_exp: 'icon','icon.enabled' %}
+  {%- for contact in enabled_contact_methods %}
+  <li>
+    <a id="contact-{{ contact.id }}"
+      class="icon {{ contact.id }}-icon card-container"
+      title="{{ contact.title }}" aria-label="{{ contact.title }}"
+      href="{{ contact.url }}">
+      {% include svg/{{ contact.iconid | default: contact.id }}.svg %}
+      <div class="card-body">
+        <h3 class="card-title">{{ contact.subtitle }}</h3>
+      </div>
+    </a>
+  </li>
+  {%- endfor -%}
+</ul>

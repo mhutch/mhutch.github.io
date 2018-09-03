@@ -27,30 +27,92 @@
 }
 
 
-li#facebook-share-link {
+.facebook-icon {
     svg { color: #3b5998; }
 }
 
-li#twitter-share-link {
+.twitter-icon {
     svg { color: #4099FF; }
 }
 
-li#googleplus-share-link {
+.googleplus-icon {
     svg { color: #d34836; }
 }
 
-li#reddit-share-link {
+.reddit-icon {
     svg { color: #ff5700; }
 }
 
-li#linkedin-share-link {
+.linkedin-icon {
     svg { color: #0077b5; }
 }
 
-li#tumblr-share-link {
+.tumblr-icon {
     svg { color: #32506d; }
 }
 
-li#pinterest-share-link {
+.pinterest-icon {
     svg { color: #cb2027; }
+}
+
+.github-icon {
+    svg { color: rgb(37, 41, 46); }
+}
+
+.email-icon {
+    svg { color: #800c7f; }
+}
+
+.card-list {
+    list-style: none;
+    padding: 1em 0 0 0;
+    li {
+        box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.2);
+        border-radius: 0.4em;
+        padding: 0.5em;
+        margin: 0 0 1em 0;
+        transition: box-shadow 0.3s;
+        transition-timing-function: ease-in-out;
+    }
+    li:hover {
+        box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+    }
+    svg {
+        height: 2.2em;
+        width: 2.2em;
+        margin: 0 0.6em 0 0;
+        flex: 0 0 auto;
+    }
+    a:hover, a:focus {
+        text-decoration: none;
+    }
+    .card-container {
+        display: flex;
+        flex-direction: row
+    }
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h3 {
+        margin: 0;
+    }
+    /*
+    This is hacky but i didn't figure out how
+    to cleanly stop long ones overflowing
+    */
+    #contact-linkedin h3 {
+        font-size: 1.0em;
+    }
+    #contact-email h3 {
+        font-size: 1.1em;
+    }
+    #contact-mastodon h3 {
+        font-size: 1.1em;
+    }
+    li {
+        max-width: 20em;
+    }
 }

@@ -10,7 +10,7 @@
   url: https://twitter.com/{{ site.twitter.username }}
   enabled: true
 
-- id: twitter
+- id: mastodon
   title: Find me on Mastodon
   iconid: fontawesome/mastodon-brands
   url: https://mastodon.social/@mhutch
