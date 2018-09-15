@@ -4,7 +4,7 @@ title:  Reflections, Post-Surgery
 ---
 The past couple months I've been recovering from bottom surgery (gender
 reassignment surgery). It's been a strange liminal period of relief and
-reorientation.
+reorientation.<!--break-->
 
 I don't doubt at all that this is a huge and positive milestone in my
 life. I've despised a part of my body as long as I can remember, doing
