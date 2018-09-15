@@ -1,6 +1,6 @@
 ---
 tags: [ personal, trans ]
-title:  Reflections, Post-Surgery
+title:  Reflections After Surgery
 ---
 The past couple months I've been recovering from bottom surgery (gender
 reassignment surgery). It's been a strange liminal period of relief and
