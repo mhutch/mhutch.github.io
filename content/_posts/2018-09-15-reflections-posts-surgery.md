@@ -1,6 +1,6 @@
 ---
 tags: [ personal, trans ]
-title:  Reflections Post Surgery
+title:  Reflections, Post-Surgery
 ---
 The past couple months I've been recovering from bottom surgery (gender
 reassignment surgery). It's been a strange liminal period of relief and
@@ -15,7 +15,7 @@ feelings in an instant if I ever let my guard down.
 Now it's gone, and I have something new and unfamiliar. Do I like it?
 I don't know, it just _is_. I suspect that's how many people feel about
 their bodies. It's still changing as it heals, still a source of discomfort
-and awkwardness, so I reserve full judgment, but I’m do know that I'm a
+and awkwardness, so I reserve full judgment, but I do know that I'm a
 lot happier.
 
 It's hard to describe gender dysphoria to someone who hasn't experienced 
@@ -29,7 +29,7 @@ different.
 
 The worst part is how it's all tangled up. We're socialized to rigidly
 associate body shapes with gender, and gender with behaviors. There's
-no objective way to define a what makes a man or woman, it's emergent
+no objective way to define what makes a man or woman, it's emergent
 from a whole array of factors. All the aspects of dysphoria feed into
 your sense of identity. Your body, how people treat you, and how you are
 able to express yourself all feed into your sense of self identity, which
@@ -55,7 +55,7 @@ instead of helping to redefine what it means to be a woman?
 
 After obtaining hormones and making a social transition, bottom surgery
 for me was a given. I hated that part of myself more than anything else,
-so fixing it was a priority. It took time and work: multiple
+so fixing it was a priority. That took time and work: multiple
 psychological evaluations, repeated laser hair removal in delicate
 areas, time gates, waiting lists, insurance criteria. Part of me still
 feels like I showed up fifteen years late, but once I started I made
