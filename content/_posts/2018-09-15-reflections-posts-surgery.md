@@ -3,7 +3,7 @@ tags: [ personal, trans ]
 title:  Reflections Post Surgery
 ---
 The past couple months I've been recovering from bottom surgery (gender
-reassignment surgery). It's been a strange, liminal period of relief and
+reassignment surgery). It's been a strange liminal period of relief and
 reorientation.
 
 I don't doubt at all that this is a huge and positive milestone in my
@@ -13,7 +13,7 @@ dysphoria. It was evidence of my bodily masculinity, dredging up horrible
 feelings in an instant if I ever let my guard down.
 
 Now it's gone, and I have something new and unfamiliar. Do I like it?
-I don't know, it just is. I suspect that's how many people feel about
+I don't know, it just _is_. I suspect that's how many people feel about
 their bodies. It's still changing as it heals, still a source of discomfort
 and awkwardness, so I reserve full judgment, but I’m do know that I'm a
 lot happier.
