@@ -1,5 +1,5 @@
 ---
-tags: [ personal ]
+tags: [ personal, trans ]
 title: Some Changes Around Here
 created: 1457497940
 comments: false
