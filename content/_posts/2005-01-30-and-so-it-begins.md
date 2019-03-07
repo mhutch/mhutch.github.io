@@ -7,6 +7,8 @@ redirect_from:
 - /journal/2005/01/30/and_so_it_begins
 - /journal/2005-01-30/and_so_it_begins
 - /journal/2005-30-01/and_so_it_begins
+- /journal/2005/01/30/and-so-it-begins
+permalink: /2005/01/30/and-so-it-begins
 ---
 I've been wondering for literally months how to set up this site. I almost went
 with a custom coded solution but [Drupal](https://drupal.org)'s logging and
