@@ -1,3 +1,8 @@
+- title:  .NET on the Web with Mono WebAssembly
+  conf:   FOSDEM 2019
+  date:   2018-05-07
+  link:  https://fosdem.org/2019/schedule/event/dotnet_wasm_toolchain/
+
 - title:  What's New with Visual Studio for Mac
   conf:   Microsoft Build 2018
   date:   2018-05-07
