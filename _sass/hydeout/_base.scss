@@ -101,19 +101,3 @@ button, input[type="submit"] {
     box-shadow: $default-box-shadow;
   }
 }
-
-img.hero-avatar {
-  max-width: 20%;
-  border-radius: 50%;
-  align-self: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* make it bigger on non-mobile layouts */
-@media (min-width: 49rem) {
-  img.hero-avatar {
-    max-width: 60%;
-    margin-bottom: 2em;
-  }
-}

@@ -309,3 +309,27 @@ body {
     }
   }
 }
+
+#sidebar img.hero-avatar {
+  max-width: 20%;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: auto;
+  margin-left: auto;
+  /* hide by default */
+  display: none;
+}
+
+/* make it visible on home, including mobile */
+.home #sidebar img.hero-avatar {
+  display: block;
+}
+
+/* make it bigger and always present on desktop */
+@media (min-width: $large-breakpoint) {
+  #sidebar img.hero-avatar {
+    max-width: 60%;
+    margin-bottom: 2em;
+    display: block;
+  }
+}
