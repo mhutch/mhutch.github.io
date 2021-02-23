@@ -63,19 +63,19 @@ For example:
   Condition=="'@(ResourceFile)' != ''"
 >
   <ItemGroup>
-    <Compile Include="$(IntermediateOutputDir)GeneratedFile.g.cs" />
+    <Compile Include="$(IntermediateOutputPath)GeneratedFile.g.cs" />
     <!-- see https://mhut.ch/journal/2016/04/19/msbuild_code_generation_vs2015
-    <FileWrites Include="$(IntermediateOutputDir)GeneratedFile.g.cs" />
+    <FileWrites Include="$(IntermediateOutputPath)GeneratedFile.g.cs" />
     -->
   </ItemGroup>
 </Target>
 <Target Name="_UpdateGeneratedFiles"
   Inputs="$(MSBuildProjectFile);@(ResourceFile)"
-  Outputs="$(IntermediateOutputDir)GeneratedFile.g.cs"
+  Outputs="$(IntermediateOutputPath)GeneratedFile.g.cs"
 >
   <FileGenerationTask
       Inputs="@(ResourceFile)"
-      Output="$(IntermediateOutputDir)GeneratedFile.g.cs"
+      Output="$(IntermediateOutputPath)GeneratedFile.g.cs"
   >
 </Target>
 ```
