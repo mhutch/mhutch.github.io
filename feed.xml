@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://mhut.ch/feed.xml" rel="self" type="application/atom+xml" /><link href="https://mhut.ch/" rel="alternate" type="text/html" /><updated>2021-03-19T16:37:23+00:00</updated><id>https://mhut.ch/feed.xml</id><title type="html">mhut.ch</title><subtitle>Mikayla Hutchinson's home on the web</subtitle><author><name>Mikayla Hutchinson</name></author><entry><title type="html">Reflections After Surgery</title><link href="https://mhut.ch/journal/2018/09/15/reflections-after-surgery" rel="alternate" type="text/html" title="Reflections After Surgery" /><published>2018-09-15T00:00:00+00:00</published><updated>2018-09-15T00:00:00+00:00</updated><id>https://mhut.ch/journal/2018/09/15/reflections-after-surgery</id><content type="html" xml:base="https://mhut.ch/journal/2018/09/15/reflections-after-surgery">&lt;p&gt;The past couple months I’ve been recovering from bottom surgery (gender
+reassignment surgery). It’s been a strange liminal period of relief and
+reorientation.&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;I don’t doubt at all that this is a huge and positive milestone in my
+life. I’ve despised a part of my body as long as I can remember, doing
+my best to hide it and write it out of my consciousness to cope with my
+dysphoria. It was evidence of my bodily masculinity, dredging up horrible
+feelings in an instant if I ever let my guard down.&lt;/p&gt;
+
+&lt;p&gt;Now it’s gone, and I have something new and unfamiliar. Do I like it?
+I don’t know, it just &lt;em&gt;is&lt;/em&gt;. I suspect that’s how many people feel about
+their bodies. It’s still changing as it heals, still a source of discomfort
+and awkwardness, so I reserve full judgment, but I do know that I’m a
+lot happier.&lt;/p&gt;
+
+&lt;p&gt;It’s hard to describe gender dysphoria to someone who hasn’t experienced 
+it. You are yourself, but your body is wrong, people don’t treat you
+right, and you can’t express yourself without risking ruinous ostracization.
+You overcompensate to fit in and make yourself miserable, and no-one ever
+sees your real self because you do your best to hide it away. Every day
+you see other people living aspects of the life you wish you had,
+blissfully unaware of their fortune because they never imagined anything
+different.&lt;/p&gt;
+
+&lt;p&gt;The worst part is how it’s all tangled up. We’re socialized to rigidly
+associate body shapes with gender, and gender with behaviors. There’s
+no objective way to define what makes a man or woman, it’s emergent
+from a whole array of factors. All the aspects of dysphoria feed into
+your sense of identity. Your body, how people treat you, and how you are
+able to express yourself all feed into your sense of self identity, which
+in turn affects how you feel about those things.&lt;/p&gt;
+
+&lt;p&gt;I’ve overcome a lot of inhibitions, and in many ways I don’t care what
+people think about me. But when I look into a mirror, and part of my
+body looks male, I don’t feel real. When someone calls me “sir”, I
+don’t feel real. I feel like an impostor. I feel like I’m pretending
+to be someone I’m not, that “reasonable” people would consider me 
+delusional. When people treat me well, I suspect it’s simply because I’m
+somehow fooling them, and if they had the full picture, of course they’d
+think I wasn’t real. Or they’re just humoring me to be nice.&lt;/p&gt;
+
+&lt;p&gt;The biggest contributor to those feelings for me is gone, and it’s a huge
+relief. It would be pretty damn hard for anyone now to claim to
+objectively call me a man. Of course, that means I’m now worrying about
+other things. Should I get top surgery (breast augmentation) or FFS
+(facial feminisation surgery)? They’d lessen my remaining dysphoria,
+but I don’t know how much. Can I justify the expense, pain and time?
+Is it a moral failing to conform to male gaze centric beauty standards
+instead of helping to redefine what it means to be a woman?&lt;/p&gt;
+
+&lt;p&gt;After obtaining hormones and making a social transition, bottom surgery
+for me was a given. I hated that part of myself more than anything else,
+so fixing it was a priority. That took time and work: multiple
+psychological evaluations, repeated laser hair removal in delicate
+areas, time gates, waiting lists, insurance criteria. Part of me still
+feels like I showed up fifteen years late, but once I started I made
+it over the finish line with a respectable time.&lt;/p&gt;
+
+&lt;p&gt;And now I’m done, and I’ve completed all my major goals: social
+transition, hormones, bottom surgery. I’m at a loss for what to focus
+on next. I’m much happier, but I’m not entirely comfortable in myself.
+Hair removal and voice therapy are ongoing, and I’m working on my
+empathy, my self confidence, my social anxiety, but none of these
+have discrete resolutions. It’s awfully tempting to consider other
+surgeries, but I want to do them for the right reasons.&lt;/p&gt;
+
+&lt;p&gt;I still look in the mirror, or hear my voice, and although I’m well
+into diminishing returns I’m not  entirely happy. I’m lucky that many
+people think I look and sound cis (not trans), as we’re all socially
+conditioned to value normalization. But I‘ve trained myself to spot
+differences, and I have a lot of internalized transphobia. I’m my
+own worst critic and I can’t escape myself.&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="personal" /><category term="trans" /><summary type="html">The past couple months I’ve been recovering from bottom surgery (gender reassignment surgery). It’s been a strange liminal period of relief and reorientation.</summary></entry><entry><title type="html">Migration to Jekyll</title><link href="https://mhut.ch/journal/2018/09/02/migration-to-jekyll" rel="alternate" type="text/html" title="Migration to Jekyll" /><published>2018-09-02T00:00:00+00:00</published><updated>2018-09-02T00:00:00+00:00</updated><id>https://mhut.ch/journal/2018/09/02/migration-to-jekyll</id><content type="html" xml:base="https://mhut.ch/journal/2018/09/02/migration-to-jekyll">&lt;p&gt;I just finished migrating this site to &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I’m a little sad. I ran Drupal for &lt;a href=&quot;/2005/01/30/and-so-it-begins&quot;&gt;over 16 years&lt;/a&gt;, and there are few things in my life that have
+been constant that long. But all things come to an end, and it served its
+purpose well.&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s interesting to come back round to static pages. Before I settled on Drupal,
+I briefly wrote my own static site generator, but comments, analytics and online
+editing proved too tempting. Now I have them via mechanisms that simply didn’t
+exist in 2005.&lt;/p&gt;
+
+&lt;p&gt;I’d been kicking my Drupal instance and Debian Linode VPS down the road for
+years without any issue, but a few months ago a Bitcoin mining worm settled in
+my machine, carried in by &lt;a href=&quot;https://www.drupal.org/sa-core-2018-002&quot;&gt;Drupalgeddon
+2&lt;/a&gt;. I fixed the vulnerability and did
+my best to clear out the infestation, but I didn’t trust the machine any more.&lt;/p&gt;
+
+&lt;p&gt;Faced with rebuilding a full LAMP installation, I decided instead to smuggle out
+my data and set up again elsewhere. I chose Jekyll because I’d used it a few
+times, and it’s popular and relatively well supported. As it ran on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub
+Pages&lt;/a&gt;, I could stop administering my own Linux
+server.&lt;/p&gt;
+
+&lt;p&gt;Migrating the content with the &lt;a href=&quot;https://import.jekyllrb.com/docs/drupal7&quot;&gt;Jekyll Drupal
+importer&lt;/a&gt; was pretty straightforward,
+though I ended up having to do a lot of manual fixup to preserve permalinks and
+redirects. I manually migrated years of content from a mismash of HTML and
+custom Drupal filters to Markdown and Jekyll Liquid tags, and got a &lt;em&gt;lot&lt;/em&gt; more
+familiar with &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;VS Code&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Wading through decades old posts was weird. My writing style, my &lt;em&gt;self&lt;/em&gt; and the
+social environment have all changed. Blogs are still around, but many of the
+ways they were used have been replaced by Twitter, Reddit, Tumblr and Facebook.
+I almost decided not to allow comments, but during the migration I found some
+good discussions in my archives, and so enabled &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For theming I started with &lt;a href=&quot;https://fongandrew.github.io/hydeout&quot;&gt;Hydeout&lt;/a&gt;, and
+made a lot of minor tweaks. Eventually I want a unique design, and although
+that’s probably a way off, I’m confident I have a good foundation.&lt;/p&gt;
+
+&lt;p&gt;There were a few more unanticipated complications. Recreating my archives and
+tags wasn’t possible with the sandboxed Jekyll environment supported by GitHub,
+so I &lt;a href=&quot;http://joshfrankel.me/blog/deploying-a-jekyll-blog-to-github-pages-with-custom-plugins-and-travisci&quot;&gt;set
+up&lt;/a&gt;
+a &lt;a href=&quot;https://travis-ci.org/mhutch/mhutch.github.io&quot;&gt;Travis CI job&lt;/a&gt; to build and
+deploy the site. I also set up Cloudflare as it was the easiest way to port
+pattern-based URL redirects from my old domain. Maybe it’ll come in handy
+someday if I attract the wrong attention.&lt;/p&gt;
+
+&lt;p&gt;Now I just need to make time to write more. I’ve missed it 😊&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="site news" /><category term="jekyll" /><category term="drupal" /><summary type="html">I just finished migrating this site to Jekyll. I’m a little sad. I ran Drupal for over 16 years, and there are few things in my life that have been constant that long. But all things come to an end, and it served its purpose well.</summary></entry><entry><title type="html">Easy pull requests from master with git-offload</title><link href="https://mhut.ch/journal/2016/08/03/easy-pull-requests-from-master-with-git-offload" rel="alternate" type="text/html" title="Easy pull requests from master with git-offload" /><published>2016-08-03T00:00:00+00:00</published><updated>2016-08-03T00:00:00+00:00</updated><id>https://mhut.ch/journal/2016/08/03/easy-pull-requests-from-master-with-git-offload</id><content type="html" xml:base="https://mhut.ch/journal/2016/08/03/easy-pull-requests-from-master-with-git-offload">&lt;p&gt;When using git, I often find myself committing some work to master locally, and
+having to move it all to a branch from which I can make a pull request. Then I
+have to clean up afterwards. I do this often, yet it’s tedious and I still
+sometimes have to look up the exact format of the git commands. So, I wrote a
+script to automate it, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git-offload&lt;/code&gt;.&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;Simply pass in the new branch name and the remote to you want to push the new
+branch, and git-offload automatically does the following things:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creates a new branch from your current commit&lt;/li&gt;
+  &lt;li&gt;Pushes that branch to an upstream of your choice&lt;/li&gt;
+  &lt;li&gt;Goes back to the original branch&lt;/li&gt;
+  &lt;li&gt;Resets the original branch to its upstream state&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can &lt;a href=&quot;https://gist.github.com/mhutch/722fff2315597fc7db28e660423efb5c&quot;&gt;download git-offload from
+Gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/722fff2315597fc7db28e660423efb5c.js&quot;&gt; &lt;/script&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><summary type="html">When using git, I often find myself committing some work to master locally, and having to move it all to a branch from which I can make a pull request. Then I have to clean up afterwards. I do this often, yet it’s tedious and I still sometimes have to look up the exact format of the git commands. So, I wrote a script to automate it, git-offload.</summary></entry><entry><title type="html">MSBuild Code Generation in VS2015</title><link href="https://mhut.ch/journal/2016/04/19/msbuild-code-generation-in-vs2015" rel="alternate" type="text/html" title="MSBuild Code Generation in VS2015" /><published>2016-04-19T00:00:00+00:00</published><updated>2016-04-19T00:00:00+00:00</updated><id>https://mhut.ch/journal/2016/04/19/msbuild-code-generation-in-vs2015</id><content type="html" xml:base="https://mhut.ch/journal/2016/04/19/msbuild-code-generation-in-vs2015">&lt;p&gt;A couple of weeks ago I was helping &lt;a href=&quot;http://xfcomplete.net&quot;&gt;Jason Smith&lt;/a&gt; debug
+an issue with the build-time code generation in Xamarin.Forms. The build targets
+were based on my &lt;a href=&quot;/journal/2015/06/30/build_time_code_generation_msbuild&quot;&gt;Build Time Code Generation in
+MSBuild&lt;/a&gt; post, but in
+recent Visual Studio 2015 versions the generated classes would occasionally
+disappear from IntelliSense.&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;Eventually we figured out that this happened after a very specific sequence of
+circumstances: when the project was cleaned, then closed and reopened.&lt;/p&gt;
+
+&lt;p&gt;I verified that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt; target is still run on each project when first
+opening a solution in Visual Studio. However, it wasn’t getting run when the
+solution was closed and reopened unless the project file had changed, or the SUO
+files were deleted. All of this pointed to Visual Studio caching the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Csc&lt;/code&gt;
+inputs in the solution options in order to improve solution load performance by
+eliminating the need to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a fine optimization, except for one minor detail. The cache was not
+getting flushed when the project was cleaned. This is a HUGE problem when the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt; target creates input files for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Csc&lt;/code&gt;, and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Clean&lt;/code&gt; targets
+correctly cleans them up. If the solution is closed and reopened after a clean,
+and no build has taken place since the clean, the input files will be missing!&lt;/p&gt;
+
+&lt;p&gt;For now, a reasonable workaround is simply not to incrementally clean generated
+files, and I’ve updated my original post with this. As long as you regenerate
+and collect the generated files correctly, skipping cleaning them shouldn’t
+cause any problems except wasting a tiny bit of disk space.&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><summary type="html">A couple of weeks ago I was helping Jason Smith debug an issue with the build-time code generation in Xamarin.Forms. The build targets were based on my Build Time Code Generation in MSBuild post, but in recent Visual Studio 2015 versions the generated classes would occasionally disappear from IntelliSense.</summary></entry><entry><title type="html">Some Changes Around Here</title><link href="https://mhut.ch/journal/2016/03/08/some-changes-around-here" rel="alternate" type="text/html" title="Some Changes Around Here" /><published>2016-03-08T00:00:00+00:00</published><updated>2016-03-08T00:00:00+00:00</updated><id>https://mhut.ch/journal/2016/03/08/some-changes-around-here</id><content type="html" xml:base="https://mhut.ch/journal/2016/03/08/some-changes-around-here">&lt;p&gt;I’d like to make a brief announcement. I’m coming out as transgender - I
+identify as a woman, I am changing my name to Mikayla, and I am switching to
+she/her/hers pronouns.&lt;!--break--&gt; Going forwards, I would like to ask people to
+use my new name and female pronouns, and avoid using my old name and male
+pronouns unless unavoidable.&lt;/p&gt;
+
+&lt;p&gt;I realize this may see like an abrupt change, but I’m still the same person, and
+it shouldn’t really matter to other people. For those of you who want to know
+more, I’ve posted &lt;a href=&quot;/coming-out&quot; rel=&quot;nofollow&quot;&gt;a list of questions and answers&lt;/a&gt;.&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="personal" /><category term="trans" /><summary type="html">I’d like to make a brief announcement. I’m coming out as transgender - I identify as a woman, I am changing my name to Mikayla, and I am switching to she/her/hers pronouns.</summary></entry><entry><title type="html">Build Time Code Generation in MSBuild</title><link href="https://mhut.ch/journal/2015/06/30/build-time-code-generation-in-msbuild" rel="alternate" type="text/html" title="Build Time Code Generation in MSBuild" /><published>2015-06-30T00:00:00+00:00</published><updated>2015-06-30T00:00:00+00:00</updated><id>https://mhut.ch/journal/2015/06/30/build-time-code-generation-in-msbuild</id><content type="html" xml:base="https://mhut.ch/journal/2015/06/30/build-time-code-generation-in-msbuild">&lt;p&gt;Build-time code generation is a really powerful way to automate repetitive parts
+of your code. It can save time, reduce frustration, and eliminate a source of
+copy/paste bugs.&lt;/p&gt;
+
+&lt;p&gt;This is something I’m familiar with due to my past work on MonoDevelop’s tooling
+for ASP.NET, T4 and Moonlight, and designing and/or implementing similar systems
+for Xamarin.iOS and Xamarin.Android. However, I haven’t seen any good
+documentation on it, so I decided to write an article to outline the
+basics.&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;This isn’t just something for custom project types, it’s also something that you
+can include in NuGets, since they can include MSBuild logic.&lt;/p&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;The basic idea is to generate C# code from other files in the project, and
+include it in the build. This can be to generate helpers, for example CodeBehind
+for views (ASPX, XAML), or to process simple DSLs (T4), or any other purpose you
+can imagine.&lt;/p&gt;
+
+&lt;p&gt;MSBuild makes this pretty easy. You can simply hook a custom target before the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Compile&lt;/code&gt; target, and have it emit a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Compile&lt;/code&gt; item based on whatever input
+items you want. For the purposes of this guide I’m going to assume you’re
+comfortable with enough MSBuild to understand that - if you’re not, the &lt;a href=&quot;https://msdn.microsoft.com/en-us/library/dd637714.aspx&quot;&gt;MSDN
+docs&lt;/a&gt; are pretty good
+for the basics.&lt;/p&gt;
+
+&lt;p&gt;The challenge is to include the generated C# in code completion, and update it
+automatically.&lt;/p&gt;
+
+&lt;p&gt;An IDE plugin can do this fairly easily - see for example the &lt;em&gt;Generator&lt;/em&gt;
+mechanism used by T4, and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.designer.cs&lt;/code&gt; file generated by the old Windows
+Forms and ASP.NET designers. However, doing it this way has several downsides,
+for example you have to check their output into source control, and they won’t
+update if you edit files outside the IDE. Build-time generation, as used for
+XAML, is a better option in most cases.&lt;/p&gt;
+
+&lt;p&gt;This article describes how to implement the same model used by
+WPF/Silverlight/Xamarin.Forms XAML.&lt;/p&gt;
+
+&lt;h2 id=&quot;generating-the-code&quot;&gt;Generating the Code&lt;/h2&gt;
+
+&lt;p&gt;First, you need a build target that updates the generated files, emits them into
+the intermediate output directory, and injects them to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Compile&lt;/code&gt;
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ItemGroup&lt;/code&gt;. For the purposes of this article I’ll call it
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; and assume that it’s processing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ResourceFile&lt;/code&gt; items and
+emitting a file called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GeneratedCode.g.cs&lt;/code&gt;. In a real implementation, you
+should use unique names won’t conflict with other targets, items and files.&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;Target&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UpdateGeneratedFiles&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;DependsOnTargets=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_UpdateGeneratedFiles&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;Condition=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;=&quot;'@(ResourceFile)'&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;''&quot;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ItemGroup&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;Compile&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Include=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$(IntermediateOutputPath)GeneratedFile.g.cs&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- see https://mhut.ch/journal/2016/04/19/msbuild_code_generation_vs2015
+    &amp;lt;FileWrites Include=&quot;$(IntermediateOutputPath)GeneratedFile.g.cs&quot; /&amp;gt;
+    --&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ItemGroup&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/Target&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;Target&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;_UpdateGeneratedFiles&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;Inputs=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$(MSBuildProjectFile);@(ResourceFile)&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;Outputs=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$(IntermediateOutputPath)GeneratedFile.g.cs&quot;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;FileGenerationTask&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;Inputs=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@(ResourceFile)&quot;&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;Output=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;$(IntermediateOutputPath)GeneratedFile.g.cs&quot;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/Target&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;A quick breakdown:&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; target runs if you have any &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ResourceFile&lt;/code&gt; items. It
+injects the generated file into the build as a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Compile&lt;/code&gt; item, and also injects
+a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;FileWrites&lt;/code&gt; item so the file is recorded for incremental clean. It depends on
+the ‘real’ generation target, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_UpdateGeneratedFiles&lt;/code&gt;, so that the file is
+generated before the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; target runs.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_UpdateGeneratedFiles&lt;/code&gt; target has &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Inputs&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Outputs&lt;/code&gt; set, so that it is
+incremental. The target will be skipped if the output file exists is newer than
+all of the input files - the project file and the resource files.&lt;/p&gt;
+
+&lt;p&gt;The project file is included in the inputs list because its write time will
+change if the list of resource files changes.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_UpdateGeneratedFiles&lt;/code&gt; target simply runs a tasks that generates the output
+file from the input files.&lt;/p&gt;
+
+&lt;p&gt;Note that the generated file has the suffix &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.g.cs&lt;/code&gt;. This is the convention for
+built-time generated files. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.designer.cs&lt;/code&gt; suffix is used for user-visible
+files generated at design-time by the designer.&lt;/p&gt;
+
+&lt;h2 id=&quot;hooking-into-the-build&quot;&gt;Hooking into the Build&lt;/h2&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; target is added to the dependencies of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt; target by prepending it to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompileDependsOn&lt;/code&gt; property.&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;PropertyGroup&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;CoreCompileDependsOn&amp;gt;&lt;/span&gt;UpdateGeneratedFiles;$(CoreCompileDependsOn)&lt;span class=&quot;nt&quot;&gt;&amp;lt;/CoreCompileDependsOn&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/PropertyGroup&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This means that whenever the the project is compiled, the generated file is
+generated or updated if necessary, and the injected &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Compile&lt;/code&gt; item is injected
+before the compiler is called, so is passed to the compiler - though it never
+exists in the project file itself.&lt;/p&gt;
+
+&lt;h2 id=&quot;live-update-on-project-change&quot;&gt;Live Update on Project Change&lt;/h2&gt;
+
+&lt;p&gt;So how do the types from the generated file show up in code completion before
+the project has been compiled? This takes advantage of the way that Visual
+Studio initializes its in-process compiler that’s used for code completion.&lt;/p&gt;
+
+&lt;p&gt;When the project is loaded in Visual Studio, or when the project file is
+changed, Visual Studio runs the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt; target. It intercepts the call to
+the compiler via a host hook in the the MSBuild &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Csc&lt;/code&gt; task and uses the file
+list and arguments to initialize the in-process compiler.&lt;/p&gt;
+
+&lt;p&gt;Because &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; is a dependency of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt;, this means that
+the generated file is updated before the code completion system is initialized,
+and the injected file is passed to the code completion system.&lt;/p&gt;
+
+&lt;p&gt;Note that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; target has to be fast, or it will add
+latency to code completion availability when first loading the project or after
+cleaning it.&lt;/p&gt;
+
+&lt;h2 id=&quot;live-update-on-file-change&quot;&gt;Live Update on File Change&lt;/h2&gt;
+
+&lt;p&gt;So, the generated code is updated whenever the project changes. But what happens when the contents of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ResourceFile&lt;/code&gt; files that it depends on change?&lt;/p&gt;
+
+&lt;p&gt;This is handled via Generator metadata on each of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ResourceFile&lt;/code&gt; files:&lt;/p&gt;
+
+&lt;div class=&quot;language-xml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ItemGroup&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;ResourceFile&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Include=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Foo.png&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;Generator&amp;gt;&lt;/span&gt;MSBuild:UpdateGeneratedFiles&lt;span class=&quot;nt&quot;&gt;&amp;lt;/Generator&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/ResourceFile&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ItemGroup&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This takes advantage of another Visual Studio feature. Whenever the file is
+saved, VS runs the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; target. The code completion system
+detects the change to the generated file and reparses it.&lt;/p&gt;
+
+&lt;p&gt;This metadata has to be applied to the items by the IDE (or the user). It may be
+possible for the build targets to apply it automatically using an
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ItemDefinitionGroup&lt;/code&gt; but I haven’t tested whether VS respects this for
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Generator&lt;/code&gt; metadata.&lt;/p&gt;
+
+&lt;h2 id=&quot;xamarin-studiomonodevelop&quot;&gt;Xamarin Studio/MonoDevelop&lt;/h2&gt;
+
+&lt;p&gt;But we have another problem. What about Xamarin Studio/MonoDevelop?&lt;/p&gt;
+
+&lt;p&gt;Although Xamarin Studio respects &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Generator&lt;/code&gt; metadata, it doesn’t have an
+in-process compiler. It doesn’t run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CoreCompile&lt;/code&gt;, nor does it intercept the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Csc&lt;/code&gt; file list, so its code completion system won’t see the generated file at
+all.&lt;/p&gt;
+
+&lt;p&gt;The solution - for now - is to add explicit support in a &lt;a href=&quot;/addinmaker&quot;&gt;Xamarin Studio
+addin&lt;/a&gt; to run the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UpdateGeneratedFiles&lt;/code&gt; target on
+project load and when the resource files change, parse the generated file and
+inject it into the type system directly.&lt;/p&gt;
+
+&lt;h2 id=&quot;migration&quot;&gt;Migration&lt;/h2&gt;
+
+&lt;p&gt;Migrating automatically from a designer-generation system to a build-generation
+system has a few implications.&lt;/p&gt;
+
+&lt;p&gt;You either have to force migration of the project to the new system via an IDE,
+or handle the old system and make the migration optional - e.g. toggled by the
+presence of the old files. You have to update the project templates and samples,
+and you have to build a migration system that removes the designer files from
+the project and adds Generator metadata to existing files.&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><summary type="html">Build-time code generation is a really powerful way to automate repetitive parts of your code. It can save time, reduce frustration, and eliminate a source of copy/paste bugs. This is something I’m familiar with due to my past work on MonoDevelop’s tooling for ASP.NET, T4 and Moonlight, and designing and/or implementing similar systems for Xamarin.iOS and Xamarin.Android. However, I haven’t seen any good documentation on it, so I decided to write an article to outline the basics.</summary></entry><entry><title type="html">MonoDevelop.AddinMaker 1.2</title><link href="https://mhut.ch/journal/2015/03/12/monodevelop-addinmaker-1-2" rel="alternate" type="text/html" title="MonoDevelop.AddinMaker 1.2" /><published>2015-03-12T00:00:00+00:00</published><updated>2015-03-12T00:00:00+00:00</updated><id>https://mhut.ch/journal/2015/03/12/monodevelop-addinmaker-1-2</id><content type="html" xml:base="https://mhut.ch/journal/2015/03/12/monodevelop-addinmaker-1-2">&lt;p&gt;I’ve finally released &lt;a href=&quot;/addinmaker/1.2&quot;&gt;MonoDevelop.AddinMaker&lt;/a&gt;,
+making it easier than ever before to customize and add features to Xamarin
+Studio and MonoDevelop. This release has been stalled for a while due to factors
+beyond my control, and I’m very happy to be able to make it available at
+last.&lt;!--break--&gt; Thanks to &lt;a href=&quot;https://twitter.com/slluis&quot;&gt;Lluis&lt;/a&gt; for getting rid
+of the roadblocks!&lt;/p&gt;
+
+&lt;p&gt;This release improves the basic user experience by introducing the concept of
+“Addin References”. Instead of referencing an addin’s assemblies and explicitly
+adding a dependency on that addin, you can add an addin reference, which will
+automatically take care of both of these things for you.&lt;/p&gt;
+
+&lt;p&gt;However, the most important changes are below the surface. Switching to the
+MSBuild engine allows you to use custom MSBuild syntax to customize your build
+process, and enables command-line builds via MSBuild/xbuild. More importantly,
+it provides a solid foundation on which to build future improvements.&lt;/p&gt;
+
+&lt;p&gt;Happy extending!&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><summary type="html">I’ve finally released MonoDevelop.AddinMaker, making it easier than ever before to customize and add features to Xamarin Studio and MonoDevelop. This release has been stalled for a while due to factors beyond my control, and I’m very happy to be able to make it available at last.</summary></entry><entry><title type="html">Razor Preprocessed Templates</title><link href="https://mhut.ch/journal/2012/12/08/razor-preprocessed-templates" rel="alternate" type="text/html" title="Razor Preprocessed Templates" /><published>2012-12-08T00:00:00+00:00</published><updated>2012-12-08T00:00:00+00:00</updated><id>https://mhut.ch/journal/2012/12/08/razor-preprocessed-templates</id><content type="html" xml:base="https://mhut.ch/journal/2012/12/08/razor-preprocessed-templates">&lt;p&gt;When &lt;a href=&quot;https://twitter.com/migueldeicaza&quot;&gt;Miguel&lt;/a&gt; asked me to investigate making
+MonoDevelop support using
+&lt;a href=&quot;http://weblogs.asp.net/scottgu/archive/2010/07/02/introducing-razor.aspx&quot;&gt;Razor&lt;/a&gt;
+templates in &lt;a href=&quot;http://xamarin.com/monotouch&quot;&gt;MonoTouch&lt;/a&gt; and &lt;a href=&quot;http://xamarin.com/monoforandroid&quot;&gt;Mono for
+Android&lt;/a&gt; apps, I realized that it could be
+done simply and with very few dependencies by taking the same approach as &lt;a href=&quot;http://msdn.microsoft.com/en-us/library/ee844259.aspx&quot;&gt;T4
+preprocessed templates&lt;/a&gt;,
+which I implemented for MonoDevelop a couple of years ago.&lt;!--break--&gt;
+Fortunately, this time the hard part was already done: I could use &lt;a href=&quot;http://aspnetwebstack.codeplex.com&quot;&gt;Microsoft’s
+open-source Razor parser&lt;/a&gt; instead of writing
+my own parser. I also found a Visual Studio extension called &lt;a href=&quot;http://razorgenerator.codeplex.com&quot;&gt;Razor
+Generator&lt;/a&gt; that was very close in
+functionality to what I wanted, and was able to use this as a basis for my work.
+I was able to hook it it into the fantastic Razor editing and code completion
+support written by &lt;a href=&quot;http://pdowgiallo.pl/gsoc/&quot;&gt;Piotr Dowgiallo&lt;/a&gt; in the Google
+Summer of Code this year.&lt;/p&gt;
+
+&lt;p&gt;After a few days work implementing, tweaking and tuning (and bouncing ideas off
+&lt;a href=&quot;https://twitter.com/bojanrajkovic&quot;&gt;Bojan Rajković&lt;/a&gt;), I present Razor
+Preprocessed Templates in MonoDevelop.&lt;/p&gt;
+
+&lt;p&gt;As a basis for this demo, I created new a MonoTouch iPhone Single View
+application, added a UIWebView to the View’s xib, and connected it to an outlet
+on the controller called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;csharpwebview&lt;/code&gt;. However, you can use these templates
+in any project type.&lt;/p&gt;
+
+&lt;p&gt;Just add a new &lt;em&gt;Text Templating -&amp;gt; Preprocessed Razor Template&lt;/em&gt; file to the project:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/images/MonoScreenshots/PreprocessedRazor-1-NewFile.png&quot; alt=&quot;Adding a new Preprocessed Razor Template&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You will see that this adds a cshtml Razor C# file to the project, grouped with
+a C# file that contains the generated code. Like T4 files, this uses the “custom
+tool” extensibility mechanism. By setting the custom tool property on the
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cshtml&lt;/code&gt; file set to “RazorTemplatePreprocessor”, it causes MonoDevelop to use
+this new custom tool to regenerate the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cs&lt;/code&gt; file whenever the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cshtml&lt;/code&gt; file is
+saved.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/images/MonoScreenshots/PreprocessedRazor-2-AddedFile.png&quot; alt=&quot;The files added by the Preprocessed Razor Template&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I wrote a simple Razor page to demonstrate the power of Razor. It uses a simple
+Razor helper to demonstrate that Razor helpers work correctly. The page also
+demonstrates using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@model&lt;/code&gt; directive to specify the type for a Model
+property, which easily allows us to pass data into the template before running
+it. Since this demo is very simple, I just used an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;int&lt;/code&gt; as the model instead of
+defining a proper model class.&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;@model&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;@helper&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;boldtd&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;@i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Multiplication&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Multiplication&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Header&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;row&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;/&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;nf&quot;&gt;@for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;@boldtd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Main&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;
+            &lt;span class=&quot;nf&quot;&gt;@for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;@boldtd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;nf&quot;&gt;@for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;++)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;td&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+                &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;When writing this, the Razor code completion was very helpful. It has full C#
+completion, including locals, helpers and members from the generated class and
+base class, including the generated &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Model&lt;/code&gt; property:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/images/MonoScreenshots/PreprocessedRazor-3-CSharpBaseCompletion.png&quot; alt=&quot;Code completion for C# in Razor Templates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s also HTML completion and on-the-fly underlining of HTML and Razor errors:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/images/MonoScreenshots/PreprocessedRazor-4-HtmlCompletion.png&quot; alt=&quot;Code completion and error underlining for HTML in Razor Templates&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After saving the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cshtml&lt;/code&gt; file, you can look at the generated &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cs&lt;/code&gt; file. It’s
+pretty messy, so I won’t show it here, but note that it includes a
+well-commented generated base class. If you want, you can specify a base class
+using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@inherits&lt;/code&gt; directive, so you can pull that generated base class out
+and share it between multiple templates, or customize it. The template’s only
+dependency is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Action&amp;lt;System.IO.TextWriter&amp;gt;&lt;/code&gt;, and the default base class’s
+dependencies are only &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;System.Web.HttpUtility.HtmlEncode(string)&lt;/code&gt; and
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;System.IO.StringWriter&lt;/code&gt;, so it can easily be made to run anywhere. If your
+target framework lacks the one potentially awkward dependency,
+&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HttpUtility.HtmlEncode(string)&lt;/code&gt;, you can provide an alternative implementation
+via a custom base class.&lt;/p&gt;
+
+&lt;p&gt;More documentation on the generated class and the available directives can be
+found &lt;a href=&quot;http://monodevelop.com/Documentation/Preprocessed_Razor_Templates&quot;&gt;on the MonoDevelop
+website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To use the template, I simply added two lines to my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ViewDidLoad&lt;/code&gt; method to
+instantiate the template, generate a string using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Generate()&lt;/code&gt; method, and
+load it into the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;UIWebView&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-csharp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;override&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;ViewDidLoad&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;ViewDidLoad&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;template&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;MultiplicationTable&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Model&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;12&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;webview&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;LoadHtmlString&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;GenerateString&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Then run the app, and you can see it in action:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/files/images/MonoScreenshots/PreprocessedRazor-5-RunningOnPhone.png&quot; alt=&quot;Razor Template running on iPhone&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a fantastic way to generate HTML pages without pulling in the whole
+System.Web stack, and I hope you’re as excited about it as I am. It isn’t
+available today, unless you build MonoDevelop from source, however the code is
+committed to &lt;a href=&quot;http://github.com/monodevelop&quot;&gt;MonoDevelop master&lt;/a&gt; and should make
+it into the next 3.x release.&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><category term="templates" /><category term="razor" /><category term="monodevelop" /><summary type="html">When Miguel asked me to investigate making MonoDevelop support using Razor templates in MonoTouch and Mono for Android apps, I realized that it could be done simply and with very few dependencies by taking the same approach as T4 preprocessed templates, which I implemented for MonoDevelop a couple of years ago.</summary></entry><entry><title type="html">The State of MSBuild Support in MonoDevelop</title><link href="https://mhut.ch/journal/2012/08/19/the-state-of-msbuild-support-in-monodevelop" rel="alternate" type="text/html" title="The State of MSBuild Support in MonoDevelop" /><published>2012-08-19T00:00:00+00:00</published><updated>2012-08-19T00:00:00+00:00</updated><id>https://mhut.ch/journal/2012/08/19/the-state-of-msbuild-support-in-monodevelop</id><content type="html" xml:base="https://mhut.ch/journal/2012/08/19/the-state-of-msbuild-support-in-monodevelop">&lt;p&gt;I occasionally get questions about support for advanced MSBuild features, and my
+answers are usually fairly short. This post aims to be a more comprehensive
+description of the current state state of MSBuild support in MonoDevelop, so I
+can refer people to it. If you’ve never hand-edited custom targets for an
+MSBuild file, this doesn’t affect you at all, but feel free to read it if you’re
+curious.&lt;!--break--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://msdn.microsoft.com/en-us/library/dd393574&amp;quot;&quot;&gt;MSBuild&lt;/a&gt; is the
+Microsoft build engine that was introduced with .NET 2.0 and Visual Studio 2005.
+It’s the format for the project files of Visual Studio 2005 and later, and has
+been MonoDevelop’s default/native file format since MonoDevelop 2.0. It’s
+XML-based, so it can be handled easily and reliably by tools such as IDEs. It’s
+essentially intended to be consumed primarily by IDEs — but it also has
+the power of an advanced, extensible build system that lets you do pretty much
+anything if you’re willing to get your hands dirty. Calling it “Makefiles in
+XML” wouldn’t be too far off the mark.&lt;/p&gt;
+
+&lt;p&gt;The MSBuild engine and hosting API are part of the .NET framework. Mono has its
+own implementation called xbuild, which runs on Mac, Linux and Windows. The core
+features of xbuild are solid, but it’s missing some of the advanced features
+added to MSBuild in .NET 3.5 and 4.0, and some of the common targets such as the
+ASP.NET web project targets.&lt;/p&gt;
+
+&lt;p&gt;MSBuild is extremely complex and exposing all its features in the MonoDevelop
+GUI would be practically impossible. However, the projects created by the IDE by
+default use the “common targets” to build the project, which understand a
+certain number of properties (e.g. “OutputPath”) and item types (e.g. “Compile”,
+“EmbeddedResource”), and implement certain targets (e.g. “Build”, “Clean”) that
+operate on these items and are controlled by these properties. They also make
+very limited use of conditions, by conventionally having several groups of
+properties conditional upon the value of the “Configuration” and “Platform”
+variables. To edit projects that haven’t been hand-modified, the IDE only really
+has to understand the item types, properties, and targets used by the common
+targets.&lt;/p&gt;
+
+&lt;p&gt;MonoDevelop has an internal project model that represents the projects and their
+properties and items. When loading the project, MD deserializes the MSBuild file
+into its internal model, and ignores the items, properties and imports it does
+not understand. When saving MSBuild projects, MD serializes its internal model
+into the MSBuild format and substitutes them for the parts of the MSBuild file
+it understood, thereby preserving the parts of the file that it did not
+understand: custom items, properties, targets, conditions, and imports.&lt;/p&gt;
+
+&lt;p&gt;There are a couple of things the serialization doesn’t handle — when
+hand-edited projects use properties or items as &lt;em&gt;values&lt;/em&gt; of any of the standard
+properties or items.  MonoDevelop does not evaluate these — doing so would
+require a full MSBuild engine — and even if it did, it would not easily be
+able to present them cleanly in the UI and serialize back any changes to the
+values. It might be possible to special-case some things, but it’s not something
+that can be fully solved in a generic way. Probably the best we could get would
+be to have MonoDevelop detect property/item values it cannot handle, evaluate
+them via the MSBuild engine when loading, make them non-editable with a warning
+flag in the Project Options GUI, and skip them when serializing.&lt;/p&gt;
+
+&lt;p&gt;Wildcards in items paths are a similar problem. For example, evaluating a
+wildcard in an item when deserializng would result in adding several items to
+MD’s internal model. And in simple cases, we could match all those items back to
+the wildcard MSBuild item when serializing. So far so good. But what happens if
+a new file is added on disk outside of MD while the project is open? What
+happens if the user manually removed a single item in the solution tree? What
+happens if the user changes the metadata of a single item? In all of these
+cases, the items can no longer be mapped back to the single wildcard MSBuild
+item. It would probably be possible to remove the wildcard item and serialize
+all the items to MSBuild individually — but that might not be what the
+user expected. This is just one example of how supporting a simple MSBuild
+feature in the IDE might not be as simple as it looks.&lt;/p&gt;
+
+&lt;p&gt;For building the projects, MonoDevelop’s story is much better, because it has
+the ability to build the projects using the actual MSBuild/xbuild engine,
+thereby supporting all features that MSBuild/xbuild does. There are currently
+two build codepaths in MonoDevelop: the old internal build engine, and the
+MSBuild engine. The internal build engine is very old, and predates the
+existence of MSBuild. It operates directly on MonoDevelop’s internal project
+model, and is extensible via the addin system. The MSBuild engine loads the
+actual project files into a builder process and builds them using the MSBuild
+hosting API.&lt;/p&gt;
+
+&lt;p&gt;By default MonoDevelop uses the old engine, but the addins for individual
+project types can opt into using the MSBuild engine for just those projects
+— Mono for Android does this. Enabling the experimental option “Compile
+projects using MSBuild/XBuild” in MonoDevelop’s preferences (and restarting
+MonoDevelop) causes the MSBuild engine to be used for all projects. This is
+marked experimental because it does not work for all project types — for
+example, there are no MSBuild targets for MonoTouch, MonoMac or ASP.NET projects
+yet. User projects that depend on MonoDevelop’s old custom build command system
+will not build correctly with the MSBuild engine. And some of the old
+MonoDevelop custom project types such as translation projects and C/C++ projects
+would need to be migrated to a new file format before they could even have
+MSBuild targets.&lt;/p&gt;
+
+&lt;p&gt;In general, expansion of the MSBuild support in MonoDevelop is not a high
+priority for the MonoDevelop team, since these advanced build features are of
+interest to a very small subset of users, and there are other things that could
+be done to improve the IDE experience for a much greater number of users.
+However, it’s an area of ongoing improvement and will likely become more
+important in the future.&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><category term="monodevelop" /><category term="msbuild" /><summary type="html">I occasionally get questions about support for advanced MSBuild features, and my answers are usually fairly short. This post aims to be a more comprehensive description of the current state state of MSBuild support in MonoDevelop, so I can refer people to it. If you’ve never hand-edited custom targets for an MSBuild file, this doesn’t affect you at all, but feel free to read it if you’re curious.</summary></entry><entry><title type="html">MonoMac video from NDC 2011</title><link href="https://mhut.ch/journal/2011/06/26/monomac-video-from-ndc-2011" rel="alternate" type="text/html" title="MonoMac video from NDC 2011" /><published>2011-06-26T00:00:00+00:00</published><updated>2011-06-26T00:00:00+00:00</updated><id>https://mhut.ch/journal/2011/06/26/monomac-video-from-ndc-2011</id><content type="html" xml:base="https://mhut.ch/journal/2011/06/26/monomac-video-from-ndc-2011">&lt;p&gt;The videos from NDC 2011 are &lt;a href=&quot;http://www.ndc2011.no/agenda.aspx?cat=1071&amp;amp;id=-1&amp;amp;day=3728&quot;&gt;now
+online&lt;/a&gt;, including my
+talk &lt;em&gt;Developing .NET Applications for the Mac App Store&lt;/em&gt; (&lt;a href=&quot;http://ndc2011.macsimum.no/SAL4/Fredag/Live%20stream%20archive%2010.06.2011%2014.58.wmv&quot;&gt;direct
+link&lt;/a&gt;).&lt;!--break--&gt;
+You can also download a printable version of &lt;a href=&quot;/files/talks/MonoMac-NDC11.pdf&quot;&gt;my
+presentation&lt;/a&gt;. Hopefully there will be an
+official torrent of the videos soon, because there were plenty of other sessions
+that are worth seeing. Thanks to everyone who helped make it such a great
+conference!&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Correction: In the presentation I said that native objects don’t retain
+references to managed objects, which is incorrect. The problem I intended to
+refer to is a common coding error where views are retained but their controllers
+are not, e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mainView.AddSubview(new ChildController().View)&lt;/code&gt;.&lt;/em&gt;&lt;/p&gt;</content><author><name>Mikayla Hutchinson</name></author><category term="mono" /><summary type="html">The videos from NDC 2011 are now online, including my talk Developing .NET Applications for the Mac App Store (direct link).</summary></entry></feed>
