@@ -1,41 +1,61 @@
-- title:  .NET on the Web with Mono WebAssembly
-  conf:   FOSDEM 2019
-  date:   2018-05-07
+- title: How to be productive developing with .NET on a Mac
+  conf:  'Visual Studio for Mac: Refresh();'
+  date:  2020-02-07
+  link:  https://channel9.msdn.com/events/Visual-Studio/Visual-Studio-for-Mac-Refresh/VS08
+
+- title: C# 8 in the Real World
+  conf:  SWETUGG 2020
+  date:  2020-02-04
+  link:  https://swetugg.se/sthlm-2020/speakers/mikayla-hutchinson#c-8-in-the-real-world
+
+- title: A tour of Visual Studio for Mac for .NET development
+  conf:  Visual Studio 2019 Launch Event
+  date:  2019-03-26
+  link:  https://channel9.msdn.com/events/Visual-Studio/Visual-Studio-2019-Launch-Event/VSL109
+
+- title: .NET on the Web with Mono WebAssembly
+  conf:  FOSDEM 2019
+  date:  2019-02-02
   link:  https://fosdem.org/2019/schedule/event/dotnet_wasm_toolchain/
 
-- title:  What's New with Visual Studio for Mac
-  conf:   Microsoft Build 2018
-  date:   2018-05-07
+- title: What's New with Visual Studio for Mac
+  conf:  Microsoft Build 2018
+  date:  2018-05-07
   link:  https://channel9.msdn.com/Events/Build/2018/BRK2152
 
-- title:  'Identity Impostors: Surviving Self-Erasure'
-  conf:   AlterConf SF 2017
-  date:   2017-12-10
+- title: 'Identity Impostors: Surviving Self-Erasure'
+  conf:  AlterConf SF 2017
+  date:  2017-12-10
   link:  https://www.youtube.com/watch?list=PLgWwTXVZ2pcP5U15cajxsyGuUF0pfqoj1&v=Xn2DXhARgkA
-  site:   https://www.alterconf.com/talks/identity-impostors-surviving-self-erasure
+  site:  https://www.alterconf.com/talks/identity-impostors-surviving-self-erasure
 
-- title:  'Beyond Mobile: Server, Games, and more with Visual Studio for Mac'
-  conf:   .NET Conf 2017
-  date:   2017-09-17
+- title: 'Beyond Mobile: Server, Games, and more with Visual Studio for Mac'
+  conf:  .NET Conf 2017
+  date:  2017-09-17
   link:  https://channel9.msdn.com/Events/dotnetConf/2017/T116
 
-- title:  'Mono: Today and Tomorrow'
-  conf:   '.NET Fringe 2017'
-  date:   2017-06-06
+- title: 'Mono: Today and Tomorrow'
+  conf:  .NET Fringe 2017
+  date:  2017-06-06
   link:  https://www.youtube.com/watch?v=uxzS-grpN4c
-  site:   http://2017.dotnetfringe.org/speakers.html#mikayla-hutchinson
+  site:  http://2017.dotnetfringe.org/speakers.html#mikayla-hutchinson
 
 - title:  Virtual and Mixed Reality Apps with C#
   conf:   Microsoft Build 2017
   date:   2017-05-12
-  link:  https://channel9.msdn.com/Events/Build/2017/T6052
+  link:   https://channel9.msdn.com/Events/Build/2017/T6052
+
+#- title:  Introducing Visual Studio for Mac
+#  conf:   Visual Studio 2017 Launch
+#  date:   2019-03-06
+#  link:   https://channel9.msdn.com/Events/Visual-Studio/Visual-Studio-2017-Launch/T110
 
 - title:  Introducing Visual Studio for Mac
   conf:   Microsoft Connect(); 2016
   date:   2016-11-16
-  link:  https://channel9.msdn.com/Events/Connect/2016/209
+  link:   https://channel9.msdn.com/Events/Connect/2016/209
 
 - title:  Become a Xamarin Studio Expert
   conf:   Xamarin Evolve 2016
   date:   2016-04-27
-  link:  https://channel9.msdn.com/Events/Xamarin-Evolve/2016/Become-a-Xamarin-Studio-Expert
+  link:   https://channel9.msdn.com/Events/Xamarin-Evolve/2016/Become-a-Xamarin-Studio-Expert
